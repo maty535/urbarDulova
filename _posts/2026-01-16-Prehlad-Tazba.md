@@ -12,7 +12,7 @@ published: true
 
 **Drevina:** Dub
 
-**Celkový objem:** **202.15 m³**
+**Celkový objem:** 202.15 m³
 
 Pre výpočet kubikáže jednotlivého stromu sa priemer kmeňa znižuje o hrúbku kôry, čo je v prípade duba 4 cm / kmeň.
 
