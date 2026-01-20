@@ -31,6 +31,19 @@ function sortTable(columnIndex) {
 }
 
 
+function resetFilter() {
+    // Nájdeme všetky inputy okrem tlačidiel a všetky selecty
+    const inputs = document.querySelectorAll('input:not([type="button"]), select');
+    
+    inputs.forEach(el => {
+        el.value = ''; // Vymažeme hodnotu
+    });
+
+    // Po vymazaní hneď spustíme search(), aby sa tabuľka opäť zobrazila celá
+    search();
+}
+
+
 function search() {
     // 1. Získanie hodnôt z filtrov
     const s = document.getElementById('search')?.value.toLowerCase() || "";
