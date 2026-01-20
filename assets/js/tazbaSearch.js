@@ -1,5 +1,5 @@
 function sortTable(columnIndex) {
-  const table = document.querySelector("table"); // Alebo použi ID tabuľky
+  const table = document.getElementsByTagName('table')[1]; // Alebo použi ID tabuľky
   const tbody = table.tBodies[0];
   const rows = Array.from(tbody.rows);
 
