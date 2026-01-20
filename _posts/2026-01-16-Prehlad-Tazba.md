@@ -10,12 +10,45 @@ published: true
 
 ## Sumárna evidencia ťažby dreva: Urbár - Gulvas 2026/01
 
-**Drevina:** Dub 
+**Drevina:** Dub
+
 **Celkový objem:** **202.15 m³**
 
 Pre výpočet kubikáže jednotlivého stromu sa priemer kmeňa znižuje o hrúbku kôry, čo je v prípade duba 4 cm / kmeň.
 
 $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
+
+---
+{% assign logs = site.data.tazba %}
+{% comment %} Inicializácia s 0.0 zabezpečí, že Liquid bude počítať s desatinnými miestami {% endcomment %}
+{% assign e_sum = 0.0 %}{% assign e_count = 0 %}
+{% assign s_sum = 0.0 %}{% assign s_count = 0 %}
+{% assign t_sum = 0.0 %}{% assign t_count = 0 %}
+
+{% for item in logs %}
+  {% if item.d >= 60 %}
+    {% assign e_sum = e_sum | plus: item.v %}
+    {% assign e_count = e_count | plus: 1 %}
+  {% elsif item.d >= 30 %}
+    {% assign s_sum = s_sum | plus: item.v %}
+    {% assign s_count = s_count | plus: 1 %}
+  {% else %}
+    {% assign t_sum = t_sum | plus: item.v %}
+    {% assign t_count = t_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% assign total_sum = e_sum | plus: s_sum | plus: t_sum %}
+
+### Rekapitulácia podľa hrúbkových tried
+
+| Trieda | Rozsah | Počet | Objem celkom |
+| :--- | :--- | :---: | :--- |
+| **Extra silné** | nad 60 cm | {{ e_count }} ks | {{ e_sum | round: 2 }} m³ |
+| **Stredná guľatina** | 30 - 59 cm | {{ s_count }} ks | {{ s_sum | round: 2 }} m³ |
+| **Tenká guľatina** | pod 30 cm | {{ t_count }} ks | {{ t_sum | round: 2 }} m³ |
+| **CELKOM** | | **{{ logs.size }}** | **{{ total_sum | round: 2 }} m³** |
+
 
 ---
 {% assign celkovy_objem = 0 %}
@@ -72,32 +105,4 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 
 ---
 
-{% assign logs = site.data.tazba %}
-{% comment %} Inicializácia s 0.0 zabezpečí, že Liquid bude počítať s desatinnými miestami {% endcomment %}
-{% assign e_sum = 0.0 %}{% assign e_count = 0 %}
-{% assign s_sum = 0.0 %}{% assign s_count = 0 %}
-{% assign t_sum = 0.0 %}{% assign t_count = 0 %}
 
-{% for item in logs %}
-  {% if item.d >= 60 %}
-    {% assign e_sum = e_sum | plus: item.v %}
-    {% assign e_count = e_count | plus: 1 %}
-  {% elsif item.d >= 30 %}
-    {% assign s_sum = s_sum | plus: item.v %}
-    {% assign s_count = s_count | plus: 1 %}
-  {% else %}
-    {% assign t_sum = t_sum | plus: item.v %}
-    {% assign t_count = t_count | plus: 1 %}
-  {% endif %}
-{% endfor %}
-
-{% assign total_sum = e_sum | plus: s_sum | plus: t_sum %}
-
-### Rekapitulácia podľa hrúbkových tried
-
-| Trieda | Rozsah | Počet | Objem celkom |
-| :--- | :--- | :---: | :--- |
-| **Extra silné** | nad 60 cm | {{ e_count }} ks | {{ e_sum | round: 2 }} m³ |
-| **Stredná guľatina** | 30 - 59 cm | {{ s_count }} ks | {{ s_sum | round: 2 }} m³ |
-| **Tenká guľatina** | pod 30 cm | {{ t_count }} ks | {{ t_sum | round: 2 }} m³ |
-| **CELKOM** | | **{{ logs.size }}** | **{{ total_sum | round: 2 }} m³** |
