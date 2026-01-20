@@ -74,16 +74,6 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot L $
 
 ---
 
-## Rekapitulácia celkom
-
-1. **Hárok 1:** 85,74 m³
-2. **Hárok 2:** 65,78 m³
-3. **Hárok 3:** 50,43 m³
-
-**CELKOVÝ OBJEM:** **201,95 m³**
-
-### Rekapitulácia podľa hrúbkových tried
-
 {% assign logs = site.data.tazba %}
 {% comment %} Inicializácia s 0.0 zabezpečí, že Liquid bude počítať s desatinnými miestami {% endcomment %}
 {% assign e_sum = 0.0 %}{% assign e_count = 0 %}
