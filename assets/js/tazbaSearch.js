@@ -48,7 +48,7 @@ function search() {
     const dOd = getNum('dlzka_od', true);
     const dDo = getNum('dlzka_do', false);
 
-    rows = (document.getElementsByTagName('tbody')[1]).getElementsByTagName('TR');}
+    rows = (document.getElementsByTagName('tbody')[1]).getElementsByTagName('TR');
 
     if (rows.length === 0) return;
 
