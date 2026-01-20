@@ -13,9 +13,14 @@ published: true
 **Drevina:** Dub (DB)
 **Celkový objem (všetky 3 hárky):** **201,95 m³**
 
+Pre výpočet kubikáže jednotlivého stromu sa priemer kmeňa znižuje o hrúbku kôry, čo je v prípade duba 4 cm / kmeň.
+
+$$V = \frac{\pi}{4} \cdot \left(\frac{d - 4}{100}\right)^2 \cdot L$$
+
 ---
 
 ## Hárok 1 (Kusy 1 – 47)
+
 | Číslo kusa | Dĺžka (m) | Priemer (cm) | Objem (m³) |
 | :--- | :--- | :--- | :--- |
 | 1a | 5,5 | 58 | 1,24 |
@@ -73,6 +78,7 @@ published: true
 ---
 
 ## Hárok 2 (Kusy 48 – 70)
+
 | Číslo kusa | Dĺžka (m) | Priemer (cm) | Objem (m³) |
 | :--- | :--- | :--- | :--- |
 | 48a | 5,5 | 50 | 0,84 |
@@ -119,6 +125,7 @@ published: true
 ---
 
 ## Hárok 3 (Kusy 1 – 28, séria 3)
+
 | Číslo kusa | Dĺžka (m) | Priemer (cm) | Objem (m³) |
 | :--- | :--- | :--- | :--- |
 | 1 | 17,0 | 42 | 1,98 |
