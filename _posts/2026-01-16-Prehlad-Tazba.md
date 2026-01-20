@@ -170,10 +170,12 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot L $
 **CELKOVÝ OBJEM:** **201,95 m³**
 
 ### Rekapitulácia podľa hrúbkových tried
+
 {% assign logs = site.data.tazba %}
-{% assign e_sum = 0 %}{% assign e_count = 0 %}
-{% assign s_sum = 0 %}{% assign s_count = 0 %}
-{% assign t_sum = 0 %}{% assign t_count = 0 %}
+{% comment %} Inicializácia s 0.0 zabezpečí, že Liquid bude počítať s desatinnými miestami {% endcomment %}
+{% assign e_sum = 0.0 %}{% assign e_count = 0 %}
+{% assign s_sum = 0.0 %}{% assign s_count = 0 %}
+{% assign t_sum = 0.0 %}{% assign t_count = 0 %}
 
 {% for item in logs %}
   {% if item.d >= 60 %}
@@ -188,9 +190,13 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot L $
   {% endif %}
 {% endfor %}
 
+{% assign total_sum = e_sum | plus: s_sum | plus: t_sum %}
+
+### Rekapitulácia podľa hrúbkových tried
+
 | Trieda | Rozsah | Počet | Objem celkom |
 | :--- | :--- | :---: | :--- |
 | **Extra silné** | nad 60 cm | {{ e_count }} ks | {{ e_sum | round: 2 }} m³ |
 | **Stredná guľatina** | 30 - 59 cm | {{ s_count }} ks | {{ s_sum | round: 2 }} m³ |
 | **Tenká guľatina** | pod 30 cm | {{ t_count }} ks | {{ t_sum | round: 2 }} m³ |
-| **CELKOM** | | **{{ logs.size }}** | **{{ e_sum | plus: s_sum | plus: t_sum | round: 2 }} m³** |
+| **CELKOM** | | **{{ logs.size }}** | **{{ total_sum | round: 2 }} m³** |
