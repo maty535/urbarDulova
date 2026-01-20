@@ -122,9 +122,31 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     </tfoot>
   </table>
 
-<div id="totalInfo" style="margin-top: 30px; padding: 20px; border: 2px solid #000; font-size: 1.2em; font-weight: bold; text-align: center;">
-  CELKOVÝ OBJEM ŤAŽBY: {{ celkovy_objem | round: 2 }} m³ / ({{ id }} ks)
+<div id="totalInfo" style="
+    margin-top: 30px; 
+    padding: 25px; 
+    background-color: #fff9e6; 
+    border: 1px solid #ffeeba; 
+    border-left: 8px solid #ffc107; 
+    border-radius: 8px; 
+    font-family: sans-serif; 
+    text-align: center; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+">
+  <div style="color: #856404; font-size: 0.85em; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; font-weight: bold;">
+    Sumárna štatistika
+  </div>
+  
+  <div style="font-size: 1.5em; font-weight: 800; color: #333;">
+    CELKOVÝ OBJEM ŤAŽBY: 
+    <span style="background: #ffc107; padding: 2px 8px; border-radius: 4px;">{{ celkovy_objem | round: 2 }} m³</span>
+  </div>
+
+  <div style="margin-top: 10px; color: #666; font-size: 1.1em; font-weight: normal;">
+    Počet výrezov: <strong>{{ id }} ks</strong>
+  </div>
 </div>
+
 
 <style>
   table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
