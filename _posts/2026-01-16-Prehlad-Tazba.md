@@ -47,7 +47,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 | **Extra silné** | nad 60 cm | {{ e_count }} ks | {{ e_sum | round: 2 }} m³ |
 | **Stredná guľatina** | 30 - 59 cm | {{ s_count }} ks | {{ s_sum | round: 2 }} m³ |
 | **Tenká guľatina** | pod 30 cm | {{ t_count }} ks | {{ t_sum | round: 2 }} m³ |
-| **CELKOM** | | **{{ logs.size }}** | **{{ total_sum | round: 2 }} m³** |
+| **CELKOM** | | **{{ logs.size }} ks** | **{{ total_sum | round: 2 }} m³** |
 
 ---
 <script src="/assets/js/tazbaSearch.js"></script>
