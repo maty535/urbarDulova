@@ -196,34 +196,37 @@ fieldset input[type="button"]:hover {
 
 ---
 <script src="/assets/js/tazbaSearch.js"></script>
-<fieldset style="display: flex; flex-wrap: wrap; gap: 15px; align-items: flex-end; border: 1px solid #ccc; border-radius: 8px; padding: 15px; font-family: sans-serif; background: white;">
-  <legend style="font-weight: bold;">Filter</legend>
+<fieldset style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; font-family: sans-serif; background: #fff; max-width: 500px; box-sizing: border-box;">
+  <legend style="font-weight: bold; font-size: 13px; color: #444;">Filter ťažby</legend>
 
-  <label style="flex: 1; min-width: 140px; display: flex; flex-direction: column; gap: 4px; font-size: 13px;">
-    Hárok/Sklad:
-    <select id="search" onchange="delayedSearch();" style="padding: 6px; border: 1px solid #ccc; border-radius: 4px; background: white; cursor: pointer;">
-      <option value="">-- Vyberte --</option>
-      <option value="S1">S1 - Sklad 1</option>
-      <option value="S2">S2 - Sklad 2</option>
-      <option value="h1">h1 - Hárok 1</option>
-      <option value="h2">h2 - Hárok 2</option>
-      <option value="h3">h3 - Hárok 3</option>      
+  <div style="display: grid; grid-template-columns: 130px 1fr 1fr; gap: 8px; align-items: center;">
+    
+    <span style="font-size: 12px;">Sklad / Číslo:</span>
+    <select id="search" onchange="delayedSearch();" style="padding: 5px; border-radius: 4px; border: 1px solid #ccc; font-size: 13px;">
+      <option value="">-- Sklad --</option>
+      <option value="S1">Sklad 1</option>
+      <option value="S2">Sklad 2</option>
+      <option value="h1">Hárok 1</option>
+      <option value="h2">Hárok 2</option>
     </select>
-  </label>
+    <input type="text" id="cislo_kmena" onkeyup="delayedSearch();" placeholder="Číslo kmeňa" style="padding: 5px; border-radius: 4px; border: 1px solid #ccc; font-size: 13px;">
 
+    <span style="font-size: 12px;">Priemer (cm):</span>
+    <input type="number" id="priemer_od" onkeyup="delayedSearch();" placeholder="Od" style="padding: 5px; border-radius: 4px; border: 1px solid #ccc; font-size: 13px;">
+    <input type="number" id="priemer_do" onkeyup="delayedSearch();" placeholder="Do" style="padding: 5px; border-radius: 4px; border: 1px solid #ccc; font-size: 13px;">
 
-  <label style="flex: 1; min-width: 100px; display: flex; flex-direction: column; gap: 4px; font-size: 13px;">
-    Priemer od:
-    <input type="text" id="priemer" onkeyup="delayedSearch();" style="padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
-  </label>
+    <span style="font-size: 12px;">Dĺžka (m):</span>
+    <input type="number" id="dlzka_od" onkeyup="delayedSearch();" placeholder="Od" style="padding: 5px; border-radius: 4px; border: 1px solid #ccc; font-size: 13px;">
+    <input type="number" id="dlzka_do" onkeyup="delayedSearch();" placeholder="Do" style="padding: 5px; border-radius: 4px; border: 1px solid #ccc; font-size: 13px;">
 
-  <label style="flex: 1; min-width: 100px; display: flex; flex-direction: column; gap: 4px; font-size: 13px;">
-    Dĺžka od:
-    <input type="text" id="dlzka" onkeyup="delayedSearch();" style="padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
-  </label>
+    <span></span>
+    <span></span>
+    <div style="display: flex; gap: 5px;">
+      <input type="button" value="Reset" onclick="document.querySelectorAll('input, select').forEach(i=>i.value=''); search();" style="flex: 1; padding: 4px; cursor: pointer; font-size: 11px; background: #f4f4f4; border: 1px solid #ccc; border-radius: 4px;">
+      <input type="button" value="OK" onclick="search();" style="flex: 1; padding: 4px; cursor: pointer; font-size: 11px; background: #28a745; color: #fff; border: none; border-radius: 4px; font-weight: bold;">
+    </div>
 
-  <input type="button" value="Vyhľadať" onclick="search();" 
-         style="margin-left: auto; background: #28a745; color: white; border: none; padding: 8px 20px; border-radius: 4px; font-weight: bold; cursor: pointer;">
+  </div>
 </fieldset>
 
 {% assign celkovy_objem = 0 %}
