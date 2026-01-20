@@ -36,10 +36,9 @@ function search() {
     const s = document.getElementById('search')?.value.toLowerCase() || "";
     const cKmena = document.getElementById('cislo_kmena')?.value.toLowerCase().trim() || "";
     
-    // Funkcia vráti null, ak je pole prázdne, inak vráti číslo
     const getNum = (id) => {
-        const val = document.getElementById(id).value;
-        return val === "" ? null : parseFloat(val.replace(',', '.'));
+        const el = document.getElementById(id);
+        return (!el || el.value === "") ? null : parseFloat(el.value.replace(',', '.'));
     };
 
     const pOd = getNum('priemer_od');
@@ -47,16 +46,17 @@ function search() {
     const dOd = getNum('dlzka_od');
     const dDo = getNum('dlzka_do');
 
-    rows = (document.getElementsByTagName('tbody')[1]).getElementsByTagName('TR');
-    if (rows.length === 0) return;
+    // 2. Získanie riadkov presne podľa tvojho postupu
+    const tbody = document.getElementsByTagName('tbody')[1];
+    if (!tbody) return;
+    const rows = tbody.getElementsByTagName('TR');
 
     let pocet = 0;
     let celkovyObjem = 0;
 
-    // 3. Hlavný cyklus filtrovania (Logika ALEBO)
     for (let i = 0; i < rows.length; i++) {
         const cells = rows[i].cells;
-        if (cells.length < 6) continue;
+        if (cells.length < 7) continue;
 
         const rowHarokSklad = (cells[1].textContent + " " + cells[2].textContent).toLowerCase();
         const rowCislo = cells[3].textContent.toLowerCase();
@@ -64,22 +64,36 @@ function search() {
         const rowPriemer = parseFloat(cells[5].textContent.replace(',', '.')) || 0;
         const rowObjem = parseFloat(cells[6].textContent.replace(',', '.')) || 0;
 
-        // Definujeme jednotlivé zhody (len ak nie je pole prázdne)
+        // LOGIKA FILTROVANIA:
+        
+        // Sklad a Číslo kmeňa (klasické ALEBO)
         const matchSklad = (s !== "" && rowHarokSklad.includes(s));
         const matchCislo = (cKmena !== "" && rowCislo.includes(cKmena));
-        const matchPriemer = (
-            (pOd !== null && rowPriemer >= pOd) || 
-            (pDo !== null && rowPriemer <= pDo)
-        );
-        const matchDlzka = (
-            (dOd !== null && rowDlzka >= dOd) || 
-            (dDo !== null && rowDlzka <= dDo)
-        );
 
-        // RIADOK SA ZOBRAZÍ, AK:
-        // Nie je zadaný žiadny filter ALEBO sa splní aspoň jedna podmienka
+        // Priemer (Ak sú obe, musí byť v rozsahu. Ak je jedna, stačí tá jedna.)
+        let matchPriemer = false;
+        if (pOd !== null && pDo !== null) {
+            matchPriemer = (rowPriemer >= pOd && rowPriemer <= pDo);
+        } else if (pOd !== null) {
+            matchPriemer = (rowPriemer >= pOd);
+        } else if (pDo !== null) {
+            matchPriemer = (rowPriemer <= pDo);
+        }
+
+        // Dĺžka (Rovnaká logika rozsahu)
+        let matchDlzka = false;
+        if (dOd !== null && dDo !== null) {
+            matchDlzka = (rowDlzka >= dOd && rowDlzka <= dDo);
+        } else if (dOd !== null) {
+            matchDlzka = (rowDlzka >= dOd);
+        } else if (dDo !== null) {
+            matchDlzka = (rowDlzka <= dDo);
+        }
+
+        // Kontrola prázdneho filtra
         const noFilter = (s === "" && cKmena === "" && pOd === null && pDo === null && dOd === null && dDo === null);
-        
+
+        // Zobrazenie riadku (Logika ALEBO medzi kategóriami)
         if (noFilter || matchSklad || matchCislo || matchPriemer || matchDlzka) {
             rows[i].style.display = '';
             pocet++;
@@ -89,7 +103,6 @@ function search() {
         }
     }
 
-    // 4. Aktualizácia sumáru
     const summary = document.getElementById('summaryInfo');
     if (summary) {
         summary.textContent = celkovyObjem.toFixed(2) + " m³ / (" + pocet + " ks)";
