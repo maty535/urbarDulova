@@ -32,48 +32,55 @@ function sortTable(columnIndex) {
 
 
 function search() {
-    // 1. Získanie hodnôt z filtrov (ošetrené proti chýbajúcim ID)
+    // 1. Získanie hodnôt z filtrov
     const s = document.getElementById('search')?.value.toLowerCase() || "";
     const cKmena = document.getElementById('cislo_kmena')?.value.toLowerCase().trim() || "";
     
-    // Pomocná funkcia: ak je pole prázdne, vráti extrémne hodnoty (0 až nekonečno)
-    const getNum = (id, isMin) => {
-        const el = document.getElementById(id);
-        if (!el || el.value === "") return isMin ? 0 : 999999;
-        return parseFloat(el.value.replace(',', '.'));
+    // Funkcia vráti null, ak je pole prázdne, inak vráti číslo
+    const getNum = (id) => {
+        const val = document.getElementById(id).value;
+        return val === "" ? null : parseFloat(val.replace(',', '.'));
     };
 
-    const pOd = getNum('priemer_od', true);
-    const pDo = getNum('priemer_do', false);
-    const dOd = getNum('dlzka_od', true);
-    const dDo = getNum('dlzka_do', false);
+    const pOd = getNum('priemer_od');
+    const pDo = getNum('priemer_do');
+    const dOd = getNum('dlzka_od');
+    const dDo = getNum('dlzka_do');
 
     rows = (document.getElementsByTagName('tbody')[1]).getElementsByTagName('TR');
-
     if (rows.length === 0) return;
 
     let pocet = 0;
     let celkovyObjem = 0;
 
-    // 3. Hlavný cyklus filtrovania
+    // 3. Hlavný cyklus filtrovania (Logika ALEBO)
     for (let i = 0; i < rows.length; i++) {
         const cells = rows[i].cells;
         if (cells.length < 6) continue;
 
-        // Načítanie dát z riadku (ošetrené proti textu v číselných stĺpcoch)
         const rowHarokSklad = (cells[1].textContent + " " + cells[2].textContent).toLowerCase();
         const rowCislo = cells[3].textContent.toLowerCase();
         const rowDlzka = parseFloat(cells[4].textContent.replace(',', '.')) || 0;
         const rowPriemer = parseFloat(cells[5].textContent.replace(',', '.')) || 0;
         const rowObjem = parseFloat(cells[6].textContent.replace(',', '.')) || 0;
 
-        // Overenie podmienok (ak je pole prázdne, getNum vráti hodnotu, ktorá vždy prejde)
-        const matchSklad = (s === "" || rowHarokSklad.includes(s));
-        const matchCislo = (cKmena === "" || rowCislo.includes(cKmena));
-        const matchPriemer = (rowPriemer >= pOd && rowPriemer <= pDo);
-        const matchDlzka = (rowDlzka >= dOd && rowDlzka <= dDo);
+        // Definujeme jednotlivé zhody (len ak nie je pole prázdne)
+        const matchSklad = (s !== "" && rowHarokSklad.includes(s));
+        const matchCislo = (cKmena !== "" && rowCislo.includes(cKmena));
+        const matchPriemer = (
+            (pOd !== null && rowPriemer >= pOd) || 
+            (pDo !== null && rowPriemer <= pDo)
+        );
+        const matchDlzka = (
+            (dOd !== null && rowDlzka >= dOd) || 
+            (dDo !== null && rowDlzka <= dDo)
+        );
 
-        if (matchSklad && matchCislo && matchPriemer && matchDlzka) {
+        // RIADOK SA ZOBRAZÍ, AK:
+        // Nie je zadaný žiadny filter ALEBO sa splní aspoň jedna podmienka
+        const noFilter = (s === "" && cKmena === "" && pOd === null && pDo === null && dOd === null && dDo === null);
+        
+        if (noFilter || matchSklad || matchCislo || matchPriemer || matchDlzka) {
             rows[i].style.display = '';
             pocet++;
             celkovyObjem += rowObjem;
@@ -88,7 +95,6 @@ function search() {
         summary.textContent = celkovyObjem.toFixed(2) + " m³ / (" + pocet + " ks)";
     }
 }
-
 
 var timer;
 function delayedSearch() {
