@@ -21,7 +21,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 {% assign celkovy_objem = 0 %}
 {% assign id = 0 %}
 
-### Tabuľka: prehľad jednotlivýh kmeňov
+### Tabuľka: prehľad jednotlivýh kmeňov / výrezov
 
   <table>
     <thead>
