@@ -59,7 +59,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     <label for="priemer">Priemer od:</label><br> 
      <input type="text" size="10" maxlength="10"   value=""   id="priemer" onkeyup="delayedSearch();" /><br/>
      <label for="dlzka">Dĺžka od:</label><br> 
-     <input type="text"   size="10" maxlength="10"   value=""   id="dlzka"   onkeyup="delayedSearch();" />
+     <input type="text"   size="10" maxlength="10"   value=""   id="dlzka"   onkeyup="delayedSearch();" /><br/>
     <input type="button" value="Vyhľadať" onclick="search();"/><br/>
   </fieldset>fieldset>
 </div>
