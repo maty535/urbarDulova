@@ -8,7 +8,6 @@ tags: drevo les hospodarenie podielnici tazba
 published: true
 ---
 
-
 ## Sumárna evidencia ťažby dreva: Urbár - Gulvas 2026/01
 
 **Drevina:** Dub 
