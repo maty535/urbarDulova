@@ -162,7 +162,17 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot L $
 ---
 
 ## Rekapitulácia celkom
+
 1. **Hárok 1:** 85,74 m³
 2. **Hárok 2:** 65,78 m³
 3. **Hárok 3:** 50,43 m³
+
 **CELKOVÝ OBJEM:** **201,95 m³**
+
+### Zoznam extra silných kmeňov (nad 60 cm)
+| Číslo | Priemer (cm) | Dĺžka (m) | Objem (m³) |
+|:---:|:---:|:---:|:---:|
+{% assign extra = site.data.tazba | where_exp: "item", "item.d >= 60" %}
+{% for log in extra %}
+| {{ log.cislo }} | {{ log.d }} | {{ log.l }} | {{ log.v }} |
+{% endfor %}
