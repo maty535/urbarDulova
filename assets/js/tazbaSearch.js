@@ -83,8 +83,7 @@ function search() {
         let matchKmen = false;
         if( s !== "" && cKmena !== ""){
            matchKmen = (rowHarokSklad.includes(s) && rowCislo.includes(cKmena));
-        }
-         } else if (s !== null) {
+        } else if (s !== null) {
             matchKmen = rowHarokSklad.includes(s);
         } else if (cKmena !== null) {
             matchKmen = rowCislo.includes(cKmena);
