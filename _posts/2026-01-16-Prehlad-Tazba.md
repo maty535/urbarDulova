@@ -19,7 +19,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 
 ---
 {% assign celkovy_objem = 0 %}
-{% assign id = 1 %}
+{% assign id = 0 %}
 
 ### Tabuľka: prehľad jednotlivýh kmeňov
 
@@ -37,6 +37,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     </thead>
     <tbody>
       {% for kmen in site.data.tazba %}
+       {% assign id = id | plus: 1 %}  
           <tr>
             <td>{{ id }}</td>
             <td>{{ kmen.harok }}</td>
@@ -46,7 +47,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
             <td>{{ kmen.d }}</td>
             <td>{{ kmen.v | printf: "%.2f" }}</td>
           </tr>
-        {% assign id = id | plus: 1 %}  
+       
         {% assign celkovy_objem = celkovy_objem | plus: kmen.v %}
       {% endfor %}
     </tbody>
