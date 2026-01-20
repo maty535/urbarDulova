@@ -87,6 +87,34 @@ published: true
     padding: 25px;
     border-top: 1px solid #eee;
 }
+
+fieldset {
+    border: 1px solid #eee !important;
+    background: #fdfdfd !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    margin-bottom: 20px;
+}
+
+fieldset input, fieldset select {
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+fieldset input:focus, fieldset select:focus {
+    outline: none;
+    border-color: #ffc107 !important;
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.2);
+}
+
+fieldset input[type="button"] {
+    background: #28a745;
+    transition: transform 0.2s, background 0.2s;
+}
+
+fieldset input[type="button"]:hover {
+    background: #218838;
+    transform: translateY(-1px);
+}
+
 </style>
 
 ## Sumárna evidencia ťažby dreva: Urbár - Guľvas 2026/01
