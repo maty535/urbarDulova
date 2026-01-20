@@ -104,6 +104,30 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 | **CELKOM** | | **{{ logs.size }} ks** | **{{ total_sum | round: 2 }} m³** |
 
 ---
+<div class="stats-card">
+  <div class="main-total">
+    <b>Celkový objem</b>
+    <strong style="font-size: 2em;">{{ total_sum | round: 2 }} m³</strong>
+  </div>
+
+  <div>
+    <b>Drevina</b>
+    <strong>Dub</strong>
+  </div>
+
+  <div>
+    <b>Počet</b>
+    <strong>{{ logs.size }} ks</strong>
+  </div>
+
+  <div style="grid-column: span 2;">
+    <b>Max. výťažnosť / 1 kmeň</b>
+    <strong>4.72 m³</strong> 
+    <small style="color: #666;">(kmeň č.59, Sklad 1, Hárok 2)</small>
+  </div>
+</div>
+
+---
 <script src="/assets/js/tazbaSearch.js"></script>
 <fieldset style="display: flex; flex-wrap: wrap; gap: 15px; align-items: flex-end; border: 1px solid #ccc; border-radius: 8px; padding: 15px; font-family: sans-serif; background: white;">
   <legend style="font-weight: bold;">Filter</legend>
@@ -175,31 +199,6 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
       </tr>
     </tfoot>
   </table>
-
-<div class="stats-card">
-  <div class="main-total">
-    <b>Celkový objem</b>
-    <strong style="font-size: 2em;">{{ celkovy_objem | round: 2 }} m³</strong>
-  </div>
-
-  <div>
-    <b>Drevina</b>
-    <strong>Dub</strong>
-  </div>
-
-  <div>
-    <b>Počet</b>
-    <strong>{{ id }} ks</strong>
-  </div>
-
-  <div style="grid-column: span 2;">
-    <b>Max. výťažnosť</b>
-    <strong>4.72 m³</strong> 
-    <small style="color: #666;">(kmeň č.59, Sklad 1, Hárok 2)</small>
-  </div>
-</div>
-
-
 
 ---
 
