@@ -56,7 +56,16 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 
   <label style="flex: 1; min-width: 140px; display: flex; flex-direction: column; gap: 4px; font-size: 13px;">
     Hárok/Sklad:
-    <input type="text" id="search" onkeyup="delayedSearch();" style="padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+    <select id="search" onchange="delayedSearch();" style="padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+      <option value="">-- Vyberte --</option>
+      <option value="h1">h1 - Hárok 1</option>
+      <option value="h2">h2 - Hárok 2</option>
+      <option value="h3">h3 - Hárok 3</option>
+      <option value="S1">S1 - Sklad 1</option>
+      <option value="S2">S2 - Sklad 2</option>
+    </select>
+  </label>
+  
   </label>
 
   <label style="flex: 1; min-width: 100px; display: flex; flex-direction: column; gap: 4px; font-size: 13px;">
