@@ -10,6 +10,7 @@ published: true
 
 
 ## Sumárna evidencia ťažby dreva: Urbár - Gulvas 2026/01
+
 **Drevina:** Dub (DB)
 **Celkový objem (všetky 3 hárky):** **201,95 m³**
 
@@ -24,7 +25,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot L $
 {% for h in cisla_harkov %}
   {% assign aktualny_harok = h | plus: 0 %}
  
-  ### Tabuľka - Hárok č. {{ aktualny_harok }}
+### Tabuľka - Hárok č. {{ aktualny_harok }}
 
   <table>
     <thead>
