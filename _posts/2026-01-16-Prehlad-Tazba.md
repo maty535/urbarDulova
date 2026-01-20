@@ -128,26 +128,46 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     background-color: #fff9e6; 
     border: 1px solid #ffeeba; 
     border-left: 8px solid #ffc107; 
-    border-radius: 8px; 
+    border-radius: 12px; 
     font-family: sans-serif; 
     text-align: center; 
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+">
   <div style="color: #856404; font-size: 0.85em; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; font-weight: bold;">
-    Sumárna štatistika
+    Sumárna štatistika ťažby
   </div>
   
-  <div style="font-size: 1.5em; font-weight: 800; color: #333;">
-    CELKOVÝ OBJEM ŤAŽBY: 
-    <span style="background: #ffc107; padding: 2px 8px; border-radius: 4px;">{{ celkovy_objem | round: 2 }} m³</span>
+  <div style="font-size: 1.6em; font-weight: 800; color: #333; margin-bottom: 20px;">
+    CELKOVÝ OBJEM: 
+    <span style="background: #ffc107; padding: 2px 10px; border-radius: 4px;">{{ celkovy_objem | round: 2 }} m³</span>
   </div>
 
-   <div style="display: flex; justify-content: center; gap: 20px; color: #666; font-size: 1.1em; border-top: 1px solid rgba(133, 100, 4, 0.1); padding-top: 10px;">
-    <span>Drevina: <strong style="color: #333;">Dub</strong></span>
-    <span>|</span>
-    <span>Počet výrezov: <strong style="color: #333;">{{ id }} ks</strong></span>
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; border-top: 1px solid rgba(133, 100, 4, 0.1); padding-top: 15px;">
+    
+    <div style="display: flex; gap: 20px; align-items: center;">
+      <div style="text-align: left;">
+        <span style="color: #666; font-size: 0.75em; text-transform: uppercase; display: block;">Drevina</span>
+        <strong style="color: #333;">Dub</strong>
+      </div>
+      <div style="text-align: left;">
+        <span style="color: #666; font-size: 0.75em; text-transform: uppercase; display: block;">Počet</span>
+        <strong style="color: #333;">{{ id }} ks</strong>
+      </div>
+    </div>
+
+    <div style="width: 1px; background: rgba(133, 100, 4, 0.2); height: 40px; margin: 0 10px;"></div>
+
+    <div style="text-align: left;">
+      <span style="color: #666; font-size: 0.75em; text-transform: uppercase; display: block;">Max. výťažnosť z 1 kmeňa</span>
+      <div style="font-size: 1.1em; color: #333;">
+        <strong>4.72 m³</strong> 
+        <span style="font-size: 0.85em; color: #856404; background: rgba(255, 193, 7, 0.2); padding: 2px 6px; border-radius: 4px; margin-left: 5px;">
+          kmeň č.69, Sklad 1, Hárok 2
+        </span>
+      </div>
+    </div>
+
   </div>
-  
-</div>
 
 
 <style>
