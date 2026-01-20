@@ -52,9 +52,9 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 ---
 <script src="/assets/js/tazbaSearch.js"></script>
 <div>
-  <input type="text" size="30" maxlength="1000" value="" id="search"                       onkeyup="delayedSearch();" />
-  Priemer výrezu od: <input type="text" size="10" maxlength="10"   value=""   id="priemer" onkeyup="delayedSearch();" />
-  Dĺžka výrezu od: <input type="text"   size="10" maxlength="10"   value=""   id="dlzka"   onkeyup="delayedSearch();" />
+  Hárok/Sklad: <input type="text" size="30" maxlength="1000" value="" id="search"   onkeyup="delayedSearch();" />
+  Priemer od: <input type="text" size="10" maxlength="10"   value=""   id="priemer" onkeyup="delayedSearch();" />
+  Dĺžka od: <input type="text"   size="10" maxlength="10"   value=""   id="dlzka"   onkeyup="delayedSearch();" />
   <input type="button" value="Vyhľadať" onclick="search();"/><br/>
 </div>
 
