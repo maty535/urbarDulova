@@ -49,7 +49,6 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 | **Tenká guľatina** | pod 30 cm | {{ t_count }} ks | {{ t_sum | round: 2 }} m³ |
 | **CELKOM** | | **{{ logs.size }}** | **{{ total_sum | round: 2 }} m³** |
 
-
 ---
 <script src="/assets/js/tazbaSearch.js"></script>
 <div>
@@ -93,12 +92,12 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     <tfoot>
       <tr style="font-weight: bold; background-color: #f2f2f2;">
         <td colspan="5">SÚČET </td>
-        <td colspan="2">{{ celkovy_objem | round: 2 }} m³ / ({{ id }} ks)</td>
+        <td colspan="2" id="summaryInfo">{{ celkovy_objem | round: 2 }} m³ / ({{ id }} ks)</td>
       </tr>
     </tfoot>
   </table>
 
-<div style="margin-top: 30px; padding: 20px; border: 2px solid #000; font-size: 1.2em; font-weight: bold; text-align: center;">
+<div id="totalInfo" style="margin-top: 30px; padding: 20px; border: 2px solid #000; font-size: 1.2em; font-weight: bold; text-align: center;">
   CELKOVÁ SUMA: {{ celkovy_objem | round: 2 }} m³ / ({{ id }} ks)
 </div>
 
