@@ -122,23 +122,54 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     </tfoot>
   </table>
 
-<div id="totalInfo" style="margin-top: 30px; padding: 20px; background: #fff9e6; border-left: 6px solid #ffc107; border-radius: 8px; font-family: sans-serif; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+<div id="totalInfo" style="
+    margin-top: 30px; 
+    padding: 25px; 
+    background-color: #f8fdf9; 
+    border-left: 6px solid #28a745; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+    font-family: sans-serif; 
+    font-size: 1.4em; 
+    font-weight: bold; 
+    text-align: center; 
+    color: #2c3e50;
+    border-top: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+">
+  <span style="color: #666; font-size: 0.8em; text-transform: uppercase; display: block; margin-bottom: 5px;">Celkový výsledok</span>
+  CELKOVÝ OBJEM ŤAŽBY: 
+  <span style="color: #28a745;">{{ celkovy_objem | round: 2 }} m³</span> 
+  <span style="color: #95a5a6; font-size: 0.9em; font-weight: normal;"> / ({{ id }} ks)</span>
+</div>
+
+<div id="totalInfo" style="margin-top: 30px; padding: 25px; background: #fff; border: 1px solid #ffeeba; border-radius: 12px; font-family: sans-serif; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
   
-  <div style="font-size: 1.5em; font-weight: bold; margin-bottom: 10px;">
-    CELKOVÝ OBJEM: <span style="color: #856404;">{{ celkovy_objem | round: 2 }} m³</span>
+  <div style="text-align: center; margin-bottom: 20px;">
+    <span style="display: block; color: #856404; font-size: 0.8em; font-weight: bold; text-transform: uppercase;">Celkový objem ťažby</span>
+    <strong style="font-size: 2em; color: #333;">{{ celkovy_objem | round: 2 }} m³</strong>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.95em; color: #444;">
-    <div>Drevina: <strong>Dub</strong></div>
-    <div>Počet: <strong>{{ id }} ks</strong></div>
-    <div>
-      Max. výťažnosť: <strong>4.72 m³</strong> 
-      <small style="color: #856404; background: #ffeeba; padding: 2px 6px; border-radius: 4px; margin-left: 5px;">
-        (kmeň č.69, Sklad 1, Hárok 2)
-      </small>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+    
+    <div style="background: #fff9e6; padding: 10px 15px; border-radius: 8px; border: 1px solid #f9ebbe; min-width: 120px;">
+      <span style="display: block; font-size: 0.7em; color: #856404; text-transform: uppercase;">Drevina</span>
+      <strong>Dub</strong>
     </div>
-  </div>
 
+    <div style="background: #fff9e6; padding: 10px 15px; border-radius: 8px; border: 1px solid #f9ebbe; min-width: 120px;">
+      <span style="display: block; font-size: 0.7em; color: #856404; text-transform: uppercase;">Počet kusov</span>
+      <strong>{{ id }} ks</strong>
+    </div>
+
+    <div style="background: #fff9e6; padding: 10px 15px; border-radius: 8px; border: 1px solid #f9ebbe; flex-grow: 1; text-align: left;">
+      <span style="display: block; font-size: 0.7em; color: #856404; text-transform: uppercase;">Max. výťažnosť z 1 kmeňa</span>
+      <strong>4.72 m³</strong> 
+      <small style="color: #666; margin-left: 5px;">(kmeň č.59, Sklad 1, Hárok 2)</small>
+    </div>
+
+  </div>
 </div>
 
 
