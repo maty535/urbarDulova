@@ -68,7 +68,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot L $
 <style>
   table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
   th, td { border: 1px solid #ddd; padding: 8px; text-align: right; }
-  th { background-color: #4CAF50; color: white; text-align: center; }
+  th { background-color: #4CAF50; color: black; text-align: center; }
   tr:nth-child(even) { background-color: #f9f9f9; }
 </style>
 
