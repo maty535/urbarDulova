@@ -5,7 +5,7 @@ description: Základne míľniky urbárskeho spoločenstva
 permalink: /historia/
 ---
 
-Vyhľadávanie v oznamoch: <!-- Search Input --> <input type="text" id="search-input" placeholder="Vyhľadývať v histórii...">
+Vyhľadávanie v histórii: <!-- Search Input --> <input type="text" id="search-input" placeholder="Vyhľadývať v histórii...">
 
 <!-- Results Display -->
 <ul id="search-results"></ul>
