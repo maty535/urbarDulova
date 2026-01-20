@@ -169,10 +169,11 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot L $
 
 **CELKOVÝ OBJEM:** **201,95 m³**
 
-### Zoznam extra silných kmeňov (nad 60 cm)
+### Zoznam kmeňov s najvyššou akostnou triedou (nad 60 cm)
+
 | Číslo | Priemer (cm) | Dĺžka (m) | Objem (m³) |
 |:---:|:---:|:---:|:---:|
-{% assign extra = site.data.tazba | where_exp: "item", "item.d >= 60" %}
+{% assign extra = site.data.tazba | where_exp: "item", "item.d >= 60+4" %}
 {% for log in extra %}
 | {{ log.cislo }} | {{ log.d }} | {{ log.l }} | {{ log.v }} |
 {% endfor %}
