@@ -53,8 +53,6 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
       </tr>
     </tfoot>
   </table>
-  
-{% endfor %}
 
 <div style="margin-top: 30px; padding: 20px; border: 2px solid #000; font-size: 1.2em; font-weight: bold; text-align: center;">
   CELKOVÁ SUMA: {{ celkovy_objem | round: 2 }} m³
