@@ -144,8 +144,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 
    <div style="display: flex; justify-content: center; gap: 20px; color: #666; font-size: 1.1em; border-top: 1px solid rgba(133, 100, 4, 0.1); padding-top: 10px;">
     <span>Drevina: <strong style="color: #333;">Dub</strong></span>
-    <span style="color: #ccc;">|</span>
-    <span>Počet výrezov: <strong style="color: #333;">{{ id }} ks</strong></span>
+    <span>| Počet výrezov: <strong style="color: #333;">{{ id }} ks</strong></span>
   </div>
 </div>
 
