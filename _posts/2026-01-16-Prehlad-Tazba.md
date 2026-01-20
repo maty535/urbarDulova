@@ -173,8 +173,5 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot L $
 
 | Číslo | Priemer (cm) | Dĺžka (m) | Objem (m³) |
 |:---:|:---:|:---:|:---:|
-
-{% assign extra = site.data.tazba | where_exp: "item", "item.d >= 64" %}
-{% for log in extra %}
-| {{ log.cislo }} | {{ log.d }} | {{ log.l }} | {{ log.v }} |
+{% assign extra = site.data.tazba | where_exp: "item", "item.d >= 60" %}{% for log in extra %}| {{ log.cislo }} | {{ log.d }} | {{ log.l }} | {{ log.v }} |
 {% endfor %}
