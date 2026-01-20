@@ -169,9 +169,11 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot L $
 
 **CELKOVÝ OBJEM:** **201,95 m³**
 
-### Zoznam kmeňov s najvyššou akostnou triedou (nad 60 cm)
+### Rekapitulácia podľa hrúbkových tried
 
-| Číslo | Priemer (cm) | Dĺžka (m) | Objem (m³) |
-|:---:|:---:|:---:|:---:|
-{% assign extra = site.data.tazba | where_exp: "item", "item.d >= 60" %}{% for log in extra %}| {{ log.cislo }} | {{ log.d }} | {{ log.l }} | {{ log.v }} |
-{% endfor %}
+| Trieda | Rozsah | Počet | Objem celkom |
+| :--- | :--- | :---: | :--- |
+{% assign logs = site.data.tazba %}{% assign e_logs = logs | where_exp: "item", "item.d >= 60" %}{% assign e_sum = 0 %}{% for i in e_logs %}{% assign e_sum = e_sum | plus: i.v %}{% endfor %}| **Extra silné** | nad 60 cm | {{ e_logs.size }} ks | {{ e_sum | round: 2 }} m³ |
+{% assign s_logs = logs | where_exp: "item", "item.d >= 30 and item.d < 60" %}{% assign s_sum = 0 %}{% for i in s_logs %}{% assign s_sum = s_sum | plus: i.v %}{% endfor %}| **Stredná guľatina** | 30 - 59 cm | {{ s_logs.size }} ks | {{ s_sum | round: 2 }} m³ |
+{% assign t_logs = logs | where_exp: "item", "item.d < 30" %}{% assign t_sum = 0 %}{% for i in t_logs %}{% assign t_sum = t_sum | plus: i.v %}{% endfor %}| **Tenká guľatina** | pod 30 cm | {{ t_logs.size }} ks | {{ t_sum | round: 2 }} m³ |
+| **CELKOM** | | **{{ logs.size }}** | **{{ e_sum | plus: s_sum | plus: t_sum | round: 2 }} m³** |
