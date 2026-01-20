@@ -33,6 +33,7 @@ jekyll-spaceship:
   processors:
     - table-processor
     - plantuml-processor
+    - mathjax
   plantuml-processor:
     mode: server  # mode value 'pre-fetch' for fetching image at building stage
     css:
