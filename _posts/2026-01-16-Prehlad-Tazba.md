@@ -2,13 +2,13 @@
 layout: post
 title: "Prehľad vyťaženého dreva v januári 2026"
 date: 2026-01-16
-author: Výbor urbáru
+author: Ing. Matúš Ivanecký
 categories: drevo tazba
 tags: drevo les hospodarenie podielnici tazba
 published: true
 ---
 
-## Sumárna evidencia ťažby dreva: Urbár - Gulvas 2026/01
+## Sumárna evidencia ťažby dreva: Urbár - Guľvas 2026/01
 
 Drevina: **Dub**
 
