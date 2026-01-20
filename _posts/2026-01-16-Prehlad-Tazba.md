@@ -61,7 +61,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
      <label for="dlzka">Dĺžka od:</label> 
      <input type="text"   size="10" maxlength="10"   value=""   id="dlzka"   onkeyup="delayedSearch();" /><br/>
     <input type="button" value="Vyhľadať" onclick="search();"/><br/>
-  </fieldset>fieldset>
+  </fieldset>
 </div>
 
 {% assign celkovy_objem = 0 %}
