@@ -53,8 +53,8 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     </tbody>
     <tfoot>
       <tr style="font-weight: bold; background-color: #f2f2f2;">
-        <td colspan="6">SÚČET </td>
-        <td>{{ celkovy_objem | round: 2 }} m³ / ({{ id }} ks)</td>
+        <td colspan="5">SÚČET </td>
+        <td colspan="2">{{ celkovy_objem | round: 2 }} m³ / ({{ id }} ks)</td>
       </tr>
     </tfoot>
   </table>
