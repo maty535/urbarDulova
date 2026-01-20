@@ -81,13 +81,13 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
   <table>
     <thead>
       <tr>
-        <th>ID</th>
-        <th>Hárok</th>
-        <th>Sklad</th>
-        <th>Číslo kmeňa</th>
-        <th>Dĺžka (l) [m]</th>
-        <th>Priemer (d) [cm]</th>
-        <th>Objem (v) [m³]</th>
+        <th onclick="sortTable(0)" style="cursor:pointer">ID ↕</th>
+        <th onclick="sortTable(1)" style="cursor:pointer">Hárok ↕</th>
+        <th onclick="sortTable(2)" style="cursor:pointer">Sklad ↕</th>
+        <th onclick="sortTable(3)" style="cursor:pointer">Číslo kmeňa ↕</th>
+        <th onclick="sortTable(4)" style="cursor:pointer">Dĺžka ↕<br/>(l) [m]</th>
+        <th onclick="sortTable(5)" style="cursor:pointer">Priemer ↕<br/>(d) [cm]</th>
+        <th onclick="sortTable(6)" style="cursor:pointer">Objem ↕<br/>(v)[m³]</th>
       </tr>
     </thead>
     <tbody>
