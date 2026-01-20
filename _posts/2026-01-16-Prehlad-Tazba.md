@@ -52,14 +52,14 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     </tbody>
     <tfoot>
       <tr style="font-weight: bold; background-color: #f2f2f2;">
-        <td colspan="5">SÚČET </td>
-        <td>{{ celkovy_objem | round: 2 }} m³ / ({{ id kusov}})</td>
+        <td colspan="6">SÚČET </td>
+        <td>{{ celkovy_objem | round: 2 }} m³ / ({{ id }} ks)</td>
       </tr>
     </tfoot>
   </table>
 
 <div style="margin-top: 30px; padding: 20px; border: 2px solid #000; font-size: 1.2em; font-weight: bold; text-align: center;">
-  CELKOVÁ SUMA: {{ celkovy_objem | round: 2 }} m³
+  CELKOVÁ SUMA: {{ celkovy_objem | round: 2 }} m³ / ({{ id }} ks)
 </div>
 
 <style>
