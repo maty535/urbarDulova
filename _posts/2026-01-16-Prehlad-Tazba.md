@@ -51,18 +51,27 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 
 ---
 <script src="/assets/js/tazbaSearch.js"></script>
-<div>
-  <fieldset>
-    <legend>Filter:</legend>
-    <label for="search">Hárok/Sklad:</label>
-    <input type="text" size="10" maxlength="10" value=""  id="search"   onkeyup="delayedSearch();" />
-    <label for="priemer">Priemer od:</label>
-     <input type="text" size="10" maxlength="10"   value=""   id="priemer" onkeyup="delayedSearch();" />
-     <label for="dlzka">Dĺžka od:</label> 
-     <input type="text"   size="10" maxlength="10"   value=""   id="dlzka"   onkeyup="delayedSearch();" />
-  </fieldset>
-  <input type="button" value="Vyhľadať" onclick="search();"/><br/>
-</div>
+<fieldset style="display: flex; flex-wrap: wrap; gap: 15px; align-items: flex-end; border: 1px solid #ccc; border-radius: 8px; padding: 15px; font-family: sans-serif; background: white;">
+  <legend style="font-weight: bold;">Filter</legend>
+
+  <label style="flex: 1; min-width: 140px; display: flex; flex-direction: column; gap: 4px; font-size: 13px;">
+    Hárok/Sklad:
+    <input type="text" id="search" onkeyup="delayedSearch();" style="padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+  </label>
+
+  <label style="flex: 1; min-width: 100px; display: flex; flex-direction: column; gap: 4px; font-size: 13px;">
+    Priemer od:
+    <input type="text" id="priemer" onkeyup="delayedSearch();" style="padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+  </label>
+
+  <label style="flex: 1; min-width: 100px; display: flex; flex-direction: column; gap: 4px; font-size: 13px;">
+    Dĺžka od:
+    <input type="text" id="dlzka" onkeyup="delayedSearch();" style="padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+  </label>
+
+  <input type="button" value="Vyhľadať" onclick="search();" 
+         style="margin-left: auto; background: #28a745; color: white; border: none; padding: 8px 20px; border-radius: 4px; font-weight: bold; cursor: pointer;">
+</fieldset>
 
 {% assign celkovy_objem = 0 %}
 {% assign id = 0 %}
