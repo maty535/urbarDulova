@@ -1,3 +1,35 @@
+function sortTable(columnIndex) {
+  const table = document.querySelector("table"); // Alebo použi ID tabuľky
+  const tbody = table.tBodies[0];
+  const rows = Array.from(tbody.rows);
+
+  // Zistíme, či už je stĺpec zoradený vzostupne
+  const isAscending = table.dataset.sortDir === "asc";
+  const direction = isAscending ? -1 : 1;
+
+  // Samotné sortovanie
+  rows.sort((a, b) => {
+    const aText = a.cells[columnIndex].textContent.trim();
+    const bText = b.cells[columnIndex].textContent.trim();
+
+    // Skúsime, či ide o čísla, aby sme ich nezoraďovali ako text
+    const aNum = parseFloat(aText.replace(',', '.'));
+    const bNum = parseFloat(bText.replace(',', '.'));
+
+    if (!isNaN(aNum) && !isNaN(bNum)) {
+      return (aNum - bNum) * direction;
+    }
+
+    return aText.localeCompare(bText, 'sk') * direction;
+  });
+
+  // Uložíme smer zoradenia pre ďalšie kliknutie
+  table.dataset.sortDir = isAscending ? "desc" : "asc";
+
+  // Vložíme zoradené riadky späť do tabuľky
+  tbody.append(...rows);
+}
+
 
 function search(){
   
