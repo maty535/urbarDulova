@@ -32,43 +32,51 @@ function sortTable(columnIndex) {
 
 
 function search() {
-    // 1. Načítanie hodnôt z filtrov
-    const s = document.getElementById('search').value.toLowerCase();
-    const cKmena = document.getElementById('cislo_kmena').value.toLowerCase().trim();
+    // 1. Získanie hodnôt z filtrov (ošetrené proti chýbajúcim ID)
+    const s = document.getElementById('search')?.value.toLowerCase() || "";
+    const cKmena = document.getElementById('cislo_kmena')?.value.toLowerCase().trim() || "";
     
-    // Pomocná funkcia pre čísla: ak je pole prázdne, vráti default (0 pre 'od', 999 pre 'do')
-    const getNum = (id, def) => {
-        const val = document.getElementById(id).value.replace(',', '.');
-        return val === "" ? def : parseFloat(val);
+    // Pomocná funkcia: ak je pole prázdne, vráti extrémne hodnoty (0 až nekonečno)
+    const getNum = (id, isMin) => {
+        const el = document.getElementById(id);
+        if (!el || el.value === "") return isMin ? 0 : 999999;
+        return parseFloat(el.value.replace(',', '.'));
     };
 
-    const pOd = getNum('priemer_od', 0);
-    const pDo = getNum('priemer_do', 9999);
-    const dOd = getNum('dlzka_od', 0);
-    const dDo = getNum('dlzka_do', 9999);
+    const pOd = getNum('priemer_od', true);
+    const pDo = getNum('priemer_do', false);
+    const dOd = getNum('dlzka_od', true);
+    const dDo = getNum('dlzka_do', false);
 
-    // 2. Výber riadkov tabuľky (predpokladáme druhú tabuľku na stránke, index 1)
-    const table = document.getElementsByTagName('table')[1];
-    if (!table) return;
-    const rows = table.tBodies[0].rows;
+    // 2. Nájdeme správnu tabuľku (hľadáme tú, ktorá má reálne dáta v tBody)
+    const tables = document.getElementsByTagName('table');
+    let rows = [];
+    for (let t of tables) {
+        if (t.tBodies.length > 0 && t.tBodies[0].rows.length > 0) {
+            rows = t.tBodies[0].rows;
+            break;
+        }
+    }
+
+    if (rows.length === 0) return;
 
     let pocet = 0;
     let celkovyObjem = 0;
 
-    // 3. Cyklus cez všetky riadky
+    // 3. Hlavný cyklus filtrovania
     for (let i = 0; i < rows.length; i++) {
         const cells = rows[i].cells;
-        
-        // Načítanie dát z buniek (indexy podľa tvojej HTML tabuľky)
-        const rowHarok = cells[1].textContent.toLowerCase();
-        const rowSklad = cells[2].textContent.toLowerCase();
-        const rowCislo = cells[3].textContent.toLowerCase().trim();
-        const rowDlzka = parseFloat(cells[4].textContent.replace(',', '.'));
-        const rowPriemer = parseFloat(cells[5].textContent.replace(',', '.'));
-        const rowObjem = parseFloat(cells[6].textContent.replace(',', '.'));
+        if (cells.length < 6) continue;
 
-        // Logika filtra (musia byť splnené všetky podmienky naraz)
-        const matchSklad = (s === "" || rowHarok.includes(s) || rowSklad.includes(s));
+        // Načítanie dát z riadku (ošetrené proti textu v číselných stĺpcoch)
+        const rowHarokSklad = (cells[1].textContent + " " + cells[2].textContent).toLowerCase();
+        const rowCislo = cells[3].textContent.toLowerCase();
+        const rowDlzka = parseFloat(cells[4].textContent.replace(',', '.')) || 0;
+        const rowPriemer = parseFloat(cells[5].textContent.replace(',', '.')) || 0;
+        const rowObjem = parseFloat(cells[6].textContent.replace(',', '.')) || 0;
+
+        // Overenie podmienok (ak je pole prázdne, getNum vráti hodnotu, ktorá vždy prejde)
+        const matchSklad = (s === "" || rowHarokSklad.includes(s));
         const matchCislo = (cKmena === "" || rowCislo.includes(cKmena));
         const matchPriemer = (rowPriemer >= pOd && rowPriemer <= pDo);
         const matchDlzka = (rowDlzka >= dOd && rowDlzka <= dDo);
@@ -82,18 +90,16 @@ function search() {
         }
     }
 
-    // 4. Aktualizácia sumárnych údajov v pätičke
-    const summaryElement = document.getElementById('summaryInfo');
-    if (summaryElement) {
-        summaryElement.textContent = celkovyObjem.toFixed(2) + " m³ / (" + pocet + " ks)";
+    // 4. Aktualizácia sumáru
+    const summary = document.getElementById('summaryInfo');
+    if (summary) {
+        summary.textContent = celkovyObjem.toFixed(2) + " m³ / (" + pocet + " ks)";
     }
 }
 
-// Funkcia pre oneskorené vyhľadávanie (aby to nesekalo pri písaní)
+
 var timer;
 function delayedSearch() {
     clearTimeout(timer);
-    timer = setTimeout(function () {
-        search();
-    }, 400); // 400ms pauza po dopísaní
+    timer = setTimeout(search, 300);
 }
