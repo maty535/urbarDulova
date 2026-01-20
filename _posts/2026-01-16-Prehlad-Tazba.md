@@ -30,9 +30,11 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
   <table>
     <thead>
       <tr>
+        <th>Hárok</th>
+        <th>Sklad</th>
         <th>Číslo kmeňa</th>
-        <th>Dĺžka (l)</th>
-        <th>Priemer (d)</th>
+        <th>Dĺžka (l) [m]</th>
+        <th>Priemer (d) [cm]</th>
         <th>Objem (v) [m³]</th>
       </tr>
     </thead>
@@ -41,6 +43,8 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
       {% for kmen in site.data.tazba %}
         {% if kmen.harok == aktualny_harok %}
           <tr>
+            <td>{{ kmen.harok }}</td>
+            <td>{{ kmen.sklad }}</td>
             <td>{{ kmen.cislo }}</td>
             <td>{{ kmen.l }}</td>
             <td>{{ kmen.d }}</td>
