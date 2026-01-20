@@ -18,7 +18,7 @@ Pre výpočet kubikáže jednotlivého stromu sa priemer kmeňa znižuje o hrúb
 $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 
 ---
-{% assign celkovy_objem = 0 %
+{% assign celkovy_objem = 0 %}
 {% assign id = 1 %}
 
 ### Tabuľka: prehľad jednotlivýh kmeňov
