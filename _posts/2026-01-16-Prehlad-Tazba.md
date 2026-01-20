@@ -8,6 +8,47 @@ tags: drevo les hospodarenie podielnici tazba
 published: true
 ---
 
+<style>
+  
+  table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
+  th, td { border: 1px solid #ddd; padding: 8px; text-align: right; }
+  th { background-color: #4CAF50; color: black; text-align: center; }
+  tr:nth-child(even) { background-color: #f9f9f9; }  
+  
+.stats-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    background: #fff;
+    border: 1px solid #ffeeba;
+    border-left: 8px solid #ffc107;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+/* Hlavný objem natiahne cez všetky stĺpce */
+.stats-card .main-total {
+    grid-column: 1 / -1;
+    text-align: center;
+    border-bottom: 1px solid #fff1c1;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+.stats-card div b {
+    display: block;
+    font-size: 0.7rem;
+    color: #856404;
+    text-transform: uppercase;
+}
+
+.stats-card strong {
+    font-size: 1.1rem;
+    color: #333;
+}
+</style>
+
 ## Sumárna evidencia ťažby dreva: Urbár - Guľvas 2026/01
 
 Drevina: **Dub**
@@ -122,63 +163,30 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     </tfoot>
   </table>
 
-<div id="totalInfo" style="
-    margin-top: 30px; 
-    padding: 25px; 
-    background-color: #f8fdf9; 
-    border-left: 6px solid #28a745; 
-    border-radius: 8px; 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
-    font-family: sans-serif; 
-    font-size: 1.4em; 
-    font-weight: bold; 
-    text-align: center; 
-    color: #2c3e50;
-    border-top: 1px solid #e0e0e0;
-    border-right: 1px solid #e0e0e0;
-    border-bottom: 1px solid #e0e0e0;
-">
-  <span style="color: #666; font-size: 0.8em; text-transform: uppercase; display: block; margin-bottom: 5px;">Celkový výsledok</span>
-  CELKOVÝ OBJEM ŤAŽBY: 
-  <span style="color: #28a745;">{{ celkovy_objem | round: 2 }} m³</span> 
-  <span style="color: #95a5a6; font-size: 0.9em; font-weight: normal;"> / ({{ id }} ks)</span>
-</div>
-
-<div id="totalInfo" style="margin-top: 30px; padding: 25px; background: #fff; border: 1px solid #ffeeba; border-radius: 12px; font-family: sans-serif; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-  
-  <div style="text-align: center; margin-bottom: 20px;">
-    <span style="display: block; color: #856404; font-size: 0.8em; font-weight: bold; text-transform: uppercase;">Celkový objem ťažby</span>
-    <strong style="font-size: 2em; color: #333;">{{ celkovy_objem | round: 2 }} m³</strong>
+<div class="stats-card">
+  <div class="main-total">
+    <b>Celkový objem</b>
+    <strong style="font-size: 2em;">{{ celkovy_objem | round: 2 }} m³</strong>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-    
-    <div style="background: #fff9e6; padding: 10px 15px; border-radius: 8px; border: 1px solid #f9ebbe; min-width: 120px;">
-      <span style="display: block; font-size: 0.7em; color: #856404; text-transform: uppercase;">Drevina</span>
-      <strong>Dub</strong>
-    </div>
+  <div>
+    <b>Drevina</b>
+    <strong>Dub</strong>
+  </div>
 
-    <div style="background: #fff9e6; padding: 10px 15px; border-radius: 8px; border: 1px solid #f9ebbe; min-width: 120px;">
-      <span style="display: block; font-size: 0.7em; color: #856404; text-transform: uppercase;">Počet kusov</span>
-      <strong>{{ id }} ks</strong>
-    </div>
+  <div>
+    <b>Počet</b>
+    <strong>{{ id }} ks</strong>
+  </div>
 
-    <div style="background: #fff9e6; padding: 10px 15px; border-radius: 8px; border: 1px solid #f9ebbe; flex-grow: 1; text-align: left;">
-      <span style="display: block; font-size: 0.7em; color: #856404; text-transform: uppercase;">Max. výťažnosť z 1 kmeňa</span>
-      <strong>4.72 m³</strong> 
-      <small style="color: #666; margin-left: 5px;">(kmeň č.59, Sklad 1, Hárok 2)</small>
-    </div>
-
+  <div style="grid-column: span 2;">
+    <b>Max. výťažnosť</b>
+    <strong>4.72 m³</strong> 
+    <small style="color: #666;">(kmeň č.59, Sklad 1, Hárok 2)</small>
   </div>
 </div>
 
 
-<style>
-  table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: right; }
-  th { background-color: #4CAF50; color: black; text-align: center; }
-  tr:nth-child(even) { background-color: #f9f9f9; }
-</style>
 
 ---
 
