@@ -11,8 +11,8 @@ published: true
 
 ## Sumárna evidencia ťažby dreva: Urbár - Gulvas 2026/01
 
-**Drevina:** Dub (DB)
-**Celkový objem (všetky 3 hárky):** **201,95 m³**
+**Drevina:** Dub 
+**Celkový objem:** **202.15 m³**
 
 Pre výpočet kubikáže jednotlivého stromu sa priemer kmeňa znižuje o hrúbku kôry, čo je v prípade duba 4 cm / kmeň.
 
