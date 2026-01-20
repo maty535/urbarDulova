@@ -48,15 +48,7 @@ function search() {
     const dOd = getNum('dlzka_od', true);
     const dDo = getNum('dlzka_do', false);
 
-    // 2. Nájdeme správnu tabuľku (hľadáme tú, ktorá má reálne dáta v tBody)
-    const tables = document.getElementsByTagName('table');
-    let rows = [];
-    for (let t of tables) {
-        if (t.tBodies.length > 0 && t.tBodies[0].rows.length > 0) {
-            rows = t.tBodies[0].rows;
-            break;
-        }
-    }
+    rows = (document.getElementsByTagName('tbody')[1]).getElementsByTagName('TR');}
 
     if (rows.length === 0) return;
 
