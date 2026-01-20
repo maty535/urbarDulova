@@ -56,7 +56,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     </tbody>
     <tfoot>
       <tr style="font-weight: bold; background-color: #f2f2f2;">
-        <td colspan="3">SÚČET HÁROK {{ aktualny_harok }}</td>
+        <td colspan="5">SÚČET HÁROK {{ aktualny_harok }}</td>
         <td>{{ suma_harok | round: 2 }} m³</td>
       </tr>
     </tfoot>
