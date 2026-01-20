@@ -15,50 +15,77 @@ published: true
   th { background-color: #4CAF50; color: black; text-align: center; }
   tr:nth-child(even) { background-color: #f9f9f9; }  
   
-.stats-card {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 15px;
-    /* Žlté pozadie a štýl, ktorý si mal predtým */
-    background-color: #fff9e6; 
-    border: 1px solid #ffeeba; 
-    border-left: 8px solid #ffc107; 
-    padding: 20px;
-    border-radius: 12px;
-    font-family: sans-serif;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+.wood-card {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    overflow: hidden;
+    font-family: 'Inter', -apple-system, sans-serif;
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #eee;
 }
 
-/* Hlavný súčet - cez celú šírku */
-.stats-card .main-total {
-    grid-column: 1 / -1;
+/* Horná časť s hlavným číslom */
+.card-hero {
+    background: linear-gradient(135deg, #fff9e6 0%, #fff1c1 100%);
+    padding: 30px;
     text-align: center;
-    border-bottom: 1px solid rgba(133, 100, 4, 0.1);
-    padding-bottom: 15px;
+    border-bottom: 2px solid #ffc107;
+}
+
+.card-hero label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #856404;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.card-hero h2 {
+    font-size: 2.8rem;
+    margin: 10px 0 0;
+    color: #333;
+    font-weight: 800;
+}
+
+/* Stredná časť - štatistiky */
+.card-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 1px;
+    background: #eee; /* Farba čiar medzi boxami */
+}
+
+.stat-box {
+    background: #fff;
+    padding: 15px 20px;
+}
+
+.stat-box.full-width {
+    grid-column: span 2;
+}
+
+.stat-box label {
+    display: block;
+    font-size: 0.7rem;
+    color: #999;
+    text-transform: uppercase;
     margin-bottom: 5px;
 }
 
-/* Štítky (Drevina, Počet...) */
-.stats-card div b {
-    display: block;
-    font-size: 0.75rem;
-    color: #856404;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-/* Hodnoty (Dub, ks...) */
-.stats-card strong {
-    font-size: 1.15rem;
+.stat-box span {
+    font-size: 1.1rem;
+    font-weight: 600;
     color: #333;
 }
 
-/* Špeciálny štýl pre detail kmeňa */
-.stats-card small {
-    display: block;
-    color: #666;
-    font-size: 0.85rem;
-    margin-top: 2px;
+/* Spodná časť - technická zóna */
+.card-formula {
+    background: #fdfdfd;
+    padding: 25px;
+    border-top: 1px solid #eee;
 }
 </style>
 
@@ -73,33 +100,41 @@ published: true
   {% assign t_volume = t_volume | plus: item.v %}
 {% endfor %}
 
-<div class="stats-card">
-  <div class="main-total">
-    <b>Celkový objem ťažby:</b>
-    <strong style="font-size: 2em;">{{ t_volume | round: 2 }} m³</strong>
+<div class="wood-card">
+  <div class="card-hero">
+    <label>Celkový objem ťažby</label>
+    <h2>{{ celkovy_objem | round: 2 }} m³</h2>
   </div>
 
-  <div>
-    <b>Drevina</b>
-    <strong>Dub</strong>
+  <div class="card-stats">
+    <div class="stat-box">
+      <label>Drevina</label>
+      <span>Dub</span>
+    </div>
+    <div class="stat-box">
+      <label>Počet kusov</label>
+      <span>{{ id }} ks</span>
+    </div>
+    <div class="stat-box full-width">
+      <label>Maximálna výťažnosť / 1 kmeň</label>
+      <span>4.72 m³</span>
+      <p style="font-size: 0.75rem; color: #856404; margin-top: 4px;">
+        kmeň č.59, Sklad 1, Hárok 2
+      </p>
+    </div>
   </div>
 
-  <div>
-    <b>Počet</b>
-    <strong>{{ logs.size }} ks</strong>
-  </div>
-
-  <div style="grid-column: span 2;">
-    <b>Max. výťažnosť / 1 kmeň</b>
-    <strong>4.72 m³</strong> 
-    <small style="color: #666;">(kmeň č.59, Sklad 1, Hárok 2)</small>
+  <div class="card-formula">
+    <div class="formula-wrap">
+       $$\Large V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l$$
+    </div>
+    
+    <div class="formula-info">
+      <strong>Poznámka k výpočtu:</strong> Pre dub sa priemer kmeňa <strong>(d)</strong> znižuje o 
+      <strong>4 cm</strong> (hrúbka kôry na výrez). Priemer sa udáva v cm, dĺžka <strong>(l)</strong> v metroch.
+    </div>
   </div>
 </div>
-
-
-Pre výpočet kubikáže jednotlivého stromu sa priemer kmeňa znižuje o hrúbku kôry, čo je v prípade duba - **4 cm**/výrez, pričom priemer výrezu **(d)** je udávaný v cm.
-
-$\Large V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 
 ---
 {% comment %} Inicializácia s 0.0 zabezpečí, že Liquid bude počítať s desatinnými miestami {% endcomment %}
