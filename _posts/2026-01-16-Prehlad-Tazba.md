@@ -19,13 +19,9 @@ Pre výpočet kubikáže jednotlivého stromu sa priemer kmeňa znižuje o hrúb
 $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 
 ---
-{% assign cisla_harkov = "1,2,3" | split: "," %}
-{% assign celkovy_objem_vsetko = 0 %}
+{% assign celkovy_objem = 0 %}
 
-{% for h in cisla_harkov %}
-  {% assign aktualny_harok = h | plus: 0 %}
- 
-### Tabuľka - Hárok č. {{ aktualny_harok }}
+### Tabuľka: prehľad jednotlivýh kmeňov
 
   <table>
     <thead>
@@ -39,9 +35,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
       </tr>
     </thead>
     <tbody>
-      {% assign suma_harok = 0 %}
       {% for kmen in site.data.tazba %}
-        {% if kmen.harok == aktualny_harok %}
           <tr>
             <td>{{ kmen.harok }}</td>
             <td>{{ kmen.sklad }}</td>
@@ -50,23 +44,21 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
             <td>{{ kmen.d }}</td>
             <td>{{ kmen.v | printf: "%.2f" }}</td>
           </tr>
-          {% assign suma_harok = suma_harok | plus: kmen.v %}
-        {% endif %}
+        {% assign celkovy_objem = celkovy_objem | plus: kmen.v %}
       {% endfor %}
     </tbody>
     <tfoot>
       <tr style="font-weight: bold; background-color: #f2f2f2;">
-        <td colspan="5">SÚČET HÁROK {{ aktualny_harok }}</td>
-        <td>{{ suma_harok | round: 2 }} m³</td>
+        <td colspan="5">SÚČET </td>
+        <td>{{ celkovy_objem | round: 2 }} m³</td>
       </tr>
     </tfoot>
   </table>
   
-  {% assign celkovy_objem_vsetko = celkovy_objem_vsetko | plus: suma_harok %}
 {% endfor %}
 
 <div style="margin-top: 30px; padding: 20px; border: 2px solid #000; font-size: 1.2em; font-weight: bold; text-align: center;">
-  CELKOVÁ SUMA ZA VŠETKY HÁRKY: {{ celkovy_objem_vsetko | round: 2 }} m³
+  CELKOVÁ SUMA: {{ celkovy_objem | round: 2 }} m³
 </div>
 
 <style>
