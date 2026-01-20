@@ -222,7 +222,7 @@ fieldset input[type="button"]:hover {
     <span></span>
     <span></span>
     <div style="display: flex; gap: 5px;">
-      <input type="button" value="Reset" onclick="document.querySelectorAll('input, select').forEach(i=>i.value=''); search();" style="flex: 1; padding: 4px; cursor: pointer; font-size: 11px; background: #f4f4f4; border: 1px solid #ccc; border-radius: 4px;">
+      <input type="button" value="Reset" onclick="resetFilter();" style="flex: 1; padding: 4px; cursor: pointer; font-size: 11px; background: #f4f4f4; border: 1px solid #ccc; border-radius: 4px;">
       <input type="button" value="OK" onclick="search();" style="flex: 1; padding: 4px; cursor: pointer; font-size: 11px; background: #28a745; color: #fff; border: none; border-radius: 4px; font-weight: bold;">
     </div>
 
