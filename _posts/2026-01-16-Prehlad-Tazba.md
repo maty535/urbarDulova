@@ -67,6 +67,7 @@ published: true
 {% assign logs = site.data.tazba %}
 {% assign t_volume = 0.0 %}
 {% assign t_count = 0 %}
+
 {% for item in logs %}
   {% assign t_count = t_count | plus: 1 %}
   {% assign t_volume = t_volume | plus: item.v %}
@@ -75,7 +76,7 @@ published: true
 <div class="stats-card">
   <div class="main-total">
     <b>Celkový objem ťažby:</b>
-    <strong style="font-size: 2em;">{{ total_sum | round: 2 }} m³</strong>
+    <strong style="font-size: 2em;">{{ t_volume | round: 2 }} m³</strong>
   </div>
 
   <div>
