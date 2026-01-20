@@ -64,16 +64,43 @@ published: true
 
 ## Sumárna evidencia ťažby dreva: Urbár - Guľvas 2026/01
 
-Drevina: **Dub**
+{% assign logs = site.data.tazba %}
+{% assign t_volume = 0.0 %}
+{% assign t_count = 0 %}
+{% for item in logs %}
+  {% assign t_count = t_count | plus: 1 %}
+  {% assign t_volume = t_volume | plus: item.v %}
+{% endfor %}
 
-Celkový objem ťažby: **202.15 m³**
+<div class="stats-card">
+  <div class="main-total">
+    <b>Celkový objem ťažby:</b>
+    <strong style="font-size: 2em;">{{ total_sum | round: 2 }} m³</strong>
+  </div>
 
-Pre výpočet kubikáže jednotlivého stromu sa priemer kmeňa znižuje o hrúbku kôry, čo je v prípade duba **4 cm**/výrez, pričom priemer výrezu **(d)** je udávaný v cm.
+  <div>
+    <b>Drevina</b>
+    <strong>Dub</strong>
+  </div>
+
+  <div>
+    <b>Počet</b>
+    <strong>{{ logs.size }} ks</strong>
+  </div>
+
+  <div style="grid-column: span 2;">
+    <b>Max. výťažnosť / 1 kmeň</b>
+    <strong>4.72 m³</strong> 
+    <small style="color: #666;">(kmeň č.59, Sklad 1, Hárok 2)</small>
+  </div>
+</div>
+
+- Pre výpočet kubikáže jednotlivého stromu sa priemer kmeňa znižuje o hrúbku kôry, čo je v prípade duba - **4 cm**/výrez, pričom priemer výrezu **(d)** je udávaný v cm.
 
 $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 
+
 ---
-{% assign logs = site.data.tazba %}
 {% comment %} Inicializácia s 0.0 zabezpečí, že Liquid bude počítať s desatinnými miestami {% endcomment %}
 {% assign e_sum = 0.0 %}{% assign e_count = 0 %}
 {% assign s_sum = 0.0 %}{% assign s_count = 0 %}
@@ -102,30 +129,6 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 | **Stredná guľatina** | 30 - 59 cm | {{ s_count }} ks | {{ s_sum | round: 2 }} m³ |
 | **Tenká guľatina** | pod 30 cm | {{ t_count }} ks | {{ t_sum | round: 2 }} m³ |
 | **CELKOM** | | **{{ logs.size }} ks** | **{{ total_sum | round: 2 }} m³** |
-
----
-<div class="stats-card">
-  <div class="main-total">
-    <b>Celkový objem</b>
-    <strong style="font-size: 2em;">{{ total_sum | round: 2 }} m³</strong>
-  </div>
-
-  <div>
-    <b>Drevina</b>
-    <strong>Dub</strong>
-  </div>
-
-  <div>
-    <b>Počet</b>
-    <strong>{{ logs.size }} ks</strong>
-  </div>
-
-  <div style="grid-column: span 2;">
-    <b>Max. výťažnosť / 1 kmeň</b>
-    <strong>4.72 m³</strong> 
-    <small style="color: #666;">(kmeň č.59, Sklad 1, Hárok 2)</small>
-  </div>
-</div>
 
 ---
 <script src="/assets/js/tazbaSearch.js"></script>
