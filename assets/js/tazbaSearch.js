@@ -80,6 +80,16 @@ function search() {
         // LOGIKA FILTROVANIA:
         
         // Sklad a Číslo kmeňa (klasické ALEBO)
+        let matchKmen = false;
+        if( s !== "" && cKmena !== ""){
+           matchKmen = (rowHarokSklad.includes(s) && rowCislo.includes(cKmena));
+        }
+         } else if (s !== null) {
+            matchKmen = rowHarokSklad.includes(s);
+        } else if (cKmena !== null) {
+            matchKmen = rowCislo.includes(cKmena);
+        }
+      
         const matchSklad = (s !== "" && rowHarokSklad.includes(s));
         const matchCislo = (cKmena !== "" && rowCislo.includes(cKmena));
 
@@ -107,7 +117,7 @@ function search() {
         const noFilter = (s === "" && cKmena === "" && pOd === null && pDo === null && dOd === null && dDo === null);
 
         // Zobrazenie riadku (Logika ALEBO medzi kategóriami)
-        if (noFilter || matchSklad || matchCislo || matchPriemer || matchDlzka) {
+        if (noFilter || matchKmen || matchPriemer || matchDlzka) {
             rows[i].style.display = '';
             pocet++;
             celkovyObjem += rowObjem;
