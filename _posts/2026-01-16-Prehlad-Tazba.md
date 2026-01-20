@@ -59,9 +59,9 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     <label for="priemer">Priemer od:</label>
      <input type="text" size="10" maxlength="10"   value=""   id="priemer" onkeyup="delayedSearch();" />
      <label for="dlzka">Dĺžka od:</label> 
-     <input type="text"   size="10" maxlength="10"   value=""   id="dlzka"   onkeyup="delayedSearch();" /><br/>
-    <input type="button" value="Vyhľadať" onclick="search();"/><br/>
+     <input type="text"   size="10" maxlength="10"   value=""   id="dlzka"   onkeyup="delayedSearch();" />
   </fieldset>
+  <input type="button" value="Vyhľadať" onclick="search();"/><br/>
 </div>
 
 {% assign celkovy_objem = 0 %}
