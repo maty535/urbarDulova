@@ -131,8 +131,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     border-radius: 8px; 
     font-family: sans-serif; 
     text-align: center; 
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-">
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
   <div style="color: #856404; font-size: 0.85em; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; font-weight: bold;">
     Sumárna štatistika
   </div>
@@ -144,8 +143,10 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 
    <div style="display: flex; justify-content: center; gap: 20px; color: #666; font-size: 1.1em; border-top: 1px solid rgba(133, 100, 4, 0.1); padding-top: 10px;">
     <span>Drevina: <strong style="color: #333;">Dub</strong></span>
-    <span>| Počet výrezov: <strong style="color: #333;">{{ id }} ks</strong></span>
+    <span>|</span>
+    <span>Počet výrezov: <strong style="color: #333;">{{ id }} ks</strong></span>
   </div>
+  
 </div>
 
 
