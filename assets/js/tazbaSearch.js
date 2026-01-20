@@ -35,6 +35,7 @@ function search(){
 		}
 		else{
 			rows[i].style.display ='none';
+			continue;
 		}
 	}
 	if( dlzka > 0 ){
@@ -48,6 +49,7 @@ function search(){
 		}
 		else{
 			rows[i].style.display ='none';
+			continue;
 		}
 	}
 	  
