@@ -52,10 +52,16 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 ---
 <script src="/assets/js/tazbaSearch.js"></script>
 <div>
-  Hárok/Sklad: <input type="text" size="30" maxlength="1000" value="" id="search"   onkeyup="delayedSearch();" />
-  Priemer od: <input type="text" size="10" maxlength="10"   value=""   id="priemer" onkeyup="delayedSearch();" />
-  Dĺžka od: <input type="text"   size="10" maxlength="10"   value=""   id="dlzka"   onkeyup="delayedSearch();" />
-  <input type="button" value="Vyhľadať" onclick="search();"/><br/>
+  <fieldset>
+    <legend>Filter:</legend>
+    <label for="search">Hárok/Sklad:</label><br> 
+    <input type="text" size="30" maxlength="1000" value=""  id="search"   onkeyup="delayedSearch();" /><br/>
+    <label for="priemer">Priemer od:</label><br> 
+     <input type="text" size="10" maxlength="10"   value=""   id="priemer" onkeyup="delayedSearch();" /><br/>
+     <label for="dlzka">Dĺžka od:</label><br> 
+     <input type="text"   size="10" maxlength="10"   value=""   id="dlzka"   onkeyup="delayedSearch();" />
+    <input type="button" value="Vyhľadať" onclick="search();"/><br/>
+  </fieldset>fieldset>
 </div>
 
 {% assign celkovy_objem = 0 %}
