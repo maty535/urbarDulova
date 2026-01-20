@@ -17,35 +17,48 @@ published: true
   
 .stats-card {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 15px;
-    background: #fff;
-    border: 1px solid #ffeeba;
-    border-left: 8px solid #ffc107;
+    /* Žlté pozadie a štýl, ktorý si mal predtým */
+    background-color: #fff9e6; 
+    border: 1px solid #ffeeba; 
+    border-left: 8px solid #ffc107; 
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
     font-family: sans-serif;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-/* Hlavný objem natiahne cez všetky stĺpce */
+/* Hlavný súčet - cez celú šírku */
 .stats-card .main-total {
     grid-column: 1 / -1;
     text-align: center;
-    border-bottom: 1px solid #fff1c1;
+    border-bottom: 1px solid rgba(133, 100, 4, 0.1);
     padding-bottom: 15px;
     margin-bottom: 5px;
 }
 
+/* Štítky (Drevina, Počet...) */
 .stats-card div b {
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     color: #856404;
     text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
+/* Hodnoty (Dub, ks...) */
 .stats-card strong {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     color: #333;
+}
+
+/* Špeciálny štýl pre detail kmeňa */
+.stats-card small {
+    display: block;
+    color: #666;
+    font-size: 0.85rem;
+    margin-top: 2px;
 }
 </style>
 
