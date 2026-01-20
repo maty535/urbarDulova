@@ -18,13 +18,15 @@ Pre výpočet kubikáže jednotlivého stromu sa priemer kmeňa znižuje o hrúb
 $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
 
 ---
-{% assign celkovy_objem = 0 %}
+{% assign celkovy_objem = 0 %
+{% assign id = 1 %}
 
 ### Tabuľka: prehľad jednotlivýh kmeňov
 
   <table>
     <thead>
       <tr>
+        <th>ID</th>
         <th>Hárok</th>
         <th>Sklad</th>
         <th>Číslo kmeňa</th>
@@ -36,6 +38,7 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
     <tbody>
       {% for kmen in site.data.tazba %}
           <tr>
+            <td>{{ id }}</td>
             <td>{{ kmen.harok }}</td>
             <td>{{ kmen.sklad }}</td>
             <td>{{ kmen.cislo }}</td>
@@ -43,13 +46,14 @@ $ V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l $
             <td>{{ kmen.d }}</td>
             <td>{{ kmen.v | printf: "%.2f" }}</td>
           </tr>
+        {% assign id = id | plus: 1 %}  
         {% assign celkovy_objem = celkovy_objem | plus: kmen.v %}
       {% endfor %}
     </tbody>
     <tfoot>
       <tr style="font-weight: bold; background-color: #f2f2f2;">
         <td colspan="5">SÚČET </td>
-        <td>{{ celkovy_objem | round: 2 }} m³</td>
+        <td>{{ celkovy_objem | round: 2 }} m³ / ({{ id kusov}})</td>
       </tr>
     </tfoot>
   </table>
