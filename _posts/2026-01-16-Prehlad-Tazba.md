@@ -103,7 +103,7 @@ published: true
 <div class="wood-card">
   <div class="card-hero">
     <label>Celkový objem ťažby</label>
-    <h2>{{ celkovy_objem | round: 2 }} m³</h2>
+    <h2>{{ t_volume | round: 2 }} m³</h2>
   </div>
 
   <div class="card-stats">
@@ -113,7 +113,7 @@ published: true
     </div>
     <div class="stat-box">
       <label>Počet kusov</label>
-      <span>{{ id }} ks</span>
+      <span>{{ t_count }} ks</span>
     </div>
     <div class="stat-box full-width">
       <label>Maximálna výťažnosť / 1 kmeň</label>
@@ -126,7 +126,7 @@ published: true
 
   <div class="card-formula">
     <div class="formula-wrap">
-       $$\Large V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l$$
+       $\Large V = \frac{\pi}{4} \cdot \left( \frac{d - 4}{100} \right)^2 \cdot l$
     </div>
     
     <div class="formula-info">
