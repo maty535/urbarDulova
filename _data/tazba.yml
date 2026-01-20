@@ -95,7 +95,7 @@
 - { sklad: S1, harok: h2, cislo: 68, l: 8.5, d: 52, v: 1.53 }
 - { sklad: S1, harok: h2, cislo: 69, l: 14, d: 50, v: 2.34 }
 - { sklad: S1, harok: h2, cislo: 70, l: 10, d: 59, v: 2.33 }
-- { sklad: S1, harok: h2, cislo: 4, l: 40, d: 0.92, v: null }
+- { sklad: S1, harok: h2, cislo: 70, l: 4, d: 40, v: 0.92 }
 - { sklad: S2, harok: h3, cislo: 1, l: 17, d: 42, v: 1.98 }
 - { sklad: S2, harok: h3, cislo: 2, l: 21.5, d: 36, v: 1.82 }
 - { sklad: S2, harok: h3, cislo: 3, l: 18, d: 41, v: 1.99 }
