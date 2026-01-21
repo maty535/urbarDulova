@@ -46,8 +46,8 @@ function resetFilter() {
 
 function search() {
     // 1. Získanie hodnôt z filtrov
-    const s = document.getElementById('search')?.value.toLowerCase() || "";
-    const cKmena = document.getElementById('cislo_kmena')?.value.toLowerCase().trim() || "";
+    const s = document.getElementById('search')?.value.toLowerCase() || null;
+    const cKmena = document.getElementById('cislo_kmena')?.value.toLowerCase().trim() || null;
     
     const getNum = (id) => {
         const el = document.getElementById(id);
