@@ -117,6 +117,8 @@ fieldset input[type="button"]:hover {
 
 </style>
 
+* V období od 6.1.2026 do 16.1.2026 bola realizovaná ťažba dubovej guľatiny v objeme 202.15 m³ v lokalite Chrasť. Ťažbu realizoval Rudolf Švec z Červenice,IČO: 45 719 713,  mobil: 0908 821 804.
+
 ## Sumárna evidencia ťažby dreva: Urbár - Guľvas 2026/01
 
 {% assign logs = site.data.tazba %}
@@ -143,12 +145,20 @@ fieldset input[type="button"]:hover {
       <label>Počet kusov</label>
       <span>{{ t_count }} ks</span>
     </div>
-    <div class="stat-box full-width">
+    <div class="stat-box">
+      <label>Počet kmeňov</label>
+      <span>98 ks</span>
+    </div>
+    <div class="stat-box">
       <label>Maximálna výťažnosť / 1 kmeň</label>
       <span>4.72 m³</span>
       <p style="font-size: 0.75rem; color: #856404; margin-top: 4px;">
         kmeň č.59, Sklad 1, Hárok 2
       </p>
+    </div>
+    <div class="stat-box">
+      <label>Priemerná výťažnosť / 1 kmeň</label>
+      <span>2.06 m³</span>
     </div>
   </div>
 
@@ -232,7 +242,7 @@ fieldset input[type="button"]:hover {
 {% assign celkovy_objem = 0 %}
 {% assign id = 0 %}
 
-### Tabuľka: prehľad jednotlivýh kmeňov / výrezov
+### Tabuľka: prehľad jednotlivých kmeňov / výrezov
 
   <table>
     <thead>
