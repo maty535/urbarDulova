@@ -81,7 +81,7 @@ function search() {
         
         // Sklad a Číslo kmeňa (klasické ALEBO)
         let matchKmen = false;
-        if( s !== "" && cKmena !== ""){
+        if( s !== null && cKmena !== null){
            matchKmen = (rowHarokSklad.includes(s) && rowCislo.includes(cKmena));
         } else if (s !== null) {
             matchKmen = rowHarokSklad.includes(s);
