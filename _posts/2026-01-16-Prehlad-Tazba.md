@@ -142,7 +142,7 @@ fieldset input[type="button"]:hover {
       <span>Dub</span>
     </div>
     <div class="stat-box">
-      <label>Počet výrezov / kemňov</label>
+      <label>Počet výrezov / kmeňov</label>
       <span>{{ t_count }} ks / 98 ks</span>
     </div>
     <div class="stat-box">
