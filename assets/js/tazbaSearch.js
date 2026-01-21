@@ -113,7 +113,7 @@ function search() {
         }
 
         // Kontrola prázdneho filtra
-        const noFilter = (s === "" && cKmena === "" && pOd === null && pDo === null && dOd === null && dDo === null);
+        const noFilter = (s === null && cKmena === null && pOd === null && pDo === null && dOd === null && dDo === null);
 
         // Zobrazenie riadku (Logika ALEBO medzi kategóriami)
         if (noFilter || matchKmen || matchPriemer || matchDlzka) {
