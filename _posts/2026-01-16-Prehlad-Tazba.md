@@ -142,12 +142,8 @@ fieldset input[type="button"]:hover {
       <span>Dub</span>
     </div>
     <div class="stat-box">
-      <label>Počet kusov</label>
-      <span>{{ t_count }} ks</span>
-    </div>
-    <div class="stat-box">
-      <label>Počet kmeňov</label>
-      <span>98 ks</span>
+      <label>Počet výrezov / kemňov</label>
+      <span>{{ t_count }} ks / 98 ks</span>
     </div>
     <div class="stat-box">
       <label>Maximálna výťažnosť / 1 kmeň</label>
@@ -169,7 +165,7 @@ fieldset input[type="button"]:hover {
     
     <div class="formula-info">
       <strong>Poznámka k výpočtu:</strong> Pre dub sa priemer kmeňa <strong>(d)</strong> znižuje o 
-      <strong>4 cm</strong> (hrúbka kôry na výrez). Priemer sa udáva v cm, dĺžka <strong>(l)</strong> v metroch.
+      <strong>4 cm</strong> (hrúbka kôry). Priemer sa udáva v cm, dĺžka <strong>(l)</strong> v metroch.
     </div>
   </div>
 </div>
