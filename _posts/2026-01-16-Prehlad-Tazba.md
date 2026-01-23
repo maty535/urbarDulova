@@ -208,7 +208,7 @@ fieldset input[type="button"]:hover {
 
 ### Rekapitulácia podľa hrúbkových tried
 
-| Trieda | Rozsah | Počet | Objem celkom |
+| Trieda | Počet | Objem celkom    |
 | :--- | :--- | :---: | :--- |
 | **60+ cm**   |   {{ e_count }} ks   | {{ e_sum | round: 2 }} m³   |
 | **50-59 cm** |   {{ e1_count }} ks  | {{ e1_sum | round: 2 }} m³  |
