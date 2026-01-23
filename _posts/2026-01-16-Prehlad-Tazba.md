@@ -180,24 +180,44 @@ fieldset input[type="button"]:hover {
   {% if item.d >= 60 %}
     {% assign e_sum = e_sum | plus: item.v %}
     {% assign e_count = e_count | plus: 1 %}
-  {% elsif item.d >= 30 %}
+  {% elsif item.d >= 50 %}
+    {% assign e1_sum = e1_sum | plus: item.v %}
+    {% assign e1_count = e1_count | plus: 1 %}
+  {% elsif item.d >= 40 %}
     {% assign s_sum = s_sum | plus: item.v %}
     {% assign s_count = s_count | plus: 1 %}
+  {% elsif item.d >= 35 %}
+    {% assign s1_sum   = s1_sum | plus: item.v %}
+    {% assign s1_count = s1_count | plus: 1 %}
+  {% elsif item.d >= 30 %}
+    {% assign s2_sum   = s2_sum | plus: item.v %}
+    {% assign s2_count = s2_count | plus: 1 %}
+  {% elsif item.d >= 25 %}
+    {% assign t1_sum   = t1_sum | plus: item.v %}
+    {% assign t1_count = t1_count | plus: 1 %}
+  {% elsif item.d >= 20 %}
+    {% assign t2_sum   = t2_sum | plus: item.v %}
+    {% assign t2_count = t2_count | plus: 1 %}
   {% else %}
     {% assign t_sum = t_sum | plus: item.v %}
     {% assign t_count = t_count | plus: 1 %}
   {% endif %}
 {% endfor %}
 
-{% assign total_sum = e_sum | plus: s_sum | plus: t_sum %}
+{% assign total_sum = e_sum | plus: e1_sum | plus: s_sum| plus: s1_sum | plus: s2_sum | plus: t1_sum | plus: t2_sum | plus: t_sum %}
 
 ### Rekapitulácia podľa hrúbkových tried
 
 | Trieda | Rozsah | Počet | Objem celkom |
 | :--- | :--- | :---: | :--- |
-| **Extra silné** | nad 60 cm | {{ e_count }} ks | {{ e_sum | round: 2 }} m³ |
-| **Stredná guľatina** | 30 - 59 cm | {{ s_count }} ks | {{ s_sum | round: 2 }} m³ |
-| **Tenká guľatina** | pod 30 cm | {{ t_count }} ks | {{ t_sum | round: 2 }} m³ |
+| **60+ cm** |   {{ e_count }} ks | {{ e_sum | round: 2 }} m³ |
+| **50-59 cm** | {{ e1_count }} ks | {{ e1_sum | round: 2 }} m³ |
+| **40-49 cm** | {{ s_count }} ks | {{ s_sum | round: 2 }} m³ |
+| **35-39 cm** | {{ s1_count }} ks | {{ s1_sum | round: 2 }} m³ |
+| **30-34 cm** | {{ s2_count }} ks | {{ s2_sum | round: 2 }} m³ |
+| **25-29 cm** | {{ t1_count }} ks | {{ t1_sum | round: 2 }} m³ |
+| **20-24 cm** | {{ t2_count }} ks | {{ t2_sum | round: 2 }} m³ |
+| **0-19 cm** | {{ t_count }} ks | {{ t_sum | round: 2 }} m³ |
 | **CELKOM** | | **{{ logs.size }} ks** | **{{ total_sum | round: 2 }} m³** |
 
 ---
