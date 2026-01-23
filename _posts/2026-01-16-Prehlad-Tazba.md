@@ -210,15 +210,15 @@ fieldset input[type="button"]:hover {
 
 | Trieda | Rozsah | Počet | Objem celkom |
 | :--- | :--- | :---: | :--- |
-| **60+ cm** |   {{ e_count }} ks | {{ e_sum | round: 2 }} m³ |
-| **50-59 cm** | {{ e1_count }} ks | {{ e1_sum | round: 2 }} m³ |
-| **40-49 cm** | {{ s_count }} ks | {{ s_sum | round: 2 }} m³ |
-| **35-39 cm** | {{ s1_count }} ks | {{ s1_sum | round: 2 }} m³ |
-| **30-34 cm** | {{ s2_count }} ks | {{ s2_sum | round: 2 }} m³ |
-| **25-29 cm** | {{ t1_count }} ks | {{ t1_sum | round: 2 }} m³ |
-| **20-24 cm** | {{ t2_count }} ks | {{ t2_sum | round: 2 }} m³ |
-| **0-19 cm** | {{ t_count }} ks | {{ t_sum | round: 2 }} m³ |
-| **CELKOM** | | **{{ logs.size }} ks** | **{{ total_sum | round: 2 }} m³** |
+| **60+ cm**   |   {{ e_count }} ks   | {{ e_sum | round: 2 }} m³   |
+| **50-59 cm** |   {{ e1_count }} ks  | {{ e1_sum | round: 2 }} m³  |
+| **40-49 cm** |   {{ s_count }} ks   | {{ s_sum | round: 2 }} m³   |
+| **35-39 cm** |   {{ s1_count }} ks  | {{ s1_sum | round: 2 }} m³  |
+| **30-34 cm** |   {{ s2_count }} ks  | {{ s2_sum | round: 2 }} m³  |
+| **25-29 cm** |   {{ t1_count }} ks  | {{ t1_sum | round: 2 }} m³  |
+| **20-24 cm** |   {{ t2_count }} ks  | {{ t2_sum | round: 2 }} m³  |
+| **0-19 cm** |    {{ t_count }} ks   | {{ t_sum | round: 2 }} m³   |
+| **CELKOM** | **{{ logs.size }} ks** | **{{ total_sum | round: 2 }} m³** |
 
 ---
 <script src="/assets/js/tazbaSearch.js"></script>
