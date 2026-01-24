@@ -12,7 +12,7 @@ permalink: /organization/
 
 |Meno|Funkcia|Od|Kontakt|
 |:-------------|:------------------|:------|:------|
-| Ing. Peter Semeš ml.   | člen - predseda            | 26.05.2024 | 0905 384 750 | 
+| Ing. Peter Semeš ml.   | člen - predseda            | 26.05.2024 | **0905 384 750** | 
 | Marta Giňovská         | člen                       | 26.05.2024 | 0908 591 984 | 
 | Matúš Bidovský         | člen - zastupuje predsedu	 | 26.05.2024 | 0907 394 830 |
 | Vladimír Koropšák ml.  | člen                       | 26.05.2024 | 0907 606 664 | 
@@ -30,7 +30,7 @@ ako náhradníci do výboru boli zvolení títo členovia, ktorí sa nezúčastn
 
 |Meno|Funkcia|Od|Kontakt|
 |:------------- |:------------------|:------|:------|
-| Ing. Ján Giňovský  | Predseda     | 27.10.2025  | 0917 459 864  |
+| Ing. Ján Giňovský  | Predseda     | 27.10.2025  | **0917 718 866**  |
 | Marta Uhrinová     | Člen         | 26.05.2024  | 0904 604 905  |
 | Janka Repková      | Člen         | 26.05.2024  |		             |
 
