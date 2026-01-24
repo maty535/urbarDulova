@@ -7,6 +7,8 @@ categories: drevo tazba
 tags: drevo les hospodarenie podielnici tazba
 published: true
 ---
+- V období od 6.1.2026 do 16.1.2026 bola realizovaná ťažba dubovej guľatiny v objeme 202.15 m³ v lokalite Chrasť. Ťažbu realizoval **Rudolf Švec** z Červenice, IČO: 45 719 713,  mobil: **0908 821 804** s ktorého prácou  a prístupom sme na základe vyjadrení OLH nad mieru spokojní a ďakujeme mu za úspešnú realizáciu ťažny aj v kritických častiac v blízkosti oplotenia vrátnice mun. skladu, ktorú vykonal bez akýchkoľvek problémov a tým de-finitívne odstránil riziko vzniku škody na okolitých nehnuteľnostiach a majetku vlastníkov susedných pozemkov v lokalite mun. skladu.
+- výbor urbáru úspešne realizoval aj aukciu drevnej hmoty, ktorej výsledok Vám budeme komunikovať po dokončení celého procesu predaja dreva.
 
 <style>
   
@@ -116,9 +118,6 @@ fieldset input[type="button"]:hover {
 }
 
 </style>
-
-- V období od 6.1.2026 do 16.1.2026 bola realizovaná ťažba dubovej guľatiny v objeme 202.15 m³ v lokalite Chrasť. Ťažbu realizoval **Rudolf Švec** z Červenice, IČO: 45 719 713,  mobil: **0908 821 804** s ktorého prácou  a prístupom sme na základe vyjadrení OLH nad mieru spokojní a ďakujeme mu za úspešnú realizáciu ťažny aj v kritických častiac v blízkosti oplotenia vrátnice mun. skladu, ktorú vykonal bez akýchkoľvek problémov a tým de-finitívne odstránil riziko vzniku škody na okolitých nehnuteľnostiach a majetku vlastníkov susedných pozemkov v lokalite mun. skladu.
-- výbor urbáru úspešne realizoval aj aukciu drevnej hmoty, ktorej výsledok Vám budeme komunikovať po dokončení celého procesu predaja dreva.
 
 ## Sumárna evidencia ťažby dreva: Urbár - Guľvas 2026/01
 
