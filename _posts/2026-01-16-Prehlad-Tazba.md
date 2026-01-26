@@ -10,10 +10,7 @@ published: true
 - V období od 6.1.2026 do 16.1.2026 bola realizovaná ťažba dubovej guľatiny v objeme 202.15 m³ v lokalite Chrasť. Ťažbu realizoval **Rudolf Švec** z Červenice, IČO: 45 719 713,  mobil: **0908 821 804**, s ktorého prácou  a prístupom sme na základe vyjadrení OLH nad mieru spokojní a ďakujeme mu za úspešnú realizáciu ťažby aj v kritických častiach v blízkosti oplotenia vrátnice mun. skladu, ktorú vykonal bez akýchkoľvek problémov a tým de-finitívne odstránil riziko vzniku škody na okolitých nehnuteľnostiach a majetku vlastníkov susedných pozemkov v lokalite mun. skladu.
 - výbor urbáru úspešne realizoval aj aukciu drevnej hmoty, ktorej výsledok Vám budeme komunikovať až po ukončení celého procesu predaja dreva.
 
-
 <img width="768" height="341" alt="image" src="https://github.com/user-attachments/assets/0c59f1e3-280d-4555-b847-7b3ce8e72490" />
-<img width="530" height="565" alt="image" src="https://github.com/user-attachments/assets/9660c54b-367e-4f92-8fdd-5764b931f90b" />
-
 
 <style>
   
