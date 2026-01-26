@@ -11,10 +11,8 @@ published: true
 - výbor urbáru úspešne realizoval aj aukciu drevnej hmoty, ktorej výsledok Vám budeme komunikovať až po ukončení celého procesu predaja dreva.
 
 
-<img width="2560" height="1138" alt="image" src="https://github.com/user-attachments/assets/76a7beb8-876f-44d0-8910-469bdaf556d7" />
-
-
-<img width="965" height="1288" alt="image" src="https://github.com/user-attachments/assets/ad6d50e4-ce4a-4dc1-a7e6-b3d6fda24b5a" />
+<img width="768" height="341" alt="image" src="https://github.com/user-attachments/assets/0c59f1e3-280d-4555-b847-7b3ce8e72490" />
+<img width="530" height="565" alt="image" src="https://github.com/user-attachments/assets/9660c54b-367e-4f92-8fdd-5764b931f90b" />
 
 
 <style>
