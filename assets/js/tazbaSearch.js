@@ -77,7 +77,7 @@ function search() {
         const rowDlzka = parseFloat(cells[4].textContent.replace(',', '.')) || 0;
         const rowPriemer = parseFloat(cells[5].textContent.replace(',', '.')) || 0;
         const rowObjem = parseFloat(cells[6].textContent.replace(',', '.')) || 0;
-        const rowSkladKmen = cells[2].textContent).toLowerCase() + "-" + rowCislo;
+        const rowSkladKmen = cells[2].textContent.toLowerCase() + "-" + rowCislo;
 
         // LOGIKA FILTROVANIA:
         
