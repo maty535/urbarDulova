@@ -1,131 +1,131 @@
-- { sklad: S1, harok: h1, cislo: 1, l: 5.5, d: 58, v: 1.24 }
-- { sklad: S1, harok: h1, cislo: 1, l: 6.5, d: 44, v: 0.83 }
-- { sklad: S1, harok: h1, cislo: 2, l: 3, d: 46, v: 0.42 }
-- { sklad: S1, harok: h1, cislo: 2, l: 12, d: 65, v: 3.42 }
-- { sklad: S1, harok: h1, cislo: 3, l: 20, d: 52, v: 3.6 }
-- { sklad: S1, harok: h1, cislo: 4, l: 19, d: 27, v: 0.87 }
-- { sklad: S1, harok: h1, cislo: 5, l: 11, d: 53, v: 2.07 }
-- { sklad: S1, harok: h1, cislo: 6, l: 9, d: 30, v: 0.52 }
-- { sklad: S1, harok: h1, cislo: 7, l: 8, d: 43, v: 0.98 }
-- { sklad: S1, harok: h1, cislo: 8, l: 15, d: 39, v: 1.49 }
-- { sklad: S1, harok: h1, cislo: 9, l: 11, d: 35, v: 0.88 }
-- { sklad: S1, harok: h1, cislo: 10, l: 15, d: 26, v: 0.64 }
-- { sklad: S1, harok: h1, cislo: 11, l: 18, d: 27, v: 0.83 }
-- { sklad: S1, harok: h1, cislo: 12, l: 15, d: 29, v: 0.81 }
-- { sklad: S1, harok: h1, cislo: 13, l: 23, d: 40, v: 2.42 }
-- { sklad: S1, harok: h1, cislo: 14, l: 15, d: 50, v: 2.5 }
-- { sklad: S1, harok: h1, cislo: 15, l: 5, d: 70, v: 1.65 }
-- { sklad: S1, harok: h1, cislo: 15, l: 12, d: 48, v: 1.84 }
-- { sklad: S1, harok: h1, cislo: 16, l: 12, d: 46, v: 1.69 }
-- { sklad: S1, harok: h1, cislo: 17, l: 16, d: 30, v: 0.92 }
-- { sklad: S1, harok: h1, cislo: 18, l: 18, d: 33, v: 1.27 }
-- { sklad: S1, harok: h1, cislo: 19, l: 20, d: 37, v: 1.78 }
-- { sklad: S1, harok: h1, cislo: 20, l: 18, d: 28, v: 0.9 }
-- { sklad: S1, harok: h1, cislo: 21, l: 11, d: 27, v: 0.51 }
-- { sklad: S1, harok: h1, cislo: 22, l: 20, d: 44, v: 2.56 }
-- { sklad: S1, harok: h1, cislo: 23, l: 18, d: 34, v: 1.35 }
-- { sklad: S1, harok: h1, cislo: 24, l: 19, d: 39, v: 1.89 }
-- { sklad: S1, harok: h1, cislo: 25, l: 13, d: 30, v: 0.75 }
-- { sklad: S1, harok: h1, cislo: 26, l: 19, d: 37, v: 1.7 }
-- { sklad: S1, harok: h1, cislo: 27, l: 14, d: 41, v: 1.56 }
-- { sklad: S1, harok: h1, cislo: 27, l: 6, d: 26, v: 0.26 }
-- { sklad: S1, harok: h1, cislo: 28, l: 10, d: 49, v: 1.61 }
-- { sklad: S1, harok: h1, cislo: 28, l: 7, d: 35, v: 0.56 }
-- { sklad: S1, harok: h1, cislo: 28, l: 7, d: 32, v: 0.46 }
-- { sklad: S1, harok: h1, cislo: 29, l: 16, d: 30, v: 0.92 }
-- { sklad: S1, harok: h1, cislo: 30, l: 20, d: 42, v: 2.33 }
-- { sklad: S1, harok: h1, cislo: 31, l: 16, d: 26, v: 0.68 }
-- { sklad: S1, harok: h1, cislo: 32, l: 18, d: 32, v: 1.19 }
-- { sklad: S1, harok: h1, cislo: 33, l: 25, d: 50, v: 2.09 }
-- { sklad: S1, harok: h1, cislo: 33, l: 4, d: 37, v: 0.36 }
-- { sklad: S1, harok: h1, cislo: 34, l: 18, d: 28, v: 0.9 }
-- { sklad: S1, harok: h1, cislo: 35, l: 19, d: 33, v: 1.34 }
-- { sklad: S1, harok: h1, cislo: 36, l: 14, d: 45, v: 1.89 }
-- { sklad: S1, harok: h1, cislo: 37, l: 16, d: 39, v: 1.59 }
-- { sklad: S1, harok: h1, cislo: 38, l: 15, d: 43, v: 1.83 }
-- { sklad: S1, harok: h1, cislo: 39, l: 21, d: 45, v: 2.83 }
-- { sklad: S1, harok: h1, cislo: 40, l: 17, d: 42, v: 1.98 }
-- { sklad: S1, harok: h1, cislo: 41, l: 13, d: 50, v: 2.17 }
-- { sklad: S1, harok: h1, cislo: 41, l: 8, d: 31, v: 0.49 }
-- { sklad: S1, harok: h1, cislo: 41, l: 7, d: 32, v: 0.46 }
-- { sklad: S1, harok: h1, cislo: 42, l: 17, d: 33, v: 1.2 }
-- { sklad: S1, harok: h1, cislo: 43, l: 16, d: 44, v: 2.05 }
-- { sklad: S1, harok: h1, cislo: 44, l: 9, d: 63, v: 2.4 }
-- { sklad: S1, harok: h1, cislo: 44, l: 4, d: 42, v: 0.47 }
-- { sklad: S1, harok: h1, cislo: 44, l: 6, d: 39, v: 0.6 }
-- { sklad: S1, harok: h1, cislo: 45, l: 15, d: 49, v: 2.41 }
-- { sklad: S1, harok: h1, cislo: 46, l: 10.5, d: 68, v: 3.27 }
-- { sklad: S1, harok: h1, cislo: 47, l: 3, d: 35, v: 0.24 }
-- { sklad: S1, harok: h1, cislo: 47, l: 14, d: 59, v: 3.27 }
-- { sklad: S1, harok: h2, cislo: 48, l: 5.5, d: 50, v: 0.84 }
-- { sklad: S1, harok: h2, cislo: 48, l: 5.5, d: 35, v: 0.4 }
-- { sklad: S1, harok: h2, cislo: 48, l: 9, d: 29, v: 0.49 }
-- { sklad: S1, harok: h2, cislo: 49, l: 19, d: 40, v: 2 }
-- { sklad: S1, harok: h2, cislo: 50, l: 18.5, d: 52, v: 3.33 }
-- { sklad: S1, harok: h2, cislo: 51, l: 6, d: 49, v: 0.96 }
-- { sklad: S1, harok: h2, cislo: 51, l: 9, d: 68, v: 2.81 }
-- { sklad: S1, harok: h2, cislo: 52, l: 17, d: 55, v: 3.43 }
-- { sklad: S1, harok: h2, cislo: 53, l: 13, d: 31, v: 0.8 }
-- { sklad: S1, harok: h2, cislo: 53, l: 6, d: 33, v: 0.42 }
-- { sklad: S1, harok: h2, cislo: 54, l: 5, d: 34, v: 0.38 }
-- { sklad: S1, harok: h2, cislo: 54, l: 13, d: 57, v: 2.83 }
-- { sklad: S1, harok: h2, cislo: 55, l: 19, d: 40, v: 2 }
-- { sklad: S1, harok: h2, cislo: 56, l: 19, d: 46, v: 2.68 }
-- { sklad: S1, harok: h2, cislo: 57, l: 14, d: 39, v: 1.39 }
-- { sklad: S1, harok: h2, cislo: 58, l: 12, d: 49, v: 1.93 }
-- { sklad: S1, harok: h2, cislo: 58, l: 4, d: 36, v: 0.34 }
-- { sklad: S1, harok: h2, cislo: 59, l: 14.5, d: 67, v: 4.38 }
-- { sklad: S1, harok: h2, cislo: 59, l: 4, d: 36, v: 0.34 }
-- { sklad: S1, harok: h2, cislo: 60, l: 6, d: 61, v: 1.5 }
-- { sklad: S1, harok: h2, cislo: 60, l: 7, d: 78, v: 2.88 }
-- { sklad: S1, harok: h2, cislo: 61, l: 7.5, d: 63, v: 2 }
-- { sklad: S1, harok: h2, cislo: 61, l: 6, d: 40, v: 0.63 }
-- { sklad: S1, harok: h2, cislo: 61, l: 6, d: 36, v: 0.51 }
-- { sklad: S1, harok: h2, cislo: 62, l: 12, d: 46, v: 1.69 }
-- { sklad: S1, harok: h2, cislo: 63, l: 5.5, d: 69, v: 1.76 }
-- { sklad: S1, harok: h2, cislo: 63, l: 9, d: 45, v: 1.21 }
-- { sklad: S1, harok: h2, cislo: 63, l: 10, d: 42, v: 1.16 }
-- { sklad: S1, harok: h2, cislo: 64, l: 4, d: 83, v: 1.87 }
-- { sklad: S1, harok: h2, cislo: 64, l: 7, d: 72, v: 2.45 }
-- { sklad: S1, harok: h2, cislo: 65, l: 16, d: 50, v: 2.67 }
-- { sklad: S1, harok: h2, cislo: 66, l: 18, d: 45, v: 2.42 }
-- { sklad: S1, harok: h2, cislo: 67, l: 16, d: 54, v: 3.12 }
-- { sklad: S1, harok: h2, cislo: 68, l: 9, d: 32, v: 0.59 }
-- { sklad: S1, harok: h2, cislo: 68, l: 9, d: 28, v: 0.45 }
-- { sklad: S1, harok: h2, cislo: 68, l: 8.5, d: 52, v: 1.53 }
-- { sklad: S1, harok: h2, cislo: 69, l: 14, d: 50, v: 2.34 }
-- { sklad: S1, harok: h2, cislo: 70, l: 10, d: 59, v: 2.33 }
-- { sklad: S1, harok: h2, cislo: 70, l: 4, d: 40, v: 0.92 }
-- { sklad: S2, harok: h3, cislo: 1, l: 17, d: 42, v: 1.98 }
-- { sklad: S2, harok: h3, cislo: 2, l: 21.5, d: 36, v: 1.82 }
-- { sklad: S2, harok: h3, cislo: 3, l: 18, d: 41, v: 1.99 }
-- { sklad: S2, harok: h3, cislo: 4, l: 18, d: 41, v: 1.99 }
-- { sklad: S2, harok: h3, cislo: 5, l: 15.5, d: 40, v: 1.63 }
-- { sklad: S2, harok: h3, cislo: 6, l: 13, d: 31, v: 1.11 }
-- { sklad: S2, harok: h3, cislo: 7, l: 16, d: 37, v: 1.43 }
-- { sklad: S2, harok: h3, cislo: 8, l: 19, d: 35, v: 1.52 }
-- { sklad: S2, harok: h3, cislo: 9, l: 9.5, d: 50, v: 1.59 }
-- { sklad: S2, harok: h3, cislo: 9, l: 7, d: 34, v: 0.53 }
-- { sklad: S2, harok: h3, cislo: 9, l: 5, d: 32, v: 0.33 }
-- { sklad: S2, harok: h3, cislo: 10, l: 6, d: 27, v: 0.28 }
-- { sklad: S2, harok: h3, cislo: 10, l: 10, d: 40, v: 1.05 }
-- { sklad: S2, harok: h3, cislo: 11, l: 13, d: 41, v: 1.44 }
-- { sklad: S2, harok: h3, cislo: 12, l: 17, d: 43, v: 2.07 }
-- { sklad: S2, harok: h3, cislo: 13, l: 21, d: 42, v: 2.45 }
-- { sklad: S2, harok: h3, cislo: 14, l: 16, d: 29, v: 0.86 }
-- { sklad: S2, harok: h3, cislo: 15, l: 6.5, d: 45, v: 0.88 }
-- { sklad: S2, harok: h3, cislo: 16, l: 11, d: 60, v: 2.66 }
-- { sklad: S2, harok: h3, cislo: 17, l: 15, d: 40, v: 1.58 }
-- { sklad: S2, harok: h3, cislo: 18, l: 18, d: 45, v: 2.42 }
-- { sklad: S2, harok: h3, cislo: 19, l: 19, d: 37, v: 1.7 }
-- { sklad: S2, harok: h3, cislo: 20, l: 19, d: 32, v: 1.26 }
-- { sklad: S2, harok: h3, cislo: 21, l: 10.5, d: 28, v: 0.52 }
-- { sklad: S2, harok: h3, cislo: 22, l: 4, d: 33, v: 0.28 }
-- { sklad: S2, harok: h3, cislo: 22, l: 10, d: 44, v: 1.28 }
-- { sklad: S2, harok: h3, cislo: 23, l: 17, d: 51, v: 2.95 }
-- { sklad: S2, harok: h3, cislo: 24, l: 4, d: 39, v: 0.4 }
-- { sklad: S2, harok: h3, cislo: 24, l: 14, d: 57, v: 3.04 }
-- { sklad: S2, harok: h3, cislo: 25, l: 20, d: 40, v: 2.1 }
-- { sklad: S2, harok: h3, cislo: 26, l: 20, d: 42, v: 2.33 }
-- { sklad: S2, harok: h3, cislo: 27, l: 16.5, d: 49, v: 2.57 }
-- { sklad: S2, harok: h3, cislo: 28, l: 16.5, d: 24, v: 0.59 }
+- { uid: "S1-1", sklad: S1, harok: h1, cislo: 1, l: 5.5, d: 58, v: 1.24 }
+- { uid: "S1-1", sklad: S1, harok: h1, cislo: 1, l: 6.5, d: 44, v: 0.83 }
+- { uid: "S1-2", sklad: S1, harok: h1, cislo: 2, l: 3, d: 46, v: 0.42 }
+- { uid: "S1-2", sklad: S1, harok: h1, cislo: 2, l: 12, d: 65, v: 3.42 }
+- { uid: "S1-3", sklad: S1, harok: h1, cislo: 3, l: 20, d: 52, v: 3.6 }
+- { uid: "S1-4", sklad: S1, harok: h1, cislo: 4, l: 19, d: 27, v: 0.87 }
+- { uid: "S1-5", sklad: S1, harok: h1, cislo: 5, l: 11, d: 53, v: 2.07 }
+- { uid: "S1-6", sklad: S1, harok: h1, cislo: 6, l: 9, d: 30, v: 0.52 }
+- { uid: "S1-7", sklad: S1, harok: h1, cislo: 7, l: 8, d: 43, v: 0.98 }
+- { uid: "S1-8", sklad: S1, harok: h1, cislo: 8, l: 15, d: 39, v: 1.49 }
+- { uid: "S1-9", sklad: S1, harok: h1, cislo: 9, l: 11, d: 35, v: 0.88 }
+- { uid: "S1-10", sklad: S1, harok: h1, cislo: 10, l: 15, d: 26, v: 0.64 }
+- { uid: "S1-11", sklad: S1, harok: h1, cislo: 11, l: 18, d: 27, v: 0.83 }
+- { uid: "S1-12", sklad: S1, harok: h1, cislo: 12, l: 15, d: 29, v: 0.81 }
+- { uid: "S1-13", sklad: S1, harok: h1, cislo: 13, l: 23, d: 40, v: 2.42 }
+- { uid: "S1-14", sklad: S1, harok: h1, cislo: 14, l: 15, d: 50, v: 2.5 }
+- { uid: "S1-15", sklad: S1, harok: h1, cislo: 15, l: 5, d: 70, v: 1.65 }
+- { uid: "S1-15", sklad: S1, harok: h1, cislo: 15, l: 12, d: 48, v: 1.84 }
+- { uid: "S1-16", sklad: S1, harok: h1, cislo: 16, l: 12, d: 46, v: 1.69 }
+- { uid: "S1-17", sklad: S1, harok: h1, cislo: 17, l: 16, d: 30, v: 0.92 }
+- { uid: "S1-18", sklad: S1, harok: h1, cislo: 18, l: 18, d: 33, v: 1.27 }
+- { uid: "S1-19", sklad: S1, harok: h1, cislo: 19, l: 20, d: 37, v: 1.78 }
+- { uid: "S1-20", sklad: S1, harok: h1, cislo: 20, l: 18, d: 28, v: 0.9 }
+- { uid: "S1-21", sklad: S1, harok: h1, cislo: 21, l: 11, d: 27, v: 0.51 }
+- { uid: "S1-22", sklad: S1, harok: h1, cislo: 22, l: 20, d: 44, v: 2.56 }
+- { uid: "S1-23", sklad: S1, harok: h1, cislo: 23, l: 18, d: 34, v: 1.35 }
+- { uid: "S1-24", sklad: S1, harok: h1, cislo: 24, l: 19, d: 39, v: 1.89 }
+- { uid: "S1-25", sklad: S1, harok: h1, cislo: 25, l: 13, d: 30, v: 0.75 }
+- { uid: "S1-26", sklad: S1, harok: h1, cislo: 26, l: 19, d: 37, v: 1.7 }
+- { uid: "S1-27", sklad: S1, harok: h1, cislo: 27, l: 14, d: 41, v: 1.56 }
+- { uid: "S1-27", sklad: S1, harok: h1, cislo: 27, l: 6, d: 26, v: 0.26 }
+- { uid: "S1-28", sklad: S1, harok: h1, cislo: 28, l: 10, d: 49, v: 1.61 }
+- { uid: "S1-28", sklad: S1, harok: h1, cislo: 28, l: 7, d: 35, v: 0.56 }
+- { uid: "S1-28", sklad: S1, harok: h1, cislo: 28, l: 7, d: 32, v: 0.46 }
+- { uid: "S1-29", sklad: S1, harok: h1, cislo: 29, l: 16, d: 30, v: 0.92 }
+- { uid: "S1-30", sklad: S1, harok: h1, cislo: 30, l: 20, d: 42, v: 2.33 }
+- { uid: "S1-31", sklad: S1, harok: h1, cislo: 31, l: 16, d: 26, v: 0.68 }
+- { uid: "S1-32", sklad: S1, harok: h1, cislo: 32, l: 18, d: 32, v: 1.19 }
+- { uid: "S1-33", sklad: S1, harok: h1, cislo: 33, l: 25, d: 50, v: 2.09 }
+- { uid: "S1-33", sklad: S1, harok: h1, cislo: 33, l: 4, d: 37, v: 0.36 }
+- { uid: "S1-34", sklad: S1, harok: h1, cislo: 34, l: 18, d: 28, v: 0.9 }
+- { uid: "S1-35", sklad: S1, harok: h1, cislo: 35, l: 19, d: 33, v: 1.34 }
+- { uid: "S1-36", sklad: S1, harok: h1, cislo: 36, l: 14, d: 45, v: 1.89 }
+- { uid: "S1-37", sklad: S1, harok: h1, cislo: 37, l: 16, d: 39, v: 1.59 }
+- { uid: "S1-38", sklad: S1, harok: h1, cislo: 38, l: 15, d: 43, v: 1.83 }
+- { uid: "S1-39", sklad: S1, harok: h1, cislo: 39, l: 21, d: 45, v: 2.83 }
+- { uid: "S1-40", sklad: S1, harok: h1, cislo: 40, l: 17, d: 42, v: 1.98 }
+- { uid: "S1-41", sklad: S1, harok: h1, cislo: 41, l: 13, d: 50, v: 2.17 }
+- { uid: "S1-41", sklad: S1, harok: h1, cislo: 41, l: 8, d: 31, v: 0.49 }
+- { uid: "S1-41", sklad: S1, harok: h1, cislo: 41, l: 7, d: 32, v: 0.46 }
+- { uid: "S1-42", sklad: S1, harok: h1, cislo: 42, l: 17, d: 33, v: 1.2 }
+- { uid: "S1-43", sklad: S1, harok: h1, cislo: 43, l: 16, d: 44, v: 2.05 }
+- { uid: "S1-44", sklad: S1, harok: h1, cislo: 44, l: 9, d: 63, v: 2.4 }
+- { uid: "S1-44", sklad: S1, harok: h1, cislo: 44, l: 4, d: 42, v: 0.47 }
+- { uid: "S1-44", sklad: S1, harok: h1, cislo: 44, l: 6, d: 39, v: 0.6 }
+- { uid: "S1-45", sklad: S1, harok: h1, cislo: 45, l: 15, d: 49, v: 2.41 }
+- { uid: "S1-46", sklad: S1, harok: h1, cislo: 46, l: 10.5, d: 68, v: 3.27 }
+- { uid: "S1-47", sklad: S1, harok: h1, cislo: 47, l: 3, d: 35, v: 0.24 }
+- { uid: "S1-47", sklad: S1, harok: h1, cislo: 47, l: 14, d: 59, v: 3.27 }
+- { uid: "S1-48", sklad: S1, harok: h2, cislo: 48, l: 5.5, d: 50, v: 0.84 }
+- { uid: "S1-48", sklad: S1, harok: h2, cislo: 48, l: 5.5, d: 35, v: 0.4 }
+- { uid: "S1-48", sklad: S1, harok: h2, cislo: 48, l: 9, d: 29, v: 0.49 }
+- { uid: "S1-49", sklad: S1, harok: h2, cislo: 49, l: 19, d: 40, v: 2 }
+- { uid: "S1-50", sklad: S1, harok: h2, cislo: 50, l: 18.5, d: 52, v: 3.33 }
+- { uid: "S1-51", sklad: S1, harok: h2, cislo: 51, l: 6, d: 49, v: 0.96 }
+- { uid: "S1-51", sklad: S1, harok: h2, cislo: 51, l: 9, d: 68, v: 2.81 }
+- { uid: "S1-52", sklad: S1, harok: h2, cislo: 52, l: 17, d: 55, v: 3.43 }
+- { uid: "S1-53", sklad: S1, harok: h2, cislo: 53, l: 13, d: 31, v: 0.8 }
+- { uid: "S1-53", sklad: S1, harok: h2, cislo: 53, l: 6, d: 33, v: 0.42 }
+- { uid: "S1-54", sklad: S1, harok: h2, cislo: 54, l: 5, d: 34, v: 0.38 }
+- { uid: "S1-54", sklad: S1, harok: h2, cislo: 54, l: 13, d: 57, v: 2.83 }
+- { uid: "S1-55", sklad: S1, harok: h2, cislo: 55, l: 19, d: 40, v: 2 }
+- { uid: "S1-56", sklad: S1, harok: h2, cislo: 56, l: 19, d: 46, v: 2.68 }
+- { uid: "S1-57", sklad: S1, harok: h2, cislo: 57, l: 14, d: 39, v: 1.39 }
+- { uid: "S1-58", sklad: S1, harok: h2, cislo: 58, l: 12, d: 49, v: 1.93 }
+- { uid: "S1-58", sklad: S1, harok: h2, cislo: 58, l: 4, d: 36, v: 0.34 }
+- { uid: "S1-59", sklad: S1, harok: h2, cislo: 59, l: 14.5, d: 67, v: 4.38 }
+- { uid: "S1-59", sklad: S1, harok: h2, cislo: 59, l: 4, d: 36, v: 0.34 }
+- { uid: "S1-60", sklad: S1, harok: h2, cislo: 60, l: 6, d: 61, v: 1.5 }
+- { uid: "S1-60", sklad: S1, harok: h2, cislo: 60, l: 7, d: 78, v: 2.88 }
+- { uid: "S1-61", sklad: S1, harok: h2, cislo: 61, l: 7.5, d: 63, v: 2 }
+- { uid: "S1-61", sklad: S1, harok: h2, cislo: 61, l: 6, d: 40, v: 0.63 }
+- { uid: "S1-61", sklad: S1, harok: h2, cislo: 61, l: 6, d: 36, v: 0.51 }
+- { uid: "S1-62", sklad: S1, harok: h2, cislo: 62, l: 12, d: 46, v: 1.69 }
+- { uid: "S1-63", sklad: S1, harok: h2, cislo: 63, l: 5.5, d: 69, v: 1.76 }
+- { uid: "S1-63", sklad: S1, harok: h2, cislo: 63, l: 9, d: 45, v: 1.21 }
+- { uid: "S1-63", sklad: S1, harok: h2, cislo: 63, l: 10, d: 42, v: 1.16 }
+- { uid: "S1-64", sklad: S1, harok: h2, cislo: 64, l: 4, d: 83, v: 1.87 }
+- { uid: "S1-64", sklad: S1, harok: h2, cislo: 64, l: 7, d: 72, v: 2.45 }
+- { uid: "S1-65", sklad: S1, harok: h2, cislo: 65, l: 16, d: 50, v: 2.67 }
+- { uid: "S1-66", sklad: S1, harok: h2, cislo: 66, l: 18, d: 45, v: 2.42 }
+- { uid: "S1-67", sklad: S1, harok: h2, cislo: 67, l: 16, d: 54, v: 3.12 }
+- { uid: "S1-68", sklad: S1, harok: h2, cislo: 68, l: 9, d: 32, v: 0.59 }
+- { uid: "S1-68", sklad: S1, harok: h2, cislo: 68, l: 9, d: 28, v: 0.45 }
+- { uid: "S1-68", sklad: S1, harok: h2, cislo: 68, l: 8.5, d: 52, v: 1.53 }
+- { uid: "S1-69", sklad: S1, harok: h2, cislo: 69, l: 14, d: 50, v: 2.34 }
+- { uid: "S1-70", sklad: S1, harok: h2, cislo: 70, l: 10, d: 59, v: 2.33 }
+- { uid: "S1-70", sklad: S1, harok: h2, cislo: 70, l: 4, d: 40, v: 0.92 }
+- { uid: "S2-1", sklad: S2, harok: h3, cislo: 1, l: 17, d: 42, v: 1.98 }
+- { uid: "S2-2", sklad: S2, harok: h3, cislo: 2, l: 21.5, d: 36, v: 1.82 }
+- { uid: "S2-3", sklad: S2, harok: h3, cislo: 3, l: 18, d: 41, v: 1.99 }
+- { uid: "S2-4", sklad: S2, harok: h3, cislo: 4, l: 18, d: 41, v: 1.99 }
+- { uid: "S2-5", sklad: S2, harok: h3, cislo: 5, l: 15.5, d: 40, v: 1.63 }
+- { uid: "S2-6", sklad: S2, harok: h3, cislo: 6, l: 13, d: 31, v: 1.11 }
+- { uid: "S2-7", sklad: S2, harok: h3, cislo: 7, l: 16, d: 37, v: 1.43 }
+- { uid: "S2-8", sklad: S2, harok: h3, cislo: 8, l: 19, d: 35, v: 1.52 }
+- { uid: "S2-9", sklad: S2, harok: h3, cislo: 9, l: 9.5, d: 50, v: 1.59 }
+- { uid: "S2-9", sklad: S2, harok: h3, cislo: 9, l: 7, d: 34, v: 0.53 }
+- { uid: "S2-9", sklad: S2, harok: h3, cislo: 9, l: 5, d: 32, v: 0.33 }
+- { uid: "S2-10", sklad: S2, harok: h3, cislo: 10, l: 6, d: 27, v: 0.28 }
+- { uid: "S2-10", sklad: S2, harok: h3, cislo: 10, l: 10, d: 40, v: 1.05 }
+- { uid: "S2-11", sklad: S2, harok: h3, cislo: 11, l: 13, d: 41, v: 1.44 }
+- { uid: "S2-12", sklad: S2, harok: h3, cislo: 12, l: 17, d: 43, v: 2.07 }
+- { uid: "S2-13", sklad: S2, harok: h3, cislo: 13, l: 21, d: 42, v: 2.45 }
+- { uid: "S2-14", sklad: S2, harok: h3, cislo: 14, l: 16, d: 29, v: 0.86 }
+- { uid: "S2-15", sklad: S2, harok: h3, cislo: 15, l: 6.5, d: 45, v: 0.88 }
+- { uid: "S2-16", sklad: S2, harok: h3, cislo: 16, l: 11, d: 60, v: 2.66 }
+- { uid: "S2-17", sklad: S2, harok: h3, cislo: 17, l: 15, d: 40, v: 1.58 }
+- { uid: "S2-18", sklad: S2, harok: h3, cislo: 18, l: 18, d: 45, v: 2.42 }
+- { uid: "S2-19", sklad: S2, harok: h3, cislo: 19, l: 19, d: 37, v: 1.7 }
+- { uid: "S2-20", sklad: S2, harok: h3, cislo: 20, l: 19, d: 32, v: 1.26 }
+- { uid: "S2-21", sklad: S2, harok: h3, cislo: 21, l: 10.5, d: 28, v: 0.52 }
+- { uid: "S2-22", sklad: S2, harok: h3, cislo: 22, l: 4, d: 33, v: 0.28 }
+- { uid: "S2-22", sklad: S2, harok: h3, cislo: 22, l: 10, d: 44, v: 1.28 }
+- { uid: "S2-23", sklad: S2, harok: h3, cislo: 23, l: 17, d: 51, v: 2.95 }
+- { uid: "S2-24", sklad: S2, harok: h3, cislo: 24, l: 4, d: 39, v: 0.4 }
+- { uid: "S2-24", sklad: S2, harok: h3, cislo: 24, l: 14, d: 57, v: 3.04 }
+- { uid: "S2-25", sklad: S2, harok: h3, cislo: 25, l: 20, d: 40, v: 2.1 }
+- { uid: "S2-26", sklad: S2, harok: h3, cislo: 26, l: 20, d: 42, v: 2.33 }
+- { uid: "S2-27", sklad: S2, harok: h3, cislo: 27, l: 16.5, d: 49, v: 2.57 }
+- { uid: "S2-28", sklad: S2, harok: h3, cislo: 28, l: 16.5, d: 24, v: 0.59 }
