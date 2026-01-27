@@ -66,6 +66,7 @@ function search() {
 
     let pocet = 0;
     let celkovyObjem = 0;
+    const uniqKmene = new Set();
 
     for (let i = 0; i < rows.length; i++) {
         const cells = rows[i].cells;
@@ -76,6 +77,7 @@ function search() {
         const rowDlzka = parseFloat(cells[4].textContent.replace(',', '.')) || 0;
         const rowPriemer = parseFloat(cells[5].textContent.replace(',', '.')) || 0;
         const rowObjem = parseFloat(cells[6].textContent.replace(',', '.')) || 0;
+        const rowSkladKmen = cells[2].textContent).toLowerCase() + "-" + rowCislo;
 
         // LOGIKA FILTROVANIA:
         
@@ -120,6 +122,7 @@ function search() {
             rows[i].style.display = '';
             pocet++;
             celkovyObjem += rowObjem;
+            uniqKmene.add(rowSkladKmen);
         } else {
             rows[i].style.display = 'none';
         }
@@ -127,7 +130,7 @@ function search() {
 
     const summary = document.getElementById('summaryInfo');
     if (summary) {
-        summary.textContent = celkovyObjem.toFixed(2) + " m³ / (" + pocet + " ks)";
+        summary.textContent = celkovyObjem.toFixed(2) + " m³ / (" + počet + " ks, kmene: "+ uniqKmene.size  +" )";
     }
 }
 
