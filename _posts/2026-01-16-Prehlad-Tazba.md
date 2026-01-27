@@ -173,6 +173,9 @@ fieldset input[type="button"]:hover {
 </div>
 
 ---
+
+### Rekapitulácia podľa hrúbkových tried
+
 {% assign kmene_groups = site.data.tazba | group_by: "uid" %}
 {% assign triedy = "60,999,60+ cm|50,59,50-59 cm|40,49,40-49 cm|35,39,35-39 cm|30,34,30-34 cm|25,29,25-29 cm|20,24,20-24 cm|0,19,0-19 cm" | split: "|" %}
 
@@ -185,7 +188,7 @@ fieldset input[type="button"]:hover {
     <tr>
       <th>Trieda</th>
       <th>Kmene (ks)</th>
-      <th>Sekcie (ks)/th>
+      <th>Sekcie (ks)</th>
       <th>Objem (m³)</th>
     </tr>
   </thead>
@@ -227,7 +230,7 @@ fieldset input[type="button"]:hover {
     {% endfor %}
   </tbody>
   <tfoot>
-    <tr style="background: #f0f0f0; font-weight: bold;">
+    <tr style="font-weight: bold; border-top: 2px solid black;">
       <td>CELKOM</td>
       <td>{{ total_kmene_all }}</td>
       <td>{{ total_sekcie_all }}</td>
