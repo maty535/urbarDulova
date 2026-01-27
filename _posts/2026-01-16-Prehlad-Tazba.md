@@ -184,9 +184,9 @@ fieldset input[type="button"]:hover {
   <thead>
     <tr>
       <th>Trieda</th>
-      <th>Kmene (ks) <small>podľa max. d</small></th>
-      <th>Sekcie (ks) <small>reálne v triede</small></th>
-      <th>Objem (m³) <small>reálne v triede</small></th>
+      <th>Kmene (ks)</th>
+      <th>Sekcie (ks)/th>
+      <th>Objem (m³)</th>
     </tr>
   </thead>
   <tbody>
