@@ -234,6 +234,7 @@ fieldset input[type="button"]:hover {
       <option value="S2">Sklad 2</option>
       <option value="h1">Hárok 1</option>
       <option value="h2">Hárok 2</option>
+      <option value="h3">Hárok 3</option>
     </select>
     <input type="text" id="cislo_kmena" onkeyup="delayedSearch();" placeholder="Číslo kmeňa" style="padding: 5px; border-radius: 4px; border: 1px solid #ccc; font-size: 13px;">
 
