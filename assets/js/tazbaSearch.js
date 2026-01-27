@@ -130,7 +130,7 @@ function search() {
 
     const summary = document.getElementById('summaryInfo');
     if (summary) {
-        summary.textContent = celkovyObjem.toFixed(2) + " m³ / (" + pocet + " ks, kmeňov: "+ uniqKmene.size  +" )";
+        summary.textContent = celkovyObjem.toFixed(2) + " m³ / (" + pocet + " ks, "+ uniqKmene.size  +" kmeňov)";
     }
 }
 
