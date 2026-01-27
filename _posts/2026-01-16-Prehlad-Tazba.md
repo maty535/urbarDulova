@@ -173,22 +173,20 @@ fieldset input[type="button"]:hover {
 </div>
 
 ---
-{% comment %} 1. Zoskupíme dáta podľa unikátneho ID kmeňa {% endcomment %}
 {% assign kmene_groups = site.data.tazba | group_by: "uid" %}
-
-{% comment %} 2. Definujeme triedy: min_d, max_d, label {% endcomment %}
 {% assign triedy = "60,999,60+ cm|50,59,50-59 cm|40,49,40-49 cm|35,39,35-39 cm|30,34,30-34 cm|25,29,25-29 cm|20,24,20-24 cm|0,19,0-19 cm" | split: "|" %}
 
 {% assign total_v_all = 0.0 %}
 {% assign total_kmene_all = 0 %}
+{% assign total_sekcie_all = 0 %}
 
 <table>
   <thead>
     <tr>
-      <th>Trieda (podľa max. d)</th>
-      <th>Kmene (ks)</th>
-      <th>Sekcie (ks)</th>
-      <th>Objem celkom (m³)</th>
+      <th>Trieda</th>
+      <th>Kmene (ks) <small>podľa max. d</small></th>
+      <th>Sekcie (ks) <small>reálne v triede</small></th>
+      <th>Objem (m³) <small>reálne v triede</small></th>
     </tr>
   </thead>
   <tbody>
@@ -200,25 +198,28 @@ fieldset input[type="button"]:hover {
       {% assign t_kmene_count = 0 %}
       {% assign t_sekcie_count = 0 %}
 
-      {% for skupina in kmene_groups %}
-        {% comment %} Zistíme maximálny priemer tohto konkrétneho kmeňa {% endcomment %}
-        {% assign max_d_kmena = skupina.items | map: "d" | sort | last %}
+      {% comment %} 1. Spočítame REÁLNY objem a počet sekcií v tejto triede {% endcomment %}
+      {% for item in site.data.tazba %}
+        {% if item.d >= min and item.d <= max %}
+          {% assign t_v = t_v | plus: item.v %}
+          {% assign t_sekcie_count = t_sekcie_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
 
+      {% comment %} 2. Spočítame kmene, ktorých NAJHRUBŠIA časť patrí sem {% endcomment %}
+      {% for skupina in kmene_groups %}
+        {% assign max_d_kmena = skupina.items | map: "d" | sort | last %}
         {% if max_d_kmena >= min and max_d_kmena <= max %}
           {% assign t_kmene_count = t_kmene_count | plus: 1 %}
-          {% comment %} Pripočítame všetky sekcie a objem patriaci tomuto kmeňu {% endcomment %}
-          {% for sekcia in skupina.items %}
-            {% assign t_v = t_v | plus: sekcia.v %}
-            {% assign t_sekcie_count = t_sekcie_count | plus: 1 %}
-          {% endfor %}
         {% endif %}
       {% endfor %}
 
       {% assign total_v_all = total_v_all | plus: t_v %}
+      {% assign total_sekcie_all = total_sekcie_all | plus: t_sekcie_count %}
       {% assign total_kmene_all = total_kmene_all | plus: t_kmene_count %}
 
       <tr>
-        <td>{{ label }}</td>
+        <td><strong>{{ label }}</strong></td>
         <td>{{ t_kmene_count }}</td>
         <td>{{ t_sekcie_count }}</td>
         <td>{{ t_v | round: 2 }}</td>
@@ -226,10 +227,10 @@ fieldset input[type="button"]:hover {
     {% endfor %}
   </tbody>
   <tfoot>
-    <tr style="font-weight: bold;">
+    <tr style="background: #f0f0f0; font-weight: bold;">
       <td>CELKOM</td>
       <td>{{ total_kmene_all }}</td>
-      <td>{{ site.data.tazba.size }}</td>
+      <td>{{ total_sekcie_all }}</td>
       <td>{{ total_v_all | round: 2 }}</td>
     </tr>
   </tfoot>
