@@ -130,6 +130,8 @@ fieldset input[type="button"]:hover {
   {% assign t_volume = t_volume | plus: item.v %}
 {% endfor %}
 
+{% assign pocet_kmenov = site.data.tazba | map: "uid" | uniq | size %}
+
 <div class="wood-card">
   <div class="card-hero">
     <label>Celkový objem ťažby</label>
@@ -143,7 +145,7 @@ fieldset input[type="button"]:hover {
     </div>
     <div class="stat-box">
       <label>Počet výrezov / kmeňov</label>
-      <span>{{ t_count }} ks / 98 ks</span>
+      <span>{{ t_count }} / {{ pocet_kmenov }} </span>
     </div>
     <div class="stat-box">
       <label>Maximálna výťažnosť / 1 kmeň</label>
@@ -292,7 +294,7 @@ fieldset input[type="button"]:hover {
     <tfoot>
       <tr style="font-weight: bold; background-color: #f2f2f2;">
         <td colspan="5">SÚČET </td>
-        <td colspan="2" id="summaryInfo">{{ celkovy_objem | round: 2 }} m³ / ({{ id }} ks)</td>
+        <td colspan="2" id="summaryInfo">{{ celkovy_objem | round: 2 }} m³ / ({{ id }} ks /  {{ pocet_kmenov }} kmeňov)</td>
       </tr>
     </tfoot>
   </table>
