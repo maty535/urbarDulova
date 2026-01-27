@@ -173,20 +173,22 @@ fieldset input[type="button"]:hover {
 </div>
 
 ---
-{% comment %} Definujeme triedy: min_d, max_d, label {% endcomment %}
+{% comment %} 1. Zoskupíme dáta podľa unikátneho ID kmeňa {% endcomment %}
+{% assign kmene_groups = site.data.tazba | group_by: "uid" %}
+
+{% comment %} 2. Definujeme triedy: min_d, max_d, label {% endcomment %}
 {% assign triedy = "60,999,60+ cm|50,59,50-59 cm|40,49,40-49 cm|35,39,35-39 cm|30,34,30-34 cm|25,29,25-29 cm|20,24,20-24 cm|0,19,0-19 cm" | split: "|" %}
 
-{% assign celkovy_objem = 0.0 %}
-{% assign celkovo_sekcii = 0 %}
-{% assign vsetky_uids = "" %}
+{% assign total_v_all = 0.0 %}
+{% assign total_kmene_all = 0 %}
 
 <table>
   <thead>
     <tr>
-      <th>Trieda</th>
+      <th>Trieda (podľa max. d)</th>
       <th>Kmene (ks)</th>
       <th>Sekcie (ks)</th>
-      <th>Objem (m³)</th>
+      <th>Objem celkom (m³)</th>
     </tr>
   </thead>
   <tbody>
@@ -194,38 +196,41 @@ fieldset input[type="button"]:hover {
       {% assign d = t | split: "," %}
       {% assign min = d[0] | plus: 0 %}{% assign max = d[1] | plus: 0 %}{% assign label = d[2] %}
       
-      {% assign t_objem = 0.0 %}
-      {% assign t_sekcie = 0 %}
-      {% assign t_uids = "" %}
+      {% assign t_v = 0.0 %}
+      {% assign t_kmene_count = 0 %}
+      {% assign t_sekcie_count = 0 %}
 
-      {% for item in site.data.tazba %}
-        {% if item.d >= min and item.d <= max %}
-          {% assign t_objem = t_objem | plus: item.v %}
-          {% assign t_sekcie = t_sekcie | plus: 1 %}
-          {% assign t_uids = t_uids | append: item.uid | append: "," %}
+      {% for skupina in kmene_groups %}
+        {% comment %} Zistíme maximálny priemer tohto konkrétneho kmeňa {% endcomment %}
+        {% assign max_d_kmena = skupina.items | map: "d" | sort | last %}
+
+        {% if max_d_kmena >= min and max_d_kmena <= max %}
+          {% assign t_kmene_count = t_kmene_count | plus: 1 %}
+          {% comment %} Pripočítame všetky sekcie a objem patriaci tomuto kmeňu {% endcomment %}
+          {% for sekcia in skupina.items %}
+            {% assign t_v = t_v | plus: sekcia.v %}
+            {% assign t_sekcie_count = t_sekcie_count | plus: 1 %}
+          {% endfor %}
         {% endif %}
       {% endfor %}
 
-      {% assign t_kmene = t_uids | split: "," | uniq | size %}
-      
-      {% comment %} Pripočítanie do sumáru {% endcomment %}
-      {% assign celkovy_objem = celkovy_objem | plus: t_objem %}
-      {% assign celkovo_sekcii = celkovo_sekcii | plus: t_sekcie %}
+      {% assign total_v_all = total_v_all | plus: t_v %}
+      {% assign total_kmene_all = total_kmene_all | plus: t_kmene_count %}
 
       <tr>
         <td>{{ label }}</td>
-        <td>{{ t_kmene }}</td>
-        <td>{{ t_sekcie }}</td>
-        <td>{{ t_objem | round: 2 }}</td>
+        <td>{{ t_kmene_count }}</td>
+        <td>{{ t_sekcie_count }}</td>
+        <td>{{ t_v | round: 2 }}</td>
       </tr>
     {% endfor %}
   </tbody>
   <tfoot>
-    <tr style="font-weight: bold; border-top: 2px solid black;">
+    <tr style="font-weight: bold;">
       <td>CELKOM</td>
-      <td>{{ site.data.tazba | map: "uid" | uniq | size }}</td>
-      <td>{{ celkovo_sekcii }}</td>
-      <td>{{ celkovy_objem | round: 2 }}</td>
+      <td>{{ total_kmene_all }}</td>
+      <td>{{ site.data.tazba.size }}</td>
+      <td>{{ total_v_all | round: 2 }}</td>
     </tr>
   </tfoot>
 </table>
