@@ -173,8 +173,12 @@ fieldset input[type="button"]:hover {
 </div>
 
 ---
-{% comment %} 1. Definujeme triedy (min. priemer a názov) {% endcomment %}
-{% assign triedy_raw = "60,60+ cm|50,50-59 cm|40,40-49 cm|35,35-39 cm|30,30-34 cm|25,25-29 cm|20,20-24 cm|0,0-19 cm" | split: "|" %}
+{% comment %} Definujeme triedy: min_d, max_d, label {% endcomment %}
+{% assign triedy = "60,999,60+ cm|50,59,50-59 cm|40,49,40-49 cm|35,39,35-39 cm|30,34,30-34 cm|25,29,25-29 cm|20,24,20-24 cm|0,19,0-19 cm" | split: "|" %}
+
+{% assign celkovy_objem = 0.0 %}
+{% assign celkovo_sekcii = 0 %}
+{% assign vsetky_uids = "" %}
 
 <table>
   <thead>
@@ -186,44 +190,44 @@ fieldset input[type="button"]:hover {
     </tr>
   </thead>
   <tbody>
-    {% assign total_v = 0.0 %}
-    
-    {% for t in triedy_raw %}
-      {% assign t_data = t | split: "," %}
-      {% assign min_d = t_data[0] | plus: 0 %}
-      {% assign label = t_data[1] %}
+    {% for t in triedy %}
+      {% assign d = t | split: "," %}
+      {% assign min = d[0] | plus: 0 %}{% assign max = d[1] | plus: 0 %}{% assign label = d[2] %}
       
-      {% comment %} 2. Vyfiltrujeme sekcie patriace do tejto triedy {% endcomment %}
-      {% assign sekcie = site.data.tazba | where_exp: "item", "item.d >= min_d" %}
-      
-      {% comment %} 
-         POZOR: Aby sme v ďalšej triede nepočítali tie isté, 
-         "odstrihneme" už spracované dáta zo zdroja v ďalšom kroku.
-      {% endcomment %}
-      {% assign v_triede = 0.0 %}
-      {% assign uids = "" %}
-      {% assign count_sekcie = 0 %}
+      {% assign t_objem = 0.0 %}
+      {% assign t_sekcie = 0 %}
+      {% assign t_uids = "" %}
 
-      {% for s in sekcie %}
-        {% assign v_triede = v_triede | plus: s.v %}
-        {% assign uids = uids | append: s.uid | append: "," %}
-        {% assign count_sekcie = count_sekcie | plus: 1 %}
+      {% for item in site.data.tazba %}
+        {% if item.d >= min and item.d <= max %}
+          {% assign t_objem = t_objem | plus: item.v %}
+          {% assign t_sekcie = t_sekcie | plus: 1 %}
+          {% assign t_uids = t_uids | append: item.uid | append: "," %}
+        {% endif %}
       {% endfor %}
 
-      {% comment %} 3. Odstránime tieto sekcie, aby v ďalšom riadku (napr. >= 50) neboli tie z >= 60 {% endcomment %}
-      {% assign site.data.tazba = site.data.tazba | where_exp: "item", "item.d < min_d" %}
-
-      {% assign unique_kmene = uids | split: "," | uniq | size %}
-      {% assign total_v = total_v | plus: v_triede %}
+      {% assign t_kmene = t_uids | split: "," | uniq | size %}
+      
+      {% comment %} Pripočítanie do sumáru {% endcomment %}
+      {% assign celkovy_objem = celkovy_objem | plus: t_objem %}
+      {% assign celkovo_sekcii = celkovo_sekcii | plus: t_sekcie %}
 
       <tr>
-        <td><strong>{{ label }}</strong></td>
-        <td>{{ unique_kmene }}</td>
-        <td>{{ count_sekcie }}</td>
-        <td>{{ v_triede | round: 2 }}</td>
+        <td>{{ label }}</td>
+        <td>{{ t_kmene }}</td>
+        <td>{{ t_sekcie }}</td>
+        <td>{{ t_objem | round: 2 }}</td>
       </tr>
     {% endfor %}
   </tbody>
+  <tfoot>
+    <tr style="font-weight: bold; border-top: 2px solid black;">
+      <td>CELKOM</td>
+      <td>{{ site.data.tazba | map: "uid" | uniq | size }}</td>
+      <td>{{ celkovo_sekcii }}</td>
+      <td>{{ celkovy_objem | round: 2 }}</td>
+    </tr>
+  </tfoot>
 </table>
 
 ---
