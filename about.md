@@ -47,8 +47,8 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 
 ### Majetková podstata
 
-| Názov k.ú. | Číslo LV | Poznámka (typ pozemkov) | Výmera [ha] |
-| :--------- | :------- | :--------| --------:|
+| Názov k.ú. |: Číslo LV :| Poznámka (typ pozemkov) | : Výmera [ha] : |
+| :---------: | :-------: | :--------| --------:|
 | DULOVA VES | [414]({{ page.kataster_lv_uri_prefix_gulvas }}414)   | TPP |	5.9829	|	
 | DULOVA VES | [822]({{ page.kataster_lv_uri_prefix_gulvas }}822)   | TPP, orná pôda |19.0824		|	
 | DULOVA VES | [1133]({{ page.kataster_lv_uri_prefix_gulvas }}1133) | Zastavaná plocha a nádvorie|0.0127		|	
@@ -57,7 +57,7 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 | ŽEHŇA      | [1033]({{ page.kataster_lv_uri_prefix_zehna }}1033l)      | TPP | 24.4756|	
 | ŽEHŇA      | [1037]({{ page.kataster_lv_uri_prefix_zehna }}1037)       | Lesný pozemok |35.1536|
 | ŽEHŇA      | [1050]({{ page.kataster_lv_uri_prefix_zehna }}1050)       | Lesný pozemok |0.0287|
-| Spolu:   {: style=";font-weight: bold; border-top: 2px solid black;" }  | 128.6889 ha {: style=";font-weight: bold; border-top: 2px solid black;" }  :|||
+| Spolu:   {: style=";font-weight: bold; border-top: 2px solid black;" }  | 128.6889 {: style=";font-weight: bold; border-top: 2px solid black;" }  :|||
 
 
 <iframe src="https://zbgis.skgeodesy.sk/mapka/e/Fi4wu?pos=48.945004,21.304673,13&bm=orto" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
