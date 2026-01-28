@@ -44,9 +44,10 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 - [Judikát najvyššieho súdu týkajúci sa prevodov podielov na spoločnej nehnuteľnosti](https://otvorenesudy.sk/decrees/3905360?)
 - <img width="1215" height="208" alt="image" src="https://github.com/user-attachments/assets/3c7b8e6a-f2d4-465e-a405-11eafb720ba0" />
 
+
 ### Majetková podstata
 
-| Názov k.ú. | Číslo LV | Poznámka (typ pozemkov)|Výmera [ha]|
+| Názov k.ú. | Číslo LV | Poznámka (typ pozemkov) | Výmera [ha] |
 | :--------- | :------- | :--------| --------:|
 | DULOVA VES | [414]({{ page.kataster_lv_uri_prefix_gulvas }}414)   | TPP |	5.9829	|	
 | DULOVA VES | [822]({{ page.kataster_lv_uri_prefix_gulvas }}822)   | TPP, orná pôda |19.0824		|	
