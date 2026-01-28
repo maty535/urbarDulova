@@ -47,8 +47,8 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 
 ### Majetková podstata
 
-| Názov k.ú. |: Číslo LV :| Poznámka (typ pozemkov) | : Výmera [ha] : |
-| :---------: | :-------: | :--------| --------:|
+| : K.ú. :    |   : LV :  |: Typ pozemkov      :| : Výmera [ha] : |
+| :---------: | :-------: | :-------------------| ---------------:|
 | DULOVA VES | [414]({{ page.kataster_lv_uri_prefix_gulvas }}414)   | TPP |	5.9829	|	
 | DULOVA VES | [822]({{ page.kataster_lv_uri_prefix_gulvas }}822)   | TPP, orná pôda |19.0824		|	
 | DULOVA VES | [1133]({{ page.kataster_lv_uri_prefix_gulvas }}1133) | Zastavaná plocha a nádvorie|0.0127		|	
