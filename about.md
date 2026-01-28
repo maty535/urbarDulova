@@ -56,8 +56,7 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 | ŽEHŇA      | [1033]({{ page.kataster_lv_uri_prefix_zehna }}1033l)      | TPP | 24.4756|	
 | ŽEHŇA      | [1037]({{ page.kataster_lv_uri_prefix_zehna }}1037)       | Lesný pozemok |35.1536|
 | ŽEHŇA      | [1050]({{ page.kataster_lv_uri_prefix_zehna }}1050)       | Lesný pozemok |0.0287|
-|===
-| Spolu:   {: style="font-weight: bold; border-top: 2px solid black;" }  | 128.6889 ha {: style="font-weight: bold; border-top: 2px solid black;" }  |||:|
+| Spolu:   {: style="font-weight: bold; border-top: 2px solid black;" }  | 128.6889 ha {: style="font-weight: bold; border-top: 2px solid black;" }  :||||
 
 
 <iframe src="https://zbgis.skgeodesy.sk/mapka/e/Fi4wu?pos=48.945004,21.304673,13&bm=orto" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
