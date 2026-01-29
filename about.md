@@ -46,18 +46,18 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 | **Lesný celok** | SL247 - LESY NA LHC SOLIVAR A KOKOŠOVCE                 |
 | **Kód platnosti LHP (KPL)** | SL247                                                   |
 | **Dielce** | 4329, 4330, 6315, 7313, 7315                            |
-| **Dreviny** | **DL**, **Dub letný**, *Quercus robur*, Listnatá        |
-| ^^                                         | **DZ**, **Dub zimný**, *Quercus petraea*, Listnatá      |
-| ^^                                         | **HB**, **Hrab obyčajný**, *Carpinus betulus*, Listnatá |
-| ^^                                         | **JH**, **Javor horský**, *Acer pseudoplatanus*, Listnatá |
-| ^^                                         | **JS**, **Jaseň štíhly**, *Fraxinus excelsior*, Listnatá |
-| ^^                                         | **CS**, **Čerešňa vtáčia**, *Prunus avium*, Listnatá    |
-| ^^                                         | **BR**, **Breza bradavičnatá**, *Betula pendula*, Listnatá |
-| ^^                                         | **OS**, **Topoľ osikový (Osika)**, *Populus tremula*, Listnatá |
-| ^^                                         | **BO**, **Borovica lesná**, *Pinus sylvestris*, Ihličnatá |
-| ^^                                         | **BC**, **Borovica čierna**, *Pinus nigra*, Ihličnatá   |
-| ^^                                         | **SC**, **Smrekovec opadavý**, *Larix decidua*, Ihličnatá |
-| ^^                                         | **LM**, **Smrek obyčajný**, *Picea abies*, Ihličnatá     |
+| **Listnaté dreviny**                       | **DL**, **Dub letný**, *Quercus robur*    |
+| ^^                                         | **DZ**, **Dub zimný**, *Quercus petraea*  |
+| ^^                                         | **HB**, **Hrab obyčajný**, *Carpinus betulus* |
+| ^^                                         | **JH**, **Javor horský**, *Acer pseudoplatanus* |
+| ^^                                         | **JS**, **Jaseň štíhly**, *Fraxinus excelsior* |
+| ^^                                         | **CS**, **Čerešňa vtáčia**, *Prunus avium*    |
+| ^^                                         | **BR**, **Breza bradavičnatá**, *Betula pendula* |
+| ^^                                         | **OS**, **Topoľ osikový (Osika)**, *Populus tremula* |
+| **Ihličnaté dreviny**                      | **BO**, **Borovica lesná**, *Pinus sylvestris* |
+| ^^                                         | **BC**, **Borovica čierna**, *Pinus nigra*  |
+| ^^                                         | **SC**, **Smrekovec opadavý**, *Larix decidua* |
+| ^^                                         | **LM**, **Smrek obyčajný**, *Picea abies* |
   
 
 
