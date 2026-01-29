@@ -36,30 +36,29 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 
 # Registrácia v Informačnom systéme lesného hospodárstva (ISLHP)
 
-
 | ID | hodnota |
-| :----------------------------------------- | :------------------------------------------------------ |
-| **Kód obhospodarovateľa lesa** | 105991                                                  |
-| **Výmera obhospodarovateľa (vrátane OLP)** | 580 981 m2                                              |
-| **Lesný hospodár** | Najsárek Rudolf                                         |
-| **Kód OLH** | 301882                                                  |
-| **Lesný celok** | SL247 - LESY NA LHC SOLIVAR A KOKOŠOVCE                 |
-| **Kód platnosti LHP (KPL)** | SL247                                                   |
-| **Dielce** | 4329, 4330, 6315, 7313, 7315                            |
-| **Listnaté dreviny**                       | **DL**, **Dub letný**, *Quercus robur*    |
-| ^^                                         | **DZ**, **Dub zimný**, *Quercus petraea*  |
-| ^^                                         | **HB**, **Hrab obyčajný**, *Carpinus betulus* |
-| ^^                                         | **JH**, **Javor horský**, *Acer pseudoplatanus* |
-| ^^                                         | **JS**, **Jaseň štíhly**, *Fraxinus excelsior* |
-| ^^                                         | **CS**, **Čerešňa vtáčia**, *Prunus avium*    |
-| ^^                                         | **BR**, **Breza bradavičnatá**, *Betula pendula* |
-| ^^                                         | **OS**, **Topoľ osikový (Osika)**, *Populus tremula* |
-| **Ihličnaté dreviny**                      | **BO**, **Borovica lesná**, *Pinus sylvestris* |
-| ^^                                         | **BC**, **Borovica čierna**, *Pinus nigra*  |
-| ^^                                         | **SC**, **Smrekovec opadavý**, *Larix decidua* |
-| ^^                                         | **LM**, **Smrek obyčajný**, *Picea abies* |
-  
-
+| :--- | :--- |
+| **Kód obhospodarovateľa lesa** | 105991 |
+| **Výmera obhospodarovateľa (vrátane OLP)** | 580 981 m2 |
+| **Lesný hospodár** | Najsárek Rudolf |
+| **Kód OLH** | 301882 |
+| **Lesný celok** | SL247 - LESY NA LHC SOLIVAR A KOKOŠOVCE |
+| **Kód platnosti LHP (KPL)** | SL247 | 
+| **Dielce** | 4329, 4330, 6315, 7313, 7315 | 
+| --- | --- |
+| **Listnaté dreviny** | **DL**, **Dub letný**, *Quercus robur* |
+| ^^ | **DZ**, **Dub zimný**, *Quercus petraea* |
+| ^^ | **HB**, **Hrab obyčajný**, *Carpinus betulus* |
+| ^^ | **JH**, **Javor horský**, *Acer pseudoplatanus* |
+| ^^ | **JS**, **Jaseň štíhly**, *Fraxinus excelsior* |
+| ^^ | **CS**, **Čerešňa vtáčia**, *Prunus avium* |
+| ^^ | **BR**, **Breza bradavičnatá**, *Betula pendula* |
+| ^^ | **OS**, **Topoľ osikový (Osika)**, *Populus tremula* |
+| --- | --- |
+| **Ihličnaté dreviny** | **BO**, **Borovica lesná**, *Pinus sylvestris* |
+| ^^ | **BC**, **Borovica čierna**, *Pinus nigra* |
+| ^^ | **SC**, **Smrekovec opadavý**, *Larix decidua* |
+| ^^ | **LM**, **Smrek obyčajný**, *Picea abies* |
 
 
 ## Katastrálne informácie
