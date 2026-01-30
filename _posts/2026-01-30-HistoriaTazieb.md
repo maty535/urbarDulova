@@ -8,7 +8,9 @@ tags: drevo les hospodarenie podielnici tazba
 published: true
 ---
 
-
+* Týmto Vás chceme infromovať o histórii ťažobných činností v urbáre počas jednotlivých rokov :
+* Budeme sa snažiť priniesť Vám celú históriu ťažobných činnosti aj v porovnaní s ich ekonomickým výnosom
+  
  <div id="tazba-chart" style="width: 100%; height: 450px;"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
