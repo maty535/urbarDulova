@@ -5,11 +5,11 @@ date: 2026-01-30
 author: Ing. Matúš Ivanecký
 categories: drevo tazba 
 tags: drevo les hospodarenie podielnici tazba
-published: false
+published: true
 ---
 
-* Týmto Vás chceme infromovať o histórii ťažobných činností v urbáre počas jednotlivých rokov :
-* Budeme sa snažiť priniesť Vám celú históriu ťažobných činnosti aj v porovnaní s ich ekonomickým výnosom
+* Týmto Vás chceme infromovať o histórii ťažobných činností v urbáre počas jednotlivých rokov v aktuálnom lesnom hospodárskom pláne.
+* Budeme sa snažiť priniesť Vám celú históriu ťažobných činnosti aj v porovnaní s ich ekonomickým výnosom za jednotlivé roky, pričom efektivita výnosu závisí aj od trhových cien dreva, na ktoré samotné hospodárenie urbáru nemá reálny vplyv
 
   
   
@@ -19,7 +19,7 @@ published: false
 
 <script type="text/javascript">
   var chartDom = document.getElementById('tazba-chart');
-  var myChart = echarts.init(chartDom);
+  var myChart  = echarts.init(chartDom);
   
   // 3. Vytiahnutie a zoradenie dát zo site.data.historiaTazby
   {% assign zoradene_data = site.data.historiaTazby | sort: "rok" %}
@@ -74,7 +74,11 @@ published: false
         stack: 'tazba', // Stĺpce budú nad sebou
         emphasis: { focus: 'series' },
         data: listnate,
-        itemStyle: { color: '#27ae60' }
+        itemStyle: { color: '#27ae60' },
+        showBackground: true,
+        backgroundStyle: {
+          color: 'rgba(180, 180, 180, 0.2)'
+        }
       },
       {
         name: 'Ihličnaté',
