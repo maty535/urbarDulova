@@ -12,7 +12,7 @@ published: true
 * Budeme sa snažiť priniesť Vám celú históriu ťažobných činnosti aj v porovnaní s ich ekonomickým výnosom za jednotlivé roky, pričom efektivita výnosu závisí aj od trhových cien dreva, na ktoré samotné hospodárenie urbáru nemá reálny vplyv
 
     
-<div id="tazba-history-chart" style="width: 100%;"></div>
+<div id="tazba-history-chart" style="width: 100%;height:1024px;"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 
