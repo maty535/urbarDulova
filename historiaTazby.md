@@ -113,14 +113,6 @@ published: true
 
 <script>
 
-const echarts = require('echarts/lib/echarts');
-require('echarts/lib/component/title');
-require('echarts/lib/component/tooltip');
-require('echarts/lib/component/grid');
-require('echarts/lib/chart/bar');
-require('echarts/lib/chart/line');
-require('echarts/lib/component/markLine');
-
 var chartDom1 = document.getElementById('tazba-history-chart');
 var myChart1 = echarts.init(chartDom1);
 var option;
