@@ -13,6 +13,8 @@ published: true
 
     
 <div id="tazba-chart" style="width: 100%; height: 450px;"></div>
+<hr/>
+<div id="tazba-history-chart" style="width: 100%;"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 
@@ -119,8 +121,8 @@ require('echarts/lib/chart/bar');
 require('echarts/lib/chart/line');
 require('echarts/lib/component/markLine');
 
-var chartDom = document.getElementById('main');
-var myChart1 = echarts.init(chartDom);
+var chartDom1 = document.getElementById('tazba-history-chart');
+var myChart1 = echarts.init(chartDom1);
 var option;
 
 const colors = {
@@ -391,5 +393,10 @@ option = {
 };
 
 option && myChart1.setOption(option);
+
+// Automatická zmena veľkosti pri zmene okna
+window.addEventListener('resize', function() {
+myChart1.resize();
+});
 
 </script>
