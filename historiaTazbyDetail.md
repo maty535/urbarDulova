@@ -12,7 +12,7 @@ published: true
 * Budeme sa snažiť priniesť Vám celú históriu ťažobných činnosti aj v porovnaní s ich ekonomickým výnosom za jednotlivé roky, pričom efektivita výnosu závisí aj od trhových cien dreva, na ktoré samotné hospodárenie urbáru nemá reálny vplyv
 
     
-<div id="tazba-history-chart" style="width: 100%; height: 1024px;"></div>
+<div id="tazba-history-chart" style="width: 100%;"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 
@@ -29,13 +29,8 @@ const colors = {
   stats: { max: '#2e7d32', avg: '#455a64', min: '#d32f2f' }
 };
 
-// Funkcia na formátovanie tisícok medzerou
-const formatEuro = (val) =>
-  val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + ' €';
-
 option = {
   title: [
-    // Hlavné nadpisy stĺpcov
     {
       text: 'ANALÝZA PODĽA TYPOV DREVIN',
       left: '25%',
@@ -48,10 +43,8 @@ option = {
       left: '75%',
       top: '1%',
       textAlign: 'center',
-      textStyle: { fontSize: 18, fontWeight: 'bold', color: '#333' }
+      textStyle: { fontSize: 18, fontWeight: 'bold' }
     },
-
-    // Vycentrované názvy nad jednotlivými grafmi vľavo (stred je na 25% šírky obrazovky)
     {
       text: 'VÝBER',
       left: '25%',
@@ -74,12 +67,43 @@ option = {
       textStyle: { color: colors.vlaknina, fontSize: 13, fontWeight: 'bold' }
     }
   ],
-  tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+
+  tooltip: {
+    trigger: 'axis',
+    axisPointer: { type: 'shadow' },
+    // TENTO FORMÁT NAHRADÍ ČIARKY MEDZERAMI A PRIDÁ JEDNOTKY
+    formatter: function (params) {
+      var res = params[0].name + '<br/>';
+      params.forEach(function (item) {
+        var value = item.value;
+        // Formátovanie čísla na slovenské (medzery namiesto čiarok)
+        var formattedValue = value.toLocaleString('sk-SK');
+
+        // Rozhodnutie, či pridať € alebo m³ na základe názvu série
+        var unit =
+          item.seriesName.indexOf('€') !== -1 ||
+          item.seriesName.indexOf('Tržba') !== -1
+            ? ' €'
+            : ' m³';
+
+        res +=
+          item.marker +
+          ' ' +
+          item.seriesName +
+          ': <b>' +
+          formattedValue +
+          unit +
+          '</b><br/>';
+      });
+      return res;
+    }
+  },
+
   grid: [
-    { left: '7%', right: '55%', top: '15%', height: '18%' }, // Výber
-    { left: '7%', right: '55%', top: '45%', height: '18%' }, // Guľatina
-    { left: '7%', right: '55%', top: '75%', height: '18%' }, // Vláknina
-    { left: '60%', right: '5%', top: '12%', height: '81%' } // Sumár
+    { left: '7%', right: '55%', top: '15%', height: '18%' },
+    { left: '7%', right: '55%', top: '45%', height: '18%' },
+    { left: '7%', right: '55%', top: '75%', height: '18%' },
+    { left: '60%', right: '5%', top: '12%', height: '81%' }
   ],
   xAxis: [
     { type: 'category', data: ['2022', '2023'], gridIndex: 0 },
@@ -112,17 +136,16 @@ option = {
       name: '€',
       splitLine: false
     },
-    { type: 'value', gridIndex: 3, name: 'Celkový Objem (m³)' },
+    { type: 'value', gridIndex: 3, name: 'm³' },
     {
       type: 'value',
       gridIndex: 3,
       position: 'right',
-      name: 'Celková Suma (€)',
+      name: '€',
       splitLine: false
     }
   ],
   series: [
-    // --- 1. VÝBER ---
     {
       name: 'Výber (m³)',
       type: 'bar',
@@ -136,7 +159,6 @@ option = {
         position: 'inside',
         color: '#000',
         fontWeight: 'bold',
-        fontSize: 9,
         formatter: (p) =>
           p.value + ' m³\n' + (p.dataIndex === 0 ? '300' : '400') + ' € / m³'
       }
@@ -151,12 +173,9 @@ option = {
       label: {
         show: true,
         position: 'top',
-        fontSize: 10,
-        formatter: (p) => formatEuro(p.value)
+        formatter: (p) => p.value.toLocaleString('sk-SK') + ' €'
       }
     },
-
-    // --- 2. GUĽATINA ---
     {
       name: 'Guľatina (m³)',
       type: 'bar',
@@ -170,7 +189,6 @@ option = {
         position: 'inside',
         color: '#fff',
         fontWeight: 'bold',
-        fontSize: 9,
         formatter: (p) =>
           p.value + ' m³\n' + (p.dataIndex === 0 ? '200' : '205') + ' € / m³'
       }
@@ -185,12 +203,9 @@ option = {
       label: {
         show: true,
         position: 'top',
-        fontSize: 10,
-        formatter: (p) => formatEuro(p.value)
+        formatter: (p) => p.value.toLocaleString('sk-SK') + ' €'
       }
     },
-
-    // --- 3. VLÁKNINA ---
     {
       name: 'Vláknina (m³)',
       type: 'bar',
@@ -204,7 +219,6 @@ option = {
         position: 'inside',
         color: '#fff',
         fontWeight: 'bold',
-        fontSize: 9,
         formatter: (p) =>
           p.value + ' m³\n' + (p.dataIndex === 0 ? '34' : '56') + ' € / m³'
       }
@@ -219,12 +233,9 @@ option = {
       label: {
         show: true,
         position: 'top',
-        fontSize: 10,
-        formatter: (p) => formatEuro(p.value)
+        formatter: (p) => p.value.toLocaleString('sk-SK') + ' €'
       }
     },
-
-    // --- SUMÁRNY GRAF ---
     {
       name: 'Celkový Objem (m³)',
       type: 'bar',
@@ -238,33 +249,11 @@ option = {
         position: 'inside',
         color: '#fff',
         fontWeight: 'bold',
-        formatter: (p) => {
-          const unitPrices = ['183.47', '189.03', '260.00'];
-          return p.value + ' m³\n\n' + unitPrices[p.dataIndex] + ' € / m³';
-        }
-      },
-      markLine: {
-        symbol: 'none',
-        data: [
-          {
-            type: 'max',
-            name: 'Max',
-            lineStyle: { color: colors.stats.max, type: 'dotted' },
-            label: { formatter: 'MAX: {c} m³' }
-          },
-          {
-            type: 'average',
-            name: 'Avg',
-            lineStyle: { color: colors.stats.avg, type: 'dashed' },
-            label: { formatter: 'PRIEMER: {c} m³', position: 'start' }
-          },
-          {
-            type: 'min',
-            name: 'Min',
-            lineStyle: { color: colors.stats.min, type: 'dotted' },
-            label: { formatter: 'MIN: {c} m³' }
-          }
-        ]
+        formatter: (p) =>
+          p.value +
+          ' m³\n\n' +
+          ['183.47', '189.03', '260.00'][p.dataIndex] +
+          ' € / m³'
       }
     },
     {
@@ -283,7 +272,7 @@ option = {
         padding: 4,
         borderRadius: 4,
         fontWeight: 'bold',
-        formatter: (p) => formatEuro(p.value)
+        formatter: (p) => p.value.toLocaleString('sk-SK') + ' €'
       }
     }
   ]
