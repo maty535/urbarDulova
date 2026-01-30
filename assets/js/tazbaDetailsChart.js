@@ -7,48 +7,43 @@ const colors = {
   vlaknina: '#8d6e63',
   gulatina: '#66bb6a',
   vyber: '#fbc02d',
-  stats: { max: '#2e7d32', avg: '#455a64', min: '#d32f2f' }
+  nezname: '#90a4ae',
+  tržba: '#d32f2f'
 };
 
-option = {
-  title: [
-    {
-      text: 'ANALÝZA PODĽA TYPOV DREVIN',
-      left: '25%',
-      top: '1%',
-      textAlign: 'center',
-      textStyle: { fontSize: 16, fontWeight: 'bold' }
-    },
-    {
-      text: 'CELKOVÝ SUMÁR ŤAŽBY',
-      left: '75%',
-      top: '1%',
-      textAlign: 'center',
-      textStyle: { fontSize: 18, fontWeight: 'bold' }
-    },
-    {
-      text: 'VÝBER',
-      left: '25%',
-      top: '10%',
-      textAlign: 'center',
-      textStyle: { color: colors.vyber, fontSize: 13, fontWeight: 'bold' }
-    },
-    {
-      text: 'GUĽATINA',
-      left: '25%',
-      top: '40%',
-      textAlign: 'center',
-      textStyle: { color: colors.gulatina, fontSize: 13, fontWeight: 'bold' }
-    },
-    {
-      text: 'VLÁKNINA',
-      left: '25%',
-      top: '70%',
-      textAlign: 'center',
-      textStyle: { color: colors.vlaknina, fontSize: 13, fontWeight: 'bold' }
-    }
-  ],
+const detailData = {
+  '2022': { 
+    vlaknina: { p: '24,2', eur: '34' }, 
+    gulatina: { p: '52,2', eur: '200' }, 
+    vyber: { p: '23,6', eur: '300' } 
+  },
+  '2023': { 
+    vlaknina: { p: '31,6', eur: '56' }, 
+    gulatina: { p: '52,5', eur: '205' }, 
+    vyber: { p: '15,9', eur: '400' } 
+  }
+};
 
+const getYearData = (name) => {
+  const map = {
+    '2022': { objem: '236,06', cena: '183,47' },
+    '2023': { objem: '240,67', cena: '189,03' },
+    '2026': { objem: '202,15', cena: '260,00' }
+  };
+  return map[name] || { objem: '0', cena: '0' };
+};
+
+var option = {
+  title: {
+    text: 'Analýza ťažby a výnosov (2022 - 2026)',
+    left: 'center',
+    top: '5%',
+    textStyle: { fontSize: 26, fontWeight: 'bold' }
+  },
+  legend: {
+    data: ['Vláknina', 'Guľatina', 'Výber', 'Celková ťažba (nešpecifikovaná)', 'Celková Tržba'],
+    bottom: '5%'
+  },
   tooltip: {
     trigger: 'axis',
     axisPointer: { type: 'shadow' },
@@ -69,181 +64,96 @@ option = {
       return res;
     }
   },
-
-  grid: [
-    { left: '7%', right: '55%', top: '15%', height: '18%' },
-    { left: '7%', right: '55%', top: '45%', height: '18%' },
-    { left: '7%', right: '55%', top: '75%', height: '18%' },
-    { left: '60%', right: '5%', top: '12%', height: '81%' }
-  ],
-  xAxis: [
-    { type: 'category', data: ['2022', '2023'], gridIndex: 0 },
-    { type: 'category', data: ['2022', '2023'], gridIndex: 1 },
-    { type: 'category', data: ['2022', '2023'], gridIndex: 2 },
-    { type: 'category', data: ['2022', '2023', '2026'], gridIndex: 3 }
-  ],
+  grid: { left: '8%', right: '10%', top: '15%', bottom: '10%', containLabel: true },
+  xAxis: {
+    type: 'category',
+    data: ['2022', '2023', '2026'],
+  },
   yAxis: [
-    { type: 'value', gridIndex: 0, name: 'm³' },
-    {
-      type: 'value',
-      gridIndex: 0,
-      position: 'right',
-      name: '€',
-      splitLine: false
+    { 
+      type: 'value', 
+      name: 'Objem (m³)', 
+      max: 350,
+      splitNumber: 10,
+      splitLine: { show: true, lineStyle: { type: 'dashed' } }
     },
-    { type: 'value', gridIndex: 1, name: 'm³' },
-    {
-      type: 'value',
-      gridIndex: 1,
-      position: 'right',
-      name: '€',
-      splitLine: false
-    },
-    { type: 'value', gridIndex: 2, name: 'm³' },
-    {
-      type: 'value',
-      gridIndex: 2,
-      position: 'right',
-      name: '€',
-      splitLine: false
-    },
-    { type: 'value', gridIndex: 3, name: 'm³' },
-    {
-      type: 'value',
-      gridIndex: 3,
-      position: 'right',
-      name: '€',
-      splitLine: false
+    { 
+      type: 'value', 
+      name: 'Tržba (€)', 
+      position: 'right', 
+      min: 0, 
+      max: 60000,
+      splitLine: { show: false },
+      axisLabel: { formatter: (value) => value >= 0 ? value.toLocaleString('sk-SK') + ' €' : '' }
     }
   ],
   series: [
     {
-      name: 'Výber (m³)',
+      name: 'Vláknina',
       type: 'bar',
-      xAxisIndex: 0,
-      yAxisIndex: 0,
-      data: [55.76, 38.33],
-      itemStyle: { color: colors.vyber },
-      barWidth: '45%',
-      label: {
-        show: true,
-        position: 'inside',
-        color: '#000',
-        fontWeight: 'bold',
-        formatter: (p) =>
-          p.value + ' m³\n' + (p.dataIndex === 0 ? '300' : '400') + ' € / m³'
-      }
-    },
-    {
-      name: 'Výber (€)',
-      type: 'line',
-      xAxisIndex: 0,
-      yAxisIndex: 1,
-      data: [16728, 15332],
-      itemStyle: { color: '#333' },
-      label: {
-        show: true,
-        position: 'top',
-        formatter: (p) => p.value.toLocaleString('sk-SK') + ' €'
-      }
-    },
-    {
-      name: 'Guľatina (m³)',
-      type: 'bar',
-      xAxisIndex: 1,
-      yAxisIndex: 2,
-      data: [123.21, 126.32],
-      itemStyle: { color: colors.gulatina },
-      barWidth: '45%',
-      label: {
-        show: true,
-        position: 'inside',
-        color: '#fff',
-        fontWeight: 'bold',
-        formatter: (p) =>
-          p.value + ' m³\n' + (p.dataIndex === 0 ? '200' : '205') + ' € / m³'
-      }
-    },
-    {
-      name: 'Guľatina (€)',
-      type: 'line',
-      xAxisIndex: 1,
-      yAxisIndex: 3,
-      data: [24642, 25895],
-      itemStyle: { color: '#333' },
-      label: {
-        show: true,
-        position: 'top',
-        formatter: (p) => p.value.toLocaleString('sk-SK') + ' €'
-      }
-    },
-    {
-      name: 'Vláknina (m³)',
-      type: 'bar',
-      xAxisIndex: 2,
-      yAxisIndex: 4,
-      data: [57.09, 76.02],
+      stack: 'tazba',
       itemStyle: { color: colors.vlaknina },
-      barWidth: '45%',
-      label: {
-        show: true,
-        position: 'inside',
-        color: '#fff',
-        fontWeight: 'bold',
-        formatter: (p) =>
-          p.value + ' m³\n' + (p.dataIndex === 0 ? '34' : '56') + ' € / m³'
+      data: [57.09, 76.02, 0],
+      label: { 
+        show: true, position: 'inside', color: '#fff', fontSize: 10,
+        formatter: (p) => (p.value > 0 && detailData[p.name]) ? `${p.value} m³ (${detailData[p.name].vlaknina.p}%)\n${detailData[p.name].vlaknina.eur} €/m³` : '' 
       }
     },
     {
-      name: 'Vláknina (€)',
-      type: 'line',
-      xAxisIndex: 2,
-      yAxisIndex: 5,
-      data: [1941, 4265],
-      itemStyle: { color: '#333' },
-      label: {
-        show: true,
-        position: 'top',
-        formatter: (p) => p.value.toLocaleString('sk-SK') + ' €'
-      }
-    },
-    {
-      name: 'Celkový Objem (m³)',
+      name: 'Guľatina',
       type: 'bar',
-      xAxisIndex: 3,
-      yAxisIndex: 6,
-      data: [236.06, 240.67, 202.15],
-      itemStyle: { color: '#90a4ae' },
-      barWidth: '50%',
-      label: {
-        show: true,
-        position: 'inside',
-        color: '#fff',
-        fontWeight: 'bold',
-        formatter: (p) =>
-          p.value +
-          ' m³\n\n' +
-          ['183.47', '189.03', '260.00'][p.dataIndex] +
-          ' € / m³'
+      stack: 'tazba',
+      itemStyle: { color: colors.gulatina },
+      data: [123.21, 126.32, 0],
+      label: { 
+        show: true, position: 'inside', color: '#fff', fontSize: 10,
+        formatter: (p) => (p.value > 0 && detailData[p.name]) ? `${p.value} m³ (${detailData[p.name].gulatina.p}%)\n${detailData[p.name].gulatina.eur} €/m³` : '' 
       }
     },
     {
-      name: 'Celková Tržba (€)',
+      name: 'Výber',
+      type: 'bar',
+      stack: 'tazba',
+      itemStyle: { color: colors.vyber },
+      data: [55.76, 38.33, 0],
+      label: { 
+        show: true, position: 'inside', color: '#000', fontSize: 10,
+        formatter: (p) => (p.value > 0 && detailData[p.name]) ? `${p.value} m³ (${detailData[p.name].vyber.p}%)\n${detailData[p.name].vyber.eur} €/m³` : '' 
+      }
+    },
+    {
+      name: 'Celková ťažba (nešpecifikovaná)',
+      type: 'bar',
+      stack: 'tazba',
+      itemStyle: { color: colors.nezname },
+      data: [0,0, 202.15],
+      label: { 
+        show: true, position: 'inside', color: '#fff', fontSize: 10,
+        formatter: (p) => p.value > 0 ? `${p.value} m³ (100%)\n260,00 €/m³` : '' 
+      }
+    },
+    {
+      name: 'Celková Tržba',
       type: 'line',
-      xAxisIndex: 3,
-      yAxisIndex: 7,
+      yAxisIndex: 1,
+      symbolSize: 20,
+      z: 0,
+      lineStyle: { width: 6, color: colors.tržba },
+      itemStyle: { color: colors.tržba },
       data: [43311, 45492, 52559],
-      itemStyle: { color: '#d32f2f' },
-      lineStyle: { width: 4 },
-      symbolSize: 10,
-      label: {
-        show: true,
-        position: 'top',
-        backgroundColor: '#fff',
-        padding: 4,
-        borderRadius: 4,
-        fontWeight: 'bold',
-        formatter: (p) => p.value.toLocaleString('sk-SK') + ' €'
+      label: { 
+        show: true, position: 'top', fontWeight: 'bold', backgroundColor: '#fff', 
+        padding: [10, 10], borderRadius: 8, borderWidth: 2, borderColor: colors.tržba,
+        shadowBlur: 12, shadowColor: 'rgba(0,0,0,0.15)', color: '#000', align: 'center',
+        formatter: (p) => {
+          const d = getYearData(p.name);
+          return '{val|' + p.value.toLocaleString('sk-SK') + ' €}\n{sub|' + d.objem + ' m³}\n{price|Ø ' + d.cena + ' €/m³}';
+        },
+        rich: {
+          val: { fontSize: 22, fontWeight: 'bold', lineHeight: 22 },
+          sub: { fontSize: 16, color: '#555', lineHeight: 18 },
+          price: { fontSize: 14, color: colors.tržba, fontWeight: 'bold', lineHeight: 18 }
+        }
       }
     }
   ]
