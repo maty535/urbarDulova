@@ -111,6 +111,18 @@ published: true
 
 <script>
 
+const echarts = require('echarts/lib/echarts');
+require('echarts/lib/component/title');
+require('echarts/lib/component/tooltip');
+require('echarts/lib/component/grid');
+require('echarts/lib/chart/bar');
+require('echarts/lib/chart/line');
+require('echarts/lib/component/markLine');
+
+var chartDom = document.getElementById('main');
+var myChart1 = echarts.init(chartDom);
+var option;
+
 const colors = {
   vlaknina: '#8d6e63',
   gulatina: '#66bb6a',
@@ -377,5 +389,7 @@ option = {
     }
   ]
 };
+
+option && myChart1.setOption(option);
 
 </script>
