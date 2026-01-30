@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Historický prehľad vyťaženého dreva v aktálnom LHP"
+title: "Historický prehľad vyťaženého dreva v aktuálnom LHP"
 date: 2026-01-30
 author: Ing. Matúš Ivanecký
 categories: drevo tazba 
