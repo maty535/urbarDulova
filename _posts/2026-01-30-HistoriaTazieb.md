@@ -11,7 +11,7 @@ published: true
 * Týmto Vás chceme infromovať o histórii ťažobných činností v urbáre počas jednotlivých rokov :
 * Budeme sa snažiť priniesť Vám celú históriu ťažobných činnosti aj v porovnaní s ich ekonomickým výnosom
   
- <div id="tazba-chart" style="width: 100%; height: 450px;"></div>
+<div id="tazba-chart" style="width: 100%; height: 450px;"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 
@@ -24,10 +24,10 @@ published: true
   var rawData = {{ zoradene_data | jsonify }};
   
   // Príprava polí pre ECharts
-  var roky = rawData.map(item => item.rok);
-  var listnate = rawData.map(item => item.listnate);
+  var roky      = rawData.map(item => item.rok);
+  var listnate  = rawData.map(item => item.listnate);
   var ihlicnate = rawData.map(item => item.ihlicnate);
-  var holiny = rawData.map(item => item.holiny);
+  var holiny    = rawData.map(item => item.holiny);
 
   var option = {
     title: {
