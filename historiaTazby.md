@@ -5,7 +5,7 @@ date: 2026-01-30
 author: Ing. Matúš Ivanecký
 categories: drevo tazba 
 tags: drevo les hospodarenie podielnici tazba
-published: false
+published: true
 ---
 
 * Týmto Vás chceme infromovať o histórii ťažobných činností v urbáre počas jednotlivých rokov v aktuálnom lesnom hospodárskom pláne.
