@@ -8,8 +8,8 @@ tags: drevo les hospodarenie podielnici tazba
 published: true
 ---
 - V období od 6.1.2026 do 16.1.2026 bola realizovaná ťažba dubovej guľatiny v objeme 202.15 m³. Ťažbu realizoval **Rudolf Švec** z Červenice, IČO: 45 719 713,  mobil: **0908 821 804**, s ktorého prácou  a prístupom sme na základe vyjadrení OLH nad mieru spokojní a ďakujeme mu za úspešnú realizáciu ťažby.
-- výbor urbáru úspešne realizoval aj aukciu drevnej hmoty, ktorej výsledok Vám budeme komunikovať až po ukončení celého procesu predaja dreva.
-
+- výbor urbáru úspešne realizoval aukciu drevnej hmoty, v ktorú úspešne realizovala firma: **DRIMTEX s.r.o.** (p. Ján Dudlák) dlhoročný stabilný odberateľ drevnej hmoty z nášho spoločentva.
+p.
 <style>
   
   table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
