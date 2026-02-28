@@ -74,10 +74,13 @@
         });
     }
 
+    function removeAccents(str) { return str.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
+
     function filterCards() {
-        const query = document.getElementById('searchInput').value.toLowerCase();
+        
+        const query = removeAccents(document.getElementById('searchInput').value.toLowerCase());
         const filtered = allData.filter(item => 
-            item.name.toLowerCase().includes(query) || 
+            removeAccents(item.name.toLowerCase()).includes(query) || 
             item.dob.toLowerCase().includes(query)
         );
         renderCards(filtered);
