@@ -2,89 +2,123 @@
 <html lang="sk">
 <head>
     <meta charset="UTF-8">
-    <title>Analýza nekonzistencií LV</title>
+    <title>Audit podielov vlastníkov</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; margin: 30px; background: #f4f7f9; color: #333; }
-        .container { max-width: 1100px; margin: auto; }
-        h1 { color: #d32f2f; border-bottom: 3px solid #d32f2f; padding-bottom: 10px; }
-        .search-box { width: 100%; padding: 12px; margin: 20px 0; border: 1px solid #ccc; border-radius: 8px; font-size: 16px; }
+        :root { --primary-color: #b91c1c; --bg-body: #f8fafc; --text-muted: #64748b; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 40px; background: var(--bg-body); color: #334155; }
+        .container { max-width: 1150px; margin: auto; }
         
-        .card { background: white; border-radius: 10px; padding: 20px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-left: 5px solid #d32f2f; }
-        .owner-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-        .owner-name { font-size: 1.2em; font-weight: bold; color: #1a73e8; }
-        .owner-dob { color: #666; font-style: italic; }
+        h1 { font-size: 2.2rem; color: var(--primary-color); margin-bottom: 5px; font-weight: 800; border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; }
+        .sub-header { font-size: 1.1rem; color: #475569; margin-bottom: 25px; font-weight: 600; }
         
-        .mismatch-grid { display: grid; grid-template-columns: 1fr; gap: 10px; background: #fef2f2; padding: 15px; border-radius: 6px; }
-        .share-item { border-bottom: 1px solid #eee; padding: 5px 0; }
-        .share-item:last-child { border-bottom: none; }
-        .share-val { font-weight: bold; color: #333; }
-        .lv-list { color: #d32f2f; font-weight: 500; }
+        .search-box { width: 100%; padding: 12px 20px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 16px; margin-bottom: 25px; outline: none; box-sizing: border-box; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+
+        .card { background: white; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-left: 6px solid var(--primary-color); position: relative; }
+        .owner-name { font-size: 1.5rem; font-weight: 800; color: #1e293b; }
         
-        .stats { margin-bottom: 20px; font-weight: bold; color: #555; }
+        /* Spoločný štýl pre interaktívne štítky */
+        .tag { display: inline-block; padding: 3px 10px; border-radius: 6px; font-weight: 700; font-size: 0.85rem; margin-left: 10px; border: 1px solid transparent; cursor: pointer; transition: all 0.2s; }
+        
+        .maiden-tag { background: #fef2f2; color: #b91c1c; border-color: #fee2e2; }
+        .maiden-tag:hover { background: #fee2e2; transform: translateY(-1px); }
+        
+        .dob-tag { background: #f1f5f9; color: #475569; border-color: #e2e8f0; font-style: normal !important; }
+        .dob-tag:hover { background: #e2e8f0; color: #1e293b; transform: translateY(-1px); }
+
+        .mismatch-box { background: #fff5f5; border: 1px solid #fee2e2; border-radius: 10px; margin-top: 15px; overflow: hidden; }
+        
+        .share-row { display: flex; align-items: center; padding: 12px 20px; border-bottom: 1px solid #fee2e2; }
+        .share-row:last-child { border-bottom: none; }
+
+        .fraction-col { width: 130px; display: flex; justify-content: center; }
+        .percent-col { width: 220px; font-family: 'Courier New', monospace; font-weight: 700; color: #b91c1c; font-size: 1.05rem; text-align: right; padding-right: 35px; }
+
+        .lv-info { flex: 1; font-size: 1.05rem; border-left: 2px solid #fee2e2; padding-left: 25px; }
+        .lv-numbers { font-weight: 700; color: var(--primary-color); }
+
+        .fraction { display: inline-flex; flex-direction: column; vertical-align: middle; align-items: center; font-size: 0.95em; line-height: 1.1; font-weight: bold; }
+        .fraction .num { border-bottom: 1.5px solid #1e293b; padding: 0 3px; }
+        .fraction .den { padding: 0 3px; }
+        .nema-val { font-weight: 800; color: #64748b; font-size: 1.1rem; }
     </style>
 </head>
 <body>
 
 <div class="container">
     <h1>Nekonzistencie v podieloch vlastníkov</h1>
-    <div class="stats" id="stats">Načítavam dáta...</div>
+    <div class="sub-header" id="stats">Načítavam dáta...</div>
     
-    <input type="text" id="searchInput" class="search-box" placeholder="Hľadať podľa mena alebo dátumu narodenia..." onkeyup="filterCards()">
-
+    <input type="text" id="search" class="search-box" placeholder="Hľadať podľa mena, rodného mena alebo dátumu..." onkeyup="doSearch()">
+    
     <div id="results"></div>
 </div>
 
 <script>
-    let allData = [];
+    let ownersData = [];
 
-    fetch('rozdiely.json')
-        .then(res => res.json())
-        .then(data => {
-            allData = data;
-            renderCards(data);
-        });
-
-    function renderCards(data) {
-        const container = document.getElementById('results');
-        const stats = document.getElementById('stats');
-        container.innerHTML = '';
-        
-        stats.innerText = `Nájdených ${data.length} vlastníkov s rozdielnymi podielmi naprieč LV.`;
-
-        data.forEach(item => {
-            const card = document.createElement('div');
-            card.className = 'card';
-            
-            let detailsHtml = item.details.map(d => `
-                <div class="share-item">
-                    <span class="share-val">${d.share}</span> ⮕ na listoch: <span class="lv-list">${d.lvs.join(', ')}</span>
-                </div>
-            `).join('');
-
-            card.innerHTML = `
-                <div class="owner-header">
-                    <div class="owner-name">${item.name}</div>
-                    <div class="owner-dob">Nar.: ${item.dob}</div>
-                </div>
-                <div class="mismatch-grid">
-                    ${detailsHtml}
-                </div>
-            `;
-            container.appendChild(card);
-        });
+    function formatFraction(shareStr) {
+        if (shareStr === "Nemá") return '<div class="nema-val">Nemá</div>';
+        const match = shareStr.match(/{(\d+)}{(\d+)}/);
+        if (match) return `<div class="fraction"><span class="num">${match[1]}</span><span class="den">${match[2]}</span></div>`;
+        return shareStr;
     }
 
-    function removeAccents(str) { return str.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
-
-    function filterCards() {
-        
-        const query = removeAccents(document.getElementById('searchInput').value.toLowerCase());
-        const filtered = allData.filter(item => 
-            removeAccents(item.name.toLowerCase()).includes(query) || 
-            item.dob.toLowerCase().includes(query)
-        );
-        renderCards(filtered);
+    // Univerzálna funkcia pre nastavenie filtra
+    function setFilter(value) {
+        const searchInput = document.getElementById('search');
+        searchInput.value = value;
+        doSearch();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+
+    function render(data) {
+        const out = document.getElementById('results');
+        document.getElementById('stats').innerText = `Nájdených ${data.length} vlastníkov s rozdielnymi podielmi naprieč LV.`;
+        
+        out.innerHTML = data.map(item => `
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <span class="owner-name">${item.name}</span>
+                        ${item.maiden ? `<span class="tag maiden-tag" onclick="setFilter('${item.maiden}')" title="Filtrovať rodné meno">r. ${item.maiden}</span>` : ''}
+                    </div>
+                    <div class="tag dob-tag" onclick="setFilter('${item.dob}')" title="Filtrovať dátum narodenia">
+                        Nar.: ${item.dob}
+                    </div>
+                </div>
+                <div class="mismatch-box">
+                    ${item.details.map(d => {
+                        const pMatch = d.share.match(/\(([\d\.]+)%\)/);
+                        const percent = pMatch ? pMatch[1] : "";
+                        return `
+                            <div class="share-row">
+                                <div class="fraction-col">${formatFraction(d.share)}</div>
+                                <div class="percent-col">${percent ? percent + ' %' : ''}</div>
+                                <div class="lv-info">
+                                    <span style="color: var(--text-muted)">na listoch:</span> 
+                                    <span class="lv-numbers">${d.lvs.join(', ')}</span>
+                                </div>
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+            </div>
+        `).join('');
+    }
+
+    function doSearch() {
+        const term = document.getElementById('search').value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        const filtered = ownersData.filter(i => {
+            const searchString = (i.name + (i.maiden || "") + i.dob).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            return searchString.includes(term);
+        });
+        render(filtered);
+    }
+
+    fetch('rozdiely.json').then(r => r.json()).then(data => {
+        ownersData = data;
+        render(data);
+    });
 </script>
 
 </body>
