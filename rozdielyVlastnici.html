@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Analýza nekonzistencií LV</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 30px; background: #f4f7f9; color: #333; }
+        .container { max-width: 1100px; margin: auto; }
+        h1 { color: #d32f2f; border-bottom: 3px solid #d32f2f; padding-bottom: 10px; }
+        .search-box { width: 100%; padding: 12px; margin: 20px 0; border: 1px solid #ccc; border-radius: 8px; font-size: 16px; }
+        
+        .card { background: white; border-radius: 10px; padding: 20px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-left: 5px solid #d32f2f; }
+        .owner-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .owner-name { font-size: 1.2em; font-weight: bold; color: #1a73e8; }
+        .owner-dob { color: #666; font-style: italic; }
+        
+        .mismatch-grid { display: grid; grid-template-columns: 1fr; gap: 10px; background: #fef2f2; padding: 15px; border-radius: 6px; }
+        .share-item { border-bottom: 1px solid #eee; padding: 5px 0; }
+        .share-item:last-child { border-bottom: none; }
+        .share-val { font-weight: bold; color: #333; }
+        .lv-list { color: #d32f2f; font-weight: 500; }
+        
+        .stats { margin-bottom: 20px; font-weight: bold; color: #555; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Nekonzistencie v podieloch vlastníkov</h1>
+    <div class="stats" id="stats">Načítavam dáta...</div>
+    
+    <input type="text" id="searchInput" class="search-box" placeholder="Hľadať podľa mena alebo dátumu narodenia..." onkeyup="filterCards()">
+
+    <div id="results"></div>
+</div>
+
+<script>
+    let allData = [];
+
+    fetch('rozdiely.json')
+        .then(res => res.json())
+        .then(data => {
+            allData = data;
+            renderCards(data);
+        });
+
+    function renderCards(data) {
+        const container = document.getElementById('results');
+        const stats = document.getElementById('stats');
+        container.innerHTML = '';
+        
+        stats.innerText = `Nájdených ${data.length} vlastníkov s rozdielnymi podielmi naprieč LV.`;
+
+        data.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            
+            let detailsHtml = item.details.map(d => `
+                <div class="share-item">
+                    <span class="share-val">${d.share}</span> ⮕ na listoch: <span class="lv-list">${d.lvs.join(', ')}</span>
+                </div>
+            `).join('');
+
+            card.innerHTML = `
+                <div class="owner-header">
+                    <div class="owner-name">${item.name}</div>
+                    <div class="owner-dob">Nar.: ${item.dob}</div>
+                </div>
+                <div class="mismatch-grid">
+                    ${detailsHtml}
+                </div>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    function filterCards() {
+        const query = document.getElementById('searchInput').value.toLowerCase();
+        const filtered = allData.filter(item => 
+            item.name.toLowerCase().includes(query) || 
+            item.dob.toLowerCase().includes(query)
+        );
+        renderCards(filtered);
+    }
+</script>
+
+</body>
+</html>
