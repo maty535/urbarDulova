@@ -262,7 +262,7 @@
             // ZJEDNODUŠENIE: Aby to bolo bleskové, použijeme radšej toto:
             const issuesResponse = await fetch(`https://api.github.com/repos/${repo}/issues?state=all&labels=poznámka`);
             const issues = await issuesResponse.json();
-    
+            const notesMap = {};
             for (const issue of issues) {
                 if (issue.comments > 0) {
                     const commRes = await fetch(issue.comments_url);
