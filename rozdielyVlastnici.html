@@ -82,6 +82,7 @@
                 font-weight: 900;
             }
         }
+        /* ================================================================================*/
         /* 1. ZÁKLADNÉ NASTAVENIE (Desktop) */
         .quick-note {
             white-space: pre-wrap; /* KĽÚČOVÉ: zachová riadkovanie a entery */
@@ -100,6 +101,27 @@
             text-decoration: underline;
             cursor: pointer;
             margin-top: 5px;
+        }
+
+        /* Aby text vnútri markdownu nevyzeral rozbitý */
+        .markdown-text p {
+            margin: 0 0 8px 0; /* Jemný odstup pod odsekmi */
+            display: inline;   /* Ak chceš, aby ikona 📝 zostala v riadku s textom */
+        }
+        
+        .markdown-text strong {
+            color: #000;
+            font-weight: 700;
+        }
+        
+        .markdown-text ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        
+        .markdown-text a {
+            color: #2563eb;
+            text-decoration: underline;
         }
         .lv-arrow { display: none;}  /* Šípka je predvolene skrytá */
         :root { --primary-color: #b91c1c; --bg-body: #f8fafc; --text-muted: #64748b; }
@@ -173,6 +195,7 @@
             font-family: sans-serif;
         }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 
@@ -268,7 +291,7 @@
                             <div class="note-card">
                                 <div class="note-body">
                                     <span class="note-icon">📝</span>
-                                    ${c.text}
+                                    <div class="markdown-text">${marked.parse(c.text)}</div>
                                     <div class="note-date-footer">${c.date}</div>
                                 </div>
                             </div>
