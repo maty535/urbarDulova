@@ -226,6 +226,30 @@
         .btn-show-notes:hover {
             background: #e2e8f0;
         }
+
+        .filter-btn {
+            background: white;
+            border: 1px solid #cbd5e1;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            color: #64748b;
+            transition: all 0.2s;
+            font-weight: 600;
+        }
+        
+        .filter-btn:hover {
+            background: #f1f5f9;
+            border-color: #94a3b8;
+        }
+        
+        .filter-btn.active {
+            background: #1e293b;
+            color: white;
+            border-color: #1e293b;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
@@ -241,6 +265,19 @@
     <div class="sub-header" id="stats">Načítavam dáta...</div>
     
     <input type="text" id="search" class="search-box" placeholder="Hľadať podľa mena, rodného mena alebo dátumu..." onkeyup="doSearch()">
+    <div style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+   <div style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+        <button onclick="setNoteFilter('all')" class="filter-btn active" id="filter-all">
+            Všetci <small id="count-all"></small>
+        </button>
+        <button onclick="setNoteFilter('with')" class="filter-btn" id="filter-with">
+            S poznámkou <small id="count-with" style="color: #3b82f6; font-weight: 800;"></small>
+        </button>
+        <button onclick="setNoteFilter('without')" class="filter-btn" id="filter-without">
+            Bez poznámky <small id="count-without"></small>
+        </button>
+    </div>
+</div>
     
     <div id="results"></div>
 </div>
@@ -443,15 +480,56 @@
         }
     }
     
-    function doSearch() {
+   function doSearch() {
         const term = document.getElementById('search').value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        
         const filtered = ownersData.filter(i => {
+            // 1. Textový filter (meno, dátum...)
             const searchString = (i.name + (i.maiden || "") + i.dob).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-            return searchString.includes(term);
+            const matchesText = searchString.includes(term);
+            
+            // 2. Filter podľa poznámok
+            const ownerId = generateOwnerId(i.name, i.dob);
+            const hasNotes = globalNotes[ownerId] && globalNotes[ownerId].count > 0;
+            
+            let matchesNotes = true;
+            if (currentNoteFilter === 'with') matchesNotes = hasNotes;
+            if (currentNoteFilter === 'without') matchesNotes = !hasNotes;
+            
+            return matchesText && matchesNotes;
         });
+        
         render(filtered, globalNotes);
     }
 
+    let currentNoteFilter = 'all'; // Možnosti: 'all', 'with', 'without'
+
+    function setNoteFilter(type) {
+        currentNoteFilter = type;
+        
+        // Vizualizácia aktívneho tlačidla
+        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+        document.getElementById(`filter-${type}`).classList.add('active');
+        
+        doSearch(); // Znovu prefiltrujeme dáta
+    }
+
+    // Funkcia na aktualizáciu počtov v tlačidlách
+    function updateFilterCounts() {
+        const total = ownersData.length;
+        let withNotes = 0;
+    
+        ownersData.forEach(item => {
+            const id = generateOwnerId(item.name, item.dob);
+            if (globalNotes[id] && globalNotes[id].count > 0) {
+                withNotes++;
+            }
+        });
+    
+        document.getElementById('count-all').innerText = `(${total})`;
+        document.getElementById('count-with').innerText = `(${withNotes})`;
+        document.getElementById('count-without').innerText = `(${total - withNotes})`;
+    }
 
     async function initApp() {
         try {
@@ -461,6 +539,7 @@
             
             // 2. Načítanie poznámok
             globalNotes = await fetchNotesInfo();
+            updateFilterCounts(); 
     
             // 3. Kontrola URL parametra "search"
             const urlParams = new URLSearchParams(window.location.search);
