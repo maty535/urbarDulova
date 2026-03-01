@@ -384,7 +384,6 @@
             <span class="refresh-text">Aktualizovať</span>
         </button>
     </div>
-</div>
     
     <div id="results"></div>
 </div>
@@ -642,25 +641,21 @@
 
     async function refreshData() {
         const btn = document.getElementById('refresh-btn');
-        btn.classList.add('loading'); // Pridáme animáciu točenia
+        btn.classList.add('loading'); // Pridá triedu loading, ktorá spustí rotáciu cez CSS
         btn.disabled = true;
     
         try {
-            // Znovu načítame len poznámky z GitHubu
             globalNotes = await fetchNotesInfo();
-            
-            // Prepočítame čísla v tlačidlách filtra
             updateFilterCounts();
-            
-            // Znovu spustíme hľadanie (vyrenderuje karty s novými bodkami/počtami)
             doSearch();
-            
-            console.log("Dáta boli úspešne aktualizované.");
         } catch (err) {
-            console.error("Chyba pri refreshe:", err);
+            console.error("Refresh zlyhal:", err);
         } finally {
-            btn.classList.remove('loading');
-            btn.disabled = false;
+            // Počkáme chvíľu, aby animácia vyzerala prirodzene
+            setTimeout(() => {
+                btn.classList.remove('loading');
+                btn.disabled = false;
+            }, 500);
         }
     }
     
