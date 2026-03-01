@@ -24,6 +24,7 @@ permalink: /docs/
 | 27.10.2025   | [Súhlas so spracovaním osobných udajov a oznámenie čísla účtu](https://urbar.dulovaves.sk/assets/2025-11-05-DoplnenieUdajov.pdf) |
 | 19.11.2025   | [Výpočet podielu zo zisku, ktorý bude vyplatený podielnikovi](https://urbar.dulovaves.sk/valne/zhromazdenie/2025/11/19/PodielNaZisku-Vypocet.html) |
 | 23.12.2025   | [Ǔčasť podielnikov na právach a povinnostiach v pozemkovom spoločenstve](https://urbar.dulovaves.sk/ucast) |
+| 28.02.2026   | [Audit vlastníckych podielov](https://urbar.dulovaves.sk/rozdielyVlastnici) |
 
 # Zákony
 
