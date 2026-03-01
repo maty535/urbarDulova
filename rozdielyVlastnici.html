@@ -175,47 +175,55 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    async function render(data, notesMap = {}) {
+   async function render(data, notesMap = {}) {
         const out = document.getElementById('results');
         document.getElementById('stats').innerText = `Nájdených ${data.length} vlastníkov s rozdielnymi podielmi naprieč LV.`;
-        
-        out.innerHTML = data.map(item => `
-            <div class="card">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <div>
-                        <span class="owner-name">${item.name}</span>
-                        ${item.maiden ? `<span class="tag maiden-tag" onclick="setFilter('${item.maiden}')" title="Filtrovať rodné meno">r. ${item.maiden}</span>` : ''}
+    
+        out.innerHTML = data.map(item => {
+            // --- SEM VKLADÁME LOGIKU PRE KAŽDÚ KARTU ---
+            const ownerId = `${item.name}-${item.dob}`.replace(/\s+/g, '-').toLowerCase().replace(/[^a-z0-9-]/g, '');
+            const note = notesMap[ownerId] || ""; 
+            // ------------------------------------------
+    
+            return `
+                <div class="card">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <span class="owner-name">${item.name}</span>
+                            ${item.maiden ? `<span class="tag maiden-tag" onclick="setFilter('${item.maiden}')" title="Filtrovať rodné meno">r. ${item.maiden}</span>` : ''}
+                        </div>
+                        <div class="tag dob-tag" onclick="setFilter('${item.dob}')" title="Filtrovať dátum narodenia">
+                            <span style="color: var(--text-muted)">Nar.:</span> ${item.dob}
+                        </div>
                     </div>
-                    <div class="tag dob-tag" onclick="setFilter('${item.dob}')" title="Filtrovať dátum narodenia">
-                        <span style="color: var(--text-muted)">Nar.:</span> ${item.dob}
-                    </div>
-                </div>
-                <div class="mismatch-box">
-                    ${item.details.map(d => {
-                        const pMatch = d.share.match(/\(([\d\.]+)%\)/);
-                        const percent = pMatch ? pMatch[1] : "";
-                        return `
-                            <div class="share-row">
-                                <div class="fraction-col">${formatFraction(d.share)}</div>
-                                <div class="percent-col">${percent ? percent + ' %' : ''}</div>
-                                <div class="lv-info">
-                                    <span class="lv-arrow">↓</span>
-                                    <span class="lv-label" style="color: var(--text-muted)">na listoch:</span>
-                                    <span class="lv-numbers">${d.lvs.join(', ')}</span>
+                    <div class="mismatch-box">
+                        ${item.details.map(d => {
+                            const pMatch = d.share.match(/\(([\d\.]+)%\)/);
+                            const percent = pMatch ? pMatch[1] : "";
+                            return `
+                                <div class="share-row">
+                                    <div class="fraction-col">${formatFraction(d.share)}</div>
+                                    <div class="percent-col">${percent ? percent + ' %' : ''}</div>
+                                    <div class="lv-info">
+                                        <span class="lv-arrow">↓</span>
+                                        <span class="lv-label" style="color: var(--text-muted)">na listoch:</span>
+                                        <span class="lv-numbers">${d.lvs.join(', ')}</span>
+                                    </div>
                                 </div>
-                            </div>
-                        `;
-                    }).join('')}
+                            `;
+                        }).join('')}
+                    </div>
+    
+                    ${note ? `<div class="quick-note">📝 ${note}</div>` : ''}
+    
+                    <div id="edit-ctrl-${ownerId}" style="margin-top: 10px; text-align: right;">
+                        <button class="btn-edit-note" onclick="activateUtterances('${ownerId}')">
+                            ${note ? 'Upraviť poznámku' : '+ Pridať poznámku'}
+                        </button>
+                    </div>
                 </div>
-            ${note ? `<div class="quick-note">📝 ${note}</div>` : ''}
-
-                <div id="edit-ctrl-${ownerId}" style="margin-top: 10px; text-align: right;">
-                    <button class="btn-edit-note" onclick="activateUtterances('${ownerId}')">
-                        ${note ? 'Upraviť poznámku' : '+ Pridať poznámku'}
-                    </button>
-                </div>
-            </div>
-        `).join('');
+            `;
+        }).join('');
     }
 
     // 3. Funkcia, ktorá aktivuje plnohodnotné Utterances pri kliknutí na tlačidlo
