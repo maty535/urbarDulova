@@ -276,7 +276,7 @@
     function removeAccents(str) {
         return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
     }
-   function render(data, notesMap = {}) {
+   function render(data, notesInfo = {}) {
     const out = document.getElementById('results');
     let html = "";
 
@@ -339,9 +339,10 @@
                     </div>
                 </div>
             `;
+        }); 
 
-    out.innerHTML = html;
-}
+        out.innerHTML = html;
+    }
 
     // 3. Funkcia, ktorá aktivuje plnohodnotné Utterances pri kliknutí na tlačidlo
     function activateUtterances(ownerId) {
