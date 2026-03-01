@@ -259,24 +259,18 @@
     async function fetchAllNotes() {
         const repo = "maty535/urbarDulova"; // DOPLŇ SVOJE
         try {
-            // Stiahne posledných 100 diskusií (poznámok)
-            const response = await fetch(`https://api.github.com/repos/${repo}/issues?state=all&labels=poznámka`);
-            const issues = await response.json();
-
-            // Vytvorí mapu: { 'meno-vlastnika': 'text poznámky' }
-            const notesMap = {};
-            issues.forEach(issue => {
-                const rawBody = issue.body || "";
-                
-                // Odstránime automatické linky a Markdown nadpisy, ktoré tam nechceme
-                let cleanNote = rawBody
-                    .replace(/# Audit podielov.*\n/g, '')       // Odstráni hlavný nadpis
-                    .replace(/\[https:\/\/.*\]\(.*\)/g, '')    // Odstráni linky v hranatých zátvorkách
-                    .replace(/\\n/g, '\n')                     // Opraví escapované nové riadky
-                    .trim();
-                
-                notesMap[issue.title] = cleanNote;
-            });
+            // ZJEDNODUŠENIE: Aby to bolo bleskové, použijeme radšej toto:
+            const issuesResponse = await fetch(`https://api.github.com/repos/${repo}/issues?state=all&labels=poznámka`);
+            const issues = await issuesResponse.json();
+    
+            for (const issue of issues) {
+                if (issue.comments > 0) {
+                    const commRes = await fetch(issue.comments_url);
+                    const comms = await commRes.json();
+                    // Spojíme všetky komentáre do jedného textu
+                    notesMap[issue.title] = comms.map(c => c.body).join('\n---\n');
+                }
+            }
             return notesMap;
         } catch (e) {
             console.error("Nepodarilo sa stiahnuť poznámky:", e);
