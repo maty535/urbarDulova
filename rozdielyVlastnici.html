@@ -2,8 +2,84 @@
 <html lang="sk">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audit podielov vlastníkov</title>
     <style>
+        @media (max-width: 600px) {
+            /* 1. HLAVIČKA: Dátum pod nadpisom, bez prekrývania */
+            div[style*="position: relative"] {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                padding-bottom: 15px !important;
+            }
+            span[style*="position: absolute"] {
+                position: static !important;
+                transform: none !important;
+                margin-top: 8px;
+            }
+
+            /* Kľúčová zmena pre oddelenie riadkov */
+            .share-row {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                padding: 12px 5px !important;
+                background: transparent !important; /* Čisté biele pozadie */
+                border-bottom: 1px solid #b91c1c !important; /* Tenká, ale ostrá červená čiara */
+            }
+
+            .share-row:last-child {
+                border-bottom: none !important; /* Posledný riadok v rámci jedného vlastníka už čiaru nepotrebuje */
+            }
+            /* 3. DÁTA: Každé na svojom riadku */
+            .fraction-col, .percent-col, .lv-info {
+                width: 100% !important;
+                padding: 4px 0 !important;
+                text-align: center !important;
+                border: none !important;
+            }
+
+            /* 2. SKRYTIE TEXTU "na listoch:" */
+            /* V tvojom renderi je to v <span style="color: var(--text-muted)">na listoch:</span> */
+            .lv-info span[style*="color: var(--text-muted)"],
+            .dob-tag span[style*="color: var(--text-muted)"] {
+                display: none !important;
+            }
+
+            .percent-col {
+                color: var(--primary-color) !important;
+                font-size: 1.2rem !important;
+                font-weight: 800 !important;
+            }
+
+        .lv-numbers {
+                font-size: 1.25rem !important;
+                display: block;
+                margin-top: 5px;
+            }
+            /* Základný štýl pre ikonu */
+            .lv-icon {
+                color: var(--primary-color); /* Použije tvoju červenú */
+                font-weight: bold;
+                margin-right: 8px;
+            }
+            /* Šípka na mobile môže byť o niečo väčšia pre lepšiu navigáciu oka */
+            .lv-icon {
+                font-size: 1.2rem;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .lv-arrow {
+                font-size: 1.5rem;
+                display: inline-block !important; /* Na mobile sa šípka zobrazí */
+                color: #b91c1c; /* Ostrá červená */
+                margin-right: 5px;
+                vertical-align: middle;
+                font-weight: 900;
+            }
+        }
+        /* 1. ZÁKLADNÉ NASTAVENIE (Desktop) */
+        .lv-arrow { display: none;}  /* Šípka je predvolene skrytá */
         :root { --primary-color: #b91c1c; --bg-body: #f8fafc; --text-muted: #64748b; }
         body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 40px; background: var(--bg-body); color: #334155; }
         .container { max-width: 1150px; margin: auto; }
@@ -88,7 +164,7 @@
                         ${item.maiden ? `<span class="tag maiden-tag" onclick="setFilter('${item.maiden}')" title="Filtrovať rodné meno">r. ${item.maiden}</span>` : ''}
                     </div>
                     <div class="tag dob-tag" onclick="setFilter('${item.dob}')" title="Filtrovať dátum narodenia">
-                        Nar.: ${item.dob}
+                        <span style="color: var(--text-muted)">Nar.:</span> ${item.dob}
                     </div>
                 </div>
                 <div class="mismatch-box">
@@ -100,7 +176,8 @@
                                 <div class="fraction-col">${formatFraction(d.share)}</div>
                                 <div class="percent-col">${percent ? percent + ' %' : ''}</div>
                                 <div class="lv-info">
-                                    <span style="color: var(--text-muted)">na listoch:</span> 
+                                    <span class="lv-arrow">↓</span>
+                                    <span class="lv-label" style="color: var(--text-muted)">na listoch:</span>
                                     <span class="lv-numbers">${d.lvs.join(', ')}</span>
                                 </div>
                             </div>
