@@ -234,9 +234,14 @@
 
         html += `
             <div class="card" id="card-${ownerId}">
-                <div class="owner-header">
-                    <span class="owner-name">${item.name}</span>
-                    <span class="tag dob-tag">Nar.: ${item.dob}</span>
+               <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <span class="owner-name">${item.name}</span>
+                            ${item.maiden ? `<span class="tag maiden-tag" onclick="setFilter('${item.maiden}')" title="Filtrovať rodné meno">r. ${item.maiden}</span>` : ''}
+                        </div>
+                        <div class="tag dob-tag" onclick="setFilter('${item.dob}')" title="Filtrovať dátum narodenia">
+                            <span style="color: var(--text-muted)">Nar.:</span> ${item.dob}
+                        </div>
                 </div>
 
                 <div class="mismatch-box">
