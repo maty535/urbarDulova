@@ -158,7 +158,8 @@
 </div>
 
 <script>
-    let ownersData = [];
+    let ownersData  = [];
+    let globalNotes = {};  // Globálna premenná pre poznámky
 
     function formatFraction(shareStr) {
         if (shareStr === "Nemá") return '<div class="nema-val">Nemá</div>';
@@ -290,10 +291,6 @@
             console.error("Chyba pri štarte:", err);
         }
     }
-
-
-    let ownersData = [];   // Globálna premenná pre vyhľadávanie
-    let globalNotes = {};  // Globálna premenná pre poznámky
     // Spustenie aplikácie
     initApp();
     
