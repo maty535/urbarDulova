@@ -262,11 +262,20 @@
             // Stiahne posledných 100 diskusií (poznámok)
             const response = await fetch(`https://api.github.com/repos/${repo}/issues?state=all&labels=poznámka`);
             const issues = await response.json();
-            
+
             // Vytvorí mapu: { 'meno-vlastnika': 'text poznámky' }
             const notesMap = {};
             issues.forEach(issue => {
-                notesMap[issue.title] = issue.body; // Utterances ukladá ID do názvu Issue
+                const rawBody = issue.body || "";
+                
+                // Odstránime automatické linky a Markdown nadpisy, ktoré tam nechceme
+                let cleanNote = rawBody
+                    .replace(/# Audit podielov.*\n/g, '')       // Odstráni hlavný nadpis
+                    .replace(/\[https:\/\/.*\]\(.*\)/g, '')    // Odstráni linky v hranatých zátvorkách
+                    .replace(/\\n/g, '\n')                     // Opraví escapované nové riadky
+                    .trim();
+                
+                notesMap[issue.title] = cleanNote;
             });
             return notesMap;
         } catch (e) {
