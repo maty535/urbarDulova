@@ -194,6 +194,38 @@
             margin-top: 5px;
             font-family: sans-serif;
         }
+        /* Modrá bodka pri mene */
+        .note-indicator {
+            width: 8px;
+            height: 8px;
+            background-color: #3b82f6;
+            border-radius: 50%;
+            display: inline-block;
+            box-shadow: 0 0 0 2px #fff, 0 0 5px rgba(59, 130, 246, 0.5);
+            animation: pulse-blue 2s infinite;
+        }
+        
+        @keyframes pulse-blue {
+            0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
+            70% { box-shadow: 0 0 0 6px rgba(59, 130, 246, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+        }
+        
+        /* Tlačidlo "Zobraziť poznámky" */
+        .btn-show-notes {
+            background: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            color: #475569;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        
+        .btn-show-notes:hover {
+            background: #e2e8f0;
+        }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
@@ -252,61 +284,61 @@
         // Generujeme ID (uisti sa, že tvoja funkcia generateOwnerId používa rovnaký XOR kľúč)
         const ownerId = generateOwnerId(item.name, item.dob);
         
-        // Získame pole komentárov (ak neexistuje, vráti prázdne pole)
-        const ownerComments = notesMap[ownerId] || [];
+        // Vo vnútri render(data, notesInfo) v cykle:
+        const info = notesInfo[ownerId];
+        const hasNotes = info && info.count > 0;
 
-        html += `
-            <div class="card" id="card-${ownerId}">
-               <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
+       html += `
+                <div class="card" id="card-${ownerId}">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
                             <span class="owner-name">${item.name}</span>
+                            
+                            ${hasNotes ? `
+                                <span class="note-indicator" title="Existujú poznámky (${info.count})"></span>
+                            ` : ''}
+            
                             ${item.maiden ? `<span class="tag maiden-tag" onclick="setFilter('${item.maiden}')" title="Filtrovať rodné meno">r. ${item.maiden}</span>` : ''}
                         </div>
                         <div class="tag dob-tag" onclick="setFilter('${item.dob}')" title="Filtrovať dátum narodenia">
                             <span style="color: var(--text-muted)">Nar.:</span> ${item.dob}
                         </div>
-                </div>
-
-                <div class="mismatch-box">
-                    ${item.details.map(d => {
-                        const pMatch = d.share.match(/\(([\d\.]+)%\)/);
-                        const percent = pMatch ? pMatch[1] : "";
-                        return `
-                            <div class="share-row">
-                                <div class="fraction-col">${formatFraction(d.share)}</div>
-                                <div class="percent-col">${percent ? percent + ' %' : ''}</div>
-                                <div class="lv-info">
-                                    <span class="lv-arrow">↓</span>
-                                    <span class="lv-label" style="color: var(--text-muted)">na listoch:</span>
-                                    <span class="lv-numbers">${d.lvs.join(', ')}</span>
-                                </div>
-                            </div>
-                        `;
-                    }).join('')}
-                </div>
-
-                ${ownerComments.length > 0 ? `
-                    <div class="notes-wrapper">
-                        ${ownerComments.map(c => `
-                            <div class="note-card">
-                                <div class="note-body">
-                                    <span class="note-icon">📝</span>
-                                    <div class="markdown-text">${marked.parse(c.text)}</div>
-                                    <div class="note-date-footer">${c.date}</div>
-                                </div>
-                            </div>
-                        `).join('')}
                     </div>
-                ` : ''}
-
-                <div id="edit-ctrl-${ownerId}" style="margin-top: 10px; text-align: right;">
-                    <button class="btn-edit-note" onclick="activateUtterances('${ownerId}')">
-                        ${ownerComments.length > 0 ? 'Upraviť poznámku' : '+ Pridať poznámku'}
-                    </button>
+            
+                    <div class="mismatch-box">
+                        ${item.details.map(d => {
+                            const pMatch = d.share.match(/\(([\d\.]+)%\)/);
+                            const percent = pMatch ? pMatch[1] : "";
+                            return `
+                                <div class="share-row">
+                                    <div class="fraction-col">${formatFraction(d.share)}</div>
+                                    <div class="percent-col">${percent ? percent + ' %' : ''}</div>
+                                    <div class="lv-info">
+                                        <span class="lv-arrow">↓</span>
+                                        <span class="lv-label" style="color: var(--text-muted)">na listoch:</span>
+                                        <span class="lv-numbers">${d.lvs.join(', ')}</span>
+                                    </div>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+            
+                    <div id="notes-list-${ownerId}" class="dynamic-notes-container"></div>
+            
+                    <div id="edit-ctrl-${ownerId}" style="margin-top: 10px; display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            ${hasNotes ? `
+                                <button class="btn-show-notes" onclick="loadCommentsForOwner('${ownerId}', '${info.url}')">
+                                     Zobraziť poznámky (${info.count})
+                                </button>
+                            ` : '<span></span>'}
+                        </div>
+                        <button class="btn-edit-note" onclick="activateUtterances('${ownerId}')">
+                            ${hasNotes ? 'Upraviť' : '+ Pridať poznámku'}
+                        </button>
+                    </div>
                 </div>
-            </div>
-        `;
-    });
+            `;
 
     out.innerHTML = html;
 }
@@ -356,6 +388,27 @@
     }
     return notesMap;
 }
+
+    async function fetchNotesInfo() {
+        const repo = "maty535/urbarDulova";
+        const notesInfo = {}; // Objekt, kde kľúč bude ownerId a hodnota počet komentárov
+        
+        try {
+            const response = await fetch(`https://api.github.com/repos/${repo}/issues?state=all&labels=poznámka&per_page=100`);
+            const issues = await response.json();
+    
+            issues.forEach(issue => {
+                notesInfo[issue.title] = {
+                    count: issue.comments,
+                    url: issue.comments_url // Odložíme si URL pre neskoršie načítanie
+                };
+            });
+            return notesInfo;
+        } catch (err) {
+            console.error("Chyba pri zisťovaní poznámok:", err);
+            return {};
+        }
+    }
     
     function doSearch() {
         const term = document.getElementById('search').value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
