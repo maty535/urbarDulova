@@ -6,6 +6,10 @@
     <title>Audit podielov vlastníkov</title>
     <style>
         @media (max-width: 600px) {
+
+            .quick-note {
+                font-size: 1.05rem; /* Čitateľnejšie na mobile */
+            }
             /* 1. HLAVIČKA: Dátum pod nadpisom, bez prekrývania */
             div[style*="position: relative"] {
                 display: flex !important;
@@ -79,6 +83,25 @@
             }
         }
         /* 1. ZÁKLADNÉ NASTAVENIE (Desktop) */
+        .quick-note {
+            background: #fffbeb;
+            border-left: 3px solid #f59e0b;
+            padding: 8px 12px;
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #92400e;
+            border-radius: 4px;
+        }
+        
+        .btn-edit-note {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-top: 5px;
+        }
         .lv-arrow { display: none;}  /* Šípka je predvolene skrytá */
         :root { --primary-color: #b91c1c; --bg-body: #f8fafc; --text-muted: #64748b; }
         body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 40px; background: var(--bg-body); color: #334155; }
@@ -152,7 +175,7 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function render(data) {
+    function render(data, notesMap = {}) {
         const out = document.getElementById('results');
         document.getElementById('stats').innerText = `Nájdených ${data.length} vlastníkov s rozdielnymi podielmi naprieč LV.`;
         
@@ -184,10 +207,53 @@
                         `;
                     }).join('')}
                 </div>
+            ${note ? `<div class="quick-note">📝 ${note}</div>` : ''}
+
+                <div id="edit-ctrl-${ownerId}" style="margin-top: 10px; text-align: right;">
+                    <button class="btn-edit-note" onclick="activateUtterances('${ownerId}')">
+                        ${note ? 'Upraviť poznámku' : '+ Pridať poznámku'}
+                    </button>
+                </div>
             </div>
         `).join('');
     }
 
+    // 3. Funkcia, ktorá aktivuje plnohodnotné Utterances pri kliknutí na tlačidlo
+    function activateUtterances(ownerId) {
+        const container = document.getElementById(`edit-ctrl-${ownerId}`);
+        container.innerHTML = '<p style="font-size:0.8rem; color:var(--text-muted)">Načítavam editor...</p>';
+        
+        const script = document.createElement('script');
+        script.src = "https://utteranc.es/client.js";
+        script.setAttribute('repo', 'TVOJE_MENO/TVOJ_REPOZITAR'); // <--- SEM DOPLŇ SVOJE
+        script.setAttribute('issue-term', ownerId);
+        script.setAttribute('label', 'poznámka');
+        script.setAttribute('theme', 'github-light');
+        script.setAttribute('crossorigin', 'anonymous');
+        script.async = true;
+        
+        container.appendChild(script);
+    }
+
+    async function fetchAllNotes() {
+        const repo = "maty535/urbarDulova"; // DOPLŇ SVOJE
+        try {
+            // Stiahne posledných 100 diskusií (poznámok)
+            const response = await fetch(`https://api.github.com/repos/${repo}/issues?state=all&labels=poznámka`);
+            const issues = await response.json();
+            
+            // Vytvorí mapu: { 'meno-vlastnika': 'text poznámky' }
+            const notesMap = {};
+            issues.forEach(issue => {
+                notesMap[issue.title] = issue.body; // Utterances ukladá ID do názvu Issue
+            });
+            return notesMap;
+        } catch (e) {
+            console.error("Nepodarilo sa stiahnuť poznámky:", e);
+            return {};
+        }
+}
+    
     function doSearch() {
         const term = document.getElementById('search').value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
         const filtered = ownersData.filter(i => {
@@ -199,7 +265,8 @@
 
     fetch('rozdiely.json').then(r => r.json()).then(data => {
         ownersData = data;
-        render(data);
+        const allNotes = await fetchAllNotes(); // Bleskovo stiahne poznámky
+        render(data, allNotes);
     });
 </script>
 
