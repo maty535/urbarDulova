@@ -287,49 +287,71 @@
         0% { transform: scale(0.5); }
         100% { transform: scale(1); }
     }
-    .btn-refresh {
-    background: #fff;
-    border: 1px solid #cbd5e1;
-    padding: 6px 14px;
-    border-radius: 20px; /* Zaoblené ako filtre */
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: #475569;
-    cursor: pointer;
+ .filter-row {
     display: flex;
+    justify-content: space-between; /* Toto rozdelí vľavo a vpravo */
     align-items: center;
-    gap: 8px;
-    transition: all 0.2s;
+    width: 100%;
+    margin-bottom: 25px;
+    gap: 15px;
 }
 
-.btn-refresh:hover {
-    background: #f8fafc;
-    border-color: #3b82f6; /* Modrý akcent pri hoveri */
-    color: #3b82f6;
+.filter-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
-/* Ikona refreshu */
-.refresh-icon {
-    display: inline-block;
-    transition: transform 0.5s ease;
-}
-
-/* Animácia pri načítavaní */
-.btn-refresh.loading .refresh-icon {
-    animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-/* Na veľmi malých mobiloch skryjeme text "Aktualizovať" a necháme len ikonu */
-@media (max-width: 480px) {
-    .refresh-text { display: none; }
-    .btn-refresh { padding: 6px 10px; }
-}
+    .btn-refresh {
+        background: #fff;
+        border: 1px solid #cbd5e1;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #475569;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: all 0.2s ease;
+        white-space: nowrap; /* Aby sa text nezalamoval */
+    }
+    
+    .btn-refresh:hover {
+        background: #f1f5f9;
+        border-color: #3b82f6;
+        color: #3b82f6;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    
+    /* Animácia pre Font Awesome ikonu */
+    .refresh-icon {
+        font-size: 0.9rem;
+        transition: transform 0.5s ease;
+    }
+    
+    .loading .refresh-icon {
+        animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    
+    /* Responzivita pre mobil */
+    @media (max-width: 650px) {
+        .filter-row {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .btn-refresh {
+            align-self: flex-end; /* Na mobile zostane vpravo dole pod filtrami */
+        }
+    }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
@@ -344,24 +366,24 @@
     <div class="sub-header" id="stats">Načítavam dáta...</div>
     
     <input type="text" id="search" class="search-box" placeholder="Hľadať podľa mena, rodného mena alebo dátumu..." onkeyup="doSearch()">
-    <div style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
-    <div style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
-    <button onclick="setNoteFilter('all')" class="filter-btn active" id="filter-all">
-        Všetci <small id="count-all"></small>
-    </button>
-    <button onclick="setNoteFilter('with')" class="filter-btn" id="filter-with">
-        S poznámkou <small id="count-with" style="color: #3b82f6; font-weight: 800;"></small>
-    </button>
-    <button onclick="setNoteFilter('without')" class="filter-btn" id="filter-without">
-        Bez poznámky <small id="count-without"></small>
-    </button>
-
-    <div style="flex-grow: 1;"></div>
-
-    <button onclick="refreshData()" class="btn-refresh" id="refresh-btn" title="Aktualizovať dáta z GitHubu">
-        <span class="refresh-icon">🔄</span> <span class="refresh-text">Aktualizovať</span>
-    </button>
-</div>
+    <div class="filter-row">
+        <div class="filter-group">
+            <button onclick="setNoteFilter('all')" class="filter-btn active" id="filter-all">
+                Všetci <small id="count-all"></small>
+            </button>
+            <button onclick="setNoteFilter('with')" class="filter-btn" id="filter-with">
+                S poznámkou <small id="count-with"></small>
+            </button>
+            <button onclick="setNoteFilter('without')" class="filter-btn" id="filter-without">
+                Bez poznámky <small id="count-without"></small>
+            </button>
+        </div>
+    
+        <button onclick="refreshData()" class="btn-refresh" id="refresh-btn">
+            <i class="fa-solid fa-arrows-rotate refresh-icon"></i>
+            <span class="refresh-text">Aktualizovať</span>
+        </button>
+    </div>
 </div>
     
     <div id="results"></div>
