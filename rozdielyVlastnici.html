@@ -281,7 +281,7 @@
             const searchString = (i.name + (i.maiden || "") + i.dob).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
             return searchString.includes(term);
         });
-        render(filtered);
+        render(filtered, globalNotes);
     }
 
 
