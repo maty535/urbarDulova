@@ -278,14 +278,22 @@
             // 1. Načítaj tvoje dáta z JSONu
             const response = await fetch('rozdiely.json');
             const data = await response.json();
-            const allNotes = await fetchAllNotes(); // Bleskovo stiahne poznámky
+            globalNotes = await fetchAllNotes();
+            // Uložíme dáta do globálnej premennej, aby ich doSearch() videl
+            ownersData = data; 
+        
+            // Stiahneme poznámky a uložíme ich globálne
+        
             // 2. Spusti render (ktorý je teraz async)
-            await render(data);
+            await render(data, globalNotes);
         } catch (err) {
             console.error("Chyba pri štarte:", err);
         }
     }
-    
+
+
+    let ownersData = [];   // Globálna premenná pre vyhľadávanie
+    let globalNotes = {};  // Globálna premenná pre poznámky
     // Spustenie aplikácie
     initApp();
     
