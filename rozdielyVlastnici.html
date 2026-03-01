@@ -176,13 +176,25 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
+    function generateOwnerId(name, dob) {
+        return `${name}-${dob}`
+            .toLowerCase()
+            .normalize("NFD")                // Rozloží znaky (á -> a + ´)
+            .replace(/[\u0300-\u036f]/g, "") // Odstráni diakritické znamienka
+            .replace(/\s+/g, '-')            // Medzery nahradí pomlčkami
+            .replace(/[^a-z0-9-]/g, '');     // Odstráni všetko ostatné okrem alfanumeriky a pomlčiek
+    }
+
+    function removeAccents(str) {
+        return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    }
    async function render(data, notesMap = {}) {
         const out = document.getElementById('results');
         document.getElementById('stats').innerText = `Nájdených ${data.length} vlastníkov s rozdielnymi podielmi naprieč LV.`;
     
         out.innerHTML = data.map(item => {
             // --- SEM VKLADÁME LOGIKU PRE KAŽDÚ KARTU ---
-            const ownerId = `${item.name}-${item.dob}`.replace(/\s+/g, '-').toLowerCase().replace(/[^a-z0-9-]/g, '');
+            const ownerId = generateOwnerId(item.name, item.dob);
             const note = notesMap[ownerId] || ""; 
             // ------------------------------------------
     
@@ -273,22 +285,36 @@
     }
 
 
-    // Táto funkcia spustí celý proces
     async function initApp() {
         try {
-            // 1. Načítaj tvoje dáta z JSONu
+            // 1. Načítanie dát
             const response = await fetch('rozdiely.json');
-            const data = await response.json();
+            ownersData = await response.json();
+            
+            // 2. Načítanie poznámok
             globalNotes = await fetchAllNotes();
-            // Uložíme dáta do globálnej premennej, aby ich doSearch() videl
-            ownersData = data; 
-        
-            // Stiahneme poznámky a uložíme ich globálne
-        
-            // 2. Spusti render (ktorý je teraz async)
-            await render(data, globalNotes);
+    
+            // 3. Kontrola URL parametra "search"
+            const urlParams = new URLSearchParams(window.location.search);
+            const initialSearch = urlParams.get('search');
+    
+            if (initialSearch) {
+                // Vložíme text z URL do tvojho search inputu
+                const searchInput = document.getElementById('search');
+                if (searchInput) {
+                    searchInput.value = initialSearch;
+                    
+                    // Spustíme tvoju existujúcu funkciu na vyhľadávanie
+                    // (keďže ownersData a globalNotes sú už načítané, render prebehne správne)
+                    doSearch(); 
+                }
+            } else {
+                // Ak v URL nič nie je, vykreslíme všetko
+                await render(ownersData, globalNotes);
+            }
+    
         } catch (err) {
-            console.error("Chyba pri štarte:", err);
+            console.error("Chyba pri štarte aplikácie:", err);
         }
     }
     // Spustenie aplikácie
