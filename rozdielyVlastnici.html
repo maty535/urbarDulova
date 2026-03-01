@@ -387,8 +387,40 @@
         
         notesMap[issue.title] = commentsList;
     }
-    return notesMap;
-}
+        return notesMap;
+    }
+
+    async function loadCommentsForOwner(ownerId, url) {
+            const target = document.getElementById(`notes-list-${ownerId}`);
+            target.innerHTML = `<div style="padding:10px; font-size:0.8rem; color: #666;">Načítavam záznamy...</div>`;
+            
+            try {
+                const res = await fetch(url);
+                const comments = await res.json();
+                
+                const html = comments
+                    .filter(c => c.user.login !== 'utterances-bot')
+                    .map(c => `
+                        <div class="note-card">
+                            <div class="note-body">
+                                <span class="note-icon">📝</span>
+                                <div class="markdown-text">${marked.parse(c.body)}</div>
+                                <div class="note-date-footer">${new Date(c.created_at).toLocaleString('sk-SK', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</div>
+                            </div>
+                        </div>
+                    `).join('');
+        
+                target.innerHTML = `
+                    <div class="notes-wrapper">
+                        ${html}
+                        <div style="text-align:center">
+                           <button class="btn-edit-note" style="text-decoration:none; color:#94a3b8" onclick="document.getElementById('notes-list-${ownerId}').innerHTML=''">[ skryť ]</button>
+                        </div>
+                    </div>`;
+            } catch (e) {
+                target.innerHTML = `<div style="color:red; font-size:0.8rem;">Nepodarilo sa načítať poznámky.</div>`;
+            }
+        }
 
     async function fetchNotesInfo() {
         const repo = "maty535/urbarDulova";
