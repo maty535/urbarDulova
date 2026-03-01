@@ -287,6 +287,48 @@
         0% { transform: scale(0.5); }
         100% { transform: scale(1); }
     }
+    .btn-refresh {
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    padding: 6px 14px;
+    border-radius: 20px; /* Zaoblené ako filtre */
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #475569;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s;
+}
+
+.btn-refresh:hover {
+    background: #f8fafc;
+    border-color: #3b82f6; /* Modrý akcent pri hoveri */
+    color: #3b82f6;
+}
+
+/* Ikona refreshu */
+.refresh-icon {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+/* Animácia pri načítavaní */
+.btn-refresh.loading .refresh-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Na veľmi malých mobiloch skryjeme text "Aktualizovať" a necháme len ikonu */
+@media (max-width: 480px) {
+    .refresh-text { display: none; }
+    .btn-refresh { padding: 6px 10px; }
+}
     </style>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
@@ -303,17 +345,23 @@
     
     <input type="text" id="search" class="search-box" placeholder="Hľadať podľa mena, rodného mena alebo dátumu..." onkeyup="doSearch()">
     <div style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
-   <div style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
-        <button onclick="setNoteFilter('all')" class="filter-btn active" id="filter-all">
-            Všetci <small id="count-all"></small>
-        </button>
-        <button onclick="setNoteFilter('with')" class="filter-btn" id="filter-with">
-            S poznámkou <small id="count-with" style="color: #3b82f6; font-weight: 800;"></small>
-        </button>
-        <button onclick="setNoteFilter('without')" class="filter-btn" id="filter-without">
-            Bez poznámky <small id="count-without"></small>
-        </button>
-    </div>
+    <div style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+    <button onclick="setNoteFilter('all')" class="filter-btn active" id="filter-all">
+        Všetci <small id="count-all"></small>
+    </button>
+    <button onclick="setNoteFilter('with')" class="filter-btn" id="filter-with">
+        S poznámkou <small id="count-with" style="color: #3b82f6; font-weight: 800;"></small>
+    </button>
+    <button onclick="setNoteFilter('without')" class="filter-btn" id="filter-without">
+        Bez poznámky <small id="count-without"></small>
+    </button>
+
+    <div style="flex-grow: 1;"></div>
+
+    <button onclick="refreshData()" class="btn-refresh" id="refresh-btn" title="Aktualizovať dáta z GitHubu">
+        <span class="refresh-icon">🔄</span> <span class="refresh-text">Aktualizovať</span>
+    </button>
+</div>
 </div>
     
     <div id="results"></div>
@@ -570,6 +618,30 @@
         document.getElementById('count-without').innerText = `(${total - withNotes})`;
     }
 
+    async function refreshData() {
+        const btn = document.getElementById('refresh-btn');
+        btn.classList.add('loading'); // Pridáme animáciu točenia
+        btn.disabled = true;
+    
+        try {
+            // Znovu načítame len poznámky z GitHubu
+            globalNotes = await fetchNotesInfo();
+            
+            // Prepočítame čísla v tlačidlách filtra
+            updateFilterCounts();
+            
+            // Znovu spustíme hľadanie (vyrenderuje karty s novými bodkami/počtami)
+            doSearch();
+            
+            console.log("Dáta boli úspešne aktualizované.");
+        } catch (err) {
+            console.error("Chyba pri refreshe:", err);
+        } finally {
+            btn.classList.remove('loading');
+            btn.disabled = false;
+        }
+    }
+    
     async function initApp() {
 
         const statsElement = document.getElementById('stats');
@@ -584,7 +656,9 @@
             updateFilterCounts(); 
             
             // 3. AKTUALIZÁCIA TEXTU (Namiesto "Načítavam dáta...")
-            statsElement.innerHTML = `Nájdených <strong>${ownersData.length}</strong> vlastníkov s rozdielnymi podielmi naprieč LV.`;
+            if (statsElement) {
+                statsElement.innerHTML = `Nájdených <strong>${ownersData.length}</strong> vlastníkov s rozdielnymi podielmi naprieč LV.`;
+            }
     
             // 3. Kontrola URL parametra "search"
             const urlParams = new URLSearchParams(window.location.search);
