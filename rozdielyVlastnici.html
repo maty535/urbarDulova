@@ -175,7 +175,7 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function render(data, notesMap = {}) {
+    async function render(data, notesMap = {}) {
         const out = document.getElementById('results');
         document.getElementById('stats').innerText = `Nájdených ${data.length} vlastníkov s rozdielnymi podielmi naprieč LV.`;
         
@@ -263,11 +263,24 @@
         render(filtered);
     }
 
-    fetch('rozdiely.json').then(r => r.json()).then(data => {
-        ownersData = data;
-        const allNotes = await fetchAllNotes(); // Bleskovo stiahne poznámky
-        render(data, allNotes);
-    });
+
+    // Táto funkcia spustí celý proces
+    async function initApp() {
+        try {
+            // 1. Načítaj tvoje dáta z JSONu
+            const response = await fetch('rozdiely.json');
+            const data = await response.json();
+            const allNotes = await fetchAllNotes(); // Bleskovo stiahne poznámky
+            // 2. Spusti render (ktorý je teraz async)
+            await render(data);
+        } catch (err) {
+            console.error("Chyba pri štarte:", err);
+        }
+    }
+    
+    // Spustenie aplikácie
+    initApp();
+    
 </script>
 
 </body>
