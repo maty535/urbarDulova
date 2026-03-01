@@ -571,14 +571,20 @@
     }
 
     async function initApp() {
+
+        const statsElement = document.getElementById('stats');
+        
         try {
             // 1. Načítanie dát
             const response = await fetch('rozdiely.json');
             ownersData = await response.json();
-            
+
             // 2. Načítanie poznámok
             globalNotes = await fetchNotesInfo();
             updateFilterCounts(); 
+            
+            // 3. AKTUALIZÁCIA TEXTU (Namiesto "Načítavam dáta...")
+            statsElement.innerHTML = `Nájdených <strong>${ownersData.length}</strong> vlastníkov s rozdielnymi podielmi naprieč LV.`;
     
             // 3. Kontrola URL parametra "search"
             const urlParams = new URLSearchParams(window.location.search);
