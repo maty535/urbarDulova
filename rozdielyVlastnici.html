@@ -363,7 +363,7 @@
    async function fetchAllNotes() {
     const repo = "maty535/urbarDulova";
     const notesMap = {};
-    const response = await fetch(`https://api.github.com/repos/maty535/urbarDulova/issues?state=all&labels=poznámka&per_page=20`);
+    const response = await fetch(`https://api.github.com/repos/${repo}/issues?state=all&labels=poznámka&per_page=20`);
     const issues = await response.json();
 
     for (const issue of issues) {
@@ -427,7 +427,7 @@
             ownersData = await response.json();
             
             // 2. Načítanie poznámok
-            globalNotes = await fetchAllNotes();
+            globalNotes = await fetchNotesInfo();
     
             // 3. Kontrola URL parametra "search"
             const urlParams = new URLSearchParams(window.location.search);
