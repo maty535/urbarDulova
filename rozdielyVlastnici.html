@@ -250,6 +250,43 @@
             border-color: #1e293b;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+
+        /* Modrý Badge s číslom */
+.note-badge {
+    background-color: #3b82f6;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 800;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+    cursor: help;
+    flex-shrink: 0;
+}
+
+    /* Štýl pre malé čísla v tlačidlách */
+    .filter-btn small {
+        margin-left: 4px;
+        opacity: 0.7;
+    }
+    
+    .filter-btn.active small {
+        opacity: 1;
+    }
+    
+    /* Animácia pulzovania len ak je to dôležité (voliteľné) */
+    .note-badge {
+        animation: badge-pop 0.3s ease-out;
+    }
+    
+    @keyframes badge-pop {
+        0% { transform: scale(0.5); }
+        100% { transform: scale(1); }
+    }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
@@ -332,7 +369,9 @@
                             <span class="owner-name">${item.name}</span>
                             
                             ${hasNotes ? `
-                                <span class="note-indicator" title="Existujú poznámky (${info.count})"></span>
+                                <span class="note-badge" title="Počet poznámok: ${info.count}">
+                                    ${info.count}
+                                </span>
                             ` : ''}
             
                             ${item.maiden ? `<span class="tag maiden-tag" onclick="setFilter('${item.maiden}')" title="Filtrovať rodné meno">r. ${item.maiden}</span>` : ''}
