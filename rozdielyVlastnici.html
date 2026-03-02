@@ -359,7 +359,6 @@
 <div class="container">
     <div style="position: relative; border-bottom: 2px solid var(--primary-color); margin-bottom: 25px; padding-bottom: 10px; display: flex; align-items: center; justify-content: space-between;">
         <h1 style="margin: 0; border-bottom: none; padding: 0;">Nekonzistencie v podieloch vlastníkov</h1>
-        <i class="fa-solid fa-circle-question" onclick="toggleInfoBox()" style="color: #64748b; font-size: 1.2rem; cursor: pointer;" title="Viac informácií o metodike"></i>
         <span style="background: #1e293b; color: white; padding: 5px 15px; border-radius: 6px; font-size: 0.85rem; font-weight: 800; letter-spacing: 0.5px; white-space: nowrap;">
             STAV K 28. 02. 2026
         </span>
@@ -701,7 +700,7 @@
             
             // 3. AKTUALIZÁCIA TEXTU (Namiesto "Načítavam dáta...")
             if (statsElement) {
-                statsElement.innerHTML = `Nájdených <strong>${ownersData.length}</strong> vlastníkov s rozdielnymi podielmi naprieč LV.`;
+                statsElement.innerHTML = `Nájdených <strong>${ownersData.length}</strong> vlastníkov s rozdielnymi podielmi naprieč LV.<i class="fa-solid fa-circle-question" onclick="toggleInfoBox()" style="color: #64748b; font-size: 1.2rem; cursor: pointer;" title="Viac informácií o metodike"></i>`;
             }
     
             // 3. Kontrola URL parametra "search"
