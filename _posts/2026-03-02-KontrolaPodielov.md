@@ -12,11 +12,13 @@ published: true
 
 ### Právny základ a metodika
 
-* Z čoho vyplýva ta nekonzistencia a prečo majú niektorí vlastníci vôbec niečo upraviť alebo opraviť ?
+1. Z čoho vyplýva ta nekonzistencia a prečo majú niektorí vlastníci vôbec niečo upraviť alebo opraviť ?
 
 * Právne komfortný stav vyžaduje, aby mal spoluvlastník v rámci spoločnej nehnuteľnosti totožný podiel na všetkých pozemkoch, ktoré túto nehnuteľnosť tvoria.
 
 * Tento princíp vyplýva zo zákona o pozemkových spoločenstvách a judikátov súdov. Nezrovnalosti vznikli historicky chybami v evidencii, nesprávnou aplikáciou zákona pri dedičských konaniach alebo neskoršími reštitúciami.
+
+2. Plynutím času a dalšim dedením a prevodmi podielov sa tieto nekonzistencie budú propagovať na ďalších a ďalších vlastníkov spoločnej nehnuteľnosti. (efekt snehovej gule, resp. princíp dedičného hriechu)
 
 Zdroj: [Zákon o pozemkových spoločenstvách 97/2013](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97) a [Judikatúra súdov SR](https://www.slov-lex.sk/sudne-rozhodnutia/judikaty/774da6a5-9443-4615-86c3-504618587aed) 
 
