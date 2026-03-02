@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mám v poriadku svoje spoluvlastnícke podiely v katastrin nehnuteľností ?"
+title: "Mám v poriadku svoje spoluvlastnícke podiely v katastri nehnuteľností ?"
 date: 2026-02-03
 author: Ing. Matúš Ivanecký
 categories: podielnici kataster
