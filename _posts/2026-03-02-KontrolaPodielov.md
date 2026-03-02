@@ -10,15 +10,15 @@ published: true
 
 * Pripravili sme pre každého podielnika informácie, kde si môže overiť, či má všetky svoje vlastnícke práva k podielom na pozemkoch spoločnej nehnutenosti zápísané v právne komfortnom stave:  [Nekonzistencie v podieloch vlastníkov](https://urbar.dulovaves.sk/rozdielyVlastnici)
 
-* Právny základ a metodika
+### Právny základ a metodika
 
-Z čoho vyplýva ta nekonzistencia a prečo majú niektorí vlastníci vôbec niečo upraviť alebo opraviť ?
+* Z čoho vyplýva ta nekonzistencia a prečo majú niektorí vlastníci vôbec niečo upraviť alebo opraviť ?
 
-Právne komfortný stav vyžaduje, aby mal spoluvlastník v rámci spoločnej nehnuteľnosti totožný podiel na všetkých pozemkoch, ktoré túto nehnuteľnosť tvoria.
+* Právne komfortný stav vyžaduje, aby mal spoluvlastník v rámci spoločnej nehnuteľnosti totožný podiel na všetkých pozemkoch, ktoré túto nehnuteľnosť tvoria.
 
-Tento princíp vyplýva zo zákona o pozemkových spoločenstvách a judikátov súdov. Nezrovnalosti vznikli historicky chybami v evidencii, nesprávnou aplikáciou zákona pri dedičských konaniach alebo neskoršími reštitúciami.
+* Tento princíp vyplýva zo zákona o pozemkových spoločenstvách a judikátov súdov. Nezrovnalosti vznikli historicky chybami v evidencii, nesprávnou aplikáciou zákona pri dedičských konaniach alebo neskoršími reštitúciami.
 
-Zdroj: Zákon o pozemkových spoločenstvách 97/2013 a Judikatúra súdov SR 
+Zdroj: [Zákon o pozemkových spoločenstvách 97/2013](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/> a [Judikatúra súdov SR](https://www.slov-lex.sk/sudne-rozhodnutia/judikaty/774da6a5-9443-4615-86c3-504618587aed) 
 
 _____
 
