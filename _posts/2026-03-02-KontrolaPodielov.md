@@ -18,7 +18,7 @@ published: true
 
 * Tento princíp vyplýva zo zákona o pozemkových spoločenstvách a judikátov súdov. Nezrovnalosti vznikli historicky chybami v evidencii, nesprávnou aplikáciou zákona pri dedičských konaniach alebo neskoršími reštitúciami.
 
-Zdroj: [Zákon o pozemkových spoločenstvách 97/2013](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/> a [Judikatúra súdov SR](https://www.slov-lex.sk/sudne-rozhodnutia/judikaty/774da6a5-9443-4615-86c3-504618587aed) 
+Zdroj: [Zákon o pozemkových spoločenstvách 97/2013](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97) a [Judikatúra súdov SR](https://www.slov-lex.sk/sudne-rozhodnutia/judikaty/774da6a5-9443-4615-86c3-504618587aed) 
 
 _____
 
