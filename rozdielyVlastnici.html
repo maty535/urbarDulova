@@ -350,6 +350,29 @@
             align-self: flex-end; /* Na mobile zostane vpravo dole pod filtrami */
         }
     }
+
+    .info-trigger {
+        color: #94a3b8; /* Jemnejšia sivá, aby nerušila nadpis */
+        font-size: 1rem; /* O niečo menšia ako text nadpisu */
+        cursor: pointer;
+        padding: 5px; /* Zväčšuje "klikateľnú" plochu bez zmeny pozície */
+        transition: all 0.2s ease;
+        
+        /* Polohovanie nahor */
+        align-self: flex-start; 
+        margin-top: 5px; /* Doladíš podľa toho, ako vysoko ju chceš mať */
+    }
+    
+    .info-trigger:hover {
+        color: #3b82f6; /* Pri prejdení myšou zmodrie */
+        transform: scale(1.1);
+    }
+
+/* Animácia pre Info Box (aby sa pekne zjavil) */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -699,7 +722,7 @@
             
             // 3. AKTUALIZÁCIA TEXTU (Namiesto "Načítavam dáta...")
             if (statsElement) {
-                statsElement.innerHTML = `Nájdených <strong>${ownersData.length}</strong> vlastníkov s rozdielnymi podielmi naprieč LV.<i class="fa-solid fa-circle-question" onclick="toggleInfoBox()" style="color: #64748b; font-size: 1.2rem; cursor: pointer;" title="Viac informácií o metodike"></i>`;
+                statsElement.innerHTML = `Nájdených <strong>${ownersData.length}</strong> vlastníkov s rozdielnymi podielmi naprieč LV.<i class="fa-solid fa-circle-question info-trigger" onclick="toggleInfoBox()" style="color: #64748b; font-size: 1.2rem; cursor: pointer;" title="Viac informácií o metodike"></i>`;
             }
     
             // 3. Kontrola URL parametra "search"
