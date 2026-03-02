@@ -8,9 +8,10 @@ tags: podielnici pozemky právo reality reštitúcie
 published: true
 ---
 
-* Pripravili sme pre každého podielnika informácie, kde si môže overiť, či má všetky svoje vlastnícke práva k podielom na pozemkoch spoločnej nehnutenosti zápísané v právne komfortnom stave.
+* Pripravili sme pre každého podielnika informácie, kde si môže overiť, či má všetky svoje vlastnícke práva k podielom na pozemkoch spoločnej nehnutenosti zápísané v právne komfortnom stave:  [Nekonzistencie v podieloch vlastníkov](https://urbar.dulovaves.sk/rozdielyVlastnici)
 
-### Právny základ a metodika:
+* Právny základ a metodika
+
 Z čoho vyplýva ta nekonzistencia a prečo majú niektorí vlastníci vôbec niečo upraviť alebo opraviť ?
 
 Právne komfortný stav vyžaduje, aby mal spoluvlastník v rámci spoločnej nehnuteľnosti totožný podiel na všetkých pozemkoch, ktoré túto nehnuteľnosť tvoria.
@@ -21,4 +22,4 @@ Zdroj: Zákon o pozemkových spoločenstvách 97/2013 a Judikatúra súdov SR
 
 _____
 
-Pre  Viac informácii si zobrazte informácie o [Nekonzistenciách v podieloch vlastníkov](https://urbar.dulovaves.sk/rozdielyVlastnici)
+* Pre  Viac informácii si zobrazte informácie o [Nekonzistenciách v podieloch vlastníkov](https://urbar.dulovaves.sk/rozdielyVlastnici)
