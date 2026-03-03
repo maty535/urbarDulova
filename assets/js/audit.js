@@ -330,4 +330,3 @@
     // Spustenie aplikácie
     initApp();
     
-</script>
