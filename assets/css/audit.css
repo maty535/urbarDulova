@@ -1,0 +1,398 @@
+/*!
+*
+* Stylesheet pre audit podielov
+*
+*/
+@media (max-width: 600px) {
+
+        .quick-note {
+            font-size: 1.05rem; /* Čitateľnejšie na mobile */
+        }
+        /* 1. HLAVIČKA: Dátum pod nadpisom, bez prekrývania */
+       .container > div[style*="position: relative"]:first-child {
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: flex-start !important;
+            padding-bottom: 15px !important;
+        }
+        span[style*="position: absolute"] {
+            position: static !important;
+            transform: none !important;
+            margin-top: 8px;
+        }
+
+        /* Kľúčová zmena pre oddelenie riadkov */
+        .share-row {
+            flex-direction: column !important;
+            align-items: flex-start !important;
+            padding: 12px 5px !important;
+            background: transparent !important; /* Čisté biele pozadie */
+            border-bottom: 1px solid #b91c1c !important; /* Tenká, ale ostrá červená čiara */
+        }
+
+        .share-row:last-child {
+            border-bottom: none !important; /* Posledný riadok v rámci jedného vlastníka už čiaru nepotrebuje */
+        }
+        /* 3. DÁTA: Každé na svojom riadku */
+        .fraction-col, .percent-col, .lv-info {
+            width: 100% !important;
+            padding: 4px 0 !important;
+            text-align: center !important;
+            border: none !important;
+        }
+
+        /* 2. SKRYTIE TEXTU "na listoch:" */
+        /* V tvojom renderi je to v <span style="color: var(--text-muted)">na listoch:</span> */
+        .lv-info span[style*="color: var(--text-muted)"],
+        .dob-tag span[style*="color: var(--text-muted)"] {
+            display: none !important;
+        }
+
+        .percent-col {
+            color: var(--primary-color) !important;
+            font-size: 1.2rem !important;
+            font-weight: 800 !important;
+        }
+
+        .lv-numbers {
+            font-size: 1.25rem !important;
+            display: block;
+            margin-top: 5px;
+        }
+        /* Základný štýl pre ikonu */
+        .lv-icon {
+            color: var(--primary-color); /* Použije tvoju červenú */
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        /* Šípka na mobile môže byť o niečo väčšia pre lepšiu navigáciu oka */
+        .lv-icon {
+            font-size: 1.2rem;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .lv-arrow {
+            font-size: 1.5rem;
+            display: inline-block !important; /* Na mobile sa šípka zobrazí */
+            color: #b91c1c; /* Ostrá červená */
+            margin-right: 5px;
+            vertical-align: middle;
+            font-weight: 900;
+        }
+        /* Kontajner pod menom - zrušíme flex, aby išli veci pod seba */
+        .card > div:first-child {
+            display: block !important;
+        }
+
+        .owner-name {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        /* KĽÚČOVÁ ZMENA: Tagy (r. meno, adresa, dob) budú identické */
+        .tag, .maiden-tag, .address-tag, .dob-tag {
+            display: block !important; /* Každý tag dostane vlastný riadok */
+            width: fit-content;        /* Šírka podľa textu */
+            max-width: 100%;           /* Ale nepretečie cez kartu */
+            margin: 5px 0 !important;  /* Odstup zhora/zdola, zľava nula */
+            padding: 6px 12px !important;
+            font-size: 0.9rem !important;
+            text-align: left !important;
+            box-sizing: border-box;
+        }
+    }
+    /* ================================================================================*/
+    /* 1. ZÁKLADNÉ NASTAVENIE (Desktop) */
+    .quick-note {
+        white-space: pre-wrap; /* KĽÚČOVÉ: zachová riadkovanie a entery */
+        background: #fffbeb;
+        border-left: 4px solid #f59e0b;
+        padding: 12px;
+        margin: 10px 0;
+        line-height: 1.5; /* Lepšia čitateľnosť */
+    }
+    
+    .btn-edit-note {
+        background: none;
+        border: none;
+        color: var(--text-muted);
+        font-size: 0.75rem;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+
+    /* Aby text vnútri markdownu nevyzeral rozbitý */
+    .markdown-text p {
+        margin: 0 0 8px 0; /* Jemný odstup pod odsekmi */
+        display: inline;   /* Ak chceš, aby ikona 📝 zostala v riadku s textom */
+    }
+    
+    .markdown-text strong {
+        color: #000;
+        font-weight: 700;
+    }
+    
+    .markdown-text ul {
+        margin: 5px 0;
+        padding-left: 20px;
+    }
+    
+    .markdown-text a {
+        color: #2563eb;
+        text-decoration: underline;
+    }
+    .lv-arrow { display: none;}  /* Šípka je predvolene skrytá */
+    :root { --primary-color: #b91c1c; --bg-body: #f8fafc; --text-muted: #64748b; }
+    body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 40px; background: var(--bg-body); color: #334155; }
+    .container { max-width: 1150px; margin: auto; }
+    
+    h1 { font-size: 2.2rem; color: var(--primary-color); margin-bottom: 5px; font-weight: 800; border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; }
+    .sub-header { font-size: 1.1rem; color: #475569; margin-bottom: 25px; font-weight: 600; }
+    
+    .search-box { width: 100%; padding: 12px 20px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 16px; margin-bottom: 25px; outline: none; box-sizing: border-box; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+
+    .card { background: white; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-left: 6px solid var(--primary-color); position: relative; }
+    .owner-name { font-size: 1.5rem; font-weight: 800; color: #1e293b; }
+    
+    /* Spoločný štýl pre interaktívne štítky */
+    .tag { display: inline-block; padding: 3px 10px; border-radius: 6px; font-weight: 700; font-size: 0.85rem; margin-left: 10px; border: 1px solid transparent; cursor: pointer; transition: all 0.2s; }
+    
+    .maiden-tag { background: #fef2f2; color: #b91c1c; border-color: #fee2e2; }
+    .maiden-tag:hover { background: #fee2e2; transform: translateY(-1px); }
+
+    .address-tag { background: #eff6ff; color: #4fafc6; border-color: #dbeafe; }
+    .address-tag:hover { background: #dbeafe; transform: translateY(-1px); }    
+    
+    .dob-tag { background: #f1f5f9; color: #475569; border-color: #e2e8f0; font-style: normal !important; }
+    .dob-tag:hover { background: #e2e8f0; color: #1e293b; transform: translateY(-1px); }
+
+    .mismatch-box { background: #fff5f5; border: 1px solid #fee2e2; border-radius: 10px; margin-top: 15px; overflow: hidden; }
+    
+    .share-row { display: flex; align-items: center; padding: 12px 20px; border-bottom: 1px solid #fee2e2; }
+    .share-row:last-child { border-bottom: none; }
+
+    .fraction-col { width: 100px; display: flex; justify-content: center; }
+    .percent-col { width: 140px; font-family: 'Courier New', monospace; font-weight: 700; color: #b91c1c; font-size: 1.05rem; text-align: right; padding-right: 35px; }
+
+    .lv-info { flex: 1; font-size: 1.05rem; border-left: 2px solid #fee2e2; padding-left: 25px; }
+    .lv-numbers { font-weight: 700; color: var(--primary-color); }
+
+    .fraction { display: inline-flex; flex-direction: column; vertical-align: middle; align-items: center; font-size: 0.95em; line-height: 1.1; font-weight: bold; }
+    .fraction .num { border-bottom: 1.5px solid #1e293b; padding: 0 3px; }
+    .fraction .den { padding: 0 3px; }
+    .nema-val { font-weight: 800; color: #64748b; font-size: 1.1rem; }
+
+  .notes-wrapper {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .note-card {
+        background: #fff9c433; /* Veľmi jemná žltá ako na obrázku */
+        border: 1px solid #fbc02d; /* Oranžovo-žltý okraj */
+        border-left: 4px solid #fbc02d; /* Hrubší okraj vľavo */
+        border-radius: 4px;
+        padding: 10px 12px;
+    }
+    
+    .note-body {
+        font-size: 0.95rem;
+        color: #333;
+        line-height: 1.5;
+        position: relative;
+    }
+    
+    .note-icon {
+        margin-right: 5px;
+    }
+    
+    .note-date-footer {
+        font-size: 0.7rem;
+        color: #999;
+        text-align: right;
+        margin-top: 5px;
+        font-family: sans-serif;
+    }
+    /* Modrá bodka pri mene */
+    .note-indicator {
+        width: 8px;
+        height: 8px;
+        background-color: #3b82f6;
+        border-radius: 50%;
+        display: inline-block;
+        box-shadow: 0 0 0 2px #fff, 0 0 5px rgba(59, 130, 246, 0.5);
+        animation: pulse-blue 2s infinite;
+    }
+    
+    @keyframes pulse-blue {
+        0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
+        70% { box-shadow: 0 0 0 6px rgba(59, 130, 246, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+    }
+    
+    /* Tlačidlo "Zobraziť poznámky" */
+    .btn-show-notes {
+        background: #f1f5f9;
+        border: 1px solid #cbd5e1;
+        color: #475569;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    
+    .btn-show-notes:hover {
+        background: #e2e8f0;
+    }
+
+    .filter-btn {
+        background: white;
+        border: 1px solid #cbd5e1;
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        cursor: pointer;
+        color: #64748b;
+        transition: all 0.2s;
+        font-weight: 600;
+    }
+    
+    .filter-btn:hover {
+        background: #f1f5f9;
+        border-color: #94a3b8;
+    }
+    
+    .filter-btn.active {
+        background: #1e293b;
+        color: white;
+        border-color: #1e293b;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    /* Modrý Badge s číslom */
+.note-badge {
+background-color: #3b82f6;
+color: white;
+font-size: 0.7rem;
+font-weight: 800;
+width: 18px;
+height: 18px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+cursor: help;
+flex-shrink: 0;
+}
+
+/* Štýl pre malé čísla v tlačidlách */
+.filter-btn small {
+    margin-left: 4px;
+    opacity: 0.7;
+}
+
+.filter-btn.active small {
+    opacity: 1;
+}
+
+/* Animácia pulzovania len ak je to dôležité (voliteľné) */
+.note-badge {
+    animation: badge-pop 0.3s ease-out;
+}
+
+@keyframes badge-pop {
+    0% { transform: scale(0.5); }
+    100% { transform: scale(1); }
+}
+.filter-row {
+display: flex;
+justify-content: space-between; /* Toto rozdelí vľavo a vpravo */
+align-items: center;
+width: 100%;
+margin-bottom: 25px;
+gap: 15px;
+}
+
+.filter-group {
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+.btn-refresh {
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #475569;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s ease;
+    white-space: nowrap; /* Aby sa text nezalamoval */
+}
+
+.btn-refresh:hover {
+    background: #f1f5f9;
+    border-color: #3b82f6;
+    color: #3b82f6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Animácia pre Font Awesome ikonu */
+.refresh-icon {
+    font-size: 0.9rem;
+    transition: transform 0.5s ease;
+}
+
+.loading .refresh-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Responzivita pre mobil */
+@media (max-width: 650px) {
+    .filter-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn-refresh {
+        align-self: flex-end; /* Na mobile zostane vpravo dole pod filtrami */
+    }
+}
+
+.info-trigger {
+    color: #94a3b8; /* Jemnejšia sivá, aby nerušila nadpis */
+    font-size: 1rem; /* O niečo menšia ako text nadpisu */
+    cursor: pointer;
+    padding: 5px; /* Zväčšuje "klikateľnú" plochu bez zmeny pozície */
+    transition: all 0.2s ease;
+    
+    /* Polohovanie nahor */
+    align-self: flex-start; 
+    margin-top: 5px; /* Doladíš podľa toho, ako vysoko ju chceš mať */
+}
+
+.info-trigger:hover {
+    color: #3b82f6; /* Pri prejdení myšou zmodrie */
+    transform: scale(1.1);
+}
+
+/* Animácia pre Info Box (aby sa pekne zjavil) */
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(-10px); }
+to { opacity: 1; transform: translateY(0); }
+}
