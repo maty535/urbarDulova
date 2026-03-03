@@ -78,10 +78,10 @@
       "ulica": null,
       "cislo_domu": "85",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 85, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 85, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 85, Dulova Ves",
+    "address": "Dulova Ves 85, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{1020} (0.09803922%)",
@@ -111,10 +111,10 @@
       "ulica": null,
       "cislo_domu": "85",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 85, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 85, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 85, Dulova Ves",
+    "address": "Dulova Ves 85, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{1020} (0.09803922%)",
@@ -309,10 +309,10 @@
       "ulica": null,
       "cislo_domu": "3103",
       "obec": "Čaňa",
-      "psc": null,
-      "std_string": "Čaňa 3103, Čaňa"
+      "psc": "04414",
+      "std_string": "Čaňa 3103, 044 14 Čaňa"
     },
-    "address": "Čaňa 3103, Čaňa",
+    "address": "Čaňa 3103, 044 14 Čaňa",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -342,10 +342,10 @@
       "ulica": null,
       "cislo_domu": "105",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 105, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 105, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 105, Dulova Ves",
+    "address": "Dulova Ves 105, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -375,10 +375,10 @@
       "ulica": null,
       "cislo_domu": "105",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 105, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 105, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 105, Dulova Ves",
+    "address": "Dulova Ves 105, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{4}{255} (1.56862745%)",
@@ -413,10 +413,10 @@
       "ulica": null,
       "cislo_domu": "54",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 54, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 54, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 54, Dulova Ves",
+    "address": "Dulova Ves 54, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{10200} (0.00980392%)",
@@ -446,10 +446,10 @@
       "ulica": null,
       "cislo_domu": "62",
       "obec": "Záborské",
-      "psc": null,
-      "std_string": "Záborské 62, Záborské"
+      "psc": "08253",
+      "std_string": "Záborské 62, 082 53 Záborské"
     },
-    "address": "Záborské 62, Záborské",
+    "address": "Záborské 62, 082 53 Záborské",
     "details": [
       {
         "share": "{1}{10200} (0.00980392%)",
@@ -512,10 +512,10 @@
       "ulica": null,
       "cislo_domu": "87",
       "obec": "Vyšná Šebastová",
-      "psc": null,
-      "std_string": "Vyšná Šebastová 87, Vyšná Šebastová"
+      "psc": "08001",
+      "std_string": "Vyšná Šebastová 87, 080 01 Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 87, Vyšná Šebastová",
+    "address": "Vyšná Šebastová 87, 080 01 Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -542,13 +542,13 @@
     "maiden": "Chovan",
     "dob": "26.05.1966",
     "add": {
-      "ulica": "082",
-      "cislo_domu": "56",
+      "ulica": null,
+      "cislo_domu": null,
       "obec": "Červenica pri Sabinove",
-      "psc": null,
-      "std_string": "082 56, Červenica pri Sabinove"
+      "psc": "08256",
+      "std_string": "Červenica pri Sabinove, 082 56 Červenica pri Sabinove"
     },
-    "address": "082 56, Červenica pri Sabinove",
+    "address": "Červenica pri Sabinove, 082 56 Červenica pri Sabinove",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -611,10 +611,10 @@
       "ulica": null,
       "cislo_domu": "32",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 32, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 32, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 32, Dulova Ves",
+    "address": "Dulova Ves 32, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -644,10 +644,10 @@
       "ulica": null,
       "cislo_domu": "87",
       "obec": "Vyšná Šebastová",
-      "psc": null,
-      "std_string": "Vyšná Šebastová 87, Vyšná Šebastová"
+      "psc": "08001",
+      "std_string": "Vyšná Šebastová 87, 080 01 Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 87, Vyšná Šebastová",
+    "address": "Vyšná Šebastová 87, 080 01 Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -677,10 +677,10 @@
       "ulica": null,
       "cislo_domu": "87",
       "obec": "Vyšná Šebastová",
-      "psc": null,
-      "std_string": "Vyšná Šebastová 87, Vyšná Šebastová"
+      "psc": "08006",
+      "std_string": "Vyšná Šebastová 87, 080 06 Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 87, Vyšná Šebastová",
+    "address": "Vyšná Šebastová 87, 080 06 Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -844,13 +844,13 @@
     "maiden": "Markušová",
     "dob": "08.08.1946",
     "add": {
-      "ulica": "19.januára",
-      "cislo_domu": "12494/3",
+      "ulica": "PSČ 080",
+      "cislo_domu": "01",
       "obec": "Prešov",
-      "psc": "08001",
-      "std_string": "19.januára 12494/3, 080 01 Prešov"
+      "psc": "12494",
+      "std_string": "PSČ 080 01, 124 94 Prešov"
     },
-    "address": "19.januára 12494/3, 080 01 Prešov",
+    "address": "PSČ 080 01, 124 94 Prešov",
     "details": [
       {
         "share": "{1}{425} (0.23529412%)",
@@ -885,10 +885,10 @@
       "ulica": null,
       "cislo_domu": "145",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 145, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 145, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 145, Dulova Ves",
+    "address": "Dulova Ves 145, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{765} (0.13071895%)",
@@ -951,10 +951,10 @@
       "ulica": null,
       "cislo_domu": "74",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 74, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 74, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 74, Dulova Ves",
+    "address": "Dulova Ves 74, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{1224} (0.08169935%)",
@@ -984,10 +984,10 @@
       "ulica": null,
       "cislo_domu": "126",
       "obec": "Kokošovce",
-      "psc": null,
-      "std_string": "Kokošovce 126, Kokošovce"
+      "psc": "08252",
+      "std_string": "Kokošovce 126, 082 52 Kokošovce"
     },
-    "address": "Kokošovce 126, Kokošovce",
+    "address": "Kokošovce 126, 082 52 Kokošovce",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -1017,10 +1017,10 @@
       "ulica": null,
       "cislo_domu": "126",
       "obec": "Kokošovce",
-      "psc": null,
-      "std_string": "Kokošovce 126, Kokošovce"
+      "psc": "08252",
+      "std_string": "Kokošovce 126, 082 52 Kokošovce"
     },
-    "address": "Kokošovce 126, Kokošovce",
+    "address": "Kokošovce 126, 082 52 Kokošovce",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -1050,10 +1050,10 @@
       "ulica": null,
       "cislo_domu": "126",
       "obec": "Kokošovce",
-      "psc": null,
-      "std_string": "Kokošovce 126, Kokošovce"
+      "psc": "08252",
+      "std_string": "Kokošovce 126, 082 52 Kokošovce"
     },
-    "address": "Kokošovce 126, Kokošovce",
+    "address": "Kokošovce 126, 082 52 Kokošovce",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -1116,10 +1116,10 @@
       "ulica": null,
       "cislo_domu": "214",
       "obec": "Ruskov",
-      "psc": null,
-      "std_string": "Ruskov 214, Ruskov"
+      "psc": "04419",
+      "std_string": "Ruskov 214, 044 19 Ruskov"
     },
-    "address": "Ruskov 214, Ruskov",
+    "address": "Ruskov 214, 044 19 Ruskov",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -1182,10 +1182,10 @@
       "ulica": null,
       "cislo_domu": "111",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 111, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 111, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 111, Dulova Ves",
+    "address": "Dulova Ves 111, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{170} (0.58823529%)",
@@ -1215,10 +1215,10 @@
       "ulica": null,
       "cislo_domu": "25",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 25, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 25, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 25, Dulova Ves",
+    "address": "Dulova Ves 25, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{60} (1.66666667%)",
@@ -1281,10 +1281,10 @@
       "ulica": null,
       "cislo_domu": "138",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 138, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 138, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 138, Dulova Ves",
+    "address": "Dulova Ves 138, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{3}{680} (0.44117647%)",
@@ -1357,10 +1357,10 @@
       "ulica": null,
       "cislo_domu": "120",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 120, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 120, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 120, Dulova Ves",
+    "address": "Dulova Ves 120, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -1390,10 +1390,10 @@
       "ulica": null,
       "cislo_domu": "41",
       "obec": "Mirkovce",
-      "psc": null,
-      "std_string": "Mirkovce 41, Mirkovce"
+      "psc": "08206",
+      "std_string": "Mirkovce 41, 082 06 Mirkovce"
     },
-    "address": "Mirkovce 41, Mirkovce",
+    "address": "Mirkovce 41, 082 06 Mirkovce",
     "details": [
       {
         "share": "{13}{2295} (0.56644880%)",
@@ -1456,10 +1456,10 @@
       "ulica": null,
       "cislo_domu": "23",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 23, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 23, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 23, Dulova Ves",
+    "address": "Dulova Ves 23, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -1654,10 +1654,10 @@
       "ulica": null,
       "cislo_domu": "108",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 108, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 108, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 108, Dulova Ves",
+    "address": "Dulova Ves 108, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{85} (1.17647059%)",
@@ -1819,10 +1819,10 @@
       "ulica": null,
       "cislo_domu": "49",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 49, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 49, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 49, Dulova Ves",
+    "address": "Dulova Ves 49, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -1890,10 +1890,10 @@
       "ulica": null,
       "cislo_domu": "42",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 42, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 42, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 42, Dulova Ves",
+    "address": "Dulova Ves 42, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{170} (0.58823529%)",
@@ -2055,10 +2055,10 @@
       "ulica": null,
       "cislo_domu": "131",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 131, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 131, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 131, Dulova Ves",
+    "address": "Dulova Ves 131, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{3}{680} (0.44117647%)",
@@ -2220,10 +2220,10 @@
       "ulica": null,
       "cislo_domu": "100",
       "obec": "Žehňa-Dúbrava",
-      "psc": null,
-      "std_string": "Žehňa-Dúbrava 100, Žehňa-Dúbrava"
+      "psc": "08206",
+      "std_string": "Žehňa-Dúbrava 100, 082 06 Žehňa-Dúbrava"
     },
-    "address": "Žehňa-Dúbrava 100, Žehňa-Dúbrava",
+    "address": "Žehňa-Dúbrava 100, 082 06 Žehňa-Dúbrava",
     "details": [
       {
         "share": "{1}{85} (1.17647059%)",
@@ -2319,10 +2319,10 @@
       "ulica": null,
       "cislo_domu": "141",
       "obec": "Kysak",
-      "psc": null,
-      "std_string": "Kysak 141, Kysak"
+      "psc": "04481",
+      "std_string": "Kysak 141, 044 81 Kysak"
     },
-    "address": "Kysak 141, Kysak",
+    "address": "Kysak 141, 044 81 Kysak",
     "details": [
       {
         "share": "{2}{425} (0.47058824%)",
@@ -2351,11 +2351,11 @@
     "add": {
       "ulica": "Prešov",
       "cislo_domu": "1",
-      "obec": null,
+      "obec": "PSČ",
       "psc": "08001",
-      "std_string": "Prešov 1, 080 01"
+      "std_string": "Prešov 1, 080 01 PSČ"
     },
-    "address": "Prešov 1, 080 01",
+    "address": "Prešov 1, 080 01 PSČ",
     "details": [
       {
         "share": "{1}{85} (1.17647059%)",
@@ -2385,10 +2385,10 @@
       "ulica": null,
       "cislo_domu": "14",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 14, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 14, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 14, Dulova Ves",
+    "address": "Dulova Ves 14, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -2461,10 +2461,10 @@
       "ulica": null,
       "cislo_domu": "108",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 108, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 108, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 108, Dulova Ves",
+    "address": "Dulova Ves 108, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{85} (1.17647059%)",
@@ -2494,10 +2494,10 @@
       "ulica": null,
       "cislo_domu": "119",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 119, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 119, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 119, Dulova Ves",
+    "address": "Dulova Ves 119, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{68} (1.47058824%)",
@@ -2560,10 +2560,10 @@
       "ulica": null,
       "cislo_domu": "14",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 14, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 14, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 14, Dulova Ves",
+    "address": "Dulova Ves 14, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -2735,10 +2735,10 @@
       "ulica": null,
       "cislo_domu": "430",
       "obec": "Petrovany",
-      "psc": null,
-      "std_string": "Petrovany 430, Petrovany"
+      "psc": "08253",
+      "std_string": "Petrovany 430, 082 53 Petrovany"
     },
-    "address": "Petrovany 430, Petrovany",
+    "address": "Petrovany 430, 082 53 Petrovany",
     "details": [
       {
         "share": "{2}{255} (0.78431373%)",
@@ -2768,10 +2768,10 @@
       "ulica": null,
       "cislo_domu": "98",
       "obec": "Petrovany",
-      "psc": null,
-      "std_string": "Petrovany 98, Petrovany"
+      "psc": "08253",
+      "std_string": "Petrovany 98, 082 53 Petrovany"
     },
-    "address": "Petrovany 98, Petrovany",
+    "address": "Petrovany 98, 082 53 Petrovany",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -2839,10 +2839,10 @@
       "ulica": null,
       "cislo_domu": "130",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 130, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 130, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 130, Dulova Ves",
+    "address": "Dulova Ves 130, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -2872,10 +2872,10 @@
       "ulica": null,
       "cislo_domu": "130",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 130, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 130, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 130, Dulova Ves",
+    "address": "Dulova Ves 130, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{43}{18360} (0.23420479%)",
@@ -2905,10 +2905,10 @@
       "ulica": null,
       "cislo_domu": "82",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 82, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 82, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 82, Dulova Ves",
+    "address": "Dulova Ves 82, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{3}{1360} (0.22058824%)",
@@ -2971,10 +2971,10 @@
       "ulica": null,
       "cislo_domu": "72",
       "obec": "Chminianska Nová Ves",
-      "psc": null,
-      "std_string": "Chminianska Nová Ves 72, Chminianska Nová Ves"
+      "psc": "08233",
+      "std_string": "Chminianska Nová Ves 72, 082 33 Chminianska Nová Ves"
     },
-    "address": "Chminianska Nová Ves 72, Chminianska Nová Ves",
+    "address": "Chminianska Nová Ves 72, 082 33 Chminianska Nová Ves",
     "details": [
       {
         "share": "{43}{6120} (0.70261438%)",
@@ -3004,10 +3004,10 @@
       "ulica": null,
       "cislo_domu": "160",
       "obec": "Ličartovce",
-      "psc": null,
-      "std_string": "Ličartovce 160, Ličartovce"
+      "psc": "08203",
+      "std_string": "Ličartovce 160, 082 03 Ličartovce"
     },
-    "address": "Ličartovce 160, Ličartovce",
+    "address": "Ličartovce 160, 082 03 Ličartovce",
     "details": [
       {
         "share": "{1}{680} (0.14705882%)",
@@ -3141,10 +3141,10 @@
       "ulica": null,
       "cislo_domu": "114",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 114, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 114, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 114, Dulova Ves",
+    "address": "Dulova Ves 114, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{1275} (0.07843137%)",
@@ -3174,10 +3174,10 @@
       "ulica": null,
       "cislo_domu": "36",
       "obec": "Petrovany",
-      "psc": null,
-      "std_string": "Petrovany 36, Petrovany"
+      "psc": "08253",
+      "std_string": "Petrovany 36, 082 53 Petrovany"
     },
-    "address": "Petrovany 36, Petrovany",
+    "address": "Petrovany 36, 082 53 Petrovany",
     "details": [
       {
         "share": "{1}{425} (0.23529412%)",
@@ -3273,10 +3273,10 @@
       "ulica": null,
       "cislo_domu": "136",
       "obec": "Brestov",
-      "psc": null,
-      "std_string": "Brestov 136, Brestov"
+      "psc": "08205",
+      "std_string": "Brestov 136, 082 05 Brestov"
     },
-    "address": "Brestov 136, Brestov",
+    "address": "Brestov 136, 082 05 Brestov",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -3344,10 +3344,10 @@
       "ulica": null,
       "cislo_domu": "126",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 126, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 126, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 126, Dulova Ves",
+    "address": "Dulova Ves 126, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{2}{255} (0.78431373%)",
@@ -3377,10 +3377,10 @@
       "ulica": null,
       "cislo_domu": "126",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 126, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 126, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 126, Dulova Ves",
+    "address": "Dulova Ves 126, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{2}{255} (0.78431373%)",
@@ -3410,10 +3410,10 @@
       "ulica": null,
       "cislo_domu": "32",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 32, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 32, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 32, Dulova Ves",
+    "address": "Dulova Ves 32, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{153} (0.65359477%)",
@@ -3481,10 +3481,10 @@
       "ulica": null,
       "cislo_domu": "94",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 94, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 94, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 94, Dulova Ves",
+    "address": "Dulova Ves 94, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{3}{680} (0.44117647%)",
@@ -3651,10 +3651,10 @@
       "ulica": null,
       "cislo_domu": "133",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 133, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 133, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 133, Dulova Ves",
+    "address": "Dulova Ves 133, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{3}{680} (0.44117647%)",
@@ -3684,10 +3684,10 @@
       "ulica": null,
       "cislo_domu": "133",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 133, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 133, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 133, Dulova Ves",
+    "address": "Dulova Ves 133, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{3}{680} (0.44117647%)",
@@ -3783,10 +3783,10 @@
       "ulica": null,
       "cislo_domu": "111",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 111, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 111, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 111, Dulova Ves",
+    "address": "Dulova Ves 111, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{170} (0.58823529%)",
@@ -3816,10 +3816,10 @@
       "ulica": null,
       "cislo_domu": "111",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 111, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 111, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 111, Dulova Ves",
+    "address": "Dulova Ves 111, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -3854,10 +3854,10 @@
       "ulica": null,
       "cislo_domu": "111",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 111, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 111, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 111, Dulova Ves",
+    "address": "Dulova Ves 111, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -3991,10 +3991,10 @@
       "ulica": null,
       "cislo_domu": "63",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 63, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 63, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 63, Dulova Ves",
+    "address": "Dulova Ves 63, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -4062,10 +4062,10 @@
       "ulica": null,
       "cislo_domu": "145",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 145, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 145, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 145, Dulova Ves",
+    "address": "Dulova Ves 145, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{765} (0.13071895%)",
@@ -4161,10 +4161,10 @@
       "ulica": null,
       "cislo_domu": "79",
       "obec": "Podhradík",
-      "psc": null,
-      "std_string": "Podhradík 79, Podhradík"
+      "psc": "08006",
+      "std_string": "Podhradík 79, 080 06 Podhradík"
     },
-    "address": "Podhradík 79, Podhradík",
+    "address": "Podhradík 79, 080 06 Podhradík",
     "details": [
       {
         "share": "{2}{425} (0.47058824%)",
@@ -4194,10 +4194,10 @@
       "ulica": null,
       "cislo_domu": "7",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 7, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 7, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 7, Dulova Ves",
+    "address": "Dulova Ves 7, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{8}{2295} (0.34858388%)",
@@ -4227,10 +4227,10 @@
       "ulica": null,
       "cislo_domu": "12",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 12, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 12, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 12, Dulova Ves",
+    "address": "Dulova Ves 12, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{2}{425} (0.47058824%)",
@@ -4260,10 +4260,10 @@
       "ulica": null,
       "cislo_domu": "7",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 7, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 7, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 7, Dulova Ves",
+    "address": "Dulova Ves 7, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{8}{2295} (0.34858388%)",
@@ -4397,10 +4397,10 @@
       "ulica": null,
       "cislo_domu": "77",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 77, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 77, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 77, Dulova Ves",
+    "address": "Dulova Ves 77, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -4463,10 +4463,10 @@
       "ulica": null,
       "cislo_domu": "97",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 97, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 97, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 97, Dulova Ves",
+    "address": "Dulova Ves 97, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{2}{255} (0.78431373%)",
@@ -4562,10 +4562,10 @@
       "ulica": null,
       "cislo_domu": "178",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 178, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 178, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 178, Dulova Ves",
+    "address": "Dulova Ves 178, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{11}{12240} (0.08986928%)",
@@ -4628,10 +4628,10 @@
       "ulica": null,
       "cislo_domu": "83",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 83, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 83, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 83, Dulova Ves",
+    "address": "Dulova Ves 83, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{11}{12240} (0.08986928%)",
@@ -4661,10 +4661,10 @@
       "ulica": null,
       "cislo_domu": "119",
       "obec": "Vyšná Šebastová",
-      "psc": null,
-      "std_string": "Vyšná Šebastová 119, Vyšná Šebastová"
+      "psc": "08001",
+      "std_string": "Vyšná Šebastová 119, 080 01 Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 119, Vyšná Šebastová",
+    "address": "Vyšná Šebastová 119, 080 01 Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -4694,10 +4694,10 @@
       "ulica": null,
       "cislo_domu": "122",
       "obec": "Bertotovce",
-      "psc": null,
-      "std_string": "Bertotovce 122, Bertotovce"
+      "psc": "08235",
+      "std_string": "Bertotovce 122, 082 35 Bertotovce"
     },
-    "address": "Bertotovce 122, Bertotovce",
+    "address": "Bertotovce 122, 082 35 Bertotovce",
     "details": [
       {
         "share": "{4}{765} (0.52287582%)",
@@ -4727,10 +4727,10 @@
       "ulica": null,
       "cislo_domu": "122",
       "obec": "Bertotovce",
-      "psc": null,
-      "std_string": "Bertotovce 122, Bertotovce"
+      "psc": "08235",
+      "std_string": "Bertotovce 122, 082 35 Bertotovce"
     },
-    "address": "Bertotovce 122, Bertotovce",
+    "address": "Bertotovce 122, 082 35 Bertotovce",
     "details": [
       {
         "share": "{4}{765} (0.52287582%)",
@@ -4760,10 +4760,10 @@
       "ulica": null,
       "cislo_domu": "144",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 144, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 144, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 144, Dulova Ves",
+    "address": "Dulova Ves 144, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{1275} (0.07843137%)",
@@ -4826,10 +4826,10 @@
       "ulica": null,
       "cislo_domu": "98",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 98, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 98, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 98, Dulova Ves",
+    "address": "Dulova Ves 98, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{2}{765} (0.26143791%)",
@@ -4892,10 +4892,10 @@
       "ulica": null,
       "cislo_domu": "144",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 144, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 144, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 144, Dulova Ves",
+    "address": "Dulova Ves 144, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -4925,10 +4925,10 @@
       "ulica": null,
       "cislo_domu": "144",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 144, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 144, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 144, Dulova Ves",
+    "address": "Dulova Ves 144, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{1275} (0.07843137%)",
@@ -4958,10 +4958,10 @@
       "ulica": null,
       "cislo_domu": "144",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 144, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 144, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 144, Dulova Ves",
+    "address": "Dulova Ves 144, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{1275} (0.07843137%)",
@@ -5128,10 +5128,10 @@
       "ulica": null,
       "cislo_domu": "35",
       "obec": "Trnkov",
-      "psc": null,
-      "std_string": "Trnkov 35, Trnkov"
+      "psc": "08212",
+      "std_string": "Trnkov 35, 082 12 Trnkov"
     },
-    "address": "Trnkov 35, Trnkov",
+    "address": "Trnkov 35, 082 12 Trnkov",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -5161,10 +5161,10 @@
       "ulica": null,
       "cislo_domu": "123",
       "obec": "Kokošovce",
-      "psc": null,
-      "std_string": "Kokošovce 123, Kokošovce"
+      "psc": "08252",
+      "std_string": "Kokošovce 123, 082 52 Kokošovce"
     },
-    "address": "Kokošovce 123, Kokošovce",
+    "address": "Kokošovce 123, 082 52 Kokošovce",
     "details": [
       {
         "share": "{1}{85} (1.17647059%)",
@@ -5194,10 +5194,10 @@
       "ulica": null,
       "cislo_domu": "170",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 170, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 170, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 170, Dulova Ves",
+    "address": "Dulova Ves 170, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{1020} (0.09803922%)",
@@ -5227,10 +5227,10 @@
       "ulica": null,
       "cislo_domu": "121",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 121, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 121, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 121, Dulova Ves",
+    "address": "Dulova Ves 121, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{1020} (0.09803922%)",
@@ -5293,10 +5293,10 @@
       "ulica": null,
       "cislo_domu": "104",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 104, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 104, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 104, Dulova Ves",
+    "address": "Dulova Ves 104, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{4}{255} (1.56862745%)",
@@ -5364,10 +5364,10 @@
       "ulica": null,
       "cislo_domu": "54",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 54, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 54, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 54, Dulova Ves",
+    "address": "Dulova Ves 54, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{10200} (0.00980392%)",
@@ -5397,10 +5397,10 @@
       "ulica": null,
       "cislo_domu": "16",
       "obec": "Hubošovce",
-      "psc": null,
-      "std_string": "Hubošovce 16, Hubošovce"
+      "psc": "08266",
+      "std_string": "Hubošovce 16, 082 66 Hubošovce"
     },
-    "address": "Hubošovce 16, Hubošovce",
+    "address": "Hubošovce 16, 082 66 Hubošovce",
     "details": [
       {
         "share": "{1}{10200} (0.00980392%)",
@@ -5430,10 +5430,10 @@
       "ulica": null,
       "cislo_domu": "76",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 76, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 76, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 76, Dulova Ves",
+    "address": "Dulova Ves 76, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{11}{3060} (0.35947712%)",
@@ -5463,10 +5463,10 @@
       "ulica": null,
       "cislo_domu": "76",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 76, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 76, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 76, Dulova Ves",
+    "address": "Dulova Ves 76, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{11}{3060} (0.35947712%)",
@@ -5496,10 +5496,10 @@
       "ulica": null,
       "cislo_domu": "141",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 141, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 141, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 141, Dulova Ves",
+    "address": "Dulova Ves 141, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{3}{2720} (0.11029412%)",
@@ -5529,10 +5529,10 @@
       "ulica": null,
       "cislo_domu": "134",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 134, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 134, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 134, Dulova Ves",
+    "address": "Dulova Ves 134, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{3}{1360} (0.22058824%)",
@@ -5562,10 +5562,10 @@
       "ulica": null,
       "cislo_domu": "141",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 141, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 141, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 141, Dulova Ves",
+    "address": "Dulova Ves 141, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{3}{2720} (0.11029412%)",
@@ -5595,10 +5595,10 @@
       "ulica": null,
       "cislo_domu": "267",
       "obec": "Petrovany",
-      "psc": null,
-      "std_string": "Petrovany 267, Petrovany"
+      "psc": "08253",
+      "std_string": "Petrovany 267, 082 53 Petrovany"
     },
-    "address": "Petrovany 267, Petrovany",
+    "address": "Petrovany 267, 082 53 Petrovany",
     "details": [
       {
         "share": "{3}{1360} (0.22058824%)",
@@ -5727,10 +5727,10 @@
       "ulica": null,
       "cislo_domu": "60",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 60, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 60, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 60, Dulova Ves",
+    "address": "Dulova Ves 60, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{2550} (0.03921569%)",
@@ -5798,10 +5798,10 @@
       "ulica": null,
       "cislo_domu": "51",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 51, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 51, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 51, Dulova Ves",
+    "address": "Dulova Ves 51, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{3400} (0.02941176%)",
@@ -5831,10 +5831,10 @@
       "ulica": null,
       "cislo_domu": "51",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 51, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 51, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 51, Dulova Ves",
+    "address": "Dulova Ves 51, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{680} (0.14705882%)",
@@ -5930,10 +5930,10 @@
       "ulica": null,
       "cislo_domu": "67",
       "obec": "Vyšná Šebastová",
-      "psc": null,
-      "std_string": "Vyšná Šebastová 67, Vyšná Šebastová"
+      "psc": "08006",
+      "std_string": "Vyšná Šebastová 67, 080 06 Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 67, Vyšná Šebastová",
+    "address": "Vyšná Šebastová 67, 080 06 Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -5963,10 +5963,10 @@
       "ulica": null,
       "cislo_domu": "67",
       "obec": "Vyšná Šebastová",
-      "psc": null,
-      "std_string": "Vyšná Šebastová 67, Vyšná Šebastová"
+      "psc": "08006",
+      "std_string": "Vyšná Šebastová 67, 080 06 Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 67, Vyšná Šebastová",
+    "address": "Vyšná Šebastová 67, 080 06 Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -6001,10 +6001,10 @@
       "ulica": null,
       "cislo_domu": "43",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 43, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 43, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 43, Dulova Ves",
+    "address": "Dulova Ves 43, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{680} (0.14705882%)",
@@ -6100,10 +6100,10 @@
       "ulica": null,
       "cislo_domu": "124",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 124, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 124, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 124, Dulova Ves",
+    "address": "Dulova Ves 124, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{160} (0.62500000%)",
@@ -6280,10 +6280,10 @@
       "ulica": null,
       "cislo_domu": "38",
       "obec": "Tibava",
-      "psc": null,
-      "std_string": "Tibava 38, Tibava"
+      "psc": "07301",
+      "std_string": "Tibava 38, 073 01 Tibava"
     },
-    "address": "Tibava 38, Tibava",
+    "address": "Tibava 38, 073 01 Tibava",
     "details": [
       {
         "share": "{1}{1360} (0.07352941%)",
@@ -6384,10 +6384,10 @@
       "ulica": null,
       "cislo_domu": "9",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 9, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 9, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 9, Dulova Ves",
+    "address": "Dulova Ves 9, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{4080} (0.02450980%)",
@@ -6460,10 +6460,10 @@
       "ulica": null,
       "cislo_domu": "261",
       "obec": "Ličartovce",
-      "psc": null,
-      "std_string": "Ličartovce 261, Ličartovce"
+      "psc": "08203",
+      "std_string": "Ličartovce 261, 082 03 Ličartovce"
     },
-    "address": "Ličartovce 261, Ličartovce",
+    "address": "Ličartovce 261, 082 03 Ličartovce",
     "details": [
       {
         "share": "{1}{1360} (0.07352941%)",
@@ -6531,10 +6531,10 @@
       "ulica": null,
       "cislo_domu": "9",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 9, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 9, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 9, Dulova Ves",
+    "address": "Dulova Ves 9, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{4080} (0.02450980%)",
@@ -6564,10 +6564,10 @@
       "ulica": null,
       "cislo_domu": "112",
       "obec": "Dulova Ves",
-      "psc": null,
-      "std_string": "Dulova Ves 112, Dulova Ves"
+      "psc": "08252",
+      "std_string": "Dulova Ves 112, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 112, Dulova Ves",
+    "address": "Dulova Ves 112, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{6799}{585225} (1.16177539%)",
@@ -6597,10 +6597,10 @@
       "ulica": null,
       "cislo_domu": "109",
       "obec": "Záborské",
-      "psc": null,
-      "std_string": "Záborské 109, Záborské"
+      "psc": "08253",
+      "std_string": "Záborské 109, 082 53 Záborské"
     },
-    "address": "Záborské 109, Záborské",
+    "address": "Záborské 109, 082 53 Záborské",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -6630,10 +6630,10 @@
       "ulica": null,
       "cislo_domu": "3",
       "obec": "Záborské",
-      "psc": null,
-      "std_string": "Záborské 3, Záborské"
+      "psc": "08253",
+      "std_string": "Záborské 3, 082 53 Záborské"
     },
-    "address": "Záborské 3, Záborské",
+    "address": "Záborské 3, 082 53 Záborské",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
