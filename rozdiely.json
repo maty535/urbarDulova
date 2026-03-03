@@ -7,7 +7,8 @@
       "ulica": "Dubová",
       "cislo_domu": "11",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Dubová 11, 080 01 Prešov"
     },
     "address": "Dubová 11, 080 01 Prešov",
     "details": [
@@ -36,12 +37,13 @@
     "maiden": "Komárová",
     "dob": "13.08.1963",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "92",
       "obec": "Žipov",
-      "psc": "08241"
+      "psc": "08241",
+      "std_string": "č. 92, 082 41 Žipov"
     },
-    "address": "Žipov 92, 082 41 Žipov",
+    "address": "č. 92, 082 41 Žipov",
     "details": [
       {
         "share": "{1}{180} (0.55555556%)",
@@ -73,12 +75,13 @@
     "maiden": "Lešková",
     "dob": "24.05.1931",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "85",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 85, Dulova Ves"
     },
-    "address": "Dulova Ves 85, 082 52 Dulova Ves",
+    "address": "č. 85, Dulova Ves",
     "details": [
       {
         "share": "{1}{1020} (0.09803922%)",
@@ -105,12 +108,13 @@
     "maiden": "Komárová",
     "dob": "24.05.1931",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "85",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 85, Dulova Ves"
     },
-    "address": "Dulova Ves 85, 082 52 Dulova Ves",
+    "address": "č. 85, Dulova Ves",
     "details": [
       {
         "share": "{1}{1020} (0.09803922%)",
@@ -140,7 +144,8 @@
       "ulica": "Sibírska",
       "cislo_domu": "6958/18",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Sibírska 6958/18, 080 01 Prešov"
     },
     "address": "Sibírska 6958/18, 080 01 Prešov",
     "details": [
@@ -172,7 +177,8 @@
       "ulica": "Sibírska",
       "cislo_domu": "6958/18",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Sibírska 6958/18, 080 01 Prešov"
     },
     "address": "Sibírska 6958/18, 080 01 Prešov",
     "details": [
@@ -204,7 +210,8 @@
       "ulica": "Dúbravská",
       "cislo_domu": "52",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Dúbravská 52, 080 01 Prešov"
     },
     "address": "Dúbravská 52, 080 01 Prešov",
     "details": [
@@ -236,7 +243,8 @@
       "ulica": "Dúbravská",
       "cislo_domu": "5623/52",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Dúbravská 5623/52, 080 01 Prešov"
     },
     "address": "Dúbravská 5623/52, 080 01 Prešov",
     "details": [
@@ -268,7 +276,8 @@
       "ulica": "Mozartova",
       "cislo_domu": "5651/11",
       "obec": "Trnava",
-      "psc": "91708"
+      "psc": "91708",
+      "std_string": "Mozartova 5651/11, 917 08 Trnava"
     },
     "address": "Mozartova 5651/11, 917 08 Trnava",
     "details": [
@@ -297,12 +306,13 @@
     "maiden": "Bimba",
     "dob": "07.11.1963",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "3103",
       "obec": "Čaňa",
-      "psc": "04414"
+      "psc": null,
+      "std_string": "č. 3103, Čaňa"
     },
-    "address": "Čaňa 3103, 044 14 Čaňa",
+    "address": "č. 3103, Čaňa",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -329,12 +339,13 @@
     "maiden": "Gajdošová",
     "dob": "21.02.1945",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "105",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 105, Dulova Ves"
     },
-    "address": "Dulova Ves 105, 082 52 Dulova Ves",
+    "address": "č. 105, Dulova Ves",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -361,12 +372,13 @@
     "maiden": "Gajdošová",
     "dob": "21.02.1945",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "105",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 105, Dulova Ves"
     },
-    "address": "Dulova Ves 105, 082 52 Dulova Ves",
+    "address": "č. 105, Dulova Ves",
     "details": [
       {
         "share": "{4}{255} (1.56862745%)",
@@ -398,12 +410,13 @@
     "maiden": "Tivadarová",
     "dob": "19.07.1977",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "54",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 54, Dulova Ves"
     },
-    "address": "Dulova Ves 54, 082 52 Dulova Ves",
+    "address": "č. 54, Dulova Ves",
     "details": [
       {
         "share": "{1}{10200} (0.00980392%)",
@@ -430,12 +443,13 @@
     "maiden": "Vardžíková",
     "dob": "05.09.1976",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "62",
       "obec": "Záborské",
-      "psc": "08253"
+      "psc": null,
+      "std_string": "č. 62, Záborské"
     },
-    "address": "Záborské 62, 082 53 Záborské",
+    "address": "č. 62, Záborské",
     "details": [
       {
         "share": "{1}{10200} (0.00980392%)",
@@ -465,7 +479,8 @@
       "ulica": "Štefánikova",
       "cislo_domu": "1396/22",
       "obec": "Michalovce",
-      "psc": "07101"
+      "psc": "07101",
+      "std_string": "Štefánikova 1396/22, 071 01 Michalovce"
     },
     "address": "Štefánikova 1396/22, 071 01 Michalovce",
     "details": [
@@ -494,12 +509,13 @@
     "maiden": "Cinová",
     "dob": "04.06.1960",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "87",
       "obec": "Vyšná Šebastová",
-      "psc": "08001"
+      "psc": null,
+      "std_string": "č. 87, Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 87, 080 01 Vyšná Šebastová",
+    "address": "č. 87, Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -526,12 +542,13 @@
     "maiden": "Chovan",
     "dob": "26.05.1966",
     "add": {
-      "ulica": null,
-      "cislo_domu": null,
+      "ulica": "082",
+      "cislo_domu": "56",
       "obec": "Červenica pri Sabinove",
-      "psc": "08256"
+      "psc": null,
+      "std_string": "082 56, Červenica pri Sabinove"
     },
-    "address": "Červenica pri Sabinove, 082 56 Červenica pri Sabinove",
+    "address": "082 56, Červenica pri Sabinove",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -561,7 +578,8 @@
       "ulica": "Klimkovičova",
       "cislo_domu": "11",
       "obec": "Košice",
-      "psc": "04023"
+      "psc": "04023",
+      "std_string": "Klimkovičova 11, 040 23 Košice"
     },
     "address": "Klimkovičova 11, 040 23 Košice",
     "details": [
@@ -590,12 +608,13 @@
     "maiden": "Chovan",
     "dob": "11.09.1971",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "32",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 32, Dulova Ves"
     },
-    "address": "Dulova Ves 32, 082 52 Dulova Ves",
+    "address": "č. 32, Dulova Ves",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -622,12 +641,13 @@
     "maiden": "Cina",
     "dob": "12.10.1971",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "87",
       "obec": "Vyšná Šebastová",
-      "psc": "08001"
+      "psc": null,
+      "std_string": "č. 87, Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 87, 080 01 Vyšná Šebastová",
+    "address": "č. 87, Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -654,12 +674,13 @@
     "maiden": "Antolíková",
     "dob": "08.01.1935",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "87",
       "obec": "Vyšná Šebastová",
-      "psc": "08006"
+      "psc": null,
+      "std_string": "č. 87, Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 87, 080 06 Vyšná Šebastová",
+    "address": "č. 87, Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -689,7 +710,8 @@
       "ulica": "Sibírska",
       "cislo_domu": "35",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Sibírska 35, 080 01 Prešov"
     },
     "address": "Sibírska 35, 080 01 Prešov",
     "details": [
@@ -721,7 +743,8 @@
       "ulica": "Vaľkovská",
       "cislo_domu": "754/4",
       "obec": "Prešov",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Vaľkovská 754/4, 080 05 Prešov"
     },
     "address": "Vaľkovská 754/4, 080 05 Prešov",
     "details": [
@@ -753,7 +776,8 @@
       "ulica": "Pionierska",
       "cislo_domu": "13",
       "obec": "Prešov",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Pionierska 13, 080 05 Prešov"
     },
     "address": "Pionierska 13, 080 05 Prešov",
     "details": [
@@ -785,7 +809,8 @@
       "ulica": "19. januára",
       "cislo_domu": "4490/3",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "19. januára 4490/3, 080 01 Prešov"
     },
     "address": "19. januára 4490/3, 080 01 Prešov",
     "details": [
@@ -819,12 +844,13 @@
     "maiden": "Markušová",
     "dob": "08.08.1946",
     "add": {
-      "ulica": "PSČ 080",
-      "cislo_domu": "01",
+      "ulica": "19.januára",
+      "cislo_domu": "12494/3",
       "obec": "Prešov",
-      "psc": "12494"
+      "psc": "08001",
+      "std_string": "19.januára 12494/3, 080 01 Prešov"
     },
-    "address": "PSČ 080 01, 124 94 Prešov",
+    "address": "19.januára 12494/3, 080 01 Prešov",
     "details": [
       {
         "share": "{1}{425} (0.23529412%)",
@@ -856,12 +882,13 @@
     "maiden": "Petrušová",
     "dob": "22.12.1974",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "145",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 145, Dulova Ves"
     },
-    "address": "Dulova Ves 145, 082 52 Dulova Ves",
+    "address": "č. 145, Dulova Ves",
     "details": [
       {
         "share": "{1}{765} (0.13071895%)",
@@ -888,12 +915,13 @@
     "maiden": "Rovňaková",
     "dob": "02.02.1971",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "71",
       "obec": "Lesné",
-      "psc": "07101"
+      "psc": "07101",
+      "std_string": "č. 71, 071 01 Lesné"
     },
-    "address": "Lesné 71, 071 01 Lesné",
+    "address": "č. 71, 071 01 Lesné",
     "details": [
       {
         "share": "{43}{6120} (0.70261438%)",
@@ -920,12 +948,13 @@
     "maiden": "",
     "dob": "07.05.1970",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "74",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 74, Dulova Ves"
     },
-    "address": "Dulova Ves 74, 082 52 Dulova Ves",
+    "address": "č. 74, Dulova Ves",
     "details": [
       {
         "share": "{1}{1224} (0.08169935%)",
@@ -952,12 +981,13 @@
     "maiden": "Repková",
     "dob": "08.06.1959",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "126",
       "obec": "Kokošovce",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 126, Kokošovce"
     },
-    "address": "Kokošovce 126, 082 52 Kokošovce",
+    "address": "č. 126, Kokošovce",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -984,12 +1014,13 @@
     "maiden": "Repková",
     "dob": "08.06.1959",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "126",
       "obec": "Kokošovce",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 126, Kokošovce"
     },
-    "address": "Kokošovce 126, 082 52 Kokošovce",
+    "address": "č. 126, Kokošovce",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -1016,12 +1047,13 @@
     "maiden": "Repková",
     "dob": "08.06.1959",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "126",
       "obec": "Kokošovce",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 126, Kokošovce"
     },
-    "address": "Kokošovce 126, 082 52 Kokošovce",
+    "address": "č. 126, Kokošovce",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -1051,7 +1083,8 @@
       "ulica": "Dulova Ves",
       "cislo_domu": "135",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "Dulova Ves 135, 082 52 Dulova Ves"
     },
     "address": "Dulova Ves 135, 082 52 Dulova Ves",
     "details": [
@@ -1080,12 +1113,13 @@
     "maiden": "Rurová",
     "dob": "16.08.1976",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "214",
       "obec": "Ruskov",
-      "psc": "04419"
+      "psc": null,
+      "std_string": "č. 214, Ruskov"
     },
-    "address": "Ruskov 214, 044 19 Ruskov",
+    "address": "č. 214, Ruskov",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -1115,7 +1149,8 @@
       "ulica": "Prostějovská",
       "cislo_domu": "5",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Prostějovská 5, 080 01 Prešov"
     },
     "address": "Prostějovská 5, 080 01 Prešov",
     "details": [
@@ -1144,12 +1179,13 @@
     "maiden": "",
     "dob": "29.03.1914",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "111",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 111, Dulova Ves"
     },
-    "address": "Dulova Ves 111, 082 52 Dulova Ves",
+    "address": "č. 111, Dulova Ves",
     "details": [
       {
         "share": "{1}{170} (0.58823529%)",
@@ -1176,12 +1212,13 @@
     "maiden": "Uhrinová",
     "dob": "21.08.1944",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "25",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 25, Dulova Ves"
     },
-    "address": "Dulova Ves 25, 082 52 Dulova Ves",
+    "address": "č. 25, Dulova Ves",
     "details": [
       {
         "share": "{1}{60} (1.66666667%)",
@@ -1211,7 +1248,8 @@
       "ulica": "Prostějovská",
       "cislo_domu": "4821/5",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Prostějovská 4821/5, 080 01 Prešov"
     },
     "address": "Prostějovská 4821/5, 080 01 Prešov",
     "details": [
@@ -1240,12 +1278,13 @@
     "maiden": "Minarčíková",
     "dob": "04.06.1955",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "138",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 138, Dulova Ves"
     },
-    "address": "Dulova Ves 138, 082 52 Dulova Ves",
+    "address": "č. 138, Dulova Ves",
     "details": [
       {
         "share": "{3}{680} (0.44117647%)",
@@ -1280,7 +1319,8 @@
       "ulica": "Hlavná",
       "cislo_domu": "120/27",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "Hlavná 120/27, 082 52 Dulova Ves"
     },
     "address": "Hlavná 120/27, 082 52 Dulova Ves",
     "details": [
@@ -1314,12 +1354,13 @@
     "maiden": "Sokolová",
     "dob": "23.02.1939",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "120",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 120, Dulova Ves"
     },
-    "address": "Dulova Ves 120, 082 52 Dulova Ves",
+    "address": "č. 120, Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -1346,12 +1387,13 @@
     "maiden": "Höger",
     "dob": "07.12.1955",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "41",
       "obec": "Mirkovce",
-      "psc": "08206"
+      "psc": null,
+      "std_string": "č. 41, Mirkovce"
     },
-    "address": "Mirkovce 41, 082 06 Mirkovce",
+    "address": "č. 41, Mirkovce",
     "details": [
       {
         "share": "{13}{2295} (0.56644880%)",
@@ -1381,7 +1423,8 @@
       "ulica": "Púchovská",
       "cislo_domu": "28",
       "obec": "Veľký Šariš",
-      "psc": "08221"
+      "psc": "08221",
+      "std_string": "Púchovská 28, 082 21 Veľký Šariš"
     },
     "address": "Púchovská 28, 082 21 Veľký Šariš",
     "details": [
@@ -1410,12 +1453,13 @@
     "maiden": "Ivanecká",
     "dob": "30.07.1963",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "23",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 23, Dulova Ves"
     },
-    "address": "Dulova Ves 23, 082 52 Dulova Ves",
+    "address": "č. 23, Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -1445,7 +1489,8 @@
       "ulica": "Švábska",
       "cislo_domu": "23",
       "obec": "Prešov",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Švábska 23, 080 05 Prešov"
     },
     "address": "Švábska 23, 080 05 Prešov",
     "details": [
@@ -1477,7 +1522,8 @@
       "ulica": "Mukačevská",
       "cislo_domu": "4814/10",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Mukačevská 4814/10, 080 01 Prešov"
     },
     "address": "Mukačevská 4814/10, 080 01 Prešov",
     "details": [
@@ -1509,7 +1555,8 @@
       "ulica": "Exnárova",
       "cislo_domu": "6624/18",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Exnárova 6624/18, 080 01 Prešov"
     },
     "address": "Exnárova 6624/18, 080 01 Prešov",
     "details": [
@@ -1541,7 +1588,8 @@
       "ulica": "Slobody",
       "cislo_domu": "237/24",
       "obec": "Košice",
-      "psc": "04011"
+      "psc": "04011",
+      "std_string": "Slobody 237/24, 040 11 Košice"
     },
     "address": "Slobody 237/24, 040 11 Košice",
     "details": [
@@ -1573,7 +1621,8 @@
       "ulica": "Májová",
       "cislo_domu": "576/12",
       "obec": "Drienov",
-      "psc": "08204"
+      "psc": "08204",
+      "std_string": "Májová 576/12, 082 04 Drienov"
     },
     "address": "Májová 576/12, 082 04 Drienov",
     "details": [
@@ -1602,12 +1651,13 @@
     "maiden": "Baranová",
     "dob": "16.05.1952",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "108",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 108, Dulova Ves"
     },
-    "address": "Dulova Ves 108, 082 52 Dulova Ves",
+    "address": "č. 108, Dulova Ves",
     "details": [
       {
         "share": "{1}{85} (1.17647059%)",
@@ -1637,7 +1687,8 @@
       "ulica": "Družstevná",
       "cislo_domu": "504",
       "obec": "Strážske",
-      "psc": "07222"
+      "psc": "07222",
+      "std_string": "Družstevná 504, 072 22 Strážske"
     },
     "address": "Družstevná 504, 072 22 Strážske",
     "details": [
@@ -1669,7 +1720,8 @@
       "ulica": "Družstevná",
       "cislo_domu": "503/10",
       "obec": "Strážske",
-      "psc": "07222"
+      "psc": "07222",
+      "std_string": "Družstevná 503/10, 072 22 Strážske"
     },
     "address": "Družstevná 503/10, 072 22 Strážske",
     "details": [
@@ -1701,7 +1753,8 @@
       "ulica": "Dúbravská",
       "cislo_domu": "81",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Dúbravská 81, 080 01 Prešov"
     },
     "address": "Dúbravská 81, 080 01 Prešov",
     "details": [
@@ -1733,7 +1786,8 @@
       "ulica": "Murgaša G",
       "cislo_domu": "1/C",
       "obec": "Michalovce",
-      "psc": "07101"
+      "psc": "07101",
+      "std_string": "Murgaša G 1/C, 071 01 Michalovce"
     },
     "address": "Murgaša G 1/C, 071 01 Michalovce",
     "details": [
@@ -1762,12 +1816,13 @@
     "maiden": "Jurko",
     "dob": "17.07.1972",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "49",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 49, Dulova Ves"
     },
-    "address": "Dulova Ves 49, 082 52 Dulova Ves",
+    "address": "č. 49, Dulova Ves",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -1794,12 +1849,13 @@
     "maiden": "Jurko",
     "dob": "11.04.1982",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "42",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "č. 42, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 42, 082 52 Dulova Ves",
+    "address": "č. 42, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -1831,12 +1887,13 @@
     "maiden": "Švihurová",
     "dob": "11.08.1911",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "42",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 42, Dulova Ves"
     },
-    "address": "Dulova Ves 42, 082 52 Dulova Ves",
+    "address": "č. 42, Dulova Ves",
     "details": [
       {
         "share": "{1}{170} (0.58823529%)",
@@ -1866,7 +1923,8 @@
       "ulica": "K ihrisku",
       "cislo_domu": "72/11",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "K ihrisku 72/11, 082 52 Dulova Ves"
     },
     "address": "K ihrisku 72/11, 082 52 Dulova Ves",
     "details": [
@@ -1898,7 +1956,8 @@
       "ulica": "K ihrisku",
       "cislo_domu": "72/11",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "K ihrisku 72/11, 082 52 Dulova Ves"
     },
     "address": "K ihrisku 72/11, 082 52 Dulova Ves",
     "details": [
@@ -1930,7 +1989,8 @@
       "ulica": "Tatranská",
       "cislo_domu": "1237/13",
       "obec": "Košice",
-      "psc": "04001"
+      "psc": "04001",
+      "std_string": "Tatranská 1237/13, 040 01 Košice"
     },
     "address": "Tatranská 1237/13, 040 01 Košice",
     "details": [
@@ -1962,7 +2022,8 @@
       "ulica": "Štefánikova",
       "cislo_domu": "3890/13",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Štefánikova 3890/13, 080 01 Prešov"
     },
     "address": "Štefánikova 3890/13, 080 01 Prešov",
     "details": [
@@ -1991,12 +2052,13 @@
     "maiden": "Kapraľ",
     "dob": "11.09.1968",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "131",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 131, Dulova Ves"
     },
-    "address": "Dulova Ves 131, 082 52 Dulova Ves",
+    "address": "č. 131, Dulova Ves",
     "details": [
       {
         "share": "{3}{680} (0.44117647%)",
@@ -2026,7 +2088,8 @@
       "ulica": "Levočská",
       "cislo_domu": "103",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Levočská 103, 080 01 Prešov"
     },
     "address": "Levočská 103, 080 01 Prešov",
     "details": [
@@ -2058,7 +2121,8 @@
       "ulica": "Royova",
       "cislo_domu": "29",
       "obec": "Prešov",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Royova 29, 080 05 Prešov"
     },
     "address": "Royova 29, 080 05 Prešov",
     "details": [
@@ -2090,7 +2154,8 @@
       "ulica": "Tilgnerova",
       "cislo_domu": "715/8",
       "obec": "Bratislava",
-      "psc": "84104"
+      "psc": "84104",
+      "std_string": "Tilgnerova 715/8, 841 04 Bratislava"
     },
     "address": "Tilgnerova 715/8, 841 04 Bratislava",
     "details": [
@@ -2122,7 +2187,8 @@
       "ulica": "Royova",
       "cislo_domu": "373/29",
       "obec": "Prešov-Solivar",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Royova 373/29, 080 05 Prešov-Solivar"
     },
     "address": "Royova 373/29, 080 05 Prešov-Solivar",
     "details": [
@@ -2151,12 +2217,13 @@
     "maiden": "Sedláková",
     "dob": "21.11.1922",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "100",
       "obec": "Žehňa-Dúbrava",
-      "psc": "08206"
+      "psc": null,
+      "std_string": "č. 100, Žehňa-Dúbrava"
     },
-    "address": "Žehňa-Dúbrava 100, 082 06 Žehňa-Dúbrava",
+    "address": "č. 100, Žehňa-Dúbrava",
     "details": [
       {
         "share": "{1}{85} (1.17647059%)",
@@ -2186,7 +2253,8 @@
       "ulica": "Royova",
       "cislo_domu": "373/29",
       "obec": "Prešov - Solivar",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Royova 373/29, 080 05 Prešov - Solivar"
     },
     "address": "Royova 373/29, 080 05 Prešov - Solivar",
     "details": [
@@ -2218,7 +2286,8 @@
       "ulica": "Postupimská",
       "cislo_domu": "749/4",
       "obec": "Košice",
-      "psc": "04022"
+      "psc": "04022",
+      "std_string": "Postupimská 749/4, 040 22 Košice"
     },
     "address": "Postupimská 749/4, 040 22 Košice",
     "details": [
@@ -2247,12 +2316,13 @@
     "maiden": "Potočňáková",
     "dob": "23.08.1987",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "141",
       "obec": "Kysak",
-      "psc": "04481"
+      "psc": null,
+      "std_string": "č. 141, Kysak"
     },
-    "address": "Kysak 141, 044 81 Kysak",
+    "address": "č. 141, Kysak",
     "details": [
       {
         "share": "{2}{425} (0.47058824%)",
@@ -2282,7 +2352,8 @@
       "ulica": "Prešov",
       "cislo_domu": "1",
       "obec": null,
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Prešov 1, 080 01"
     },
     "address": "Prešov 1, 080 01",
     "details": [
@@ -2311,12 +2382,13 @@
     "maiden": "Komár",
     "dob": "25.08.1967",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "14",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 14, Dulova Ves"
     },
-    "address": "Dulova Ves 14, 082 52 Dulova Ves",
+    "address": "č. 14, Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -2343,12 +2415,13 @@
     "maiden": "Komár",
     "dob": "10.02.1958",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "151",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "č. 151, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 151, 082 52 Dulova Ves",
+    "address": "č. 151, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{180} (0.55555556%)",
@@ -2385,12 +2458,13 @@
     "maiden": "Komár",
     "dob": "16.12.1921",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "108",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 108, Dulova Ves"
     },
-    "address": "Dulova Ves 108, 082 52 Dulova Ves",
+    "address": "č. 108, Dulova Ves",
     "details": [
       {
         "share": "{1}{85} (1.17647059%)",
@@ -2417,12 +2491,13 @@
     "maiden": "Komár",
     "dob": "20.05.1909",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "119",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 119, Dulova Ves"
     },
-    "address": "Dulova Ves 119, 082 52 Dulova Ves",
+    "address": "č. 119, Dulova Ves",
     "details": [
       {
         "share": "{1}{68} (1.47058824%)",
@@ -2452,7 +2527,8 @@
       "ulica": "Hviezdoslavova",
       "cislo_domu": "1",
       "obec": "Spišská Nová Ves",
-      "psc": "05201"
+      "psc": "05201",
+      "std_string": "Hviezdoslavova 1, 052 01 Spišská Nová Ves"
     },
     "address": "Hviezdoslavova 1, 052 01 Spišská Nová Ves",
     "details": [
@@ -2481,12 +2557,13 @@
     "maiden": "Komár",
     "dob": "11.11.1970",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "14",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 14, Dulova Ves"
     },
-    "address": "Dulova Ves 14, 082 52 Dulova Ves",
+    "address": "č. 14, Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -2513,12 +2590,13 @@
     "maiden": "Komár",
     "dob": "24.04.1960",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "84",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "č. 84, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 84, 082 52 Dulova Ves",
+    "address": "č. 84, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{1}{180} (0.55555556%)",
@@ -2553,7 +2631,8 @@
       "ulica": "Ďurgalova",
       "cislo_domu": "4",
       "obec": "Bratislava",
-      "psc": "83101"
+      "psc": "83101",
+      "std_string": "Ďurgalova 4, 831 01 Bratislava"
     },
     "address": "Ďurgalova 4, 831 01 Bratislava",
     "details": [
@@ -2585,7 +2664,8 @@
       "ulica": "Humenská",
       "cislo_domu": "335/11",
       "obec": "Košice",
-      "psc": "04001"
+      "psc": "04001",
+      "std_string": "Humenská 335/11, 040 01 Košice"
     },
     "address": "Humenská 335/11, 040 01 Košice",
     "details": [
@@ -2622,7 +2702,8 @@
       "ulica": "Hlavná",
       "cislo_domu": "5/6",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "Hlavná 5/6, 082 52 Dulova Ves"
     },
     "address": "Hlavná 5/6, 082 52 Dulova Ves",
     "details": [
@@ -2651,12 +2732,13 @@
     "maiden": "Cmarová",
     "dob": "20.02.1954",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "430",
       "obec": "Petrovany",
-      "psc": "08253"
+      "psc": null,
+      "std_string": "č. 430, Petrovany"
     },
-    "address": "Petrovany 430, 082 53 Petrovany",
+    "address": "č. 430, Petrovany",
     "details": [
       {
         "share": "{2}{255} (0.78431373%)",
@@ -2683,12 +2765,13 @@
     "maiden": "Frištiková",
     "dob": "26.02.1947",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "98",
       "obec": "Petrovany",
-      "psc": "08253"
+      "psc": null,
+      "std_string": "č. 98, Petrovany"
     },
-    "address": "Petrovany 98, 082 53 Petrovany",
+    "address": "č. 98, Petrovany",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -2718,7 +2801,8 @@
       "ulica": "Postupimská",
       "cislo_domu": "749/4",
       "obec": "Košice - Dargovských hrdinov",
-      "psc": "04022"
+      "psc": "04022",
+      "std_string": "Postupimská 749/4, 040 22 Košice - Dargovských hrdinov"
     },
     "address": "Postupimská 749/4, 040 22 Košice - Dargovských hrdinov",
     "details": [
@@ -2752,12 +2836,13 @@
     "maiden": "Krajňak",
     "dob": "21.04.1965",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "130",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 130, Dulova Ves"
     },
-    "address": "Dulova Ves 130, 082 52 Dulova Ves",
+    "address": "č. 130, Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -2784,12 +2869,13 @@
     "maiden": "Krajňák",
     "dob": "21.04.1965",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "130",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 130, Dulova Ves"
     },
-    "address": "Dulova Ves 130, 082 52 Dulova Ves",
+    "address": "č. 130, Dulova Ves",
     "details": [
       {
         "share": "{43}{18360} (0.23420479%)",
@@ -2816,12 +2902,13 @@
     "maiden": "Uhrinová",
     "dob": "01.09.1946",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "82",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 82, Dulova Ves"
     },
-    "address": "Dulova Ves 82, 082 52 Dulova Ves",
+    "address": "č. 82, Dulova Ves",
     "details": [
       {
         "share": "{3}{1360} (0.22058824%)",
@@ -2851,7 +2938,8 @@
       "ulica": "Švábska",
       "cislo_domu": "6794/71",
       "obec": "Prešov",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Švábska 6794/71, 080 05 Prešov"
     },
     "address": "Švábska 6794/71, 080 05 Prešov",
     "details": [
@@ -2880,12 +2968,13 @@
     "maiden": "Lelák",
     "dob": "02.07.1946",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "72",
       "obec": "Chminianska Nová Ves",
-      "psc": "08233"
+      "psc": null,
+      "std_string": "č. 72, Chminianska Nová Ves"
     },
-    "address": "Chminianska Nová Ves 72, 082 33 Chminianska Nová Ves",
+    "address": "č. 72, Chminianska Nová Ves",
     "details": [
       {
         "share": "{43}{6120} (0.70261438%)",
@@ -2912,12 +3001,13 @@
     "maiden": "Leško",
     "dob": "09.02.1944",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "160",
       "obec": "Ličartovce",
-      "psc": "08203"
+      "psc": null,
+      "std_string": "č. 160, Ličartovce"
     },
-    "address": "Ličartovce 160, 082 03 Ličartovce",
+    "address": "č. 160, Ličartovce",
     "details": [
       {
         "share": "{1}{680} (0.14705882%)",
@@ -2944,12 +3034,13 @@
     "maiden": "Lešková",
     "dob": "03.04.1974",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "107",
       "obec": "Malá Lodina",
-      "psc": "04432"
+      "psc": "04432",
+      "std_string": "č. 107, 044 32 Malá Lodina"
     },
-    "address": "Malá Lodina 107, 044 32 Malá Lodina",
+    "address": "č. 107, 044 32 Malá Lodina",
     "details": [
       {
         "share": "{1}{1020} (0.09803922%)",
@@ -2979,7 +3070,8 @@
       "ulica": "Horárska",
       "cislo_domu": "4266/51",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Horárska 4266/51, 080 01 Prešov"
     },
     "address": "Horárska 4266/51, 080 01 Prešov",
     "details": [
@@ -3011,7 +3103,8 @@
       "ulica": "Jána Kostru",
       "cislo_domu": "6373/36",
       "obec": "Ľubotice",
-      "psc": "08006"
+      "psc": "08006",
+      "std_string": "Jána Kostru 6373/36, 080 06 Ľubotice"
     },
     "address": "Jána Kostru 6373/36, 080 06 Ľubotice",
     "details": [
@@ -3045,12 +3138,13 @@
     "maiden": "Sedláková",
     "dob": "10.05.1973",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "114",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 114, Dulova Ves"
     },
-    "address": "Dulova Ves 114, 082 52 Dulova Ves",
+    "address": "č. 114, Dulova Ves",
     "details": [
       {
         "share": "{1}{1275} (0.07843137%)",
@@ -3077,12 +3171,13 @@
     "maiden": "Markuš",
     "dob": "04.12.1952",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "36",
       "obec": "Petrovany",
-      "psc": "08253"
+      "psc": null,
+      "std_string": "č. 36, Petrovany"
     },
-    "address": "Petrovany 36, 082 53 Petrovany",
+    "address": "č. 36, Petrovany",
     "details": [
       {
         "share": "{1}{425} (0.23529412%)",
@@ -3112,7 +3207,8 @@
       "ulica": "Okružná",
       "cislo_domu": "64",
       "obec": "Púchov",
-      "psc": "02001"
+      "psc": "02001",
+      "std_string": "Okružná 64, 020 01 Púchov"
     },
     "address": "Okružná 64, 020 01 Púchov",
     "details": [
@@ -3144,7 +3240,8 @@
       "ulica": "Osuského",
       "cislo_domu": "2",
       "obec": "Bratislava",
-      "psc": "85103"
+      "psc": "85103",
+      "std_string": "Osuského 2, 851 03 Bratislava"
     },
     "address": "Osuského 2, 851 03 Bratislava",
     "details": [
@@ -3173,12 +3270,13 @@
     "maiden": "Jurková",
     "dob": "10.05.1967",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "136",
       "obec": "Brestov",
-      "psc": "08205"
+      "psc": null,
+      "std_string": "č. 136, Brestov"
     },
-    "address": "Brestov 136, 082 05 Brestov",
+    "address": "č. 136, Brestov",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -3208,7 +3306,8 @@
       "ulica": "Postupimská",
       "cislo_domu": "749/4",
       "obec": "Košice - Dargovských hrdinov",
-      "psc": "04022"
+      "psc": "04022",
+      "std_string": "Postupimská 749/4, 040 22 Košice - Dargovských hrdinov"
     },
     "address": "Postupimská 749/4, 040 22 Košice - Dargovských hrdinov",
     "details": [
@@ -3242,12 +3341,13 @@
     "maiden": "Mikluš",
     "dob": "15.04.1988",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "126",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 126, Dulova Ves"
     },
-    "address": "Dulova Ves 126, 082 52 Dulova Ves",
+    "address": "č. 126, Dulova Ves",
     "details": [
       {
         "share": "{2}{255} (0.78431373%)",
@@ -3274,12 +3374,13 @@
     "maiden": "Mikluš",
     "dob": "17.04.1966",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "126",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 126, Dulova Ves"
     },
-    "address": "Dulova Ves 126, 082 52 Dulova Ves",
+    "address": "č. 126, Dulova Ves",
     "details": [
       {
         "share": "{2}{255} (0.78431373%)",
@@ -3306,12 +3407,13 @@
     "maiden": "Chovanová",
     "dob": "22.03.1970",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "32",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 32, Dulova Ves"
     },
-    "address": "Dulova Ves 32, 082 52 Dulova Ves",
+    "address": "č. 32, Dulova Ves",
     "details": [
       {
         "share": "{1}{153} (0.65359477%)",
@@ -3346,7 +3448,8 @@
       "ulica": "Budovateľská",
       "cislo_domu": "1322",
       "obec": "Vranov nad Topľou",
-      "psc": "09301"
+      "psc": "09301",
+      "std_string": "Budovateľská 1322, 093 01 Vranov nad Topľou"
     },
     "address": "Budovateľská 1322, 093 01 Vranov nad Topľou",
     "details": [
@@ -3375,12 +3478,13 @@
     "maiden": "Minarčík",
     "dob": "09.02.1967",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "94",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 94, Dulova Ves"
     },
-    "address": "Dulova Ves 94, 082 52 Dulova Ves",
+    "address": "č. 94, Dulova Ves",
     "details": [
       {
         "share": "{3}{680} (0.44117647%)",
@@ -3415,7 +3519,8 @@
       "ulica": "Mudroňova",
       "cislo_domu": "146/17",
       "obec": "RNDr.",
-      "psc": "08301"
+      "psc": "08301",
+      "std_string": "Mudroňova 146/17, 083 01 RNDr."
     },
     "address": "Mudroňova 146/17, 083 01 RNDr.",
     "details": [
@@ -3447,7 +3552,8 @@
       "ulica": "Bystrická",
       "cislo_domu": "854/44",
       "obec": "Košice-Pereš",
-      "psc": "04011"
+      "psc": "04011",
+      "std_string": "Bystrická 854/44, 040 11 Košice-Pereš"
     },
     "address": "Bystrická 854/44, 040 11 Košice-Pereš",
     "details": [
@@ -3479,7 +3585,8 @@
       "ulica": null,
       "cislo_domu": null,
       "obec": null,
-      "psc": null
+      "psc": null,
+      "std_string": ""
     },
     "address": "",
     "details": [
@@ -3511,7 +3618,8 @@
       "ulica": "Vihorlatská",
       "cislo_domu": "11",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Vihorlatská 11, 080 01 Prešov"
     },
     "address": "Vihorlatská 11, 080 01 Prešov",
     "details": [
@@ -3540,12 +3648,13 @@
     "maiden": "Varholová",
     "dob": "17.03.1939",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "133",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 133, Dulova Ves"
     },
-    "address": "Dulova Ves 133, 082 52 Dulova Ves",
+    "address": "č. 133, Dulova Ves",
     "details": [
       {
         "share": "{3}{680} (0.44117647%)",
@@ -3572,12 +3681,13 @@
     "maiden": "Olejárová",
     "dob": "16.06.1964",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "133",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 133, Dulova Ves"
     },
-    "address": "Dulova Ves 133, 082 52 Dulova Ves",
+    "address": "č. 133, Dulova Ves",
     "details": [
       {
         "share": "{3}{680} (0.44117647%)",
@@ -3607,7 +3717,8 @@
       "ulica": "Lipová",
       "cislo_domu": "4",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Lipová 4, 080 01 Prešov"
     },
     "address": "Lipová 4, 080 01 Prešov",
     "details": [
@@ -3639,7 +3750,8 @@
       "ulica": null,
       "cislo_domu": null,
       "obec": null,
-      "psc": null
+      "psc": null,
+      "std_string": ""
     },
     "address": "",
     "details": [
@@ -3668,12 +3780,13 @@
     "maiden": "Pavel",
     "dob": "12.09.1939",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "111",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 111, Dulova Ves"
     },
-    "address": "Dulova Ves 111, 082 52 Dulova Ves",
+    "address": "č. 111, Dulova Ves",
     "details": [
       {
         "share": "{1}{170} (0.58823529%)",
@@ -3700,12 +3813,13 @@
     "maiden": "Pavel",
     "dob": "10.09.1961",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "111",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 111, Dulova Ves"
     },
-    "address": "Dulova Ves 111, 082 52 Dulova Ves",
+    "address": "č. 111, Dulova Ves",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -3737,12 +3851,13 @@
     "maiden": "Marcinková",
     "dob": "19.06.1939",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "111",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 111, Dulova Ves"
     },
-    "address": "Dulova Ves 111, 082 52 Dulova Ves",
+    "address": "č. 111, Dulova Ves",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -3772,7 +3887,8 @@
       "ulica": null,
       "cislo_domu": null,
       "obec": "Jiráskova",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Jiráskova, 080 05 Jiráskova"
     },
     "address": "Jiráskova, 080 05 Jiráskova",
     "details": [
@@ -3801,12 +3917,13 @@
     "maiden": "Petrovčík",
     "dob": "02.07.1996",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "69",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "č. 69, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 69, 082 52 Dulova Ves",
+    "address": "č. 69, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{3}{680} (0.44117647%)",
@@ -3841,7 +3958,8 @@
       "ulica": "kpt. Nálepku",
       "cislo_domu": "13",
       "obec": "Košice",
-      "psc": "04001"
+      "psc": "04001",
+      "std_string": "kpt. Nálepku 13, 040 01 Košice"
     },
     "address": "kpt. Nálepku 13, 040 01 Košice",
     "details": [
@@ -3870,12 +3988,13 @@
     "maiden": "Petrovčík",
     "dob": "18.02.1967",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "63",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 63, Dulova Ves"
     },
-    "address": "Dulova Ves 63, 082 52 Dulova Ves",
+    "address": "č. 63, Dulova Ves",
     "details": [
       {
         "share": "{1}{340} (0.29411765%)",
@@ -3905,7 +4024,8 @@
       "ulica": "Prostějovská",
       "cislo_domu": "41",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Prostějovská 41, 080 01 Prešov"
     },
     "address": "Prostějovská 41, 080 01 Prešov",
     "details": [
@@ -3939,12 +4059,13 @@
     "maiden": "Petruš",
     "dob": "26.05.1950",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "145",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 145, Dulova Ves"
     },
-    "address": "Dulova Ves 145, 082 52 Dulova Ves",
+    "address": "č. 145, Dulova Ves",
     "details": [
       {
         "share": "{1}{765} (0.13071895%)",
@@ -3974,7 +4095,8 @@
       "ulica": "Pavla Horova",
       "cislo_domu": "6317/4",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Pavla Horova 6317/4, 080 01 Prešov"
     },
     "address": "Pavla Horova 6317/4, 080 01 Prešov",
     "details": [
@@ -4006,7 +4128,8 @@
       "ulica": "Volgogradská",
       "cislo_domu": "66",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Volgogradská 66, 080 01 Prešov"
     },
     "address": "Volgogradská 66, 080 01 Prešov",
     "details": [
@@ -4035,12 +4158,13 @@
     "maiden": "Potočňák",
     "dob": "11.04.1938",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "79",
       "obec": "Podhradík",
-      "psc": "08006"
+      "psc": null,
+      "std_string": "č. 79, Podhradík"
     },
-    "address": "Podhradík 79, 080 06 Podhradík",
+    "address": "č. 79, Podhradík",
     "details": [
       {
         "share": "{2}{425} (0.47058824%)",
@@ -4067,12 +4191,13 @@
     "maiden": "Potočňák",
     "dob": "05.04.1926",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "7",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 7, Dulova Ves"
     },
-    "address": "Dulova Ves 7, 082 52 Dulova Ves",
+    "address": "č. 7, Dulova Ves",
     "details": [
       {
         "share": "{8}{2295} (0.34858388%)",
@@ -4099,12 +4224,13 @@
     "maiden": "Potočňák",
     "dob": "22.03.1932",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "12",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 12, Dulova Ves"
     },
-    "address": "Dulova Ves 12, 082 52 Dulova Ves",
+    "address": "č. 12, Dulova Ves",
     "details": [
       {
         "share": "{2}{425} (0.47058824%)",
@@ -4131,12 +4257,13 @@
     "maiden": "Potočňák",
     "dob": "11.10.1961",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "7",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 7, Dulova Ves"
     },
-    "address": "Dulova Ves 7, 082 52 Dulova Ves",
+    "address": "č. 7, Dulova Ves",
     "details": [
       {
         "share": "{8}{2295} (0.34858388%)",
@@ -4166,7 +4293,8 @@
       "ulica": "Šrobárova",
       "cislo_domu": "6564/4",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Šrobárova 6564/4, 080 01 Prešov"
     },
     "address": "Šrobárova 6564/4, 080 01 Prešov",
     "details": [
@@ -4203,7 +4331,8 @@
       "ulica": "Šafárikova",
       "cislo_domu": "229",
       "obec": "Gemerská Poloma",
-      "psc": "04922"
+      "psc": "04922",
+      "std_string": "Šafárikova 229, 049 22 Gemerská Poloma"
     },
     "address": "Šafárikova 229, 049 22 Gemerská Poloma",
     "details": [
@@ -4235,7 +4364,8 @@
       "ulica": "Šafárikova",
       "cislo_domu": "229",
       "obec": "Gemerská Poloma",
-      "psc": "04922"
+      "psc": "04922",
+      "std_string": "Šafárikova 229, 049 22 Gemerská Poloma"
     },
     "address": "Šafárikova 229, 049 22 Gemerská Poloma",
     "details": [
@@ -4264,12 +4394,13 @@
     "maiden": "Jurková",
     "dob": "30.03.1933",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "77",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 77, Dulova Ves"
     },
-    "address": "Dulova Ves 77, 082 52 Dulova Ves",
+    "address": "č. 77, Dulova Ves",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -4296,12 +4427,13 @@
     "maiden": "Pustý",
     "dob": "29.11.1961",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "192",
       "obec": "Drienovská Nová Ves",
-      "psc": "08201"
+      "psc": "08201",
+      "std_string": "č. 192, 082 01 Drienovská Nová Ves"
     },
-    "address": "Drienovská Nová Ves 192, 082 01 Drienovská Nová Ves",
+    "address": "č. 192, 082 01 Drienovská Nová Ves",
     "details": [
       {
         "share": "{1}{510} (0.19607843%)",
@@ -4328,12 +4460,13 @@
     "maiden": "Cmarová",
     "dob": "26.01.1958",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "97",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 97, Dulova Ves"
     },
-    "address": "Dulova Ves 97, 082 52 Dulova Ves",
+    "address": "č. 97, Dulova Ves",
     "details": [
       {
         "share": "{2}{255} (0.78431373%)",
@@ -4363,7 +4496,8 @@
       "ulica": "Hlavná",
       "cislo_domu": "158/139",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "Hlavná 158/139, 082 52 Dulova Ves"
     },
     "address": "Hlavná 158/139, 082 52 Dulova Ves",
     "details": [
@@ -4395,7 +4529,8 @@
       "ulica": "Lesnícka",
       "cislo_domu": "25",
       "obec": "Prešov",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Lesnícka 25, 080 05 Prešov"
     },
     "address": "Lesnícka 25, 080 05 Prešov",
     "details": [
@@ -4424,12 +4559,13 @@
     "maiden": "Repko",
     "dob": "09.09.1960",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "178",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 178, Dulova Ves"
     },
-    "address": "Dulova Ves 178, 082 52 Dulova Ves",
+    "address": "č. 178, Dulova Ves",
     "details": [
       {
         "share": "{11}{12240} (0.08986928%)",
@@ -4459,7 +4595,8 @@
       "ulica": "Lesnícka",
       "cislo_domu": "25",
       "obec": "Prešov",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Lesnícka 25, 080 05 Prešov"
     },
     "address": "Lesnícka 25, 080 05 Prešov",
     "details": [
@@ -4488,12 +4625,13 @@
     "maiden": "Repková",
     "dob": "29.10.1970",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "83",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 83, Dulova Ves"
     },
-    "address": "Dulova Ves 83, 082 52 Dulova Ves",
+    "address": "č. 83, Dulova Ves",
     "details": [
       {
         "share": "{11}{12240} (0.08986928%)",
@@ -4520,12 +4658,13 @@
     "maiden": "Cinová",
     "dob": "10.12.1961",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "119",
       "obec": "Vyšná Šebastová",
-      "psc": "08001"
+      "psc": null,
+      "std_string": "č. 119, Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 119, 080 01 Vyšná Šebastová",
+    "address": "č. 119, Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -4552,12 +4691,13 @@
     "maiden": "Kundrová",
     "dob": "01.04.1945",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "122",
       "obec": "Bertotovce",
-      "psc": "08235"
+      "psc": null,
+      "std_string": "č. 122, Bertotovce"
     },
-    "address": "Bertotovce 122, 082 35 Bertotovce",
+    "address": "č. 122, Bertotovce",
     "details": [
       {
         "share": "{4}{765} (0.52287582%)",
@@ -4584,12 +4724,13 @@
     "maiden": "Kundrová",
     "dob": "01.04.1945",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "122",
       "obec": "Bertotovce",
-      "psc": "08235"
+      "psc": null,
+      "std_string": "č. 122, Bertotovce"
     },
-    "address": "Bertotovce 122, 082 35 Bertotovce",
+    "address": "č. 122, Bertotovce",
     "details": [
       {
         "share": "{4}{765} (0.52287582%)",
@@ -4616,12 +4757,13 @@
     "maiden": "Sedlák",
     "dob": "21.07.1987",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "144",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 144, Dulova Ves"
     },
-    "address": "Dulova Ves 144, 082 52 Dulova Ves",
+    "address": "č. 144, Dulova Ves",
     "details": [
       {
         "share": "{1}{1275} (0.07843137%)",
@@ -4651,7 +4793,8 @@
       "ulica": "Letná",
       "cislo_domu": "728/4",
       "obec": "Dulova Ves - Vlčie Doly",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "Letná 728/4, 082 52 Dulova Ves - Vlčie Doly"
     },
     "address": "Letná 728/4, 082 52 Dulova Ves - Vlčie Doly",
     "details": [
@@ -4680,12 +4823,13 @@
     "maiden": "Sedlák",
     "dob": "20.01.1953",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "98",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 98, Dulova Ves"
     },
-    "address": "Dulova Ves 98, 082 52 Dulova Ves",
+    "address": "č. 98, Dulova Ves",
     "details": [
       {
         "share": "{2}{765} (0.26143791%)",
@@ -4715,7 +4859,8 @@
       "ulica": "Royova",
       "cislo_domu": "26",
       "obec": "Prešov",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Royova 26, 080 05 Prešov"
     },
     "address": "Royova 26, 080 05 Prešov",
     "details": [
@@ -4744,12 +4889,13 @@
     "maiden": "Sedlák",
     "dob": "01.05.1949",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "144",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 144, Dulova Ves"
     },
-    "address": "Dulova Ves 144, 082 52 Dulova Ves",
+    "address": "č. 144, Dulova Ves",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -4776,12 +4922,13 @@
     "maiden": "Sedláková",
     "dob": "25.10.1982",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "144",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 144, Dulova Ves"
     },
-    "address": "Dulova Ves 144, 082 52 Dulova Ves",
+    "address": "č. 144, Dulova Ves",
     "details": [
       {
         "share": "{1}{1275} (0.07843137%)",
@@ -4808,12 +4955,13 @@
     "maiden": "Oravcová",
     "dob": "12.04.1950",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "144",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 144, Dulova Ves"
     },
-    "address": "Dulova Ves 144, 082 52 Dulova Ves",
+    "address": "č. 144, Dulova Ves",
     "details": [
       {
         "share": "{1}{1275} (0.07843137%)",
@@ -4848,7 +4996,8 @@
       "ulica": "K ihrisku",
       "cislo_domu": "26/41",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "K ihrisku 26/41, 082 52 Dulova Ves"
     },
     "address": "K ihrisku 26/41, 082 52 Dulova Ves",
     "details": [
@@ -4877,12 +5026,13 @@
     "maiden": "Semeš",
     "dob": "03.01.1991",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "87",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "č. 87, 082 52 Dulova Ves"
     },
-    "address": "Dulova Ves 87, 082 52 Dulova Ves",
+    "address": "č. 87, 082 52 Dulova Ves",
     "details": [
       {
         "share": "{9}{680} (1.32352941%)",
@@ -4912,7 +5062,8 @@
       "ulica": "Mlynská",
       "cislo_domu": "712/24",
       "obec": "Stropkov",
-      "psc": "09101"
+      "psc": "09101",
+      "std_string": "Mlynská 712/24, 091 01 Stropkov"
     },
     "address": "Mlynská 712/24, 091 01 Stropkov",
     "details": [
@@ -4944,7 +5095,8 @@
       "ulica": "Mlynská",
       "cislo_domu": "712/24",
       "obec": "Stropkov",
-      "psc": "09101"
+      "psc": "09101",
+      "std_string": "Mlynská 712/24, 091 01 Stropkov"
     },
     "address": "Mlynská 712/24, 091 01 Stropkov",
     "details": [
@@ -4973,12 +5125,13 @@
     "maiden": "Jurková",
     "dob": "19.04.1971",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "35",
       "obec": "Trnkov",
-      "psc": "08212"
+      "psc": null,
+      "std_string": "č. 35, Trnkov"
     },
-    "address": "Trnkov 35, 082 12 Trnkov",
+    "address": "č. 35, Trnkov",
     "details": [
       {
         "share": "{1}{1530} (0.06535948%)",
@@ -5005,12 +5158,13 @@
     "maiden": "Kolivošková",
     "dob": "15.01.1955",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "123",
       "obec": "Kokošovce",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 123, Kokošovce"
     },
-    "address": "Kokošovce 123, 082 52 Kokošovce",
+    "address": "č. 123, Kokošovce",
     "details": [
       {
         "share": "{1}{85} (1.17647059%)",
@@ -5037,12 +5191,13 @@
     "maiden": "Sokol",
     "dob": "18.10.1969",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "170",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 170, Dulova Ves"
     },
-    "address": "Dulova Ves 170, 082 52 Dulova Ves",
+    "address": "č. 170, Dulova Ves",
     "details": [
       {
         "share": "{1}{1020} (0.09803922%)",
@@ -5069,12 +5224,13 @@
     "maiden": "Sokol",
     "dob": "20.11.1970",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "121",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 121, Dulova Ves"
     },
-    "address": "Dulova Ves 121, 082 52 Dulova Ves",
+    "address": "č. 121, Dulova Ves",
     "details": [
       {
         "share": "{1}{1020} (0.09803922%)",
@@ -5104,7 +5260,8 @@
       "ulica": "Hlavná",
       "cislo_domu": "121/23",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "Hlavná 121/23, 082 52 Dulova Ves"
     },
     "address": "Hlavná 121/23, 082 52 Dulova Ves",
     "details": [
@@ -5133,12 +5290,13 @@
     "maiden": "Gajdošová",
     "dob": "14.11.1942",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "104",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 104, Dulova Ves"
     },
-    "address": "Dulova Ves 104, 082 52 Dulova Ves",
+    "address": "č. 104, Dulova Ves",
     "details": [
       {
         "share": "{4}{255} (1.56862745%)",
@@ -5173,7 +5331,8 @@
       "ulica": "Krátka",
       "cislo_domu": "197/1",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "Krátka 197/1, 082 52 Dulova Ves"
     },
     "address": "Krátka 197/1, 082 52 Dulova Ves",
     "details": [
@@ -5202,12 +5361,13 @@
     "maiden": "Tivadar",
     "dob": "06.04.1975",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "54",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 54, Dulova Ves"
     },
-    "address": "Dulova Ves 54, 082 52 Dulova Ves",
+    "address": "č. 54, Dulova Ves",
     "details": [
       {
         "share": "{1}{10200} (0.00980392%)",
@@ -5234,12 +5394,13 @@
     "maiden": "Tivadar",
     "dob": "11.02.1982",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "16",
       "obec": "Hubošovce",
-      "psc": "08266"
+      "psc": null,
+      "std_string": "č. 16, Hubošovce"
     },
-    "address": "Hubošovce 16, 082 66 Hubošovce",
+    "address": "č. 16, Hubošovce",
     "details": [
       {
         "share": "{1}{10200} (0.00980392%)",
@@ -5266,12 +5427,13 @@
     "maiden": "Repková",
     "dob": "06.02.1939",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "76",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 76, Dulova Ves"
     },
-    "address": "Dulova Ves 76, 082 52 Dulova Ves",
+    "address": "č. 76, Dulova Ves",
     "details": [
       {
         "share": "{11}{3060} (0.35947712%)",
@@ -5298,12 +5460,13 @@
     "maiden": "Repková",
     "dob": "06.02.1939",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "76",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 76, Dulova Ves"
     },
-    "address": "Dulova Ves 76, 082 52 Dulova Ves",
+    "address": "č. 76, Dulova Ves",
     "details": [
       {
         "share": "{11}{3060} (0.35947712%)",
@@ -5330,12 +5493,13 @@
     "maiden": "Uhrin",
     "dob": "20.10.1980",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "141",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 141, Dulova Ves"
     },
-    "address": "Dulova Ves 141, 082 52 Dulova Ves",
+    "address": "č. 141, Dulova Ves",
     "details": [
       {
         "share": "{3}{2720} (0.11029412%)",
@@ -5362,12 +5526,13 @@
     "maiden": "Uhrin",
     "dob": "10.04.1948",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "134",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 134, Dulova Ves"
     },
-    "address": "Dulova Ves 134, 082 52 Dulova Ves",
+    "address": "č. 134, Dulova Ves",
     "details": [
       {
         "share": "{3}{1360} (0.22058824%)",
@@ -5394,12 +5559,13 @@
     "maiden": "Uhrin",
     "dob": "16.08.1979",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "141",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 141, Dulova Ves"
     },
-    "address": "Dulova Ves 141, 082 52 Dulova Ves",
+    "address": "č. 141, Dulova Ves",
     "details": [
       {
         "share": "{3}{2720} (0.11029412%)",
@@ -5426,12 +5592,13 @@
     "maiden": "Uhrin",
     "dob": "25.05.1959",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "267",
       "obec": "Petrovany",
-      "psc": "08253"
+      "psc": null,
+      "std_string": "č. 267, Petrovany"
     },
-    "address": "Petrovany 267, 082 53 Petrovany",
+    "address": "č. 267, Petrovany",
     "details": [
       {
         "share": "{3}{1360} (0.22058824%)",
@@ -5461,7 +5628,8 @@
       "ulica": "Hlavná",
       "cislo_domu": "41/229",
       "obec": "Kapušany",
-      "psc": "08212"
+      "psc": "08212",
+      "std_string": "Hlavná 41/229, 082 12 Kapušany"
     },
     "address": "Hlavná 41/229, 082 12 Kapušany",
     "details": [
@@ -5493,7 +5661,8 @@
       "ulica": "Pod lesom",
       "cislo_domu": "60/26",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "Pod lesom 60/26, 082 52 Dulova Ves"
     },
     "address": "Pod lesom 60/26, 082 52 Dulova Ves",
     "details": [
@@ -5525,7 +5694,8 @@
       "ulica": "Martinská",
       "cislo_domu": "13",
       "obec": "Haniska",
-      "psc": null
+      "psc": null,
+      "std_string": "Martinská 13, Haniska"
     },
     "address": "Martinská 13, Haniska",
     "details": [
@@ -5554,12 +5724,13 @@
     "maiden": "Vardžík",
     "dob": "07.05.1970",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "60",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 60, Dulova Ves"
     },
-    "address": "Dulova Ves 60, 082 52 Dulova Ves",
+    "address": "č. 60, Dulova Ves",
     "details": [
       {
         "share": "{1}{2550} (0.03921569%)",
@@ -5591,12 +5762,13 @@
     "maiden": "Vardžík",
     "dob": "22.09.1989",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "185",
       "obec": "Uzovský Šalgov",
-      "psc": "08261"
+      "psc": "08261",
+      "std_string": "č. 185, 082 61 Uzovský Šalgov"
     },
-    "address": "Uzovský Šalgov 185, 082 61 Uzovský Šalgov",
+    "address": "č. 185, 082 61 Uzovský Šalgov",
     "details": [
       {
         "share": "{1}{3400} (0.02941176%)",
@@ -5623,12 +5795,13 @@
     "maiden": "Vardžík",
     "dob": "11.02.1959",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "51",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 51, Dulova Ves"
     },
-    "address": "Dulova Ves 51, 082 52 Dulova Ves",
+    "address": "č. 51, Dulova Ves",
     "details": [
       {
         "share": "{1}{3400} (0.02941176%)",
@@ -5655,12 +5828,13 @@
     "maiden": "",
     "dob": "30.08.1913",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "51",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 51, Dulova Ves"
     },
-    "address": "Dulova Ves 51, 082 52 Dulova Ves",
+    "address": "č. 51, Dulova Ves",
     "details": [
       {
         "share": "{1}{680} (0.14705882%)",
@@ -5690,7 +5864,8 @@
       "ulica": "Sibírska",
       "cislo_domu": "5",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Sibírska 5, 080 01 Prešov"
     },
     "address": "Sibírska 5, 080 01 Prešov",
     "details": [
@@ -5722,7 +5897,8 @@
       "ulica": "Titogradská",
       "cislo_domu": "51",
       "obec": "Košice",
-      "psc": "04023"
+      "psc": "04023",
+      "std_string": "Titogradská 51, 040 23 Košice"
     },
     "address": "Titogradská 51, 040 23 Košice",
     "details": [
@@ -5751,12 +5927,13 @@
     "maiden": "Cinová",
     "dob": "24.09.1956",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "67",
       "obec": "Vyšná Šebastová",
-      "psc": "08006"
+      "psc": null,
+      "std_string": "č. 67, Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 67, 080 06 Vyšná Šebastová",
+    "address": "č. 67, Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -5783,12 +5960,13 @@
     "maiden": "Vašková",
     "dob": "21.02.1982",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "67",
       "obec": "Vyšná Šebastová",
-      "psc": "08006"
+      "psc": null,
+      "std_string": "č. 67, Vyšná Šebastová"
     },
-    "address": "Vyšná Šebastová 67, 080 06 Vyšná Šebastová",
+    "address": "č. 67, Vyšná Šebastová",
     "details": [
       {
         "share": "{2}{1275} (0.15686275%)",
@@ -5820,12 +5998,13 @@
     "maiden": "Lešková",
     "dob": "16.04.1948",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "43",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 43, Dulova Ves"
     },
-    "address": "Dulova Ves 43, 082 52 Dulova Ves",
+    "address": "č. 43, Dulova Ves",
     "details": [
       {
         "share": "{1}{680} (0.14705882%)",
@@ -5855,7 +6034,8 @@
       "ulica": "Tomášikova",
       "cislo_domu": "40",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Tomášikova 40, 080 01 Prešov"
     },
     "address": "Tomášikova 40, 080 01 Prešov",
     "details": [
@@ -5887,7 +6067,8 @@
       "ulica": "Tomášikova",
       "cislo_domu": "4857/40",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Tomášikova 4857/40, 080 01 Prešov"
     },
     "address": "Tomášikova 4857/40, 080 01 Prešov",
     "details": [
@@ -5916,12 +6097,13 @@
     "maiden": "Švihurová",
     "dob": "27.05.1958",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "124",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 124, Dulova Ves"
     },
-    "address": "Dulova Ves 124, 082 52 Dulova Ves",
+    "address": "č. 124, Dulova Ves",
     "details": [
       {
         "share": "{1}{160} (0.62500000%)",
@@ -5961,7 +6143,8 @@
       "ulica": "Československých letcov",
       "cislo_domu": "2729/1A",
       "obec": "Ľubotice",
-      "psc": "08006"
+      "psc": "08006",
+      "std_string": "Československých letcov 2729/1A, 080 06 Ľubotice"
     },
     "address": "Československých letcov 2729/1A, 080 06 Ľubotice",
     "details": [
@@ -5998,7 +6181,8 @@
       "ulica": "Lesnícka",
       "cislo_domu": "40",
       "obec": "Prešov",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Lesnícka 40, 080 05 Prešov"
     },
     "address": "Lesnícka 40, 080 05 Prešov",
     "details": [
@@ -6030,7 +6214,8 @@
       "ulica": "Lesnícka",
       "cislo_domu": "1318/40",
       "obec": "Prešov",
-      "psc": "08005"
+      "psc": "08005",
+      "std_string": "Lesnícka 1318/40, 080 05 Prešov"
     },
     "address": "Lesnícka 1318/40, 080 05 Prešov",
     "details": [
@@ -6062,7 +6247,8 @@
       "ulica": "SNP",
       "cislo_domu": "12",
       "obec": "Humenné",
-      "psc": "06601"
+      "psc": "06601",
+      "std_string": "SNP 12, 066 01 Humenné"
     },
     "address": "SNP 12, 066 01 Humenné",
     "details": [
@@ -6091,12 +6277,13 @@
     "maiden": "Švihura",
     "dob": "02.05.1925",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "38",
       "obec": "Tibava",
-      "psc": "07301"
+      "psc": null,
+      "std_string": "č. 38, Tibava"
     },
-    "address": "Tibava 38, 073 01 Tibava",
+    "address": "č. 38, Tibava",
     "details": [
       {
         "share": "{1}{1360} (0.07352941%)",
@@ -6126,7 +6313,8 @@
       "ulica": "Mlynárska",
       "cislo_domu": "2285/5",
       "obec": "Košice",
-      "psc": "04001"
+      "psc": "04001",
+      "std_string": "Mlynárska 2285/5, 040 01 Košice"
     },
     "address": "Mlynárska 2285/5, 040 01 Košice",
     "details": [
@@ -6158,7 +6346,8 @@
       "ulica": "Exnárova",
       "cislo_domu": "6629/30",
       "obec": "Prešov",
-      "psc": "08001"
+      "psc": "08001",
+      "std_string": "Exnárova 6629/30, 080 01 Prešov"
     },
     "address": "Exnárova 6629/30, 080 01 Prešov",
     "details": [
@@ -6192,12 +6381,13 @@
     "maiden": "Švihura",
     "dob": "13.10.1973",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "9",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 9, Dulova Ves"
     },
-    "address": "Dulova Ves 9, 082 52 Dulova Ves",
+    "address": "č. 9, Dulova Ves",
     "details": [
       {
         "share": "{1}{4080} (0.02450980%)",
@@ -6227,7 +6417,8 @@
       "ulica": "Dulova Ves",
       "cislo_domu": "4",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "Dulova Ves 4, 082 52 Dulova Ves"
     },
     "address": "Dulova Ves 4, 082 52 Dulova Ves",
     "details": [
@@ -6266,12 +6457,13 @@
     "maiden": "Švihurová",
     "dob": "03.02.1991",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "261",
       "obec": "Ličartovce",
-      "psc": "08203"
+      "psc": null,
+      "std_string": "č. 261, Ličartovce"
     },
-    "address": "Ličartovce 261, 082 03 Ličartovce",
+    "address": "č. 261, Ličartovce",
     "details": [
       {
         "share": "{1}{1360} (0.07352941%)",
@@ -6306,7 +6498,8 @@
       "ulica": "K ihrisku",
       "cislo_domu": "48/23",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": "08252",
+      "std_string": "K ihrisku 48/23, 082 52 Dulova Ves"
     },
     "address": "K ihrisku 48/23, 082 52 Dulova Ves",
     "details": [
@@ -6335,12 +6528,13 @@
     "maiden": "Imrichová",
     "dob": "03.01.1941",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "9",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 9, Dulova Ves"
     },
-    "address": "Dulova Ves 9, 082 52 Dulova Ves",
+    "address": "č. 9, Dulova Ves",
     "details": [
       {
         "share": "{1}{4080} (0.02450980%)",
@@ -6367,12 +6561,13 @@
     "maiden": "Ivanecká",
     "dob": "28.06.1954",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "112",
       "obec": "Dulova Ves",
-      "psc": "08252"
+      "psc": null,
+      "std_string": "č. 112, Dulova Ves"
     },
-    "address": "Dulova Ves 112, 082 52 Dulova Ves",
+    "address": "č. 112, Dulova Ves",
     "details": [
       {
         "share": "{6799}{585225} (1.16177539%)",
@@ -6399,12 +6594,13 @@
     "maiden": "Žula",
     "dob": "17.01.1963",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "109",
       "obec": "Záborské",
-      "psc": "08253"
+      "psc": null,
+      "std_string": "č. 109, Záborské"
     },
-    "address": "Záborské 109, 082 53 Záborské",
+    "address": "č. 109, Záborské",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
@@ -6431,12 +6627,13 @@
     "maiden": "Potočňáková",
     "dob": "28.09.1932",
     "add": {
-      "ulica": null,
+      "ulica": "č.",
       "cislo_domu": "3",
       "obec": "Záborské",
-      "psc": "08253"
+      "psc": null,
+      "std_string": "č. 3, Záborské"
     },
-    "address": "Záborské 3, 082 53 Záborské",
+    "address": "č. 3, Záborské",
     "details": [
       {
         "share": "{1}{255} (0.39215686%)",
