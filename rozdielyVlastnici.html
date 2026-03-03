@@ -11,7 +11,7 @@
                 font-size: 1.05rem; /* Čitateľnejšie na mobile */
             }
             /* 1. HLAVIČKA: Dátum pod nadpisom, bez prekrývania */
-            div[style*="position: relative"] {
+           .container > div[style*="position: relative"]:first-child {
                 display: flex !important;
                 flex-direction: column !important;
                 align-items: flex-start !important;
@@ -56,7 +56,7 @@
                 font-weight: 800 !important;
             }
 
-        .lv-numbers {
+            .lv-numbers {
                 font-size: 1.25rem !important;
                 display: block;
                 margin-top: 5px;
@@ -80,6 +80,28 @@
                 margin-right: 5px;
                 vertical-align: middle;
                 font-weight: 900;
+            }
+            /* Kontajner pod menom - zrušíme flex, aby išli veci pod seba */
+            .card > div:first-child {
+                display: block !important;
+            }
+
+            .owner-name {
+                display: block;
+                margin-bottom: 10px;
+                font-size: 1.3rem;
+            }
+
+            /* KĽÚČOVÁ ZMENA: Tagy (r. meno, adresa, dob) budú identické */
+            .tag, .maiden-tag, .address-tag, .dob-tag {
+                display: block !important; /* Každý tag dostane vlastný riadok */
+                width: fit-content;        /* Šírka podľa textu */
+                max-width: 100%;           /* Ale nepretečie cez kartu */
+                margin: 5px 0 !important;  /* Odstup zhora/zdola, zľava nula */
+                padding: 6px 12px !important;
+                font-size: 0.9rem !important;
+                text-align: left !important;
+                box-sizing: border-box;
             }
         }
         /* ================================================================================*/
@@ -475,16 +497,16 @@
        html += `
                 <div class="card" id="card-${ownerId}">
                     <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <div style="display: flex; align-items: center; gap: 8px;">
+                        <div style="display: flex; align-items: center; gap: 8px;flex-wrap: wrap;">
                             <span class="owner-name">${item.name}</span>
                             
                             ${hasNotes ? `
-                                <span class="note-badge" onclick="toggleInfoBox()" style="cursor:help" title="Kliknite pre info o metodike">
+                                <span class="note-badge" onclick="loadCommentsForOwner('${ownerId}', '${info.url}')" style="cursor:help" title="Kliknite pre info o metodike">
                                     ${info.count}
                                 </span>
                             ` : ''}
             
-                            ${item.maiden ? `<span class="tag maiden-tag" onclick="setFilter('${item.maiden}')" title="Filtrovať rodné meno">r. ${item.maiden}</span>` : ''}
+                            ${item.maiden ?  `<span class="tag maiden-tag" onclick="setFilter('${item.maiden}')" title="Filtrovať rodné meno">r. ${item.maiden}</span>` : ''}
                             ${item.address ? `<span class="tag address-tag" title="Adresa">${item.address}</span>` : ''}
                         </div>
                         <div class="tag dob-tag" onclick="setFilter('${item.dob}')" title="Filtrovať dátum narodenia">
