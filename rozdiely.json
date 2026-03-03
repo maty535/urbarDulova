@@ -844,13 +844,13 @@
     "maiden": "Markušová",
     "dob": "08.08.1946",
     "add": {
-      "ulica": "PSČ 080",
-      "cislo_domu": "01",
+      "ulica": "19.januára",
+      "cislo_domu": "12494/3",
       "obec": "Prešov",
-      "psc": "12494",
-      "std_string": "PSČ 080 01, 124 94 Prešov"
+      "psc": "08001",
+      "std_string": "19.januára 12494/3, 080 01 Prešov"
     },
-    "address": "PSČ 080 01, 124 94 Prešov",
+    "address": "19.januára 12494/3, 080 01 Prešov",
     "details": [
       {
         "share": "{1}{425} (0.23529412%)",
@@ -2351,11 +2351,11 @@
     "add": {
       "ulica": "Prešov",
       "cislo_domu": "1",
-      "obec": "PSČ",
+      "obec": null,
       "psc": "08001",
-      "std_string": "Prešov 1, 080 01 PSČ"
+      "std_string": "Prešov 1, 080 01"
     },
-    "address": "Prešov 1, 080 01 PSČ",
+    "address": "Prešov 1, 080 01",
     "details": [
       {
         "share": "{1}{85} (1.17647059%)",
