@@ -14,7 +14,7 @@ published: true
 
 1. Z čoho vyplýva ta nekonzistencia a prečo majú niektorí vlastníci vôbec niečo upraviť alebo opraviť ?
 
-   * Právne komfortný stav vyžaduje, aby mal spoluvlastník v rámci spoločnej nehnuteľnosti totožný podiel na všetkých pozemkoch, ktoré túto nehnuteľnosť tvoria.
+   * Právne konformný stav vyžaduje, aby mal spoluvlastník v rámci spoločnej nehnuteľnosti totožný podiel na všetkých pozemkoch, ktoré túto nehnuteľnosť tvoria.
 
    * Tento princíp vyplýva zo zákona o pozemkových spoločenstvách a judikátov súdov. Nezrovnalosti vznikli historicky chybami v evidencii, nesprávnou aplikáciou zákona pri dedičských konaniach alebo neskoršími reštitúciami.
 
