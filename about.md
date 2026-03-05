@@ -80,20 +80,16 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 | DULOVA VES | [822]({{ page.kataster_lv_uri_prefix_gulvas }}822)   | TPP, orná pôda |19.0824		|	
 | DULOVA VES | [1133]({{ page.kataster_lv_uri_prefix_gulvas }}1133) | Zastavaná plocha a nádvorie|0.0127		|	
 | DULOVA VES | [1600]({{ page.kataster_lv_uri_prefix_gulvas }}1600) | Lesný pozemok, Ostatná plocha, Trvalý trávny porast, Vodná plocha, Zastavaná plocha a nádvorie |43.9012|
-| ŽEHŇA      | [634]({{ page.kataster_lv_uri_prefix_zehna }}634)	     | TPP | 0.0518|
+| ŽEHŇA      | [634]({{ page.kataster_lv_uri_prefix_zehna }}634)	      | TPP | 0.0518|
 | ŽEHŇA      | [1033]({{ page.kataster_lv_uri_prefix_zehna }}1033)      | TPP | 24.4756|	
-| ŽEHŇA      | [1037]({{ page.kataster_lv_uri_prefix_zehna }}1037)       | Lesný pozemok |35.1536|
-| ŽEHŇA      | [1050]({{ page.kataster_lv_uri_prefix_zehna }}1050)       | Lesný pozemok |0.0287|
-| Spolu:   {: style=";font-weight: bold; border-top: 2px solid black;" }  | 128.6889 {: style=";font-weight: bold; border-top: 2px solid black;" }  :|||
-
+| ŽEHŇA      | [1037]({{ page.kataster_lv_uri_prefix_zehna }}1037)      | Lesný pozemok |35.1536|
+| ŽEHŇA      | [1050]({{ page.kataster_lv_uri_prefix_zehna }}1050)      | Lesný pozemok |0.0287|
+| Spolu:   {: style=";font-weight: bold; border-top: 2px solid black;" } | 128.6889 {: style=";font-weight: bold; border-top: 2px solid black;" }  :|||
 
 <iframe src="https://zbgis.skgeodesy.sk/mapka/e/Fi4wu?pos=48.945004,21.304673,13&bm=orto" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 
 ![Typ spoločných pozemkov](https://github.com/user-attachments/assets/a14b834c-ce20-4120-9a46-1a3f0e7e6fdf)
-
-
-
 
 [Zobraziť mapu](https://zbgis.skgeodesy.sk/mapka/c/Fi4wu)
 
