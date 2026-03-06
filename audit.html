@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audit podielov vlastníkov | 2026</title>
+    <style>
+        :root { 
+            --primary-color: #b91c1c; 
+            --bg-body: #f8fafc; 
+            --text-muted: #64748b; 
+            --accent-blue: #3b82f6;
+            --light-blue: #60a5fa;
+            --slate-200: #e2e8f0;
+            --warning-red: #ef4444;
+        }
+        
+        body { font-family: 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 40px; background: var(--bg-body); color: #334155; }
+        .container { max-width: 1100px; margin: auto; }
+        
+        .header-section { border-bottom: 2px solid var(--primary-color); margin-bottom: 20px; padding-bottom: 10px; display: flex; align-items: center; justify-content: space-between; }
+        .stats-info { font-weight: 600; color: #475569; margin-bottom: 15px; font-size: 0.95rem; }
+        
+        .card { 
+            background: white; border-radius: 12px; margin-bottom: 30px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 6px solid var(--primary-color); 
+            display: flex; flex-direction: column; position: relative; overflow: visible; 
+        }
+        .card-body { padding: 20px 25px; overflow: visible; }
+
+        .owner-header { display: flex; justify-content: space-between; align-items: flex-start; }
+        .owner-name-wrapper { display: flex; align-items: center; gap: 10px; }
+        .owner-name { font-size: 1.6rem; font-weight: 800; color: #1e293b; cursor: pointer; line-height: 1.2; }
+        
+        /* Notifikačná guľka */
+        .notification-badge {
+            background: var(--warning-red); color: white;
+            min-width: 24px; height: 24px; border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 0.8rem; font-weight: 900;
+            box-shadow: 0 2px 5px rgba(239, 68, 68, 0.4);
+            cursor: help;
+        }
+
+        .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-weight: 700; font-size: 0.75rem; vertical-align: middle; border: 1px solid transparent; cursor: pointer; }
+        .maiden-tag { background: #fef2f2; color: #b91c1c; border-color: #fee2e2; }
+        .city-tag { background: #eff6ff; color: var(--accent-blue); border-color: #dbeafe; text-transform: uppercase; }
+        .dob-tag { background: #1e293b; color: white; border-radius: 6px; padding: 4px 10px; font-size: 0.8rem; }
+
+        .address-line { display: flex; align-items: center; gap: 6px; margin-top: 6px; color: var(--text-muted); font-size: 0.9rem; }
+        .fa-location-dot { color: var(--light-blue); }
+
+        .mismatch-box { border: 1px solid #fee2e2; border-radius: 8px; margin-top: 15px; overflow: visible; }
+        
+        .share-row { display: flex; align-items: center; padding: 12px 15px; border-bottom: 1px solid #fee2e2; position: relative; overflow: visible; }
+        .share-row.active { background: #fff5f5; }
+        .share-row.missing { background: #fcfcfc; }
+        .share-row:last-child { border-bottom: none; }
+
+        .fraction-col { width: 90px; text-align: center; cursor: pointer; font-weight: 800; }
+        .percent-col { width: 100px; font-family: monospace; font-weight: 700; text-align: right; padding-right: 20px; }
+        .active .percent-col { color: var(--primary-color); }
+        .missing .fraction-col { color: #94a3b8; font-size: 0.85rem; text-transform: uppercase; }
+
+        .lv-info { flex: 1; border-left: 2px solid #fee2e2; padding-left: 20px; display: flex; align-items: center; flex-wrap: wrap; gap: 6px; overflow: visible; }
+
+        .lv-badge { 
+            position: relative; background: white; color: var(--primary-color); 
+            padding: 3px 8px; border-radius: 5px; font-size: 0.95rem; font-weight: 800; 
+            border: 1px solid #fee2e2; cursor: help; 
+        }
+        .lv-badge.missing { color: #94a3b8; border-color: #e2e8f0; font-weight: 600; font-size: 0.85rem; cursor: default; }
+
+        .lv-tooltip { 
+            visibility: hidden; width: 240px; background: #1e293b; color: #fff; padding: 12px; 
+            position: absolute; z-index: 9999; bottom: 140%; left: 50%; transform: translateX(-50%); 
+            border-radius: 8px; font-size: 0.85rem; box-shadow: 0 10px 25px rgba(0,0,0,0.4); 
+            pointer-events: none; opacity: 0; transition: opacity 0.2s, transform 0.2s;
+        }
+        .lv-tooltip::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid; border-color: #1e293b transparent transparent transparent; }
+        .lv-badge:hover .lv-tooltip { visibility: visible; opacity: 1; transform: translateX(-50%) translateY(-5px); }
+
+        .card-footer { background: #f8fafc; border-top: 1px solid var(--slate-200); padding: 10px 25px; display: flex; flex-wrap: wrap; gap: 10px 25px; font-size: 0.85rem; color: #475569; } 
+        .footer-item { display: flex; align-items: center; gap: 8px; white-space: nowrap; flex-shrink: 0; } 
+        .footer-item strong { color: #1e293b; }
+
+        .fraction { display: inline-flex; flex-direction: column; align-items: center; font-size: 0.9rem; line-height: 1; font-weight: bold; }
+        .fraction .num { border-bottom: 1px solid currentColor; padding: 0 2px; }
+        
+        .search-box { width: 100%; padding: 15px; border-radius: 10px; border: 1px solid #cbd5e1; margin-bottom: 10px; outline: none; font-size: 1rem; }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header-section">
+        <h1>Audit podielov</h1>
+        <div class="tag dob-tag">STAV K 28.2.2026</div>
+    </div>
+    
+    <input type="text" id="search" class="search-box" placeholder="Hľadať meno, podiel alebo 'upozornenie'..." onkeyup="doSearch()">
+    <div id="stats" class="stats-info">Načítavam dáta...</div>
+    
+    <div id="results"></div>
+</div>
+
+<script>
+    let ownersData = [];
+    const slugify = (str) => str ? str.toString().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase() : "";
+
+    function formatFraction(shareStr) {
+        if (!shareStr || shareStr === "0/1" || shareStr === "Nemá") return "Nemá";
+        const parts = shareStr.split('/');
+        return parts.length === 2 ? `<div class="fraction"><span class="num">${parts[0]}</span><span>${parts[1]}</span></div>` : shareStr;
+    }
+
+    function setQuickSearch(val) {
+        document.getElementById('search').value = val;
+        doSearch();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function render(data) {
+        const out = document.getElementById('results');
+        document.getElementById('stats').innerHTML = `Zobrazených: <strong>${data.length}</strong> / Celkovo: <strong>${ownersData.length}</strong>`;
+        
+        let html = "";
+        data.forEach(item => {
+            const v = item.vlastnictvo || [];
+            const hasShare = {};
+            const missingLVs = [];
+
+            v.forEach(lv => {
+                const s = lv.sumarny_podiel;
+                if(s !== "0/1" && s !== "Nemá" && s !== "0") {
+                    if(!hasShare[s]) hasShare[s] = { share: s, percent: lv.sumarne_percento, lvs: [] };
+                    hasShare[s].lvs.push(lv);
+                } else {
+                    missingLVs.push(lv.lv);
+                }
+            });
+
+            // LOGIKA UPOZORNENÍ
+            const groupCount = Object.keys(hasShare).length;
+            const hasMissing = missingLVs.length > 0;
+            // Celkový počet unikátnych stavov (rôzne podiely + prípadné "nemá")
+            const totalStatusCount = groupCount + (hasMissing ? 1 : 0);
+            
+            // Notifikácia sa zobrazí len ak je stav nekonzistentný (viac ako 1 typ podielu alebo kombinácia podielu a "nemá")
+            const showWarning = totalStatusCount > 1;
+
+            let displayAddress = "";
+            let city = "";
+            if (item.add && typeof item.add === 'object') {
+                displayAddress = item.add.std_string || "";
+                city = item.add.obec || "";
+            }
+
+            html += `
+            <div class="card">
+                <div class="card-body">
+                    <div class="owner-header">
+                        <div>
+                            <div class="owner-name-wrapper">
+                                <span class="owner-name" onclick="setQuickSearch('${item.name}')">${item.name}</span>
+                                ${showWarning ? `<div class="notification-badge" title="Tento vlastník má ${totalStatusCount} rôzne výšky podielov na LV">${totalStatusCount}</div>` : ''}
+                                ${item.maiden ? `<span class="tag maiden-tag" onclick="setQuickSearch('${item.maiden}')">r. ${item.maiden}</span>` : ''}
+                                ${city ? `<span class="tag city-tag" onclick="setQuickSearch('${city}')">${city}</span>` : ''}
+                            </div>
+                            ${displayAddress ? `<div class="address-line"><i class="fa-solid fa-location-dot"></i> ${displayAddress}</div>` : ''}
+                        </div>
+                        <div class="tag dob-tag" onclick="setQuickSearch('${item.dob}')">Nar.: ${item.dob}</div>
+                    </div>
+
+                    <div class="mismatch-box">
+                        ${Object.values(hasShare).map(group => `
+                            <div class="share-row active">
+                                <div class="fraction-col" onclick="setQuickSearch('${group.share}')">${formatFraction(group.share)}</div>
+                                <div class="percent-col">${parseFloat(group.percent).toFixed(2)} %</div>
+                                <div class="lv-info">
+                                    ${group.lvs.map(lv => {
+                    // Získame celkovú výmeru z metadát (predpokladáme m2)
+                    const m2 = lvMetadata[lv.lv] || 0;
+                    const vlastnena_vymera = (m2 * (parseFloat(lv.sumarne_percento) / 100)).toFixed(2);
+                    
+                    return `
+                    <div class="lv-badge">
+                        ${lv.lv}
+                        <div class="lv-tooltip">
+                            <div style="border-bottom: 1px solid #334155; padding-bottom: 5px; margin-bottom: 8px; font-weight: 800; color: #60a5fa;">LV ${lv.lv} (${m2.toLocaleString()} m²)</div>
+                            
+                            <div style="font-size: 0.75rem; color: #94a3b8; margin-bottom: 3px;">Podiely vlastníka:</div>
+                            ${lv.detaily.map(d => `<div style="display:flex; justify-content:space-between; font-size: 0.8rem;"><span>ID ${d.pId}:</span> <span>${d.podiel}</span></div>`).join('')}
+                            
+                            <div style="border-top: 1px dashed #475569; margin-top: 8px; padding-top: 5px; font-weight: bold; display: flex; justify-content: space-between; color: #fbbf24;">
+                                <span>SPOLU:</span> <span>${lv.sumarny_podiel}</span>
+                            </div>
+
+                            <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-top: 4px; color: #4ade80; border-top: 1px solid rgba(74, 222, 128, 0.2); padding-top: 4px;">
+                                <span>Výmera:</span>
+                                <span style="font-weight: 900;">${parseFloat(vlastnena_vymera).toLocaleString()} m²</span>
+                            </div>
+                        </div>
+                    </div>`;
+                }).join('')}
+                                </div>
+                            </div>
+                        `).join('')}
+
+                        ${missingLVs.length > 0 ? `
+                            <div class="share-row missing">
+                                <div class="fraction-col" onclick="setQuickSearch('nema')">Nemá</div>
+                                <div class="percent-col">0.00 %</div>
+                                <div class="lv-info">
+                                    ${missingLVs.map(lvNum => `<span class="lv-badge missing">${lvNum}</span>`).join('')}
+                                </div>
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+                
+                <div class="card-footer">
+                    <div class="footer-item" style="color: #dc2626;" title="Celková výmera podielov na spoločnej nehnuteľnosti"><i class="fa-solid fa-compass-drafting"></i> Výmera: <strong>${parseFloat(item.Vymera).toFixed(2)} m²</strong></div>
+                    <div class="footer-item" title="Celkový podiel na výmerespoločnej nehnuteľnosti"><i class="fa-solid fa-pie-chart"></i> Podiel: <strong>${item.Podiel}</strong></div>
+                    <div class="footer-item" title="Celkový podiel v percentách"><i class="fa-solid fa-percent"></i> Celkom: <strong>${parseFloat(item.PodielPercento).toFixed(2)} %</strong></div>
+                    <div class="footer-item" style="color: #059669;" title="Z toho podiel na  výmere lesných pozemkov"><i class="fa-solid fa-tree"></i> Les: <strong>${parseFloat(item.VymeraLes).toFixed(2)} m²</strong></div>
+                    <div class="footer-item" title="Z toho podiel na výmere ostatných pozemkov"><i class="fa-solid fa-wheat-awn"></i> Ostatné: <strong>${parseFloat(item.VymeraOstatne).toFixed(2)} m²</strong></div>
+                </div>
+            </div>`;
+        });
+        out.innerHTML = html;
+    }
+
+    async function initApp() {
+        try {
+            const response = await fetch('2026-02-28-snapshot-vlastnici.json');
+            ownersData = Object.values(await response.json());
+            
+            const response2 = await fetch('lv-metadata.json')
+            lvMetadata = await response2.json();
+
+            // 3. Kontrola URL parametra "search"
+            const urlParams = new URLSearchParams(window.location.search);
+            const initialSearch = urlParams.get('search');
+    
+            if (initialSearch) {
+                // Vložíme text z URL do tvojho search inputu
+                const searchInput = document.getElementById('search');
+                if (searchInput) {
+                    searchInput.value = initialSearch;
+                    
+                    // Spustíme tvoju existujúcu funkciu na vyhľadávanie
+                    // (keďže ownersData a globalNotes sú už načítané, render prebehne správne)
+                    doSearch(); 
+                }
+            } else {
+                // Ak v URL nič nie je, vykreslíme všetko
+                await render(ownersData);
+            }
+
+            
+        } catch (e) { console.error(e); }
+    }
+
+    function doSearch() {
+        const term = slugify(document.getElementById('search').value);
+        const filtered = ownersData.filter(i => {
+            const addr = (i.add && typeof i.add === 'object') ? i.add.std_string : (i.add || "");
+            
+            // Podmienka pre kľúčové slovo "upozornenie"
+            const v = i.vlastnictvo || [];
+            const shares = new Set();
+            let hasMissing = false;
+            v.forEach(lv => {
+                if(lv.sumarny_podiel !== "0/1" && lv.sumarny_podiel !== "Nemá") shares.add(lv.sumarny_podiel);
+                else hasMissing = true;
+            });
+            const warningTag = (shares.size + (hasMissing ? 1 : 0) > 1) ? "upozornenie" : "";
+            
+            const hasAnyMissing = hasMissing;
+            const nemaString = hasAnyMissing ? "nema" : "";
+            const sharesList = v.map(v => v.sumarny_podiel).join(' ');
+            
+            const searchSource = slugify(i.name + addr + i.dob + (i.maiden || "") + sharesList + nemaString + warningTag);
+            return searchSource.includes(term);
+        });
+        render(filtered);
+    }
+
+    window.onload = initApp;
+</script>
+</body>
+</html>
