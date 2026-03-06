@@ -130,6 +130,10 @@
         }).join(' / ');
     }
 
+    formatNumberWithSpaces = (num) => {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+    }
+
     function render(data) {
         const out = document.getElementById('results');
         document.getElementById('stats').innerHTML = `Zobrazených: <strong>${data.length}</strong> / Celkovo: <strong>${ownersData.length}</strong>`;
@@ -230,11 +234,11 @@
                 </div>
                 
                 <div class="card-footer">
-                    <div class="footer-item" style="color: #dc2626;" title="Celková výmera podielov na spoločnej nehnuteľnosti"><i class="fa-solid fa-compass-drafting"></i> Výmera: <strong>${parseFloat(item.Vymera).toFixed(2)} m²</strong></div>
+                    <div class="footer-item" style="color: #dc2626;" title="Celková výmera podielov na spoločnej nehnuteľnosti"><i class="fa-solid fa-compass-drafting"></i> Výmera: <strong>${formatNumberWithSpaces(parseFloat(item.Vymera).toFixed(2))} m²</strong></div>
                     <div class="footer-item" title="Celkový podiel na výmeres poločnej nehnuteľnosti"><i class="fa-solid fa-pie-chart"></i> Podiel: <strong>${formatFractionWithSpaces(item.Podiel)}</strong></div>
-                    <div class="footer-item" title="Celkový podiel v percentách"><i class="fa-solid fa-percent"></i> Celkom: <strong>${parseFloat(item.PodielPercento).toFixed(2)} %</strong></div>
-                    <div class="footer-item" style="color: #059669;" title="Z toho podiel na  výmere lesných pozemkov"><i class="fa-solid fa-tree"></i> Les: <strong>${parseFloat(item.VymeraLes).toFixed(2)} m²</strong></div>
-                    <div class="footer-item" title="Z toho podiel na výmere ostatných pozemkov"><i class="fa-solid fa-wheat-awn"></i> Ostatné: <strong>${parseFloat(item.VymeraOstatne).toFixed(2)} m²</strong></div>
+                    <div class="footer-item" title="Celkový podiel v percentách"><i class="fa-solid fa-percent"></i> Celkom: <strong>${formatNumberWithSpaces(parseFloat(item.PodielPercento).toFixed(2))} %</strong></div>
+                    <div class="footer-item" style="color: #059669;" title="Z toho podiel na  výmere lesných pozemkov"><i class="fa-solid fa-tree"></i> Les: <strong>${formatNumberWithSpaces(parseFloat(item.VymeraLes).toFixed(2))} m²</strong></div>
+                    <div class="footer-item" title="Z toho podiel na výmere ostatných pozemkov"><i class="fa-solid fa-wheat-awn"></i> Ostatné: <strong>${formatNumberWithSpaces(parseFloat(item.VymeraOstatne).toFixed(2))} m²</strong></div>
                 </div>
             </div>`;
         });
