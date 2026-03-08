@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Správa Urbáru - Kompletná evidencia</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --success: #27ae60;
+            --warning: #e67e22;
+            --danger: #c0392b;
+            --bg: #f4f7f6;
+            --border: #dcdde1;
+        }
+
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 1600px; margin: 0 auto; }
+
+        .controls {
+            display: grid;
+            grid-template-columns: 280px 1fr 280px;
+            gap: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+            align-items: end;
+        }
+
+        .control-group label { display: block; font-size: 11px; font-weight: bold; color: #7f8c8d; margin-bottom: 8px; text-transform: uppercase; }
+        
+        select, input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 15px;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        .stat-box {
+            background: #f8f9fa;
+            padding: 10px 15px;
+            border-radius: 6px;
+            border-left: 4px solid var(--accent);
+        }
+
+        .stat-box label { font-size: 11px; color: #7f8c8d; text-transform: uppercase; }
+        .stat-box span { display: block; font-size: 18px; font-weight: bold; color: var(--primary); }
+
+        .table-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        table { width: 100%; border-collapse: collapse; }
+        thead { background: var(--primary); color: white; pointer-events: none; }
+        th { padding: 15px; text-align: left; position: sticky; top: 0; font-size: 13px; z-index: 10; text-transform: uppercase; }
+        td { padding: 12px 15px; border-bottom: 1px solid #eee; font-size: 14px; vertical-align: top; }
+        tbody tr:hover { background: #fcfcfc; }
+
+        .id-cell { color: #7f8c8d; font-family: monospace; font-weight: bold; text-align: center; }
+        .lv-tag { background: #ebf5ff; color: #2980b9; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 12px; }
+
+        .owner-name { font-weight: bold; color: var(--primary); display: block; margin-bottom: 5px; font-size: 15px; }
+        
+        /* Boxy pre dlhé texty pod menom */
+        .details-container { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
+        .info-box { font-size: 12px; padding: 8px 12px; border-radius: 4px; line-height: 1.5; border-left: 4px solid #ccc; background: #f9f9f9; }
+        .info-box.titul { border-left-color: var(--accent); background: #f0f7ff; color: #2c3e50; }
+        .info-box.ine-udaje { border-left-color: var(--warning); background: #fffaf0; }
+        .info-box.poznamky { border-left-color: #95a5a6; background: #f4f4f4; }
+        .info-box.alert { border-left-color: var(--danger); background: #fff5f5; color: var(--danger); font-weight: 500; }
+
+        .col-share { font-family: 'Courier New', monospace; font-weight: bold; color: #e67e22; background: #fff5eb; padding: 2px 5px; border-radius: 3px; display: inline-block; }
+        .col-m2 { text-align: right; font-weight: bold; color: var(--success); white-space: nowrap; }
+
+        .footer-info { margin-top: 20px; font-size: 12px; color: #95a5a6; text-align: right; }
+        #error-msg { display: none; padding: 20px; background: #fff5f5; color: #c53030; border-radius: 8px; margin-bottom: 20px; border: 1px solid #feb2b2; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div id="error-msg"></div>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>Filter Listu Vlastníctva</label>
+            <select id="lv-select"><option value="all">Všetky listy (Urbár spolu)</option></select>
+        </div>
+        <div class="control-group">
+            <label>Hľadať (Meno, poznámka, titul, ID...)</label>
+            <input type="text" id="search-input" placeholder="Hľadať v celej databáze...">
+        </div>
+        <div class="stat-box">
+            <label id="stat-label">Výmera výberu</label>
+            <span id="total-visible-m2">0.00 m²</span>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 70px;">LV</th>
+                    <th style="width: 60px; text-align: center;">Por. č.</th>
+                    <th>Vlastník a údaje</th>
+                    <th style="width: 160px;">Podiel</th>
+                    <th style="width: 160px; text-align: right;">Výmera (m²)</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <tr><td colspan="5" style="text-align: center; padding: 50px;">Spracovávam údaje...</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="footer-info">Suma výmer LV: <span id="checksum-total">0</span> m²</div>
+</div>
+
+<script>
+let flatData = [];
+let lvMetadata = {};
+const ALERT_KEYWORDS = ["súdne", "neplatnos", "exekú", "žalob", "zákaz", "plomba"];
+
+async function loadData() {
+    try {
+        const metaRes = await fetch('lv-metadata.json');
+        lvMetadata = await metaRes.json();
+
+        const ownersRes = await fetch('vlastnici.json');
+        const jsonData = await ownersRes.json();
+        
+        flatData = [];
+        Object.keys(jsonData).forEach(lvNum => {
+            jsonData[lvNum].forEach(v => {
+                flatData.push({
+                    lv: lvNum,
+                    id: v.Id || "",
+                    meno: v.Meno || "",
+                    podiel: v.Podiel || "0/1",
+                    titul: v["Titul nadobudnutia"] || "",
+                    ineUdaje: v["Iné údaje"] || "",
+                    poznamky: v["Poznámky"] || ""
+                });
+            });
+        });
+
+        document.getElementById('checksum-total').textContent = Object.values(lvMetadata).reduce((a,b)=>a+b,0).toLocaleString('sk-SK');
+        populateLVFilter();
+        render();
+    } catch (e) {
+        document.getElementById('error-msg').style.display = 'block';
+        document.getElementById('error-msg').textContent = "Chyba načítania: " + e.message;
+    }
+}
+
+function populateLVFilter() {
+    const sel = document.getElementById('lv-select');
+    const lvs = [...new Set(flatData.map(v => v.lv))].sort((a,b)=>parseInt(a)-parseInt(b));
+    lvs.forEach(lv => {
+        const opt = document.createElement('option');
+        opt.value = lv;
+        opt.textContent = `LV ${lv} (${(lvMetadata[lv]||0).toLocaleString('sk-SK')} m²)`;
+        sel.appendChild(opt);
+    });
+}
+
+function render() {
+    const selectedLV = document.getElementById('lv-select').value;
+    const query = document.getElementById('search-input').value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const body = document.getElementById('table-body');
+    
+    let html = '';
+    let totalM2 = 0;
+
+    const filtered = flatData.filter(v => {
+        const matchesLV = (selectedLV === 'all' || v.lv === selectedLV);
+        const searchPool = `${v.id} ${v.meno} ${v.titul} ${v.ineUdaje} ${v.poznamky}`.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        return matchesLV && searchPool.includes(query);
+    });
+
+    filtered.forEach(v => {
+        const currentArea = lvMetadata[v.lv] || 0;
+        const [c, m] = v.podiel.split('/').map(parseFloat);
+        const ownerM2 = (c / (m || 1)) * currentArea;
+        totalM2 += ownerM2;
+
+        const isAlert = ALERT_KEYWORDS.some(k => v.poznamky.toLowerCase().includes(k));
+
+        html += `
+            <tr>
+                <td><span class="lv-tag">${v.lv}</span></td>
+                <td class="id-cell">${v.id}</td>
+                <td>
+                    <span class="owner-name">${v.meno}</span>
+                    <div class="details-container">
+                        ${v.titul ? `<div class="info-box titul"><b>Titul:</b> ${v.titul}</div>` : ''}
+                        ${v.ineUdaje ? `<div class="info-box ine-udaje"><b>Iné údaje:</b> ${v.ineUdaje}</div>` : ''}
+                        ${v.poznamky ? `<div class="info-box poznamky ${isAlert ? 'alert' : ''}"><b>Poznámky:</b> ${v.poznamky}</div>` : ''}
+                    </div>
+                </td>
+                <td><span class="col-share">${v.podiel}</span></td>
+                <td class="col-m2">${ownerM2.toLocaleString('sk-SK', {minimumFractionDigits: 2, maximumFractionDigits: 2})} m²</td>
+            </tr>
+        `;
+    });
+
+    body.innerHTML = html || '<tr><td colspan="5" style="text-align: center; padding: 30px;">Nenašli sa žiadne údaje.</td></tr>';
+    document.getElementById('total-visible-m2').textContent = totalM2.toLocaleString('sk-SK', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + " m²";
+}
+
+document.getElementById('lv-select').onchange = render;
+document.getElementById('search-input').oninput = render;
+window.onload = loadData;
+</script>
+
+</body>
+</html>
