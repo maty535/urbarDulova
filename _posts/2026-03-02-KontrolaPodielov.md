@@ -9,7 +9,7 @@ published: true
 ---
 
 * Pripravili sme pre každého podielnika informácie, kde si môže overiť, či má všetky svoje vlastnícke práva k podielom na pozemkoch spoločnej nehnutenosti zápísané v právne konformnom stave (stave vyhovujúcom aktualným zakonným normám):  [Nekonzistencie v podieloch vlastníkov](https://urbar.dulovaves.sk/rozdielyVlastnici)
-* Auditom sme zistili, že veľká vačina podielnikov **197/298** , t.z. **66 %** podielnikov má nejaké problémy v zápise svojich podielov v katastri nehnuteľností. Dokonca problém so zápisom vlastníckych práv má aj samotné spoločenstvo, čo bude musieť aktualný výbor začat riešit, aj na základe podielnikov z predch. valného zhromaždenia.
+* Auditom sme zistili, že veľká vačina podielnikov **197/298** , t.z. **66 %** podielnikov má nejaké problémy v zápise svojich vlastníckych práv k pozemkom spoločnej nehnuteľnosti v katastri nehnuteľností. Dokonca problém so zápisom vlastníckych práv má aj samotné spoločenstvo, čo bude musieť výbor spoločenstva riešit, aj na základe požiadavky jedného z podielnikov, ktorá bola prednesená vrámci diskusie na poslednom valmon zhromaždení **26.10.2025**.
 * Všetci podielnici si môžu pozrieť aktuálne výšky svojich podielov v tomto zobraznení k [28.2.2026](https://urbar.dulovaves.sk/audit)
 
 ### Právny základ a metodika
