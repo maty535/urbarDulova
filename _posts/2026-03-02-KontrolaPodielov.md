@@ -23,7 +23,7 @@ published: true
 2. Plynutím času a dalšim dedením a prevodmi podielov sa tieto nekonzistencie budú propagovať na ďalších a ďalších vlastníkov spoločnej nehnuteľnosti. (efekt snehovej gule, resp. princíp dedičného hriechu)
 
 
-### Kľúčové právne výroky ústavného súdu:
+### Kľúčové právne výroky ústavného súdu ÚS 154/2010:
 
 {% alert tip %} 
 
