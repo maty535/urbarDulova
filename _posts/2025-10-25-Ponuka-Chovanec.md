@@ -5,7 +5,7 @@ date: 2025-10-25
 author: Ing. Matúš Ivanecký
 categories: valne zhromazdenie
 tags: zhromaždenie predaj podielnici
-published: true
+published: false
 ---
 
 - **Pán Vladimír Chovanec stiahol svoju ponuku na odpredaj svojho podielu mimo spoločenstva.**{: style="color: red;" } 
