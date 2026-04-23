@@ -8,7 +8,7 @@ permalink: /organization/
 # Aktuálna organizačná štruktúra
  Dňa 25.5.2024 na valnom zhromaždení podielníkov urbariátu v Dulovej Vsi bol zvolený nový 
 
-## Výbor
+## Výbor - štatutárny orgán
 
 |Meno|Funkcia|Od|Kontakt|
 |:-------------|:------------------|:------|:------|
@@ -26,6 +26,10 @@ ako náhradníci do výboru boli zvolení títo členovia, ktorí sa nezúčastn
 - Pavol Sokol
 - Anton Petrovčík
 
+
+Výbor si priamo po ukončení valného zhromaždenia spomedzi seba zvolil predsedu a podpredsedu, ktorí majú splnomocnenie konať iba so súhlasom výboru a v rozsahu na ktorý ich výbor splnomocní.
+
+
 ## Dozorná rada
 
 |Meno|Funkcia|Od|Kontakt|
@@ -35,9 +39,7 @@ ako náhradníci do výboru boli zvolení títo členovia, ktorí sa nezúčastn
 | Janka Repková      | Člen         | 26.05.2024  |		             |
 
 
-Výbor si priamo po ukončení valného zhromaždenia spomedzi seba zvolil štatutárnych zástupcov, ktorí majú splnomocnenie konať iba so súhlasom výboru a v rozsahu na ktorý ich výbor splnomocní.
-
-## Štatutárni zástupcovia:
+## Konajú za spoločenstvo navonok, iba v súlade s poverením výborom
 - Predseda: Peter Semeš ml.
 - Matúš Bidovský - zastupuje predsedu
 
