@@ -15,7 +15,7 @@ published: true
 * Pred samovýrobou sa podielnikom ukáže, kde a ako majú ukladať haluzinu.<br/><br/>
 
 {% alert tip %}
-Prosíme podielnikov, aby v prípade, ak drevo nepotrebujú pre kúrenie, umožnili palivové drevo pripraviť si tým, ktoré ho reálne potrebujú na vlastné kúrenie, nie na predaj.
+Prosíme podielnikov, aby v prípade, ak drevo nepotrebujú pre kúrenie, umožnili palivové drevo pripraviť si tým, ktorí ho reálne potrebujú na vlastné kúrenie, nie na predaj.
 {% endalert %}
 
 
