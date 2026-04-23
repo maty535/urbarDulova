@@ -32,7 +32,7 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 | **Poznámka** | funkčné obdobie aktuálneho výboru a dozornej rady plynie od 26.5.2024 a konči najneskôr 25.5.2029 |
 | **Mapa urbáru**| [prieskum na Google Earth](https://earth.google.com/earth/d/1csBx09yv7gkXudxKOTJlmR5xm45wuJYr?usp=sharing) |
 | **Finančné ukazovatele**| [finstat](https://finstat.sk/42379831) |
-| **Výpis z registra** | [vystavený 6.2.2025](https://drive.google.com/file/d/1zbh_dp0xdyEiXUla9VvpgCWPvT3tE68D/view?usp=drive_link)|
+| **Výpis z registra** | [vystavený 6.2.2025](https://drive.google.com/file/d/1RvoOKkZblP1uG0iDfpvdPLnCHjI4BJEv/view?usp=drive_link)|
 
 # Registrácia v Informačnom systéme lesného hospodárstva (ISLHP)
 
