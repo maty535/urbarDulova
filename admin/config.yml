@@ -15,5 +15,8 @@ collections:
     fields:
       - { label: "Názov", name: "title", widget: "string" }
       - { label: "Dátum", name: "date", widget: "datetime" }
+      - { label: "Autor", name: "author", widget: "string", default: "výbor spoločenstva" }
+      - { label: "Kategórie", name: "categories", widget: "list" }
+      - { label: "Tagy", name: "tags", widget: "list" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Obsah", name: "body", widget: "markdown" }
