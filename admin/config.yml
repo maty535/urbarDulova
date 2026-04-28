@@ -12,4 +12,7 @@ collections:
     create: true # Umožní zákazníkovi pridať nový príspevok
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Formát názvu súboru
     fields:
-      - { name: Title }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
