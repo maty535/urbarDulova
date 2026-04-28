@@ -3,13 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Content Manager</title>
+    <meta name="robots" content="noindex" />
+    <title>Content Manager | Urbar Dulova</title>
+
     <link rel="netlify-identity-widget" href="https://urbardulova.netlify.app">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> 
+    
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>
   </head>
   <body>
     <script>
-      // Tento malý skript zabráni chybe 404, ktorú vidíš v konzole
+      // 3. Vynútené nastavenie pre Decap CMS, aby nehľadal identitu na vlastnej doméne
+      if (window.location.hostname !== 'localhost') {
+          window.localStorage.setItem('netlifySiteURL', 'https://urbardulova.netlify.app');
+      }
+
+      // 4. Inicializácia widgetu a presmerovanie po prihlásení
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
           if (!user) {
@@ -18,8 +26,12 @@
             });
           }
         });
+
+        // 5. Explicitné nastavenie API URI (pre istotu, ak by link tag zlyhal)
+        window.netlifyIdentity.setAPIURI("https://urbardulova.netlify.app/.netlify/identity");
       }
     </script>
+
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>
