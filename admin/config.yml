@@ -12,6 +12,7 @@ collections:
     create: true # Umožní zákazníkovi pridať nový príspevok
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Formát názvu súboru
     extension: "md"
+    summary: "📅 {{date | date('D.M.YYYY')}} | ✍️ {{author}} | {{title}} |"
     fields:
       - { label: "Názov", name: "title", widget: "string" }
       - { label: "Dátum", name: "date", widget: "datetime" }
