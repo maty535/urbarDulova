@@ -3,33 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex" />
-    <title>Content Manager | Urbar Dulova</title>
-
-    <link rel="netlify-identity-widget" href="https://urbardulova.netlify.app">
-    
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>
+    <title>Content Manager</title>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
     <script>
-      // 3. Vynútené nastavenie pre Decap CMS, aby nehľadal identitu na vlastnej doméne
-      if (window.location.hostname !== 'localhost') {
-          window.localStorage.setItem('netlifySiteURL', 'https://urbardulova.netlify.app');
-      }
+      // 1. Oklameme CMS, že sme na Netlify
+      window.localStorage.setItem('netlifySiteURL', 'https://urbardulova.netlify.app');
 
-      // 4. Inicializácia widgetu a presmerovanie po prihlásení
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
+      // 2. Ručná inicializácia s vypnutým CORS overovaním (ak je to možné)
+      document.addEventListener("DOMContentLoaded", function() {
+        window.netlifyIdentity.init({
+          APIConfig: {
+            api_url: "https://urbardulova.netlify.app/.netlify/identity"
           }
         });
 
-        // 5. Explicitné nastavenie API URI (pre istotu, ak by link tag zlyhal)
-        window.netlifyIdentity.setAPIURI("https://urbardulova.netlify.app/.netlify/identity");
-      }
+        window.netlifyIdentity.on("login", () => {
+          // Po prihlásení musíme zostať na tejto doméne
+          window.location.reload();
+        });
+      });
     </script>
 
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
