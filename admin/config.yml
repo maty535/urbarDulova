@@ -11,8 +11,9 @@ collections:
     folder: '_posts/'
     create: true # Umožní zákazníkovi pridať nový príspevok
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Formát názvu súboru
+    extension: "md"
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Názov", name: "title", widget: "string" }
+      - { label: "Dátum", name: "date", widget: "datetime" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Obsah", name: "body", widget: "markdown" }

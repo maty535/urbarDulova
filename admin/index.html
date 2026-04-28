@@ -1,31 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Content Manager</title>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <title>CMS</title>
   </head>
   <body>
-    <script>
-      // 1. Oklameme CMS, že sme na Netlify
-      window.localStorage.setItem('netlifySiteURL', 'https://urbardulova.netlify.app');
-
-      // 2. Ručná inicializácia s vypnutým CORS overovaním (ak je to možné)
-      document.addEventListener("DOMContentLoaded", function() {
-        window.netlifyIdentity.init({
-          APIConfig: {
-            api_url: "https://urbardulova.netlify.app/.netlify/identity"
-          }
-        });
-
-        window.netlifyIdentity.on("login", () => {
-          // Po prihlásení musíme zostať na tejto doméne
-          window.location.reload();
-        });
-      });
-    </script>
-
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>
