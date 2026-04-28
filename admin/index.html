@@ -3,37 +3,30 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
     <title>Content Manager</title>
-    <!-- 1. Nahranie Identity widgetu -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>
+
+    <!-- TENTO RIADOK CHÝBA V MANUÁLI, ALE JE NUTNÝ PRE GITHUB PAGES -->
+    <link rel="netlify-identity-widget" href="https://urbardulova.netlify.app">
+    
+    <!-- NAHRANIE PRIHLASOVACIEHO OKNA -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
+    <!-- SCRIPT NA OVLÁDANIE PRIHLÁSENIA -->
     <script>
-      // Tento blok musí byť PRED načítaním samotného Decap CMS skriptu
-      document.addEventListener("DOMContentLoaded", function() {
-        // Ak widget existuje, nastavíme mu URL manuálne cez init
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", user => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
-      });
-    </script>
-
-    <!-- 2. Nahranie Decap CMS -->
-    <!-- Pridali sme sem konfiguračný objekt, ktorý povie Decapu, kde má hľadať Identity -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-
-    <script>
-      // Alternatívny spôsob, ak setAPIURI zlyháva:
-      // Povieme widgetu manuálne, kam sa má dívať, hneď po načítaní
       if (window.netlifyIdentity) {
-        window.netlifyIdentity.setAPIURI("https://urbardulova.netlify.app/.netlify/identity");
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
       }
     </script>
+
+    <!-- TENTO RIADOK JE Z TVOJHO MANUÁLU -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>
