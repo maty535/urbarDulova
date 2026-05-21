@@ -15,11 +15,11 @@ V kontexte pozemkových spoločenstiev (urbariátov) a predkupného práva má p
 ---
 
 ## 1. Ako predávajúci robí ponuku (Doručenie výboru)
-Ak chce spoluvlastník predať svoj podiel niekomu mimo spoločenstva (cudziemu človeku), musí ho najskôr ponúknuť ostatným spoluvlastníkom. 
+Ak chce spoluvlastník predať svoj podiel niekomu mimo spoločenstva (cudziemu človeku), musí ho najskôr ponúknuť ostatným spoluvlastníkom. To neplatí v prípade predaja podielu vrámci spoločenstva, vtedy ak chce, može podielnik ponúknuť svoj podiel ostatným členom spoločenstva prostredníctvom výboru, ale nemusí to robiť a može predať priamo svoj podiel inému spoluvlastníkovi podľa svojej slobodnej vôle.
 
 * **Forma:** Ponuka musí byť **písomná**.
 * **Adresát:** Podľa zákona o pozemkových spoločenstvách sa ponuka spravidla doručuje **výboru** spoločenstva (keďže ponúkať podiel jednotlivo stovkám malých vlastníkov by bolo technicky oveľa náročnejšie, pričom zákon umožnuje podielnikovi využiť aj takúto osobitnú ponuku pre všetkých podielnikov, odporúčame ju rozposielať doporučenými listami).
-* **Obsah ponuky:** Musí obsahovať všetky podmienky zamýšľaného predaja – najmä presnú identifikáciu podielu (parcely, list vlastníctva), **cenu** a podmienky splatnosti. Cena pre ostatných podielnikov nemôže byť vyššia ako tá, za ktorú to nakoniec predá cudziemu človeku.
+* **Obsah ponuky:** Musí obsahovať všetky podmienky zamýšľaného predaja – najmä presnú identifikáciu podielu (parcely, list vlastníctva, podiel na parcele), **cenu** a podmienky splatnosti. Cena pre ostatných podielnikov nemôže byť vyššia ako tá, za ktorú to nakoniec predá cudziemu človeku.
 
 ---
 
@@ -28,15 +28,15 @@ Akonáhle výbor ponuku prevezme, do hry vstupuje pravidlo z judikátu:
 
 * **Začiatok lehoty:** Lehota na uplatnenie predkupného práva začína plynúť **od konania najbližšieho valného zhromaždenia** (schôdze) nasledujúceho po doručení ponuky výboru.
 * **Dĺžka lehoty:** Ak stanovy spoločenstva neurčujú inú lehotu, zo zákona (Občiansky zákonník) platí pri nehnuteľnostiach lehota **2 mesiace**.
-* **Prečo je to tak?** Súd tým chráni predávajúceho. Ak by výbor ponuku „strčil do zásuvky“ a nepovedal o nej nikomu, predávajúci by nemohol svoj podiel nikdy predať. Termín valného zhromaždenia je moment, kedy sa z právneho hľadiska predpokladá, že sa o tom podielnici mali možnosť dozvedieť (dostala sa do ich dispozičnej sféry).
+* **Prečo je to tak?** Súd tým chráni predávajúceho. Ak by výbor ponuku „strčil do zásuvky“ a nepovedal o nej nikomu, predávajúci by nemohol svoj podiel nikdy predať. Termín valného zhromaždenia je moment, kedy sa z právneho hľadiska predpokladá, že sa o ponuke podielnici mali možnosť dozvedieť (dostala sa do ich dispozičnej sféry).
 
 ---
 
 ## 3. Ako podielnici uplatňujú predkupné právo (Prijatie ponuky)
 Ak má niekto zo spoluvlastníkov o podiel záujem, musí konať v spomínanej (spravidla 2-mesačnej) lehote:
 
-* **Písomné vyjadrenie:** Záujemca musí výboru (alebo priamo predávajúcemu, ak sú kontakty známe) písomne oznámiť, že ponuku **prijíma** a predkupné právo si **uplatňuje**. (odporúčame rovnako doporučeným listom, nie ústne, resp. osobne bez potvrdenia prevzatia)
-* **Zaplatenie ceny:** Na to, aby bolo uplatnenie predkupného práva platné, nestačí len napísať „mám záujem“. Záujemca musí v tejto lehote **vyplatiť kúpnu cenu** predávajúcemu (alebo ju zložiť do notárskej úschovy), ak sa nedohodnú inak. 
+* **Písomné vyjadrenie:** Záujemca musí výboru alebo priamo predávajúcemu, ak sú kontakty známe, písomne oznámiť, že ponuku **prijíma** a predkupné právo si **uplatňuje**. (odporúčame rovnako doporučeným listom, nie ústne, resp. osobne bez potvrdenia prevzatia). 
+* **Zaplatenie ceny:** Na to, aby bolo uplatnenie predkupného práva platné, nestačí len napísať „mám záujem“. Záujemca musí v lehote 2 mesiacov **vyplatiť kúpnu cenu** predávajúcemu (poštový poukaz, bankový prevod alebo ju zložiť do notárskej úschovy), ak sa nedohodnú inak, resp. nie je to v ponuke priamo špecifikované. 
 * **Pravidlo pomernosti:** Ak prejaví záujem viacero spoluvlastníkov, majú právo vykúpiť tento podiel **pomerne** podľa veľkosti svojich doterajších podielov (ak sa medzi sebou nedohodnú inak).
 
 ---
