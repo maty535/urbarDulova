@@ -35,7 +35,7 @@ Akonáhle výbor ponuku prevezme, do hry vstupuje pravidlo z judikátu:
 ## 3. Ako podielnici uplatňujú predkupné právo (Prijatie ponuky)
 Ak má niekto zo spoluvlastníkov o podiel záujem, musí konať v spomínanej (spravidla 2-mesačnej) lehote:
 
-* **Písomné vyjadrenie:** Záujemca musí výboru (alebo priamo predávajúcemu, ak sú kontakty známe) písomne oznámiť, že ponuku **prijíma** a predkupné právo si **uplatňuje**.
+* **Písomné vyjadrenie:** Záujemca musí výboru (alebo priamo predávajúcemu, ak sú kontakty známe) písomne oznámiť, že ponuku **prijíma** a predkupné právo si **uplatňuje**. (odporúčame rovnako doporučeným listom, nie ústne, resp. osobne bez potvrdenia prevzatia)
 * **Zaplatenie ceny:** Na to, aby bolo uplatnenie predkupného práva platné, nestačí len napísať „mám záujem“. Záujemca musí v tejto lehote **vyplatiť kúpnu cenu** predávajúcemu (alebo ju zložiť do notárskej úschovy), ak sa nedohodnú inak. 
 * **Pravidlo pomernosti:** Ak prejaví záujem viacero spoluvlastníkov, majú právo vykúpiť tento podiel **pomerne** podľa veľkosti svojich doterajších podielov (ak sa medzi sebou nedohodnú inak).
 
