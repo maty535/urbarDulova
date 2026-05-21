@@ -47,3 +47,8 @@ Ak má niekto zo spoluvlastníkov o podiel záujem, musí konať v spomínanej (
 3. Od tohto dňa plynie **2-mesačná lehota**.
 4. Počas nej musia záujemcovia **písomne akceptovať ponuku a vyplatiť cenu**.
 5. Ak nikto v lehote nezaplatí, predávajúci môže podiel predať tretej osobe (ale nie lacnejšie, než ho ponúkal na urbári).
+
+
+___
+* [Počítanie lehôt](https://urbar.dulovaves.sk/predkupne/pravo/2024/08/16/PocitanieLehot-PonukaPodielov.html)
+* [Postup pri porušení predkupného práva](https://urbar.dulovaves.sk/pravo/predkupne/2024/08/07/PredkupnePravo.html)
