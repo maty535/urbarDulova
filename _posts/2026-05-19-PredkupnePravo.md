@@ -15,6 +15,9 @@ published: true
 * Rozhodnutie Najvyššieho súdu SR: [6Cdo/101/2023](https://www.nsud.sk/rozhodnutia/6cdo1012023/)
 
 ___
+
+### Viac informácií:
+
 * [Počítanie lehôt](https://urbar.dulovaves.sk/predkupne/pravo/2024/08/16/PocitanieLehot-PonukaPodielov.html)
 * [Proces ponuky a jej uplatnenia ](https://urbar.dulovaves.sk/pr%C3%A1vo/2026/05/21/Proces-Ponuka.html)
 * [Postup pri porušení predkupného práva](https://urbar.dulovaves.sk/pravo/predkupne/2024/08/07/PredkupnePravo.html)

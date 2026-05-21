@@ -50,5 +50,8 @@ Ak má niekto zo spoluvlastníkov o podiel záujem, musí konať v spomínanej (
 
 
 ___
+
+### Viac informácií:
+
 * [Počítanie lehôt](https://urbar.dulovaves.sk/predkupne/pravo/2024/08/16/PocitanieLehot-PonukaPodielov.html)
 * [Postup pri porušení predkupného práva](https://urbar.dulovaves.sk/pravo/predkupne/2024/08/07/PredkupnePravo.html)
