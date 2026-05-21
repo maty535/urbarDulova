@@ -10,7 +10,7 @@ published: true
 
 # Ako sa uplatňuje ponuka na odpredaj podielu v pozemkovom spoločenstve
 
-V kontexte pozemkových spoločenstiev (urbariátov) a predkupného práva má proces ponuky a jej uplatnenia presné pravidlá. Keďže vychádzame zo spomínaného judikátu Najvyššieho súdu SR [6Cdo/101/2023](https://www.nsud.sk/rozhodnutia/6cdo1012023/), tento proces prebieha v dvoch rovinách: **ako ponuku robí predávajúci** a **ako na ňu reagujú ostatní podielnici**.
+V kontexte pozemkových spoločenstiev (urbariátov) a predkupného práva má proces ponuky a jej uplatnenia presné pravidlá. Tento proces prebieha v dvoch rovinách: **ako ponuku robí predávajúci** a **ako na ňu reagujú ostatní podielnici**.
 
 ---
 
@@ -55,3 +55,4 @@ ___
 
 * [Počítanie lehôt](https://urbar.dulovaves.sk/predkupne/pravo/2024/08/16/PocitanieLehot-PonukaPodielov.html)
 * [Postup pri porušení predkupného práva](https://urbar.dulovaves.sk/pravo/predkupne/2024/08/07/PredkupnePravo.html)
+* [6Cdo/101/2023](https://www.nsud.sk/rozhodnutia/6cdo1012023/)
