@@ -18,7 +18,7 @@ V kontexte pozemkových spoločenstiev (urbariátov) a predkupného práva má p
 Ak chce spoluvlastník predať svoj podiel niekomu mimo spoločenstva (cudziemu človeku), musí ho najskôr ponúknuť ostatným spoluvlastníkom. 
 
 * **Forma:** Ponuka musí byť **písomná**.
-* **Adresát:** Podľa zákona o pozemkových spoločenstvách sa ponuka doručuje **výboru** spoločenstva (keďže ponúkať podiel jednotlivo stovkám malých vlastníkov by bolo technicky nemožné).
+* **Adresát:** Podľa zákona o pozemkových spoločenstvách sa ponuka spravidla doručuje **výboru** spoločenstva (keďže ponúkať podiel jednotlivo stovkám malých vlastníkov by bolo technicky oveľa náročnejšie, pričom zákon umožnuje podielnikovi využiť aj takúto osobitnú ponuku pre všetkých podielnikov, odporúčame ju rozposielať doporučenými listami).
 * **Obsah ponuky:** Musí obsahovať všetky podmienky zamýšľaného predaja – najmä presnú identifikáciu podielu (parcely, list vlastníctva), **cenu** a podmienky splatnosti. Cena pre ostatných podielnikov nemôže byť vyššia ako tá, za ktorú to nakoniec predá cudziemu človeku.
 
 ---
