@@ -4,7 +4,7 @@ title: "Výklad počítania lehôt v prípade predloženie ponuky na predaj podi
 date: 2026-05-19
 author: Ing. Matúš Ivanecký
 categories: právo
-tags: právo podielnici
+tags: právo podielnici ponuka predaj
 published: true
 ---
 

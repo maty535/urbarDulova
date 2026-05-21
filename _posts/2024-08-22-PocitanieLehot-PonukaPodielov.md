@@ -3,7 +3,7 @@ layout: post
 title: "Počítanie lehôt v prípade predloženia ponúk pre uplatnenie predkupného práva pre odpredaj podielov mimo spoločenstva"
 date: 2024-08-16
 categories: predkupne pravo
-tags: pozemky reality právo
+tags: pozemky reality právo ponuka predaj
 author: Ing. Matúš Ivanecký
 ---
 

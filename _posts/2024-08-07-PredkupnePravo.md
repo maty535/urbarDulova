@@ -3,7 +3,7 @@ layout: post
 title: "Ako postupovať pri porušení predkupného práva k nehnuteľnosti"
 date: 2024-08-07
 categories: pravo predkupne
-tags: právo zmluvy reality pozemky
+tags: právo zmluvy reality pozemky ponuka predaj
 author: Ing. Matúš Ivanecký
 ---
 
