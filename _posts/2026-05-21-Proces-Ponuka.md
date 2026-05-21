@@ -24,9 +24,9 @@ Ak chce spoluvlastník predať svoj podiel niekomu mimo spoločenstva (cudziemu 
 ---
 
 ## 2. Čo nasleduje po doručení výboru (Plynutie lehoty)
-Akonáhle výbor ponuku prevezme, do hry vstupuje pravidlo z judikátu:
+Akonáhle výbor ponuku prevezme, potom platia nasl. kritéria:
 
-* **Začiatok lehoty:** Lehota na uplatnenie predkupného práva začína plynúť **od konania najbližšieho valného zhromaždenia** (schôdze) nasledujúceho po doručení ponuky výboru.
+* **Začiatok lehoty:** Lehota na uplatnenie predkupného práva začína plynúť **od konania najbližšieho valného zhromaždenia** nasledujúceho po doručení ponuky výboru.
 * **Dĺžka lehoty:** Ak stanovy spoločenstva neurčujú inú lehotu, zo zákona (Občiansky zákonník) platí pri nehnuteľnostiach lehota **2 mesiace**.
 * **Prečo je to tak?** Súd tým chráni predávajúceho. Ak by výbor ponuku „strčil do zásuvky“ a nepovedal o nej nikomu, predávajúci by nemohol svoj podiel nikdy predať. Termín valného zhromaždenia je moment, kedy sa z právneho hľadiska predpokladá, že sa o ponuke podielnici mali možnosť dozvedieť (dostala sa do ich dispozičnej sféry).
 
