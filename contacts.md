@@ -17,6 +17,6 @@ permalink: /contacts/
 |**štatutárny zástupca spoločenstva**| +421 905 384 750|
 | **Mapa urbáru**| [prieskum na Google Earth](https://earth.google.com/earth/d/1csBx09yv7gkXudxKOTJlmR5xm45wuJYr?usp=sharing) |
 | **Finančné ukazovatele**| [finstat](https://finstat.sk/42379831) |
-| **Výpis z registra** | [vystavený 6.2.2025](https://drive.google.com/file/d/1zbh_dp0xdyEiXUla9VvpgCWPvT3tE68D/view?usp=drive_link)|
+| **Výpis z registra** | [vystavený 6.2.2025]()|
 
 
