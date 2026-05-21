@@ -8,9 +8,9 @@ tags: právo podielnici ponuka predaj
 published: true
 ---
 
-* Najvyšší súd Slovenskej republiky v právoplatnom rozhodnutí judikoval, že ak podielnik **doručí** výboru ponuku na odpredaj svojho podielu mimo spoločenstva, lehota na uplatnenie predkupného práva ostatných podielnikov začína plynúť od termínu konania najbližšieho valného zhromaždenia nasledujúceho po **doručení** tejto ponuky výboru. Tento princíp platí bez ohľadu na to, či výbor ponuku na valnom zhromaždení skutočne zverejní a prerokuje.
+* Najvyšší súd Slovenskej republiky v právoplatnom rozhodnutí judikoval, že ak podielnik **doručí** výboru ponuku na odpredaj svojho podielu mimo spoločenstva, lehota na uplatnenie predkupného práva ostatných podielnikov začína plynúť od termínu konania najbližšieho valného zhromaždenia nasledujúceho po **doručení** tejto ponuky výboru, pokiaľ nie je v stanovách spoločenstva dohodnuté inak. Tento princíp platí bez ohľadu na to, či výbor ponuku na valnom zhromaždení skutočne zverejní a prerokuje.
 
-* To znamená, že termín konania najbližšieho valného zhromaždenia je z právneho hľadiska momentom, kedy sa ponuka na odpredaj podielu **mala dostať do dispozičnej sféry** spoluvlastníkov spoločnej nehnuteľnosti. Rozhodujúce nie je to, či výbor túto ponuku uvedie v pozvánke na valné zhromaždenie, ani to, či sa ponuka na samotnom zasadnutí reálne prerokuje. Za prípadné porušenie práv podielnikov zodpovedá výbor priamo podielnikom, ktorý ho môžu v tom momente odvolať, ak nadpolovičná vačšina zdieľa takýto spôsob vyvodenia zodpovednosti voči jednotlivým členom výboru.
+* To znamená, že termín konania najbližšieho valného zhromaždenia je z právneho hľadiska momentom, kedy sa ponuka na odpredaj podielu **mala dostať do dispozičnej sféry** spoluvlastníkov spoločnej nehnuteľnosti, pokiaľ nie je v stanovách spoločenstva dohodnuté inak. Rozhodujúce nie je to, či výbor túto ponuku uvedie v pozvánke na valné zhromaždenie, ani to, či sa ponuka na samotnom zasadnutí reálne prerokuje. Za prípadné porušenie práv podielnikov zodpovedá výbor priamo podielnikom, ktorý ho môžu v tom momente odvolať, ak nadpolovičná vačšina zdieľa takýto spôsob vyvodenia zodpovednosti voči jednotlivým členom výboru.
 
 * Rozhodnutie Najvyššieho súdu SR: [6Cdo/101/2023](https://www.nsud.sk/rozhodnutia/6cdo1012023/)
 
