@@ -52,7 +52,7 @@ Ak má niekto zo spoluvlastníkov o podiel záujem, musí konať v spomínanej (
 ___
 
 ### Viac informácií:
-
+* [Predaj podielu v urbári - pohľad advokáta: Ficek&Parntners](https://vyporiadanie.sk/predaj-podielu-v-urbari-1)
 * [Počítanie lehôt](https://urbar.dulovaves.sk/predkupne/pravo/2024/08/16/PocitanieLehot-PonukaPodielov.html)
 * [Postup pri porušení predkupného práva](https://urbar.dulovaves.sk/pravo/predkupne/2024/08/07/PredkupnePravo.html)
 * [6Cdo/101/2023](https://www.nsud.sk/rozhodnutia/6cdo1012023/)
