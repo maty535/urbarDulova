@@ -29,13 +29,15 @@ permalink: /docs/
 # Zákony
 
 | Dátum           | Číslo     | Názov             |
-|:-------------   |:------------------|:------------------|
+|:-------------   |:----------|:------------------|
 |26.3. 2013        |[97/2013](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/97/) |[O pozemkových spoločenstvách](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/97/)|
 |23.06.2005        |[326/2005](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2005/326/) |[O lesoch](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2005/326/)|
 |16.6. 2009        |[204/2009](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2009/274/20221015) |[O poľovníctve](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2009/274/20221015)|
 |26.2. 1964        |[40/1964](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1964/40/20241101) |[OBČIANSKY ZÁKONNÍK](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1964/40/20241101)|
 |13.7. 2000        |[211/2000](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2000/211/) |[Zákon o slobodnom prístupe k informáciám ](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2000/211/) |
 |04.8. 1995       |[162/1995](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1995/162/) |[Katastrálny zákon](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1995/162/) |
+| 18. 06. 2002    |[431/2002](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2002/431/) | [O účtovníctve](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2002/431/)|
+| 04. 12. 2003| [595/2003](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2003/595) |  [O dani z príjmov](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2003/595) |
 | 25.10. 2016 |[307/2016](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2016/307/)|[O upomínacom konaní a o doplnení niektorých zákonov](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2016/307/)|
 
 
