@@ -1,7 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main # Branch to update (optional; defaults to master)
   repo: maty535/urbarDulova # Zmeňte na váš názov (napr. jozko/moj-web)
+  base_url: https://vercel.app
   
 media_folder: 'assets/uploads'
 
