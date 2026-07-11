@@ -2,7 +2,8 @@ backend:
   name: github
   branch: main # Branch to update (optional; defaults to master)
   repo: maty535/urbarDulova # Zmeňte na váš názov (napr. jozko/moj-web)
-  base_url: https://vercel.app
+  base_url: https://decap-cms-vercel-flame.vercel.app
+  auth_endpoint: /api/auth
   
 media_folder: 'assets/uploads'
 
