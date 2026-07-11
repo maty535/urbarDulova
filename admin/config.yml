@@ -17,9 +17,11 @@ collections:
     summary: "📅 {{date | date('D.M.YYYY')}} | ✍️ {{author}} | {{title}} |"
     fields:
       - { label: "Názov", name: "title", widget: "string" }
+      - { label: "Publikované", name: "published", widget: "boolean", default: true }
       - { label: "Dátum", name: "date", widget: "datetime" }
       - { label: "Autor", name: "author", widget: "string", default: "výbor spoločenstva" }
       - { label: "Kategórie", name: "categories", widget: "string" }
       - { label: "Tagy", name: "tags", widget: "string" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Obsah", name: "body", widget: "markdown" }
+      
