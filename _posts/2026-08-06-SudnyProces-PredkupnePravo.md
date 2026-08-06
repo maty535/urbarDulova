@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Neprávoplatné rozhodnutie v spore o predkupné právo"
+title: "Neprávoplatné rozhodnutie v spore o predkupné právo 17C/51/2023"
 date: 2026-08-06
 author: Ing. Matúš Ivanecký
 categories: právo
