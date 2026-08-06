@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Neprávoplatne rozhodnutie v spore o predkupné právo"
+title: "Neprávoplatné rozhodnutie v spore o predkupné právo"
 date: 2026-08-06
 author: Ing. Matúš Ivanecký
 categories: právo
@@ -16,15 +16,15 @@ published: true
 ## Výroky rozhodnutia:
 
 ### I.Súd u r č u j e , že kúpna zmluva uzatvorená medzi žalovaným v 1. rade ako
-kupujúcim a žalovanou v 2. rade ako predávajúcou dňa 30.03.2022, na základe ktorej
+kupujúcim a žalovanou v 2. rade ako predávajúcou dňa **30.03.2022**{: style="color: red;" }, na základe ktorej
 bol vklad vlastníckeho práva povolený Okresným úradom Prešov, katastrálnym
-odborom pod **V-2872/2022 dňa 26.04.2022 je neplatná**{: style="color: red;" }.
+odborom pod V-2872/2022 dňa 26.04.2022 **je neplatná**{: style="color: red;" }.
 
 
 ### II.Súd u r č u j e , že kúpna zmluva uzatvorená medzi žalovaným v 1. rade ako
-kupujúcim a žalovanou v 2. rade ako predávajúcou dňa 20.05.2022, na základe ktorej
+kupujúcim a žalovanou v 2. rade ako predávajúcou dňa **20.05.2022**{: style="color: red;" }, na základe ktorej
 bol vklad vlastníckeho práva povolený Okresným úradom Prešov, katastrálnym
-odborom pod **V-4718/2022 dňa 07.06.2022 je neplatná**{: style="color: red;" } .
+odborom pod V-4718/2022 dňa 07.06.2022 **je neplatná**{: style="color: red;" } .
 
 ### III.Žalobu žalobcu v 5. rade o nahradenie prejavu vôle z a m i e t a .
 
