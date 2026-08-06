@@ -15,25 +15,16 @@ published: true
 
 ## Výroky rozhodnutia:
 
-### I.Súd u r č u j e , že kúpna zmluva uzatvorená medzi žalovaným v 1. rade ako
-kupujúcim a žalovanou v 2. rade ako predávajúcou dňa **30.03.2022**{: style="color: red;" }, na základe ktorej
-bol vklad vlastníckeho práva povolený Okresným úradom Prešov, katastrálnym
-odborom pod V-2872/2022 dňa 26.04.2022 **je neplatná**{: style="color: red;" }.
+### I.Súd u r č u j e , že kúpna zmluva uzatvorená medzi žalovaným v 1. rade ako kupujúcim a žalovanou v 2. rade ako predávajúcou dňa **30.03.2022**{: style="color: red;" }, na základe ktorej bol vklad vlastníckeho práva povolený Okresným úradom Prešov, katastrálnym odborom pod V-2872/2022 dňa 26.04.2022 **je neplatná**{: style="color: red;" }.
 
 
-### II.Súd u r č u j e , že kúpna zmluva uzatvorená medzi žalovaným v 1. rade ako
-kupujúcim a žalovanou v 2. rade ako predávajúcou dňa **20.05.2022**{: style="color: red;" }, na základe ktorej
-bol vklad vlastníckeho práva povolený Okresným úradom Prešov, katastrálnym
-odborom pod V-4718/2022 dňa 07.06.2022 **je neplatná**{: style="color: red;" } .
+### II.Súd u r č u j e , že kúpna zmluva uzatvorená medzi žalovaným v 1. rade ako kupujúcim a žalovanou v 2. rade ako predávajúcou dňa **20.05.2022**{: style="color: red;" }, na základe ktorej bol vklad vlastníckeho práva povolený Okresným úradom Prešov, katastrálnym odborom pod V-4718/2022 dňa 07.06.2022 **je neplatná**{: style="color: red;" } .
 
-### III.Žalobu žalobcu v 5. rade o nahradenie prejavu vôle z a m i e t a .
+### III.Žalobu žalobcu v 5. rade o nahradenie prejavu vôle **zamieta**{: style="color: red;" } .
 
-### IV.Žalobcovia v 1. až 5. rade m a j ú voči žalovaným v 1. a 2. rade spoločne a
-nerozdielne nárok na náhradu trov konania v časti o určenie neplatnosti kúpnych
-zmlúv v plnom rozsahu.
+### IV.Žalobcovia v 1. až 5. rade **majú**{: style="color: red;" } voči žalovaným v 1. a 2. rade spoločne a nerozdielne nárok na náhradu trov konania v časti o určenie neplatnosti kúpnych zmlúv v plnom rozsahu.
 
-### V.Žalovaná v 2. rade m á voči žalobcovi v 5. rade nárok na náhradu trov konania o
-nahradenie prejavu vôle v plnom rozsahu.
+### V.Žalovaná v 2. rade **má**{: style="color: red;" } voči žalobcovi v 5. rade nárok na náhradu trov konania o nahradenie prejavu vôle v plnom rozsahu.
 
 
 
