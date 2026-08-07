@@ -10,7 +10,7 @@ published: true
 
 # 18.6.2026 Okresný súd v Prešove rozhodol o relatívnej neplatnosti kúpnych zmlúv
 
-* [Neprávoplatné rozhodnutie v spore](https://drive.google.com/file/d/1_HIlNK8Q-Pa5pKVkF-66XJd1vWUaBP_h/view?usp=drive_link)
+* [Neprávoplatné rozhodnutie v spore 17C/51/2023](https://drive.google.com/file/d/1_HIlNK8Q-Pa5pKVkF-66XJd1vWUaBP_h/view?usp=drive_link)
 * Proti výrokom rozhodnutia **I., II. a IV.**{: style="color: red;" } podali odvolanie v zákonnej lehote žalovaní a proti výroku **V.**{: style="color: red;" } žalobca v 5.rade
 
 ## Výroky rozhodnutia:
@@ -26,11 +26,7 @@ published: true
 
 ### V.Žalovaná v 2. rade **má**{: style="color: red;" } voči žalobcovi v 5. rade nárok na náhradu trov konania o nahradenie prejavu vôle v plnom rozsahu.
 
-
-
-
 ___
-
 
 ## Kľúčové právne citácie:
 
@@ -68,5 +64,5 @@ ___
 
 ### Viac informácií:
 * [Prehľad súdneho procesu](https://otvorenesudy.sk/proceedings/3952575)
-* [Neprávoplatné rozhodnutie v spore](https://drive.google.com/file/d/1_HIlNK8Q-Pa5pKVkF-66XJd1vWUaBP_h/view?usp=drive_link)
+* [Neprávoplatné rozhodnutie v spore 17C/51/2023](https://drive.google.com/file/d/1_HIlNK8Q-Pa5pKVkF-66XJd1vWUaBP_h/view?usp=drive_link)
 * [Rozhodnutie najvyššieho súdu týkajúce sa merita veci 6Cdo/101/2023](https://www.nsud.sk/rozhodnutia/6cdo1012023/)
