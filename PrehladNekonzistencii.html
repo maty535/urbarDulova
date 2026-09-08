@@ -207,8 +207,14 @@
                     autosize: true,
                     margin: { t: 40, b: 40, l: 40, r: 20 }
                 };
+                
+                const config = {
+                    // Odstráni tlačidlo "Compare data on hover" z hornej lišty grafu
+                    modeBarButtonsToRemove: ['hoverCompareCartesian'], 
+                    responsive: true
+                };
 
-                Plotly.react('plotly-chart', [trace], layout).then(() => {
+                Plotly.react('plotly-chart', [trace], layout, config).then(() => {
                     const plotlyDiv = document.getElementById('plotly-chart');
                     plotlyDiv.removeAllListeners('plotly_click');
                     plotlyDiv.on('plotly_click', function(data){
