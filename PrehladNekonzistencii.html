@@ -169,6 +169,12 @@
                 font-weight: bold;
                 color: #343a40;
             }
+
+            /* Zvýraznenie katastrálnych zápisov (napr. Z 6749/2012, V 123/2020) */
+            .kataster-mark {
+                color: #dc3545;
+                font-weight: bold;
+            }
         </style>
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     </head>
@@ -224,7 +230,13 @@
 
             // Pomocná funkcia na odstránenie diakritiky a prevod na malé písmená
             function removeDiacritics(str) {
-                return (str || '').normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+                return (str || '').normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+            }
+
+            // Zvýraznenie katastrálnych konaní/zápisov (napr. Z 6749/2012, V 1234/2020, R 56/2015, NZ 12/2021)
+            function highlightKataster(text) {
+                if (!text) return '';
+                return String(text).replace(/\b([A-Za-z]{1,3}[\s-]*\d+\/\d{2,4})\b/g, '<span class="kataster-mark">$1</span>');
             }
 
             function getFilteredData() {
@@ -340,18 +352,19 @@
 
             /* Logika vlastného tooltipu */
             function buildTooltipHTML(row) {
-                const adresaText = row['Adresa'] ? row['Adresa'] : 'neuvedená';
+                const adresaText = row['Adresa'] ? highlightKataster(row['Adresa']) : 'neuvedená';
                 const dobText = row['DOB'] ? row['DOB'] : 'neuvedený';
                 
                 let lvTableHtml = '';
                 if (row['DetailyLV'] && row['DetailyLV'].length > 0) {
                     let rowsHtml = '';
                     row['DetailyLV'].forEach(item => {
+                        const titulHighlight = highlightKataster(item.titul || 'Bez titulu');
                         rowsHtml += `
                             <tr>
                                 <td><b>LV ${item.lv}</b></td>
                                 <td style="text-align: center;">${item.podiel}</td>
-                                <td>${item.titul || 'Bez titulu'}</td>
+                                <td>${titulHighlight}</td>
                             </tr>
                         `;
                     });
