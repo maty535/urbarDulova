@@ -12,9 +12,13 @@ published: true
 
 - Skontrolujete si Vaše zápisy v katastri nehnuteľností a prípadne požiadajte kataster o opravu, aktualizáciu Vašich informácii na základe bezplatnej žiadosti o opravu :
   -  Žiadosť: zmena mena, priezviska alebo adresy trvalého pobytu. 
-  Na vštkých LV by mali byť Vaše identifikačné údaje rovnaké.
+  Na všetkých LV by mali byť Vaše identifikačné údaje rovnaké.
 
-  - Ako pomôcku pre zistenie a vyhľadanie rozdielov si dajte do vyhľadania napr. Váš dátum norodenia, atd, atd.
+  - Ako pomôcku pre zistenie a vyhľadanie rozdielov si dajte do vyhľadania napr. Váš dátum norodenia, atd, atd:
 
-* [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 4.9.2026]({{ '/KatastralneInformacie' | relative_url }})
+    * [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 4.9.2026]({{ '/KatastralneInformacie' | relative_url }})
+
+___
+
+ * [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 4.9.2026]({{ '/KatastralneInformacie' | relative_url }})
 * [Nekonzistencie podielov k 4.9.2026 - grafické zobrazenie]({{ '/PrehladNekonzistencii' | relative_url }})
