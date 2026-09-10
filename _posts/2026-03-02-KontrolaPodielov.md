@@ -40,6 +40,7 @@ Zdroj: [Zákon o pozemkových spoločenstvách 97/2013](https://www.slov-lex.sk/
 
 _____
 
+* [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 4.9.2026]({{ '/KatastralneInformacie' | relative_url }})
+* [Nekonzistencie podielov k 4.9.2026 - grafické zobrazenie]({{ '/PrehladNekonzistencii' | relative_url }})
 * [Nekonzistencie podielov k 28.2.2026](https://urbar.dulovaves.sk/rozdielyVlastnici)
 * [AUDIT všetkých podielov k 28.2.2026](https://urbar.dulovaves.sk/audit)
-* [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti](https://urbar.dulovaves.sk/KatastralneInformacie)
