@@ -185,7 +185,7 @@ samostatných pozemkov. Podiel na spoločnej nehnuteľnosti nemožno previesť l
 niektorých pozemkoch tvoriacich spoločnú nehnuteľnosť.“
 <br/><br/>
 
-- Podľa <a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1964/40/20260731#paragraf-39">§ 39 zákona č. 40/1964 Zb. (Občiansky zákonník)</a>:
+- Podľa <a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1964/40/#paragraf-39">§ 39 zákona č. 40/1964 Zb. (Občiansky zákonník)</a>:
 „Neplatný je právny úkon, ktorý svojím obsahom alebo účelom odporuje zákonu alebo ho obchádza alebo sa prieči dobrým mravom.“
 
 <br/><br/>
