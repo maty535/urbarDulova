@@ -27,7 +27,7 @@ published: true
 </ul>
 {% endalert %}
 
-  - Ako pomôcku pre zistenie a vyhľadanie rozdielov si dajte do vyhľadania napr. Váš dátum norodenia, atd, atd:
+  - Ako pomôcku pre zistenie a vyhľadanie rozdielov si dajte do vyhľadania napr. Váš dátum narodenia, atd, atd:
 
     * [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 4.9.2026]({{ '/KatastralneInformacie' | relative_url }})
 
