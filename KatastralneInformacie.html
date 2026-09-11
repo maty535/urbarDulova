@@ -195,6 +195,10 @@
             <label id="stat-label">Súčet výmer</label>
             <span id="total-visible-m2">0.00 m²</span>
         </div>
+        <div class="stat-box" style="border-left-color: #dc3545;"> 
+            <label id="stat-label"> % podiel z celku</label>
+            <span id="total-visible-percent"> 0.00%</span>
+        </div>
     </div>
 
     <div class="table-container">
@@ -343,6 +347,8 @@ function render() {
 
     body.innerHTML = html || '<tr><td colspan="5" style="text-align: center; padding: 30px;">Žiadne výsledky.</td></tr>';
     document.getElementById('total-visible-m2').textContent = totalM2.toLocaleString('sk-SK', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + " m²";
+    document.getElementById('total-visible-percent').textContent = flatData.length > 0 ? (totalM2 / Object.values(lvMetadata).reduce((a,b)=>a+b,0) * 100).toFixed(2) + "%" : "0.00%";   
+
 }
 
 document.getElementById('lv-select').onchange = render;
