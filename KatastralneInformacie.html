@@ -21,7 +21,7 @@
         /* Dashboard */
         .controls {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 15px;
             background: white;
             padding: 20px;
@@ -41,6 +41,31 @@
             font-size: 15px;
             outline: none;
             box-sizing: border-box;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            font-weight: normal;
+            color: var(--primary);
+            cursor: pointer;
+            text-transform: none !important;
+            margin-bottom: 0 !important;
+        }
+
+        .checkbox-label input {
+            width: auto;
+            margin-right: 8px;
+            transform: scale(1.2);
+            cursor: pointer;
         }
 
         .stat-box {
@@ -153,7 +178,18 @@
         </div>
         <div class="control-group">
             <label>Vyhľadávanie</label>
-            <input type="text" id="search-input" placeholder="Vyhľadať: Meno, ID, dátum narodenia, text ...">
+            <input type="text" id="search-input" placeholder="Meno, ID, text...">
+        </div>
+        <div class="control-group">
+            <label>Filtre záznamov</label>
+            <div class="checkbox-group">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="poznamky-checkbox"> Iba s poznámkou / plombou
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="ine-udaje-checkbox"> Iba s inými údajmi
+                </label>
+            </div>
         </div>
         <div class="stat-box">
             <label id="stat-label">Súčet výmer</label>
@@ -208,8 +244,8 @@ async function loadData() {
                     id: parseInt(v.Id) || 0,
                     meno: v.Meno || "",
                     podiel: v.Podiel || "0/1",
-                    podiel_val: c / (m || 1), // Pre sortovanie
-                    m2_val: m2,               // Pre sortovanie
+                    podiel_val: c / (m || 1),
+                    m2_val: m2,
                     titul: v["Titul nadobudnutia"] || "",
                     ineUdaje: v["Iné údaje"] || "",
                     poznamky: v["Poznámky"] || ""
@@ -250,13 +286,21 @@ function sortTable(column) {
 function render() {
     const selectedLV = document.getElementById('lv-select').value;
     const query = document.getElementById('search-input').value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const onlyPoznamky = document.getElementById('poznamky-checkbox').checked;
+    const onlyIneUdaje = document.getElementById('ine-udaje-checkbox').checked;
     const body = document.getElementById('table-body');
     
     // Filtrovanie
     let filtered = flatData.filter(v => {
         const matchesLV = (selectedLV === 'all' || v.lv.toString() === selectedLV);
         const searchPool = `${v.id} ${v.meno} ${v.titul} ${v.ineUdaje} ${v.poznamky}`.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-        return matchesLV && searchPool.includes(query);
+        const matchesSearch = searchPool.includes(query);
+        
+        // Podmienky pre checkboxy
+        const matchesPoznamky = !onlyPoznamky || (v.poznamky && v.poznamky.trim() !== "");
+        const matchesIneUdaje = !onlyIneUdaje || (v.ineUdaje && v.ineUdaje.trim() !== "");
+
+        return matchesLV && matchesSearch && matchesPoznamky && matchesIneUdaje;
     });
 
     // Sortovanie
@@ -303,6 +347,8 @@ function render() {
 
 document.getElementById('lv-select').onchange = render;
 document.getElementById('search-input').oninput = render;
+document.getElementById('poznamky-checkbox').onchange = render;
+document.getElementById('ine-udaje-checkbox').onchange = render;
 window.onload = loadData;
 </script>
 
