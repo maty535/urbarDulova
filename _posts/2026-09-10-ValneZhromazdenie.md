@@ -11,6 +11,8 @@ published: true
 - Výbor urbáru sa 7.9.2026 dohodol na termíne Valného zhromaždenia v roku 2026, ktoré je predbežne plánované na **Nedeľu 8.11.2026** v **kultúrnom dome v Dulovej Vsi o 15.00 h**.
 * ![Spoločná nehnuteľnosť]({{ '/assets/img/PrehladPozemkov.png' | relative_url }})
 
+### Upozornenie podielnikov na kotrolu a aktualizáciu svojich údajov v KN:
+
 {% alert caution %} Skontrolujete si Vaše zápisy v katastri nehnuteľností a prípadne požiadajte kataster o opravu, aktualizáciu Vašich informácii na základe bezplatnej žiadosti o opravu :
 <ul>
 <li>
@@ -163,7 +165,7 @@ Medzi vlastníkov, ktorí si potrebujú aktualizovať svoje údaje, resp. opravi
 
 {% alert  warning %}
 <ul>
-<li> Upozornujeme podielnikov, že po <a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2018/110/">novele zákona 110/2018 Z. z.</a> o <a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/">pozemkových spoločenstvách</a>  účinnej od <b style="color: red;">1.10.2018</b> už nemôže pri prevode (kúpa, predaj, darovanie) alebo prechode(dedenie, resp. iné  rozhodnutie štátnych orgánov) podielu na spoločnej nehnuteľnosti vzniknúť podiel menší ako <b style="color: red;">2000 m2</b> a rovnako sa musí podiel prevádzať na všetkých parcelách v identickej výške, ako bol prevádzaný podiel, alebo jeho proporcionálna časť, nemože dojsť k vynechaniu nejakej parcely. Všetky prevody, ktoré nespĺňajú tieto kritéria sú z povahy zákona o pozemkových spoločenstvách  <b style="color: red;">absolútne neplatné</b>.
+<li> Upozornujeme podielnikov, že po <a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2018/110/">novele zákona 110/2018 Z. z.</a> o <a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/">pozemkových spoločenstvách</a>  účinnej od <b style="color: red;">1.10.2018</b> už nemôže pri prevode (kúpa, predaj, darovanie) a ani pri prechode (dedenie, resp. iné  rozhodnutie štátnych orgánov) podielu na spoločnej nehnuteľnosti vzniknúť podiel menší ako <b style="color: red;">2000 m2</b> a rovnako sa musí podiel prevádzať na všetkých parcelách v identickej výške, ako bol prevádzaný podiel, alebo jeho proporcionálna časť, nemože dojsť k vynechaniu nejakej parcely. Všetky realizované prevody a prechody vlastníckych práv po 1.10.2018, ktoré nespĺňajú tieto kritéria sú kvôli rozporu so <a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/#paragraf-9.odsek-9">zákonom o pozemkových spoločenstvách 97/2013</a>  <b style="color: red;">absolútne neplatné</b>.
 </li>
 </ul>
 {% endalert %}
@@ -172,7 +174,29 @@ Medzi vlastníkov, ktorí si potrebujú aktualizovať svoje údaje, resp. opravi
 
     * [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 4.9.2026]({{ '/KatastralneInformacie' | relative_url }})
 
+
 ___
 
- * [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 4.9.2026]({{ '/KatastralneInformacie' | relative_url }})
+### Dôležité právne citácie:
+
+{% alert tip %} 
+„Spoločná nehnuteľnosť je jedna nedeliteľná vec, ktorá pozostáva z viacerých
+samostatných pozemkov. Podiel na spoločnej nehnuteľnosti nemožno previesť len na
+niektorých pozemkoch tvoriacich spoločnú nehnuteľnosť.“
+<br/><br/>
+
+- Podľa <a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1964/40/20260731#paragraf-39">§ 39 zákona č. 40/1964 Zb. (Občiansky zákonník)</a>:
+„Neplatný je právny úkon, ktorý svojím obsahom alebo účelom odporuje zákonu alebo ho obchádza alebo sa prieči dobrým mravom.“
+
+<br/><br/>
+
+- Podľa <a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/#paragraf-9.odsek-9">§ 9 odsek 9 zákona 97/2013 o pozemkových spoločenstvách</a> Prevod alebo prechod vlastníckeho práva k podielu na spoločnej nehnuteľnosti len na  niektorých pozemkoch patriacich do spoločnej nehnuteľnosti je zakázaný.
+
+<br/><br/>
+
+{% endalert %}
+
+___
+
+* [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 4.9.2026]({{ '/KatastralneInformacie' | relative_url }})
 * [Nekonzistencie podielov k 4.9.2026 - grafické zobrazenie]({{ '/PrehladNekonzistencii' | relative_url }})
