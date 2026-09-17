@@ -77,12 +77,11 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 
 ### Majetková podstata
 
-<a href="https://zbgis.skgeodesy.sk/mapka/sk/kataster/detail/kataster/list-vlastnictva/813591/414?pos=48.950328,21.301197,16" 
+<a href="https://zbgis.skgeodesy.sk/mapka/c/JDuJe" 
    target="_blank" 
    class="btn btn-primary">
   <i class="fa-solid fa-map-location-dot me-2"></i> Zobraziť na mape
 </a>
-
 
 | : K.ú. :    |   : LV :  |: Typ pozemkov      :| : Výmera [ha] : |
 | :---------: | :-------: | :-------------------| ---------------:|
@@ -96,12 +95,7 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 | ŽEHŇA      | <span style="white-space: nowrap; display: inline-block;">[1050 <i class="fa-regular fa-file-lines ms-1" title="Zobraziť výpis LV"></i>]({{ page.kataster_lv_uri_prefix_zehna }}1050){:target="_blank"}&nbsp;[<i class="fa-solid fa-map-location-dot" title="Zobraziť na mape"></i>]({{ page.kataster_map_uri_prefix }}874159/1050){:target="_blank"}</span> | Lesný pozemok | 0.0287 |
 | Spolu:   {: style=";font-weight: bold; border-top: 2px solid black;" } | 128.6889 {: style=";font-weight: bold; border-top: 2px solid black;" }  :|||
 
-<iframe src="https://zbgis.skgeodesy.sk/mapka/e/Fi4wu?pos=48.945004,21.304673,13&bm=orto" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-
-![Typ spoločných pozemkov](https://github.com/user-attachments/assets/a14b834c-ce20-4120-9a46-1a3f0e7e6fdf)
-
-[Zobraziť mapu](https://zbgis.skgeodesy.sk/mapka/c/Fi4wu)
+<iframe src="https://zbgis.skgeodesy.sk/mapka/e/N2iiB?pos=48.941948,21.305136,14&bm=orto" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>)
 
 # Mapa urbárskych pozemkov
 ![image](/assets/img/2024-12-25-MapaUrbaru-small.png)
