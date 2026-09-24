@@ -24,8 +24,4 @@ Táto väčšina sa vyžaduje na zásadné strategické rozhodnutia, kde predtý
 ### 2. Nadpolovičná väčšina hlasov členov, ktorých podiely NESPRAVUJE Slovenský pozemkový fond (SPF)
 Pri bežných prevádzkových otázkach, ako je voľba a odvolávanie členov výboru alebo dozornej rady, schvaľovanie ročnej závierky či rozhodovanie o rozdelení zisku, sa hlasy SPF vôbec **nezapočítavajú do základu**. Rozhoduje sa nadpolovičnou väčšinou hlasov „známych“ súkromných vlastníkov.
 
-Ešte raz ďakujem za upozornenie a opravu. 
-
-Ak momentálne pripravujete valné zhromaždenie, môžeme sa pozrieť na to, ako presne pre váš prípad **vypočítať potrebný počet hlasov** (kvorum) po odpočítaní neznámych vlastníkov, alebo ako správne nastaviť **korešpondenčné hlasovanie**, ak by hrozila nízka účasť. Čo z toho by vám pomohlo?
-
 
