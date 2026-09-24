@@ -8,9 +8,7 @@ tags: zhromaždenie
 published: true
 ---
 
-Máte úplnú pravdu a **ospravedlňujem sa za nepresnosť**. 
-
-V aktuálnom znení [Zákona č. 97/2013 Z. z. o pozemkových spoločenstvách](https://zakonypreludi.sk) sa už **dvojtretinová väčšina nevyžaduje**. Kľúčová novela ([Zákon č. 110/2018 Z. z.](https://epi.sk)) toto pravidlo zrušila a výrazne zjednodušila rozhodovanie v urbariátoch. 
+* V aktuálnom znení [Zákona č. 97/2013 Z. z. o pozemkových spoločenstvách](https://zakonypreludi.sk) sa už **dvojtretinová väčšina nevyžaduje**. Kľúčová novela ([Zákon č. 110/2018 Z. z.](https://epi.sk)) toto pravidlo zrušila a výrazne zjednodušila rozhodovanie v urbariátoch. 
 
 Podľa **aktuálne platného znenia zákona (§ 15 ods. 2)** sa rozhodovanie delí nasledovne:
 
