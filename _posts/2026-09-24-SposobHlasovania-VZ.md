@@ -22,7 +22,7 @@ Táto väčšina sa vyžaduje na zásadné strategické rozhodnutia, kde predtý
 *Upozornenie:* Stále platí, že nadpolovičná väčšina sa počíta z **celkového počtu hlasov (výmery) všetkých členov** spoločenstva (po odpočítaní neznámych vlastníkov, ktorí nemajú správcu), nie iba z prítomných na schôdzi.
 
 ### 2. Nadpolovičná väčšina hlasov (výmery) členov, ktorých podiely NESPRAVUJE Slovenský pozemkový fond (SPF)
-Pri bežných prevádzkových otázkach, ako je voľba a odvolávanie členov výboru alebo dozornej rady, schvaľovanie ročnej závierky či rozhodovanie o rozdelení zisku, sa podiely SPF vôbec **nezapočítavajú do základu**. Rozhoduje sa nadpolovičnou väčšinou výmery ($m^2$) patriacej „známym“ súkromným vlastníkom.
+Pri bežných prevádzkových otázkach, ako je voľba a odvolávanie členov výboru alebo dozornej rady, schvaľovanie ročnej závierky či rozhodovanie o rozdelení zisku, sa podiely SPF vôbec **nezapočítavajú do základu**. Rozhoduje sa nadpolovičnou väčšinou výmery (m²) patriacej „známym“ súkromným vlastníkom.
 
 
 
