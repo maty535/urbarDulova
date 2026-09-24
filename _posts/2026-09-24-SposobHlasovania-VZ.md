@@ -8,7 +8,7 @@ tags: zhromaždenie
 published: true
 ---
 
-V aktuálnom znení [Zákona č. 97/2013 Z. z. o pozemkových spoločenstvách](https://zakonypreludi.sk) sa už **dvojtretinová väčšina (výmery) nevyžaduje**. Kľúčová novela ([Zákon č. 110/2018 Z. z.](https://epi.sk)) toto pravidlo zrušila a výrazne zjednodušila rozhodovanie v urbariátoch. 
+V aktuálnom znení [Zákona č. 97/2013 Z. z. o pozemkových spoločenstvách](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/) sa už **dvojtretinová väčšina (výmery) nevyžaduje**. Kľúčová novela ([Zákon č. 110/2018 Z. z.](https://epi.sk)) toto pravidlo zrušila a výrazne zjednodušila rozhodovanie v urbariátoch. 
 
 Podľa **aktuálne platného znenia zákona (§ 15 ods. 2)** sa rozhodovanie delí nasledovne:
 
@@ -31,7 +31,7 @@ Pri bežných prevádzkových otázkach, ako je voľba a odvolávanie členov v�
 
 * Ak riadne zasadnutie zhromaždenia (valná hromada) nebolo uznášaniaschopné, zákon ponúka riešenie vo forme **mimoriadneho zasadnutia zhromaždenia**. Rozhodovanie na ňom má však veľmi špecifické pravidlá a striktné zákonné obmedzenia.
 
-Podľa platného **§ 15 ods. 5 [Zákona č. 97/2013 Z. z. o pozemkových spoločenstvách](https://zakonypreludi.sk)** sa na mimoriadnom zhromaždení postupuje nasledovne:
+Podľa platného **[§ 15 ods. 5 Zákona č. 97/2013 Z. z. o pozemkových spoločenstvách](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/#paragraf-15.odsek-5)** sa na mimoriadnom zhromaždení postupuje nasledovne:
 
 ### 1. Kedy je možné ho zvolať?
 Výbor môže zvolať mimoriadne zasadnutie vtedy, ak sa na riadnom zhromaždení nezúčastnili členovia, ktorí disponujú nadpolovičnou väčšinou všetkých hlasov. To znamená, že riadne zhromaždenie nebolo vôbec schopné o bodoch programu rozhodnúť.
@@ -61,4 +61,4 @@ Všetky bežné prevádzkové záležitosti, na ktorých sa spoločenstvo zasekl
 *   Bežné záležitosti týkajúce sa hospodárenia v lese a s majetkom.
 
 ### Alternatíva: Pozor na možnosť „čiastkových schôdzí“ v pozvánke
-Zákon v § 14 ods. 3 dáva výboru ešte jednu možnosť: Výbor môže už do **pôvodnej pozvánky** na riadne zhromaždenie napísať formulu, že ak nepríde dostatok ľudí, toto zasadnutie sa automaticky považuje za *prvú čiastkovú schôdzu*. V pozvánke rovno určí čas a miesto konania ďalších čiastkových schôdzí. Na čiastkových schôdzach sa hlasy zo všetkých stretnutí sčítavajú, čo je iný spôsob, ako bojovať s nízkou účasťou bez obmedzení, ktoré má mimoriadne zhromaždenie.
+Zákon v [§ 14 ods. 3](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/#paragraf-14.odsek-3) dáva výboru ešte jednu možnosť: Výbor môže už do **pôvodnej pozvánky** na riadne zhromaždenie napísať formulu, že ak nepríde dostatok ľudí, toto zasadnutie sa automaticky považuje za *prvú čiastkovú schôdzu*. V pozvánke rovno určí čas a miesto konania ďalších čiastkových schôdzí. Na čiastkových schôdzach sa hlasy zo všetkých stretnutí sčítavajú, čo je iný spôsob, ako bojovať s nízkou účasťou bez obmedzení, ktoré má mimoriadne zhromaždenie.
