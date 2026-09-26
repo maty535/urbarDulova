@@ -14,16 +14,17 @@ Podľa **aktuálne platného znenia zákona (§ 15 ods. 2)** sa rozhodovanie del
 
 ## Riadne valné zhromaždenie
 
-### 1. Nadpolovičná väčšina hlasov (výmery) VŠETKÝCH členov
+### 1. Nadpolovičná väčšina hlasov (výmery) VŠETKÝCH známych členov a správcov
 Táto väčšina sa vyžaduje na zásadné strategické rozhodnutia, kde predtým bývala potrebná spomínaná 2/3 väčšina. Konkrétne ide o:
 *   Schvaľovanie **zmluvy o spoločenstve a jej zmien**.
 *   Schvaľovanie **stanov a ich zmien**.
+*   Rozhodovanie o **oddelení časti spoločnej nehnutellnosti**.
 *   Rozhodovanie o **vstupe do obchodnej spoločnosti alebo družstva**.
 *   Rozhodovanie o **zrušení spoločenstva**.
 
-*Upozornenie:* Stále platí, že nadpolovičná väčšina sa počíta z **celkového počtu hlasov (výmery) všetkých členov** spoločenstva (po odpočítaní neznámych vlastníkov, ktorí nemajú správcu), nie iba z prítomných na schôdzi.
+*Upozornenie:* Stále platí, že nadpolovičná väčšina sa počíta z **celkového počtu hlasov (výmery) všetkých členov** spoločenstva (po odpočítaní neznámych (zomrelých) vlastníkov, ktorí nemajú správcu), nie iba z prítomných na schôdzi.
 
-### 2. Nadpolovičná väčšina hlasov (výmery) členov, ktorých podiely NESPRAVUJE Slovenský pozemkový fond (SPF)
+### 2. Nadpolovičná väčšina hlasov (výmery) známych členov, ktorých podiely NESPRAVUJE Slovenský pozemkový fond (SPF)
 Pri bežných prevádzkových otázkach, ako je voľba a odvolávanie členov výboru alebo dozornej rady, schvaľovanie ročnej závierky či rozhodovanie o rozdelení zisku, sa podiely SPF vôbec **nezapočítavajú do základu**. Rozhoduje sa nadpolovičnou väčšinou výmery (m²) patriacej „známym“ súkromným vlastníkom.
 
 
