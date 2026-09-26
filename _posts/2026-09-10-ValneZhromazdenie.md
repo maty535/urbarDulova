@@ -174,7 +174,7 @@ Medzi vlastníkov, ktorí si potrebujú aktualizovať svoje údaje, resp. opravi
 
   - Ako pomôcku pre zistenie a vyhľadanie rozdielov si dajte do vyhľadania napr. Váš dátum narodenia, atd, atd:
 
-    * [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 4.9.2026]({{ '/KatastralneInformacie' | relative_url }})
+    * [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 25.9.2026]({{ '/KatastralneInformacie' | relative_url }})
 
 
 ___
@@ -200,5 +200,5 @@ niektorých pozemkoch tvoriacich spoločnú nehnuteľnosť.“
 
 ___
 
-* [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 4.9.2026]({{ '/KatastralneInformacie' | relative_url }})
+* [Prehľad katastrálných informácií spoluvlastníkov spoločnej nehnuteľnosti k 25.9.2026]({{ '/KatastralneInformacie' | relative_url }})
 * [Nekonzistencie podielov k 4.9.2026 - grafické zobrazenie]({{ '/PrehladNekonzistencii' | relative_url }})
