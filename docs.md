@@ -26,7 +26,7 @@ permalink: /docs/
 | 23.12.2025   | [Ǔčasť podielnikov na právach a povinnostiach v pozemkovom spoločenstve](https://urbar.dulovaves.sk/ucast) |
 | 28.02.2026   | [Audit vlastníckych podielov](https://urbar.dulovaves.sk/podielnici/kataster/2026/03/02/KontrolaPodielov.html) - [Report nekonzistencii](https://urbar.dulovaves.sk/rozdielyVlastnici) |
 | 04.09.2026   | [Prehľad nekonzistencíí podielov v grafickom zobrazení]({{ '/PrehladNekonzistencii' | relative_url }}) |
-| 04.09.2026   | [Prehľad katastrálnych informácii]({{ '/KatastralneInformacie' | relative_url }}) |
+| 25.09.2026   | [Prehľad katastrálnych informácii]({{ '/KatastralneInformacie' | relative_url }}) |
 
 
 # Zákony

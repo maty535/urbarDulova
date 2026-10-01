@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Správa Urbáru - Responzívna verzia</title>
+    <title>Prehľad katastrálnych informácií 25.9.2026</title>
     <style>
         :root {
             --primary: #2c3e50;
@@ -18,7 +18,20 @@
         body { font-family: 'Segoe UI', sans-serif; background: var(--bg); margin: 0; padding: 10px; color: #333; }
         .container { max-width: 1600px; margin: 0 auto; }
 
-        /* Dashboard */
+        .header-title {
+            margin-bottom: 20px;
+        }
+        .header-title h1 {
+            margin: 0 0 5px 0;
+            color: var(--primary);
+        }
+        .header-title .update-date {
+            font-size: 14px;
+            color: #7f8c8d;
+            font-weight: 600;
+        }
+
+        /* Dashboard - Sticky pri skrolovaní */
         .controls {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -26,9 +39,12 @@
             background: white;
             padding: 20px;
             border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             margin-bottom: 20px;
             align-items: end;
+            position: sticky;
+            top: 10px;
+            z-index: 100;
         }
 
         .control-group label { display: block; font-size: 11px; font-weight: bold; color: #7f8c8d; margin-bottom: 8px; text-transform: uppercase; }
@@ -83,10 +99,12 @@
             background: white;
             border-radius: 12px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-height: 70vh; /* Obmedzenie výšky kontajnera pre interný skroll tabuľky */
+            overflow-y: auto;  /* Skrolovanie iba v rámci tela tabuľky */
             overflow-x: auto;
         }
 
-        table { width: 100%; border-collapse: collapse; min-width: 800px; }
+        table { width: 100%; border-collapse: collapse; min-width: 800px; position: relative; }
         
         thead { background: var(--primary); color: white; }
         
@@ -94,13 +112,14 @@
             padding: 15px; 
             text-align: left; 
             position: sticky; 
-            top: 0; 
+            top: 0; /* Keďže kontajner .table-container má własný scroll, hlavička sa lepi na jeho vrch */
             font-size: 13px; 
             z-index: 10; 
             text-transform: uppercase; 
             cursor: pointer; 
             user-select: none;
             transition: background 0.2s;
+            background: var(--primary);
         }
 
         th:hover { background: #34495e; }
@@ -128,7 +147,8 @@
 
         /* MOBILNÁ RESPONSIVITA */
         @media screen and (max-width: 768px) {
-            .controls { grid-template-columns: 1fr; }
+            .controls { grid-template-columns: 1fr; position: static; } 
+            .table-container { max-height: none; } /* Na mobile zrušíme obmedzenie výšky tabuľky */
             
             table, thead, tbody, th, td, tr { display: block; }
             thead tr { position: absolute; top: -9999px; left: -9999px; }
@@ -169,6 +189,11 @@
 <body>
 
 <div class="container">
+    <div class="header-title">
+        <h1>Prehľad katastrálnych informácií</h1>
+        <div class="update-date">o vlastníkoch a ich podieloch v urbári k 25.9.2026</div>
+    </div>
+
     <div id="error-msg" style="display:none; color:red; padding:20px;"></div>
 
     <div class="controls">
@@ -348,7 +373,6 @@ function render() {
     body.innerHTML = html || '<tr><td colspan="5" style="text-align: center; padding: 30px;">Žiadne výsledky.</td></tr>';
     document.getElementById('total-visible-m2').textContent = totalM2.toLocaleString('sk-SK', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + " m²";
     document.getElementById('total-visible-percent').textContent = flatData.length > 0 ? (totalM2 / Object.values(lvMetadata).reduce((a,b)=>a+b,0) * 100).toFixed(2) + "%" : "0.00%";   
-
 }
 
 document.getElementById('lv-select').onchange = render;
