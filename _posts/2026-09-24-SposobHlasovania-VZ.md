@@ -8,9 +8,9 @@ tags: zhromaždenie
 published: true
 ---
 
-V aktuálnom znení [Zákona č. 97/2013 Z. z. o pozemkových spoločenstvách](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/) sa už **dvojtretinová väčšina (výmery) nevyžaduje**. Kľúčová novela ([Zákon č. 110/2018 Z. z.](https://epi.sk)) toto pravidlo zrušila a výrazne zjednodušila rozhodovanie v urbariátoch. 
+V aktuálnom znení [Zákona č. 97/2013 Z. z. o pozemkových spoločenstvách](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/) sa už **dvojtretinová väčšina (výmery) nevyžaduje**. Kľúčová novela ([Zákon č. 110/2018 Z. z.](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2018/110/)) toto pravidlo zrušila a výrazne zjednodušila rozhodovanie v urbariátoch. 
 
-Podľa **aktuálne platného znenia zákona (§ 15 ods. 2)** sa rozhodovanie delí nasledovne:
+Podľa **aktuálne platného znenia zákona ([§ 15 ods. 2](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/20250601#paragraf-15.odsek-2))** sa rozhodovanie delí nasledovne:
 
 ## Riadne valné zhromaždenie
 
