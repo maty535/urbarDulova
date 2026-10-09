@@ -54,7 +54,7 @@ permalink: /docs/
 | Dátum        | Dokument          | Stav |
 |:-------------|:------------------|:------|
 | 18.6.2025    |[Dokončenie ulice k Ihrisku - obratisko na pozemkoch urbáru](/projekty/2025/06/18/UkoncenieCesty-Ihrisko.html)|predbežné vyjadrenie k [projektovej dokumentácii](https://drive.google.com/drive/folders/1db9jEwqubmHfVtsUwLdXkBXHXyZv70O7)|
-| 19.9.2024    |[Cyklochodník okolo cintrorína](/projekty/2024/09/20/Cyklochodnik-Cintorin.html)|pozemky prenajaté, prebieha stavebné konanie|
+| 19.9.2024    |[Cyklochodník okolo cintrorína](/projekty/2024/09/20/Cyklochodnik-Cintorin.html)|pozemky prenajaté, ukončné, výbor osadí informačne tabúle k jeho vstupom|
 | 11.6.2024    |[Odvodňovacie zariadenie nad ihriskom](/projekty/2024/07/08/RetenckaIhrisko.html)| schválené, [zmluva](https://drive.google.com/file/d/1dVn3ogNWCydnBpuxlJcHOElSbHoHP744/view?usp=drive_link) uzavreta 26.9.2024, prebieha [Uzemne konanie](https://drive.google.com/file/d/1GNx6F_ul-NiwoBn7hfNo8SphgUlXxLWI/view?usp=drive_link)|
 
 
