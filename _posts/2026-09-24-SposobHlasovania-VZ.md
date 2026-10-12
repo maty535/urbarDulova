@@ -8,7 +8,7 @@ tags: zhromaždenie
 published: true
 ---
 
-V aktuálnom znení [Zákona č. 97/2013 Z. z. o pozemkových spoločenstvách](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/) sa už **dvojtretinová väčšina (výmery) nevyžaduje**. Kľúčová novela ([Zákon č. 110/2018 Z. z.](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2018/110/)) toto pravidlo zrušila a výrazne zjednodušila rozhodovanie v urbariátoch. 
+[Zákon č. 97/2013 Z. z. o pozemkových spoločenstvách](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/) už **dvojtretinovú väčšinu (výmery) nevyžaduje**. Zákon  [97/2013 Z. z.]((https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/)) toto pravidlo zrušil a výrazne zjednodušil rozhodovanie v urbariátoch. 
 
 Podľa **aktuálne platného znenia zákona ([§ 15 ods. 2](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/20250601#paragraf-15.odsek-2))** sa rozhodovanie delí nasledovne:
 
@@ -63,3 +63,8 @@ Všetky bežné prevádzkové záležitosti, na ktorých sa spoločenstvo zasekl
 
 ### Alternatíva: Pozor na možnosť „čiastkových schôdzí“ v pozvánke
 Zákon v [§ 14 ods. 3](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/#paragraf-14.odsek-3) dáva výboru ešte jednu možnosť: Výbor môže už do **pôvodnej pozvánky** na riadne zhromaždenie napísať formulu, že ak nepríde dostatok ľudí, toto zasadnutie sa automaticky považuje za *prvú čiastkovú schôdzu*. V pozvánke rovno určí čas a miesto konania ďalších čiastkových schôdzí. Na čiastkových schôdzach sa hlasy zo všetkých stretnutí sčítavajú, čo je iný spôsob, ako bojovať s nízkou účasťou bez obmedzení, ktoré má mimoriadne zhromaždenie.
+
+___
+
+* Už neplatný pôvodný Zákon [181/1995 Z. z. o pozemkových spoločenstvách](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1995/181/vyhlasene_znenie.html#paragraf-19.odsek-3), ktorý vyžadoval 2/3 tinovú vačšinu pre zásadné rozhodovanie. 
+* Aktuálny [Zákon č. 97/2013 Z. z. o pozemkových spoločenstvách](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/97/)
