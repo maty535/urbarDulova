@@ -16,7 +16,7 @@ permalink: /docs/
 |  26.10.2025 | [Novelizované zásady rozdelenia ročného zisku spoločenstva](./2025-10-26-ZasadyRozdeleniaZisku.html) |
 
 
-# Pre podielnikov
+# Pre podielnikov {#tlaciva}
 
 | Dátum        | Dokument          |
 |-------------:|:------------------|
@@ -29,7 +29,7 @@ permalink: /docs/
 | 25.09.2026   | [Prehľad katastrálnych informácii]({{ '/KatastralneInformacie' | relative_url }}) |
 
 
-# Zákony
+# Zákony {#zakony}
 
 | Dátum           | Číslo     | Názov             |
 |:-------------   |:----------|:------------------|
@@ -49,7 +49,7 @@ permalink: /docs/
 
 
 
-# Projekty
+# Projekty {#projekty}
 
 | Dátum        | Dokument          | Stav |
 |:-------------|:------------------|:------|
@@ -59,14 +59,14 @@ permalink: /docs/
 | 11.6.2024    |[Odvodňovacie zariadenie nad ihriskom](/projekty/2024/07/08/RetenckaIhrisko.html)| schválené, [zmluva](https://drive.google.com/file/d/1dVn3ogNWCydnBpuxlJcHOElSbHoHP744/view?usp=drive_link) uzavreta 26.9.2024, prebieha [Uzemne konanie](https://drive.google.com/file/d/1GNx6F_ul-NiwoBn7hfNo8SphgUlXxLWI/view?usp=drive_link)|
 
 
-# Lesné hospodárstvo
+# Lesné hospodárstvo {#less}
 
 | Dátum        | Dokument          | Stav |
 |:-------------|:------------------|:------|
 | 23.4.2020    | [Program starostlivosti o les 2020 - 2029](https://drive.google.com/file/d/1iTZVhZ-uITOTUCy7I2hu1q1THcTyJhCL/view?usp=drive_link) | aktuálny, v platnosti |
 | 25.10.2024   | [Vyhláška Ministerstva pôdohospodárstva Slovenskej republiky o vyznačovaní ťažby dreva, označovaní vyťaženého dreva a dokladoch o pôvode dreva](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2006/232/)| [LP/2024/569](https://www.slov-lex.sk/elegislativa/legislativne-procesy/SK/LP/2024/569) v pripomienkovom konaní|
 
-# Právo
+# Právo {#pravo}
 
 | Dátum        | Dokument          | Stav |
 |:-------------|:------------------|:------|
@@ -74,6 +74,6 @@ permalink: /docs/
 | Február 2016  | [Kataster nehnuteľností a právo na prístup k informáciám](https://drive.google.com/file/d/139rb2ioxFwgYD5DuuLD4ca7Oxmrxqed2/view?usp=drive_link)
 
 
-# Stanovy
+# Stanovy {#stanovy}
 
 - Pripravujeme
