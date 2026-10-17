@@ -14,6 +14,7 @@ permalink: /docs/
 | 18.5.2019   | [Dodatok k zmluve o pozemkovom spoločenstve vlastníkov podielov spoločnej nehnuteľnosti](./2019-05-18-ZZ-Dodatok.pdf)|
 |  7.8.2021   | [Dodatok k zmluve o pozemkovom spoločenstve vlastníkov podielov spoločnej nehnuteľnosti](./2021-08-07-ZZ-Dodatok-1.pdf)|
 |  26.10.2025 | [Novelizované zásady rozdelenia ročného zisku spoločenstva](./2025-10-26-ZasadyRozdeleniaZisku.html) |
+|  17.10.206  | [Zoznam nehnuteľností pozemkového spoločenstva]({{ '/docs/2026-10-17-ZoznamNehnutelnosti.pdf' | relative_url }})  |
 
 
 # Pre podielnikov {#tlaciva}

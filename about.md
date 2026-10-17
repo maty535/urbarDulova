@@ -15,6 +15,8 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 
 - Spoločenstvo urbariát Dulova Ves pozemkové spoločenstvo pôsobí na základe zákona: [97/2013 Z. z. z 26. marca 2013 o pozemkových spoločenstvách](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/97/) 
 
+- [Zoznam nehnuteľností pozemkového spoločenstva podľa § 18 odsek 2 zákona 97/2013 ]({{ '/docs/2026-10-17-ZoznamNehnutelnosti.pdf' | relative_url }})  
+
 * ![Spoločná nehnuteľnosť]({{ '/assets/img/PrehladPozemkov.png' | relative_url }})
 
 # Registrácia spoločenstva v registri pozemkových spoločenstiev 
