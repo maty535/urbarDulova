@@ -35,8 +35,8 @@ Výbor si priamo po ukončení valného zhromaždenia spomedzi seba zvolil preds
 |Meno|Funkcia|Od|Kontakt|
 |:------------- |:------------------|:------|:------|
 | Ing. Ján Giňovský  | Predseda     | 27.10.2025  | **0917 718 866**  |
-| Marta Uhrinová     | Člen         | 26.05.2024  | 0904 604 905  |
-| Janka Repková      | Člen         | 26.05.2024  |		             |
+| Marta Uhrinová     | Člen         | 26.05.2024  | 0904 604 905      |
+| Janka Repková      | Člen         | 26.05.2024  |		              |
 
 
 ## Konajú za spoločenstvo navonok, iba v súlade s poverením výborom

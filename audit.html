@@ -96,7 +96,7 @@
 <div class="container">
     <div class="header-section">
         <h1>Audit podielov</h1>
-        <div class="tag dob-tag">STAV K 28.2.2026</div>
+        <div class="tag dob-tag">STAV K 22.10.2026</div>
     </div>
     
     <input type="text" id="search" class="search-box" placeholder="Hľadať meno, podiel alebo 'upozornenie'..." onkeyup="doSearch()">
@@ -247,7 +247,7 @@
 
     async function initApp() {
         try {
-            const response = await fetch('2026-02-28-snapshot-vlastnici.json');
+            const response = await fetch('2026-10-22-vlastnici-all.json');
             ownersData = Object.values(await response.json());
             
             const response2 = await fetch('lv-metadata.json')
