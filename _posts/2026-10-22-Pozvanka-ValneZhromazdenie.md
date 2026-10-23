@@ -90,19 +90,17 @@ Dňa: ......................................
 
 Vyplnené splnomocnenie možete zaslať na adresu spoločenstva:
 
-Urbariát Dulova Ves p.s.
-
-Obchodná 25/15, 
-
+Urbariát Dulova Ves p.s., <br>
+Obchodná 25/15, <br>
 082 52 Dulova Ves
 
 alebo ho osobne doručiť výboru urbariátu, alebo splnomocnenému.
 
 Viac informácii:
 
-Urbariát Dulova Ves p.s.
-
-tel.: 0944 952 434, e-mail: urbar.dulova@gmail.com
+**Urbariát Dulova Ves p.s.**,<br>
+**tel:** 0944 952 434,<br>
+**e-mail:** urbar.dulova@gmail.com
 
 web: [https://urbar.dulovaves.sk](https://urbar.dulovaves.sk)
 
