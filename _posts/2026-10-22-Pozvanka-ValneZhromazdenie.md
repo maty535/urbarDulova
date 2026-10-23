@@ -52,14 +52,14 @@ k prerokovaným bodom programu, toto zasadnutie sa bude považovať za prvú či
 -------------------------  
 
 ## Splnomocnenie
-Na zastupovanie člena pozemkového spoločenstva:
+Na zastupovanie:
 
 
 **.......................................................... , narodený/á: ..............................................**
 
 trvale bytom: ...................................................................................................., SR,
 
-ako člen pozemkového spoločenstva: Spoločenstvo urbariát Dulova Ves pozemkové spoločenstvo
+ako člen pozemkového spoločenstva: **Urbariát Dulova Ves p.s.**, ICO: **42379831**
 
 **splnomocňujem:**
 
@@ -67,8 +67,8 @@ Meno:..................................... dátum narodenia: ...................
 
 trvale bytom.........................................................................
 
-- iba k zastupovaniu na Valnom zhromaždení pozemkového spoločenstva:Spoločenstvo urbariát Dulova Ves pozemkové spoločenstvo v rozsahu hlasovacích práv
-- na všetky práva a povinnosti v zmysle zmluvy o založení spoločenstva (v plnom rozsahu)
+- iba k zastupovaniu na Valnom zhromaždení pozemkového spoločenstva: Urbariát Dulova Ves p.s. v rozsahu hlasovacích práv
+- na všetky práva a povinnosti v zmysle zmluvy o založení spoločenstva a zákona 97/2013 o Pozemkových spoločenstvách (v plnom rozsahu)
 - na preberanie podielov (len fyzickú osobu)
 
 **Toto splnomocnenie vydávam:**
@@ -88,11 +88,13 @@ Dňa: ......................................
 
 
 
-Vyplnené splnomocnenie možete zaslať na adresu spoločenstva
+Vyplnené splnomocnenie možete zaslať na adresu spoločenstva:
 
-Spoločenstvo urbariát Dulova Ves pozemkové spoločenstvo
+Urbariát Dulova Ves p.s.
 
-Obchodná 25/15, 082 52 Dulova Ves
+Obchodná 25/15, 
+
+082 52 Dulova Ves
 
 alebo ho osobne doručiť výboru urbariátu, alebo splnomocnenému.
 
