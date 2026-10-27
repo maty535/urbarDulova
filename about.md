@@ -15,7 +15,11 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 
 - Spoločenstvo urbariát Dulova Ves pozemkové spoločenstvo pôsobí na základe zákona: [97/2013 Z. z. z 26. marca 2013 o pozemkových spoločenstvách](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/97/) 
 
-- [Zoznam nehnuteľností pozemkového spoločenstva podľa § 18 odsek 2 zákona 97/2013 ]({{ '/docs/2026-10-17-ZoznamNehnutelnosti.pdf' | relative_url }})  
+
+- Spoločná nehnuteľnosť odpovedá pojmu: [jedno pozemkovoknižné teleso](https://cuzk.gov.cz/CUZK/media/knihy/Novotny%20F%20Nauka%20o%20rakouskem%20katastru/05.htm) (historicky označované aj ako [knihovné teleso](https://www.ondrejhalama.sk/pozemkova-kniha-casti/)) pochádza zo starého rakúsko-uhorského pozemkovoknižného práva a predstavuje samostatný celok nehnuteľností, ktorý patrí rovnakému vlastníkovi (alebo spoluvlastníkom) a podlieha rovnakému právnemu osudu.
+
+- [Zoznam pozemkov nehnuteľností pozemkového spoločenstva podľa § 18 odsek 2 zákona 97/2013 ]({{ '/docs/2026-10-17-ZoznamNehnutelnosti.pdf' | relative_url }})  
+
 
 * ![Spoločná nehnuteľnosť]({{ '/assets/img/PrehladPozemkov.png' | relative_url }})
 
@@ -75,8 +79,6 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 - <img width="883" height="285" alt="image" src="https://github.com/user-attachments/assets/c7cd0190-829e-43a3-bff2-8e1a3f052901" />
 - [Judikát najvyššieho súdu týkajúci sa prevodov podielov na spoločnej nehnuteľnosti](https://otvorenesudy.sk/decrees/3905360?)
 - <img width="1215" height="208" alt="image" src="https://github.com/user-attachments/assets/3c7b8e6a-f2d4-465e-a405-11eafb720ba0" />
-
-- Spoločná nehnuteľnosť odpovedá pojmu: [jedno pozemkovoknižné teleso](https://cuzk.gov.cz/CUZK/media/knihy/Novotny%20F%20Nauka%20o%20rakouskem%20katastru/05.htm) (historicky označované aj ako [knihovné teleso](https://www.ondrejhalama.sk/pozemkova-kniha-casti/)) pochádza zo starého rakúsko-uhorského pozemkovoknižného práva a predstavuje samostatný celok nehnuteľností, ktorý patrí rovnakému vlastníkovi (alebo spoluvlastníkom) a podlieha rovnakému právnemu osudu.
 
 
 ### Majetková podstata
