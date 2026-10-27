@@ -1,11 +1,11 @@
 ---
-layout: post
-title: "Pozvánka na Valné zhromaždenie 2026"
-date: 2026-10-22
 author: Výbor urbariátu
 categories: valne zhromazdenie
-tags: zhromaždenie
+date: 2026-10-22T00:00:00Z
+layout: post
 published: true
+tags: zhromaždenie
+title: Pozvánka na Valné zhromaždenie 2026
 ---
 
 **Urbariát Dulova Ves p.s.**
@@ -18,7 +18,6 @@ Prezentácia účastníkov začne od **14.00 h**
 V prípade ak sa rozhodnete, aby Vás na VZ zastupoval Váš splnomocnený zástupca, musí sa preukázať
 počas prezentácie touto pozvánkou, ktorej súčasťou je aj vyplnené a Vami podpísané
 priložené splnomocnenie.
-
 
 **Poučenie:** Na zhromaždení sa môžete zúčastniť aj prostredníctvom zástupcu na základe písomného
 splnomocnenia, ktoré je súčasťou pozvánky na valné zhromaždenie.
@@ -38,7 +37,7 @@ k prerokovaným bodom programu, toto zasadnutie sa bude považovať za prvú či
 8. Správa OLH o stave lesa a plán činnosti
 9. Návrh plánu hlavných úloh a finančného plánu na rok 2026/27
 10. Ponuka podielu p.Potočňáka pre celé spoločenstvo na odkúpenie
-11. Nárvh novej zmluvy a  stanov spoločenstva
+11. [Nárvh novej zmluvy a  stanov spoločenstva](https://github.com/maty535/NovaZmluvaUrbar)
 12. Rôzne – diskusia
 13. Vyplatenie podielov za rok 2024 v hotovosti členom, ktorí si ich doteraz neprebrali
 14. Záver
@@ -49,11 +48,11 @@ k prerokovaným bodom programu, toto zasadnutie sa bude považovať za prvú či
 </div>
 <div style="clear: both;"></div>
 
--------------------------  
+---
 
 ## Splnomocnenie
-Na zastupovanie:
 
+Na zastupovanie:
 
 **.......................................................... , narodený/á: ..............................................**
 
@@ -78,15 +77,12 @@ trvale bytom....................................................................
 - na dobu neurčitú:
 
 V ............................................
-Dňa: ...................................... 
+Dňa: ......................................
 
 |: ...................................................... :|  |: ............................................ :|
 |: Podpis podielnika                      :|  |: Podpis splmomocneného zástupcu :|
 
-
--------------------------  
-
-
+---
 
 Vyplnené splnomocnenie možete zaslať na adresu spoločenstva:
 
@@ -105,11 +101,10 @@ Viac informácii:
 web: [https://urbar.dulovaves.sk](https://urbar.dulovaves.sk)
 
 * Nehodiace sa prečiarknite
-V prípade trvalého splnomocnenia na dobu neurčitú, splnomocnenia na dobu určitú alebo splnomocnenia na
-preberanie podielov je potrebný úradne overený podpis.
-Splnomocnenie je možné kedykoľvek odvolať, o čom splnomocniteľ (podielnik) bezodkladne upovedomí poz.
-spoločenstvo, inak spoločenstvo neberie zodpovednosť za neoprávnené hlasovania na valnom zhromaždení.
-
+   V prípade trvalého splnomocnenia na dobu neurčitú, splnomocnenia na dobu určitú alebo splnomocnenia na
+   preberanie podielov je potrebný úradne overený podpis.
+   Splnomocnenie je možné kedykoľvek odvolať, o čom splnomocniteľ (podielnik) bezodkladne upovedomí poz.
+   spoločenstvo, inak spoločenstvo neberie zodpovednosť za neoprávnené hlasovania na valnom zhromaždení.
 
 [Verzia pre tlač](/docs/2026-10-22-Pozvanka_vseobecna.pdf)
 
