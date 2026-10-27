@@ -76,6 +76,8 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 - [Judikát najvyššieho súdu týkajúci sa prevodov podielov na spoločnej nehnuteľnosti](https://otvorenesudy.sk/decrees/3905360?)
 - <img width="1215" height="208" alt="image" src="https://github.com/user-attachments/assets/3c7b8e6a-f2d4-465e-a405-11eafb720ba0" />
 
+- Spoločná nehnuteľnosť odpovedá pojmu: [jedno pozemkovoknižné teleso](https://cuzk.gov.cz/CUZK/media/knihy/Novotny%20F%20Nauka%20o%20rakouskem%20katastru/05.htm) (historicky označované aj ako [knihovné teleso](https://www.ondrejhalama.sk/pozemkova-kniha-casti/)) pochádza zo starého rakúsko-uhorského pozemkovoknižného práva a predstavuje samostatný celok nehnuteľností, ktorý patrí rovnakému vlastníkovi (alebo spoluvlastníkom) a podlieha rovnakému právnemu osudu.
+
 
 ### Majetková podstata
 
