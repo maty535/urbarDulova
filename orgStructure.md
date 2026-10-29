@@ -17,8 +17,8 @@ Dňa 25.5.2024 na valnom zhromaždení podielníkov urbariátu v Dulovej Vsi bol
 | Vladimír Koropšák ml.      | člen                         | 26.05.2024 | 0907 606 664 |
 | Ing. Matúš Ivanecký        | člen                         | 26.05.2024 | 0918 730 322 |
 | Matúš Bidovský             | člen                         | 26.05.2024 | 0907 394 830 |
-| ~~Ing. Peter Semeš ml.~~   | ~~člen - predseda~~          | 26.05.2024 - 27.10.2026   |  |
-| ~~Matúš Bidovský~~         | ~~člen zastupuje predsedu~~  | 26.05.2024 - 29.10.2026   |  |
+| ~~Ing. Peter Semeš ml.~~   | ~~člen - predseda~~          | 26.05.2024 - 27.10.2026   | |
+| ~~Matúš Bidovský~~         | ~~člen zastupuje predsedu~~  | 26.05.2024 - 29.10.2026   | |
 
 - funkčné obdobie aktuálneho výboru a dozornej rady plynie od 25.5.2024 a konči najneskôr 24.5.2029
 
