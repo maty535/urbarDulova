@@ -13,11 +13,12 @@ Dňa 25.5.2024 na valnom zhromaždení podielníkov urbariátu v Dulovej Vsi bol
 
 |Meno|Funkcia|Od-Do|Kontakt|
 |:-------------|:------------------|:------|:------|
-| ~~Ing. Peter Semeš ml.~~   | ~~člen - predseda~~        | 26.05.2024 - 27.10.2026  |
-| Marta Giňovská             | člen                       | 26.05.2024 | 0908 591 984 |
-| Matúš Bidovský             | člen - zastupuje predsedu  | 26.05.2024 | 0907 394 830 |
-| Vladimír Koropšák ml.      | člen                       | 26.05.2024 | 0907 606 664 |
-| Ing. Matúš Ivanecký        | člen                       | 26.05.2024 | 0918 730 322 |
+| ~~Ing. Peter Semeš ml.~~   | ~~člen - predseda~~          | 26.05.2024 - 27.10.2026   |  |
+| Marta Giňovská             | člen                         | 26.05.2024 | 0908 591 984 |
+| Vladimír Koropšák ml.      | člen                         | 26.05.2024 | 0907 606 664 |
+| Ing. Matúš Ivanecký        | člen                         | 26.05.2024 | 0918 730 322 |
+| Matúš Bidovský             | člen                         | 26.05.2024 | 0907 394 830 |
+| ~~Matúš Bidovský~~         | ~~člen zastupuje predsedu~~  | 26.05.2024 - 29.10.2026   |  |
 
 - funkčné obdobie aktuálneho výboru a dozornej rady plynie od 25.5.2024 a konči najneskôr 24.5.2029
 
@@ -41,7 +42,7 @@ Výbor si priamo po ukončení valného zhromaždenia spomedzi seba zvolil preds
 ## Konajú za spoločenstvo navonok, iba v súlade s poverením výboru
 
 - ~~Predseda: Peter Semeš ml. do 27.10.2026~~
-- Matúš Bidovský - zastupuje predsedu
+- ~~Matúš Bidovský - zastupuje predsedu do 29.10.2026~~
 
 ## Odborný lesný hospodár [OLH]:
 
