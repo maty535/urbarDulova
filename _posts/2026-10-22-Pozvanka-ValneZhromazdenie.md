@@ -39,8 +39,7 @@ k prerokovaným bodom programu, toto zasadnutie sa bude považovať za prvú či
 10. Ponuka podielu p.Potočňáka pre celé spoločenstvo na odkúpenie
 11. [Nárvh novej zmluvy a  stanov spoločenstva](https://github.com/maty535/NovaZmluvaUrbar)
 12. Rôzne – diskusia
-~~13. Vyplatenie podielov za rok 2024 v hotovosti členom, ktorí si ich doteraz neprebrali~~
-14. Záver
+13. Záver
 
 <div style="float: right; text-align: center; margin-top: 20px; width: 280px;">
   <hr style="border: none; border-top: 1px solid #000; margin-bottom: 5px;" />
