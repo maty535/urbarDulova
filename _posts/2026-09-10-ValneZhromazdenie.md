@@ -9,7 +9,10 @@ published: true
 ---
 
 - Výbor urbáru sa 7.10.2026 dohodol na presune termínu riadneho Valného zhromaždenia v roku 2026, ktoré je  plánované na **Nedeľu 22.11.2026** v **kultúrnom dome v Dulovej Vsi o 15.00 h**.
+* [Prehľad podielov na jednotlivých LV]({{ '/prehlad_vlastnikov_matica.html'| relative_url }})
+
 * ![Spoločná nehnuteľnosť]({{ '/assets/img/PrehladPozemkov.png' | relative_url }})
+
 
 ### Upozornenie podielnikov na kotrolu a aktualizáciu svojich údajov v KN:
 
