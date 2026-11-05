@@ -77,4 +77,5 @@ permalink: /docs/
 
 # Stanovy {#stanovy}
 
-- Pripravujeme
+- [Pracovný návrh Novej Zmluvy a stanov z 20.10.2026](https://github.com/maty535/NovaZmluvaUrbar)
+
