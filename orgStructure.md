@@ -25,7 +25,7 @@ Dňa 25.5.2024 na valnom zhromaždení podielníkov urbariátu v Dulovej Vsi bol
 ako náhradníci do výboru boli zvolení títo členovia, ktorí sa nezúčastnili valného zhromaždenia
 
 - ~~Stanislav Leško~~ - 1.11.2026 sa vzdal možnosti uplatniť svoj mandát člena výboru
-- ~~Pavol Sokol~~     - vzdal sa možnosti uplatniť svoj mandát člena výboru, hneď po priamej komunikácii po VZ v roku 2024
+- ~~Pavol Sokol~~     - vzdal sa možnosti uplatniť svoj mandát člena výboru po komunikácii po VZ v roku 2024
 - Anton Petrovčík     - prijal mandát a stane sa členom výboru najneskôr od 22.11.2026
 
 Výbor si priamo po ukončení valného zhromaždenia spomedzi seba zvolil predsedu a jeho zástupcu v prípade neprítomnosti, ktorí majú splnomocnenie konať iba so súhlasom výboru a v rozsahu, na ktorý ich výbor splnomocní.
