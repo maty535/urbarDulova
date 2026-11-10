@@ -32,6 +32,14 @@ ___
 
 {% alert tip %} 
 
+75. ... Samotná spoločná nehnuteľnosť, napriek tomu, že spravidla pozostáva zo
+stoviek pozemkov, je v zmysle § 8 ods. 1 zákona o pozemkových spoločenstvách jednou
+nehnuteľnou vecou, čo je v našom právnom poriadku unikátne. Spoluvlastníctvo k spoločnej
+nehnuteľnosti nemožno zrušiť a vyporiadať podľa všeobecných ustanovení Občianskeho
+zákonníka, keďže základnou charakteristikou spoločnej nehnuteľnosti je jej nezrušiteľnosť.
+
+<br/><br/>
+
 83.
 Podľa názoru súdu v prejednávanej veci hoci si žalovaná v 2. rade splnila svoju
 zákonnú ponukovú povinnosť spočívajúcu v realizácii ponuky na uplatnenie predkupného
