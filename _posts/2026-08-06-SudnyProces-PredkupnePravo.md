@@ -32,11 +32,43 @@ ___
 
 {% alert tip %} 
 
-75. ... Samotná spoločná nehnuteľnosť, napriek tomu, že spravidla pozostáva zo
+75. Samotná spoločná nehnuteľnosť, napriek tomu, že spravidla pozostáva zo
 stoviek pozemkov, je v zmysle § 8 ods. 1 zákona o pozemkových spoločenstvách jednou
 nehnuteľnou vecou, čo je v našom právnom poriadku unikátne. Spoluvlastníctvo k spoločnej
 nehnuteľnosti nemožno zrušiť a vyporiadať podľa všeobecných ustanovení Občianskeho
 zákonníka, keďže základnou charakteristikou spoločnej nehnuteľnosti je jej nezrušiteľnosť.
+Zákon o pozemkových spoločenstvách, okrem iného, obsahuje osobitnú úpravu týkajúcu sa podmienok nakladania
+so spoločnou nehnuteľnosťou a s jej podielmi.
+
+<br/><br/>
+
+76. Z podstaty spoločnej nehnuteľnosti ako jednej veci vyplýva, že nie je možné, aby
+spoluvlastník previedol svoj podiel len na niektorých pozemkoch tvoriacich súčasť spoločnej
+nehnuteľnosti – § 9 ods. 9 zákona č. 97/2013 Z.z. to priamo zakazuje . I v prejednávanom
+prípade je spoločná nehnuteľnosť tvorená viacerými pozemkami vedenými na viacerých
+listoch vlastníctva, a tak nie je možné platne uzavrieť zmluvu o prevode vlastníckeho práva, v
+zmysle ktorej by bol na nadobúdateľa prevedený spoluvlastnícky podiel len na pozemkoch
+vedených na jednom liste vlastníctva. Takýto právny úkon by bol pre rozpor s § 9 ods. 9
+zákona o pozemkových spoločenstvách absolútne neplatný od počiatku. Rovnako ani pri
+prechode vlastníckeho práva nie je možné, aby prešiel podiel na spoločnej nehnuteľnosti len
+na niektorých pozemkoch patriacich do spoločnej nehnuteľnosti. V tejto súvislosti treba
+dodať, že zákon počíta aj s prípadmi, keď spoluvlastnícke podiely nie sú na jednotlivých
+listoch vlastníctva, na ktorých je vedená spoločná nehnuteľnosť, rovnaké (§ 9 ods. 5 zákona o
+pozemkových spoločenstvách), a tak ak niektorý spoluvlastník (člen spoločenstva) nemá
+žiadny spoluvlastnícky podiel na niektorých pozemkoch tvoriacich spoločnú nehnuteľnosť,
+nebude v rozpore so zákonom taká zmluva (resp. taký prechod vlastníckeho práva), ak na
+týchto pozemkoch sa neprevedie žiadny podiel, za predpokladu, že na všetkých ostatných
+pozemkoch, na ktorých podiel má dotknutý spoluvlastník, tento prevedie (resp. jeho časť).
+Žiada sa zdôrazniť, že uvedený zákaz v zmysle § 9 ods. 9 zákona o pozemkových
+spoločenstvách nevylučuje, aby spoluvlastník previedol len časť svojich spoluvlastníckych
+podielov, ale k všetkým pozemkom tvoriacim spoločnú nehnuteľnosť (za predpokladu, že
+nedôjde k porušeniu zákazu drobenia v zmysle § 2 ods. 3 zákona o pozemkových
+spoločenstvách). V súvislosti s prejednávanou vecou je potom potrebné konštatovať, že kúpne
+zmluvy neboli rozporné s § 9 ods. 9 zákona č. 97/2013 Z.z., pretože nimi boli prevedené
+spoluvlastnícke podiely (resp. ich časť) k všetkým pozemkom tvoriacim spoločnú
+nehnuteľnosť a zároveň neboli rozporné s § 2 ods. 3 zák. č. 97/2013 Z.z., pretože rešpektovali
+zákaz drobenia spoločnej nehnuteľnosti (prevedené boli spoluvlastnícke podiely, ktoré
+zodpovedali minimálnej výmere 2000 m2).
 
 <br/><br/>
 
