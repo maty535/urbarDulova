@@ -15,6 +15,7 @@ permalink: /docs/
 |  7.8.2021   | [Dodatok k zmluve o pozemkovom spoločenstve vlastníkov podielov spoločnej nehnuteľnosti](./2021-08-07-ZZ-Dodatok-1.pdf)|
 |  26.10.2025 | [Novelizované zásady rozdelenia ročného zisku spoločenstva](./2025-10-26-ZasadyRozdeleniaZisku.html) |
 |  17.10.206  | [Zoznam nehnuteľností pozemkového spoločenstva]({{ '/docs/2026-10-17-ZoznamNehnutelnosti.pdf' | relative_url }})  |
+| 20.10.2026   | [Návrh novej zmluvy a stanov spoločenstva](https://github.com/maty535/NovaZmluvaUrbar/) |
 
 
 # Pre podielnikov {#tlaciva}
