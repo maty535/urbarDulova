@@ -26,7 +26,7 @@ ako náhradníci do výboru boli zvolení títo členovia, ktorí sa nezúčastn
 
 - ~~Stanislav Leško~~ - 1.11.2026 sa vzdal možnosti uplatniť svoj mandát člena výboru
 - ~~Pavol Sokol~~     - vzdal sa možnosti uplatniť svoj mandát člena výboru po komunikácii po VZ v roku 2024
-- Anton Petrovčík     - prijal mandát a stane sa členom výboru najneskôr od 22.11.2026
+- Anton Petrovčík    
 
 Výbor si priamo po ukončení valného zhromaždenia spomedzi seba zvolil predsedu a jeho zástupcu v prípade neprítomnosti, ktorí majú splnomocnenie konať iba so súhlasom výboru a v rozsahu, na ktorý ich výbor splnomocní.
 
