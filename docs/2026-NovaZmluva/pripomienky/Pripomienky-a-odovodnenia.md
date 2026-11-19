@@ -2,6 +2,7 @@
 layout: page
 title: Stanovy spoločenstva Urbariát Dulova Ves p. s. 2026 - pripomienky
 ---
+
 # Pripomienky a odôvodnenia k návrhu Stanov spoločenstva Urbariát Dulova Ves p.s.
 
 Tento dokument obsahuje komplexný pripomienkový materiál k pracovnému návrhu stanov zo dňa 20. 10. 2026. Každá pripomienka je spracovaná ako samostatný ucelený blok, ktorý obsahuje:
