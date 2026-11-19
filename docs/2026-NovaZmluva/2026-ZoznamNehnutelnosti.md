@@ -11,6 +11,7 @@ Spoločenstvo sa dohodlo na vytvorení jedinej spoločnej nehnuteľnosti, ktorá
 ## Katastrálne územie: Dulova Ves
 
 ### LV č. 414
+
 | Číslo parcely | Register | Druh pozemku | Výmera (m²) | Podiel z celku (%) |
 | :--- | :---: | :--- | ---: | ---: |
 | 933 | E | Trvalý trávny porast | 30 568,00 | 2,3753 % |
@@ -21,6 +22,7 @@ Spoločenstvo sa dohodlo na vytvorení jedinej spoločnej nehnuteľnosti, ktorá
 | **Spolu LV č. 414** | | | **59 829,00 m²** | **4,6491 %** |
 
 ### LV č. 822
+
 | Číslo parcely | Register | Druh pozemku | Výmera (m²) | Podiel z celku (%) |
 | :--- | :---: | :--- | ---: | ---: |
 | 931/5 | E | Trvalý trávny porast | 164 960,00 | 12,8185 % |
@@ -36,12 +38,14 @@ Spoločenstvo sa dohodlo na vytvorení jedinej spoločnej nehnuteľnosti, ktorá
 
 
 ### LV č. 1133
+
 | Číslo parcely | Register | Druh pozemku | Výmera (m²) | Podiel z celku (%) |
 | :--- | :---: | :--- | ---: | ---: |
 | 563/4 | C | Zastavaná plocha a nádvorie | 127,00 | 0,0099 % |
 | **Spolu LV č. 1133** | | | **127,00 m²** | **0,0099 %** |
 
 ### LV č. 1600
+
 | Číslo parcely | Register | Druh pozemku | Výmera (m²) | Podiel z celku (%) |
 | :--- | :---: | :--- | ---: | ---: |
 | 557 | C | Lesný pozemok | 229 446,00 | 17,8295 % |
@@ -62,6 +66,7 @@ Spoločenstvo sa dohodlo na vytvorení jedinej spoločnej nehnuteľnosti, ktorá
 ## Katastrálne územie: Žehňa
 
 ### LV č. 634
+
 | Číslo parcely | Register | Druh pozemku | Výmera (m²) | Podiel z celku (%) |
 | :--- | :---: | :--- | ---: | ---: |
 | 938/1 | E | Trvalý trávny porast | 462,00 | 0,0359 % |
@@ -69,6 +74,7 @@ Spoločenstvo sa dohodlo na vytvorení jedinej spoločnej nehnuteľnosti, ktorá
 | **Spolu LV č. 634** | | | **518,00 m²** | **0,0403 %** |
 
 ### LV č. 1033
+
 | Číslo parcely | Register | Druh pozemku | Výmera (m²) | Podiel z celku (%) |
 | :--- | :---: | :--- | ---: | ---: |
 | 183/2 | E | Trvalý trávny porast | 190 523,00 | 14,8049 % |
@@ -77,12 +83,14 @@ Spoločenstvo sa dohodlo na vytvorení jedinej spoločnej nehnuteľnosti, ktorá
 | **Spolu LV č. 1033** | | | **244 756,00 m²** | **19,0192 %** |
 
 ### LV č. 1037
+
 | Číslo parcely | Register | Druh pozemku | Výmera (m²) | Podiel z celku (%) |
 | :--- | :---: | :--- | ---: | ---: |
 | 182/29 | E | Lesný pozemok | 351 536,00 | 27,3167 % |
 | **Spolu LV č. 1037** | | | **351 536,00 m²** | **27,3167 %** |
 
 ### LV č. 1050
+
 | Číslo parcely | Register | Druh pozemku | Výmera (m²) | Podiel z celku (%) |
 | :--- | :---: | :--- | ---: | ---: |
 | 934 | E | Lesný pozemok | 287,00 | 0,0223 % |
@@ -90,6 +98,7 @@ Spoločenstvo sa dohodlo na vytvorení jedinej spoločnej nehnuteľnosti, ktorá
 
 
 ### **Súhrnný prehľad výmer spoločenstva:**
+
 * **Suma lesných pozemkov** (parcela č. 557 v k. ú. Dulova Ves a parcely č. 182/29, 934 v k. ú. Žehňa): **581 269,00 m²** (58,1269 ha / 45,1686 %)
 * **Suma ostatných pozemkov** (poľnohospodárskych, trvalých trávnych porastov, ostatných plôch, vôd a zastavaných plôch): **705 620,00 m²** (70,5620 ha / 54,8314 %)
 * **Celková výmera pozemkového spoločenstva:** **1 286 889,00 m²** (128,6889 ha, 100,00 %).
