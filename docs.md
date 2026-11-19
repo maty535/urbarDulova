@@ -29,6 +29,7 @@ permalink: /docs/
 | 28.02.2026   | [Audit vlastníckych podielov](https://urbar.dulovaves.sk/podielnici/kataster/2026/03/02/KontrolaPodielov.html) - [Report nekonzistencii](https://urbar.dulovaves.sk/rozdielyVlastnici) |
 | 04.09.2026   | [Prehľad nekonzistencíí podielov v grafickom zobrazení]({{ '/PrehladNekonzistencii' | relative_url }}) |
 | 25.09.2026   | [Prehľad katastrálnych informácii]({{ '/KatastralneInformacie' | relative_url }}) |
+| 19.11.2026   | [Oznámenie kandidatúry do orgánov ]({{ '/docs/OznamenieKandidatury.pdf' | relative_url }}) |
 
 
 # Zákony {#zakony}
