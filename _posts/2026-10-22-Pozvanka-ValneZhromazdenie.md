@@ -37,7 +37,7 @@ k prerokovaným bodom programu, toto zasadnutie sa bude považovať za prvú či
 8. Správa OLH o stave lesa a plán činnosti
 9. Návrh plánu hlavných úloh a finančného plánu na rok 2026/27
 10. Ponuka podielu p.Potočňáka pre celé spoločenstvo na odkúpenie
-11. [Nárvh novej zmluvy a  stanov spoločenstva](https://github.com/maty535/NovaZmluvaUrbar)
+11. Nárvh [novej zmluvy](/docs/2026-NovaZmluva/2026-10-20-Zmluva.md) a  [stanov spoločenstva](/docs/2026-NovaZmluva/2026-10-20-Stanovy.md)
 12. Rôzne – diskusia
 13. Vyplatenie podielov za rok 2024 v hotovosti členom, ktorí si ich doteraz neprebrali
 14. Záver
@@ -107,3 +107,7 @@ web: [https://urbar.dulovaves.sk](https://urbar.dulovaves.sk)
 
 [Verzia pre tlač](/docs/2026-10-22-Pozvanka_vseobecna.pdf)
 
+___
+ 
+ * [Navrh novej zmluvy](/docs/2026-NovaZmluva/2026-10-20-Zmluva.md)   * [Navrh stanov spoločenstva](/docs/2026-NovaZmluva/2026-10-20-Stanovy.md)
+ 
