@@ -23,6 +23,12 @@ Jeden člen výboru sa totiž vzdal svojho mandátu a dvaja náhradníci neuplat
 
 {% alert caution%}
 Takisto voľbe predchádzala právna diskusia, ktorej výsledkom nebol správny záver. Zákon (§ 13 ods. 3 zákona o pozemkových spoločenstvách) totiž jednoznačne stanovuje, že každý člen môže písomne oznámiť svoju kandidatúru najneskôr v deň voľby, t. j. aj priamo na zhromaždení pred samotným hlasovaním (môže ju napísať rukou aj priamo pred hlasovaním, vzor oznámenia kandidatúry). Toto nebolo niektorým členom umožnené.
+
+Zároveň Vás dávam na vedomie vštkým spoluvlastníkom, že po odstúpení predsedu Ing. Petra Semeša z funkcie a vzdaní sa členstva vo výbore (k **27. 10. 2026**) a vzdaní sa poverenia na zastupovanie predsedu p. Matúšom Bidovským (dňa **29. 10. 2026**) nedisponuje spoločenstvo žiadnou osobou oprávnenou konať v jeho mene a nie je schopné realizovať právne úkony voči tretím osobám.
+
+Viac info: [aktuálna organizačná štruktúra](https://urbar.dulovaves.sk/organization/)
+
+
 {% endalert %}
 
 ___
