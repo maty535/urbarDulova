@@ -15,7 +15,7 @@ Spoluvlastníci, ktorí chcú zodpovedne, čestne a tranparentne spravovať spol
 {% endalert %}
 
 
-Týmto vzývam a zároveň upozorňujem, že je potrebné, aby spoluvlastníci najneskôr v deň voľby (stačí aj [písomne](/docs/OznamenieKandidatury.pdf) priamo pred hlasovaním) navrhli nových členov a náhradníkov do výboru pozemkového spoločenstva a do dozornej rady, alebo sami prijali túto výzvu a oznámili spoločenstu svoju kandidatúru. 
+Týmto pozývam a zároveň upozorňujem, že je potrebné, aby spoluvlastníci najneskôr v deň voľby (stačí aj [písomne](/docs/OznamenieKandidatury.pdf) priamo pred hlasovaním) navrhli nových členov a náhradníkov do výboru pozemkového spoločenstva a do dozornej rady, alebo sami prijali túto výzvu a oznámili spoločenstu svoju kandidatúru. 
 
 
 Jeden člen výboru sa totiž vzdal svojho mandátu a dvaja náhradníci neuplatnili svoj mandát člena výboru; dozorná rada je aktuálne bez náhradníka a zároveň je jej predseda osobou blízkou inému členovi výboru, čo už v budúcnosti – ak sa prijmú nové stanovy – nebude možné opakovať. Zhromaždenie by preto malo túto situáciu vyriešiť a zabezpečiť úplnosť orgánov spoločenstva, ako aj ich fungovanie bez akýchkoľvek pochybností.
