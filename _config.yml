@@ -24,6 +24,7 @@ pagination:
   indexpage: 'index'
   title: ':title :num z :max'
 
+
 #picture:
 #  nomarkdown: true
 
@@ -89,6 +90,10 @@ plugins:
   - jekyll-spaceship
   - ./_plugins/jekyll-alerts-tag.rb
   - jemoji
+
+exclude:
+  - _staticrypt_jekyll.html
+  - podielnici_raw/
 
 
 remote_theme: "jekyll/minima@1e8a445"
