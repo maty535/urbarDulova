@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10. Ponuka pre celé spoločenstvo na skup podielu"
+title: "VZ-26/10: Ponuka pre celé spoločenstvo na odkúpenie podielu"
 date: 2026-11-22
 author: Ing. Matúš Ivanecký
 categories: valne zhromazdenie
