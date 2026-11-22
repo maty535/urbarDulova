@@ -12,6 +12,8 @@ published: true
 
 - Dňa **16.8.2026** doručil spoluvlastník spoločnej nehnuteľnosti a člen spoločenstva Ing. Jozef Potočnák, Hlavná 7/10, Dulova Ves urbariátu ponuku na odkúpenie celého svojho podielu na spoločnej nehnuteľnosti spoločenstvu prostredníctvom výboru v tomto znení:
 
+- Táto ponuka nepodieha ponukovej povinnosti podľa predkupného práva, keďže neide o predaj podielu mimo spoločenstva, ale jeho ponnúknutie všetým ostatným členom.
+
 | Podiel         | Hodnota  |
 | :---           | :----    |
 |  zlomok        |  8/2295  |
