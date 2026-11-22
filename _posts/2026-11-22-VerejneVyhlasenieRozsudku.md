@@ -7,6 +7,12 @@ categories: právo
 tags: právo podielnici predaj ponuka spory
 published: true
 ---
+* V utorok, 24. novembra 2026 o **9:45 – 10:15**  Krajský súd v Prešove, Hlavná 22, 080 01 Prešov v miestnosti č. dv. **104** o **09.45 hod.**, **I. posch.** verejne vyhlási rozsudok v spore o neplatnosť kúpnych zmlúv a o žalobe žalobcu 5/ o nahradenie prejavu vôle: **17C/51/2023**.
+
+Viac info: [Oboznámenie podielnikov o stave súdnych sporov a exekúciách]({% link _posts/2025-10-22-Sprava-StavSudnychSporov-Exekucii.md %})
+
+
+2026-08-06-SudnyProces-PredkupnePravo.md
 
 
 [Link na udalosť](https://calendar.app.google/kttR46DtCkco2SFo8)
@@ -71,3 +77,11 @@ published: true
     </div>
   </div>
 </div>
+
+
+___
+
+Detaily:
+* [Oboznámenie podielnikov o stave súdnych sporov a exekúciách]({% link _posts/2025-10-22-Sprava-StavSudnychSporov-Exekucii.md %})
+* [Neprávoplatné 1-stupňové rozhodnutie súdu v spore 17C/51/2023]({% link _posts/2026-08-06-SudnyProces-PredkupnePravo.md %})
+
