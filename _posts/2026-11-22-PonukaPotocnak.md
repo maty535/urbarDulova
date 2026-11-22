@@ -10,9 +10,11 @@ published: true
 
 - **Pán Ing. Jozef Potočňák ponúka celému spoločentvu prostredníctvom výboru svoj podiel vo výške 4 485,89 m² ( 0,3486 %) zo spoločnej nehnuteľnosti za sumu 2 300 €, čo predstavuje  0,51 € / m².**{: style="color: red;" }
 
-- Dňa **16.8.2026** doručil spoluvlastník spoločnej nehnuteľnosti a člen spoločenstva Ing. Jozef Potočnák, Hlavná 7/10, Dulova Ves urbariátu ponuku na odkúpenie celého svojho podielu na spoločnej nehnuteľnosti spoločenstvu prostredníctvom výboru v tomto znení:
-
 - Táto ponuka nepodieha ponukovej povinnosti podľa predkupného práva, keďže neide o predaj podielu mimo spoločenstva, ale jeho ponnúknutie všetým ostatným členom.
+
+
+- Dňa **16.8.2026** doručil spoluvlastník spoločnej nehnuteľnosti a člen spoločenstva Ing. Jozef Potočnák, Hlavná 7/10, Dulova Ves urbariátu ponuku na odkúpenie celého svojho podielu na spoločnej nehnuteľnosti spoločenstvu prostredníctvom výboru s týmito parametrami:
+
 
 | Podiel         | Hodnota  |
 | :---           | :----    |
