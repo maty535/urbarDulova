@@ -20,7 +20,7 @@ published: true
 | Cena za podiel | 2 300 €     |
 | Cena za m²     | 0,51€ / m²  |
 
-* Upozorňujeme všetkých podielnikov, že v tomto prípade neide o predaj podielu mimo spoločenstva, ale o ponuku na získanie podielov pre všetkých podielnikov do ich osobného vlastnítva, ak sa valné zhromaždenie uznesie nadpolovičnou vačšinou hlasov bez SPF na tomto:
+* Upozorňujeme všetkých podielnikov, že v tomto prípade neide o predaj podielu mimo spoločenstva, ale o ponuku na získanie podielov pre všetkých podielnikov do ich osobného vlastnítva, ak sa valné zhromaždenie uznesie nadpolovičnou vačšinou hlasov bez SPF na tomto (teda nejde o ponuku podiehajúcu ponukovej povinnosti predkupného práva):
 > výbor v mene spoluvlastníkov spoločnej nehnuteľnosti uzatvorí zmluvu o prevode vlastníctva podielu na spoločnej nehnuteľnosti, nadobúdateľom podielu sa stávajú všetci vlastníci spoločnej nehnuteľnosti pomerne podľa veľkosti podielov a cenu platí spoločenstvo.
 
 
