@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Verejného vyhlásenia rozhodnutia o neplatnosť kúpnych zmlúv a o žalobe žalobcu 5/ o nahradenie prejavu vôle."
+title: "Verejné vyhlásenia rozhodnutia o neplatnosť kúpnych zmlúv a o žalobe žalobcu 5/ o nahradenie prejavu vôle."
 date: 2026-11-22
 author: Ing. Matúš Ivanecký
 categories: právo
