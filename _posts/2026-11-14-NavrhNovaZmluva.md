@@ -3,7 +3,7 @@ author: Ing. Matúš Ivanecký
 categories: valne zhromazdenie
 date: 2026-11-19
 layout: post
-published: true
+published: false
 tags: zhromaždenie
 title: Návrh novej zmluvy urbariátu Dulova Ves p.s.
 ---

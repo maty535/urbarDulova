@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Odpoveď na otázku podielnika Stanislava Leška z Valného zhromaždenia"
+title: "Odpoveď na otázku Stana Leška z Valného zhromaždenia"
 date: 2026-11-23
 author: Ing. Matúš Ivanecký
 categories: valne zhromazdenie
