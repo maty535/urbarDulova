@@ -5,7 +5,7 @@ date: 2026-11-22
 author: Ing. Matúš Ivanecký
 categories: valne zhromazdenie
 tags: 2026 zhromaždenie predaj podielnici
-published: true
+published: false
 ---
 
 - **Pán Ing. Jozef Potočňák ponúka celému spoločentvu prostredníctvom výboru svoj konzistentný podiel vo výške 8/2295, čo predstavuje 4 485,89 m² ( 0,3486 %) zo spoločnej nehnuteľnosti za sumu 2 300 €, čo predstavuje  0,51 € / m².**{: style="color: red;" }
