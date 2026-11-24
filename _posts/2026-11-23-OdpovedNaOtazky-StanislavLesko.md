@@ -20,7 +20,7 @@ published: true
 
     {% alert caution%}
     
-    Zápisnicu o tomto bode programu si vyžiadam a na tejto web lokalite bude zverejnený kompletný zoznam mien členov spoločenstva, ktorí na valnom zhromaždení konali proti <b>JEDNOTE</b>.
+    Zápisnicu o tomto bode programu si vyžiadam a na tejto web lokalite bude zverejnený kompletný zoznam členov spoločenstva, ktorí na valnom zhromaždení konali proti <b>JEDNOTE</b>.
 
     {% endalert %}
 
