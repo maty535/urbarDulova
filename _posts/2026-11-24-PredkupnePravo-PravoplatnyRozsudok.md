@@ -59,7 +59,7 @@ Citácia z rozhodnutia 2.stupňového súdu: strana 7, odstavec 16:
 ___
 
 ### Viac informácií:
-* 
+* [Informovanie podielnikov o stave súdnych sporov]({% link _posts/2025-10-22-Sprava-StavSudnychSporov-Exekucii.md %})
 * [Prehľad súdneho procesu](https://otvorenesudy.sk/proceedings/3952575)
 * [Právoplatné rozhodnutie v spore 17C/51/2023](https://drive.google.com/file/d/1_HIlNK8Q-Pa5pKVkF-66XJd1vWUaBP_h/view?usp=drive_link)
 * [Rozhodnutie najvyššieho súdu týkajúce sa merita veci 6Cdo/101/2023](https://www.nsud.sk/rozhodnutia/6cdo1012023/)
