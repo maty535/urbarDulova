@@ -14,7 +14,7 @@ published: true
 
     * Ak pán Leško žiada jednotu, potom mal sám, ako náhrádník nastúpiť na uvoľnené miesto vo výbore a konfrotovať ľudí, ktorí konajú proti tejto jednote, t.z. manipulujú, prekrucajú právo a konajú svojvoľne, nedoržiadavajú ani zákon, ani zmluvu o spoločenstve, širia lži a su de-facto iba nástrojom zlého.
 
-    * Ak pán Leško žiada jednotu, potom nech sa pozrie , kto a ako hlasoval **ZA** a kto **PROTI** skupu podielu pána Ing. Potočňáka, lebo jeho ponuka bola **aktom dobrej vôle** a všetci múdri ľudia ju museli takto chápať,t.z.ako cestu k zjednocovaniu spoločenstva, k zjednoteniu za **férových podmienok** pri **výhodnej cene pre všetkých**. Všetci, ktorí hlasovali proti skupu jeho podielu de-facto konajú proti tejto jednote a je jedno či sú zmanipulovaní, alebo kúpení, alebo sú iba jednoducho nevedomí, resp. nekompetentní.
+    * Ak pán Leško žiada jednotu, potom nech sa pozrie , kto a ako hlasoval **ZA** a kto **PROTI** skupu podielu pána Ing. Potočňáka, lebo jeho ponuka bola **aktom dobrej vôle** a všetci múdri ľudia ju museli takto chápať,t.z.ako cestu k zjednocovaniu spoločenstva, k zjednoteniu za **férových podmienok** pri **výhodnej cene pre všetkých**. Všetci, ktorí hlasovali proti skupu jeho podielu de-facto konajú proti tejto jednote a je jedno či sú **zmanipulovaní**, **kúpení**, alebo sú iba jednoducho **nevedomí**, resp. **nekompetentní**.
 
     * Ak chce pán Leško jednotu, potom ľudia, ktorí hlasovali **PROTI** ponuke pána Ing. Potočňáka nemôžu ďalej pôsobiť v riadiacich, poťažmo výkonných orgánoch tohto spoločenstva. (vo výbore, kvôli tomu, že sú nemúdri, t.z. konajú protispoločensky, resp. proti všeobecnému dobru celého spoločenstva a tým iba ďalej rozbíjajú spoločenstvo)
 
