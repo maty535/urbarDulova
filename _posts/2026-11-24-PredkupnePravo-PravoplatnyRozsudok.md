@@ -8,7 +8,7 @@ tags: právo podielnici predaj ponuka spory
 published: true
 ---
 
-Dnes, t.z. **24.11.2026 Krajský súd právoplatne rozhodol a vydal rozhodnutie**, ktoré je [povinným čítaním pre každého podielnika](https://drive.google.com/file/d/1_HIlNK8Q-Pa5pKVkF-66XJd1vWUaBP_h/view?usp=drive_link), lebo tento spor stál spoločenstvo min. **20 000 €**{: style="color: red;" }, t.z. jedna strana má hodnotu **571,42 €**{: style="color: red;" }. Spor bol iniciovaný na základe rozhodnutia predchádzajúceho výboru (pani Giňovská bola hlavným iniciátorom, ktorá bez kompetentného právneho posúdenia, čo sa dá reálne v tejto veci dosiahnuť) a bol viackrát potvrdený zhromaždením a v žiadnom prípade nezabráni vstupu pána **Jarkovského** do urbáru Dulova Ves, ak o to on má stále ešte záujem. 
+Dnes, t.z. **24.11.2026 Krajský súd právoplatne rozhodol a vydal rozhodnutie**, ktorým vo všetkých bodoch potvrdil rozhodnutie okresného súdu, ktoré je [povinným čítaním pre každého podielnika](https://drive.google.com/file/d/1_HIlNK8Q-Pa5pKVkF-66XJd1vWUaBP_h/view?usp=drive_link), lebo tento spor stál spoločenstvo min. **20 000 €**{: style="color: red;" }, t.z. jedna strana má hodnotu **571,42 €**{: style="color: red;" }. Spor bol iniciovaný na základe rozhodnutia predchádzajúceho výboru (pani Giňovská bola hlavným iniciátorom, ktorá bez kompetentného právneho posúdenia, čo sa dá reálne v tejto veci dosiahnuť) a bol viackrát potvrdený zhromaždením a v žiadnom prípade nezabráni vstupu pána **Jarkovského** do urbáru Dulova Ves, ak o to on má stále ešte záujem. 
 * Toto nekompetentné rozhodovanie pani Giňovskej a následná manipulácia valných zhromaždení spôsobili náklady, resp. škodu vo výške cca.  **20 000 €**{: style="color: red;" }, pre celé spoločenstvo ktoré si pán Jarkovský vymohol od spoločenstva na základe nasledných súdnych konaní v ktorých predchadzajúci výbor dlhodobo neplnil svoje povinnosti o čom reálne vypovedajú viaceré súdne rozhodnuta, ktoré prikladám nižsie.
 
 * Členka výboru, pani **Giňovská**{: style="color: red;" }, ktorá stála za týmto rozhodnutím o sporení sa vo veci, ktorej sa tak či tak nedá zabrániť a sama odmietla poslednú možnosť tento podiel, ktorý kúpil pán Jarkovský získať do vlastníctva spoločensta a znovu pán Koropšák zmanipuloval zhromaždenie min. roku (2025), a zapríčinil, že neodznel, ani sa neprerokoval [tento môj nárvh]({% link _posts/2025-10-22-Sprava-StavSudnychSporov-Exekucii.md %}), ktorý bol pred zhromaždením komunikovaný celému výboru a bol dopredu pripravený aj pre zhromaždenie a bol poslednou možnosťou, akou sa dalo zabrániť vstupu pána Jarkovského do spoločenstva, táto šanca sa už opakovať nemusí za rovnakých podmienok, keďže pani Molčanová koná v zhode s pánom Jarkovským a podielnici odmietli stanovy, ktoré mali podobným účelovým obchádzaniam zákona zabrániť, je teraz podiel pani Molčanovej vydaný späť do rúk pána Jarkovského, a spoločenstvo sa može modliť, aby aktuálny výbor, ktorý je de-facto neschopný konať nevyviedol podobnú vylomeninu, pričom celé zhromaždenie bolo upozornené na akuálny stav, pričom pán Koropšák svojim predsedaním de-facto zabránil akymkoľvek návrhom na zmenu programu a doplnenie štatutárnych orgánov a dozornej rady členmi a náhradníkmi.
@@ -21,6 +21,7 @@ Išlo o sumu **12 000 €**{: style="color: red;" } / podiel pani Molčanovej =>
 
 
 Citácia z rozhodnutia 1.stupňového súdu: strana 6, odstavec 22:
+* [38Up/852/2023](https://drive.google.com/drive/folders/1fCQf_fmrxJvqXsCCYWJSixGW8W0mTUiR?usp=drive_link)
 
 ![image](https://github.com/user-attachments/assets/b47cb4c9-fb0b-44e1-9296-bf809d17d2d8)
 
@@ -56,8 +57,6 @@ ___
 * [Právoplatné rozhodnutie v spore 17C/51/2023](https://drive.google.com/file/d/1_HIlNK8Q-Pa5pKVkF-66XJd1vWUaBP_h/view?usp=drive_link)
 * [Rozhodnutie najvyššieho súdu týkajúce sa merita veci 6Cdo/101/2023](https://www.nsud.sk/rozhodnutia/6cdo1012023/)
 * [17C/51/2023](https://drive.google.com/drive/folders/1P0l9AvJgUXxDmph6hbXsQJxx_oO7SaN1?usp=drive_link)
-* [14Up/766/2023](https://drive.google.com/drive/folders/1kADN_QFOKzfmAWeoaPRK5fYchv8QnZtX?usp=drive_link)
-* [38Up/852/2023](https://drive.google.com/drive/folders/1fCQf_fmrxJvqXsCCYWJSixGW8W0mTUiR?usp=drive_link)
 * [Návrh na základe ktorého súd rozhodol o vydaní platobného rozkazu](https://drive.google.com/file/d/1kQbd7QBz44IzIwvAXWl8lfmetijtpTu5/view?usp=drive_link)
 * [Právoplatné 1-stupňové rozhodnutie Okresného súdu v BB](https://drive.google.com/file/d/1hTC0mh5wmpQbLm_p-3nsB756TkWyYuGa/view?usp=drive_link)
 * [Právoplatné 2-stupňové rozhodnutie Krajského súdu v BB](https://drive.google.com/file/d/1zsNKeh8Fmlggard4wHeUsOMpohkTIiJR/view?usp=drive_link)
