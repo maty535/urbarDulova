@@ -16,7 +16,7 @@ title: Prečom som sa nezúčastnil výboru pred Valným zhromaždením
    * manipulácia diskusie, presadzovanie vecí, ktoré nikdy neboli dohodnuté na výbore
    * zneužívanei informácii a moci a dosadzovanie do dozornej rady ľudí mimo spoločenstva, ktorí su v **tvrdom konflikte zájmov** a znemožujú riadny výkon kompetencií dozornej rady
    * nepochopenie základných princípov kontroly a výkonu právomoci
-   * nedodržiavanie termínov a presadzovanie iba svojho riešenia, sabotovanie iných riešení, ako môjho
+   * nedodržiavanie termínov a presadzovanie iba svojho riešenia, sabotovanie iných riešení, bez zdôvodnenia rozporov
    * nezodpovednosť, a obštrukcie štatutárnych orgánov kvoli mocenským ambíciám, vyhýbanie sa zodpovednosti
    * nedodávanie výstupov, za ktoré ma tento člen zodpovednosť (nulové výstupy: resp. iba ústne vyjadrenia)
    * nepredkladanie výboru žiadnych svojich výstupov, ktoré mali byť prezentované na min. valnom zhromaždení
