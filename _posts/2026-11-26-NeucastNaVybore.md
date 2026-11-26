@@ -13,13 +13,13 @@ title: Prečom som sa nezúčastnil výboru pred Valným zhromaždením
 1. Zvolávateľ nedodržal ústne dohodnuté termíny potrebné na jeho zvolanie (min 48h pred jeho konaním), termín zasadnutia bol dohodnutý bez môjho výslovného súhlasu iba 24h pred jeho konaním. Ústne dohodnuté lehoty však boli 48h pred jeho konaním a aj s programom zasadnutia.
 2. Zvolávateľ nepredložil agendu, resp. program, ktorý zostal nedoriešený, kvôli prerušeniu predchádzajúceho výboru pánom Koropšákm z dôdodu, že som sa vyjadril, že **ON** nemôže viesť najbližie Valné zhromaždenie, čo som neskôr aj poctivo odvovolnil pani Giňovskej a týmyti dôvodmi sú:
    * manipulácia diskusie, presadzovanie vecí, ktoré nikdy neboli dohodnuté na výbore
-   * zneužívanei informácii a dosadzovanie do dozornej rady ľudí mimo spoločenstva, ktorí su v **tvrdom konflikte zájmov** a znemožujú riadny výkon komptencií dozornej rady
+   * zneužívanei informácii a moci a dosadzovanie do dozornej rady ľudí mimo spoločenstva, ktorí su v **tvrdom konflikte zájmov** a znemožujú riadny výkon komptencií dozornej rady
    * nepochopenie základných princípov kontroly a výkonu právomoci
    * nedodržiavanie termínov
    * nezodpovednosť, a obštrukcie štatutárnych orgánov kvoli mocenským ambíciám
    * nedodávanie výstupov, za ktoré ma tento člen zodpovednosť (nulové výstupy)
    * nepredkladanie výboru žiadnych svojich výstupov, ktoré mali byť prezentované na min. valnom zhromaždení
-   * svojvôľa, nedodržiavanie vecí, ktoré sám vložil do zmluvy a nechápanie ich súvislosti
+   * svojvôľa, nedodržiavanie vecí, ktoré sám vložil do zmluvy a nechápanie ich súvislosti, žiadna zodpovednosti k uich vykonávaniu, alebo náprave
    * hrubé nepochopenie základnych právnych princípov, vloženie do zmluvy veci odporujúcich zdravému rozumu, bez poznania princípov
    * opakované hlasovanie a jednanie vo výbore a na zhromaždení v priamom rozpore so všobecným záujmom spoločenstva, resp. jednanie proti jednote spoločenstva
    * bagatelizícia nedodržiavania pravidiel, ich ohýbanie a zneuživanie pre vlastné mocenské ambície
