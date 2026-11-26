@@ -5,7 +5,7 @@ date: 2026-11-26T00:00:00Z
 layout: post
 published: true
 tags: výbor podielnici zhromaždenie
-title: Prečom som sa nezúčastnil výboru pred Valným zhromaždením
+title: Prečo som sa nezúčastnil výboru pred Valným zhromaždením
 ---
 
 ### Tu sú dôvody, prečo som sa nezúčastnil výboru pred zhromaždením
