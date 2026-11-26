@@ -13,7 +13,7 @@ title: Prečom som sa nezúčastnil výboru pred Valným zhromaždením
 1. Zvolávateľ nedodržal ústne dohodnuté termíny potrebné na jeho zvolanie (min 48h pred jeho konaním), termín zasadnutia bol dohodnutý bez môjho výslovného súhlasu iba 24h pred jeho konaním. Ústne dohodnuté lehoty však boli 48h pred jeho konaním a aj s programom zasadnutia.
 2. Zvolávateľ nepredložil agendu, resp. program, ktorý zostal nedoriešený, kvôli prerušeniu predchádzajúceho výboru pánom Koropšákm z dôdodu, že som sa vyjadril, že **ON** nemôže viesť najbližie Valné zhromaždenie, čo som neskôr aj poctivo odvovolnil pani Giňovskej a týmyti dôvodmi sú:
    * manipulácia diskusie, presadzovanie vecí, ktoré nikdy neboli dohodnuté na výbore
-   * zneužívanei informácii a moci a dosadzovanie do dozornej rady ľudí mimo spoločenstva, ktorí su v **tvrdom konflikte zájmov** a znemožujú riadny výkon komptencií dozornej rady
+   * zneužívanei informácii a moci a dosadzovanie do dozornej rady ľudí mimo spoločenstva, ktorí su v **tvrdom konflikte zájmov** a znemožujú riadny výkon kompetencií dozornej rady
    * nepochopenie základných princípov kontroly a výkonu právomoci
    * nedodržiavanie termínov
    * nezodpovednosť, a obštrukcie štatutárnych orgánov kvoli mocenským ambíciám
