@@ -12,6 +12,7 @@ title: Prečom som sa nezúčastnil výboru pred Valným zhromaždením
 
 1. Zvolávateľ nedodržal ústne dohodnuté termíny potrebné na jeho zvolanie (min 48h pred jeho konaním), termín zasadnutia bol dohodnutý bez môjho výslovného súhlasu iba 24h pred jeho konaním. Ústne dohodnuté lehoty však boli 48h pred jeho konaním a aj s programom zasadnutia.
 2. Zvolávateľ nepredložil agendu, resp. program, ktorý zostal nedoriešený, kvôli prerušeniu predchádzajúceho výboru pánom Koropšákm z dôdodu, že som sa vyjadril, že **ON** nemôže viesť najbližie Valné zhromaždenie, čo som neskôr aj poctivo odvovolnil pani Giňovskej a týmyti dôvodmi sú:
+
    * manipulácia diskusie, presadzovanie vecí, ktoré nikdy neboli dohodnuté na výbore
    * zneužívanei informácii a moci a dosadzovanie do dozornej rady ľudí mimo spoločenstva, ktorí su v **tvrdom konflikte zájmov** a znemožujú riadny výkon kompetencií dozornej rady
    * nepochopenie základných princípov kontroly a výkonu právomoci
@@ -26,10 +27,9 @@ title: Prečom som sa nezúčastnil výboru pred Valným zhromaždením
    * nekomunikácia
 
 3. Zvolávateľ nedoplnil mnou požadované nedoriešené veci z min. zasadnutia výboru do programu rokovania
-4. Zvolávateľ de-facto sám poprel, že je zvolaváteľom a nebol schopný dodať členovi výboru ani informácie, resp. o výstupoch z tohto zasadnutia (t.z. zápisnice) do konanie VZ, aj napriek opakovaným eskaláciam. T.z. iba toto demonštruje totálnu manipuláciu, nepocitvosť a nečestnosť organizátorov valného zhromaždenia
-
+4. Zvolávateľ de-facto sám poprel, že je zvolaváteľom a nebol schopný dodať členovi výboru ani informácie, resp. o výstupoch z tohto zasadnutia (t.z. zápisnice) do konania VZ, aj napriek opakovaným eskaláciam. T.z. iba toto demonštruje totálnu manipuláciu, nepocitvosť a nečestnosť organizátorov valného zhromaždenia
 
 <iframe src="{{ '/docs/2026-11-16-OdovodnenieNeucasti.pdf' | relative_url }}#navpanes=0" width="100%" height="600px" style="border: none;">
 </iframe>
 
- <a href="{{ '/docs/2026-11-16-OdovodnenieNeucasti.pdf' | relative_url }}#navpanes=0">Stiahnuť dokument (PDF)</a>.
+<a href="{{ '/docs/2026-11-16-OdovodnenieNeucasti.pdf' | relative_url }}#navpanes=0">Stiahnuť dokument (PDF)</a>.
