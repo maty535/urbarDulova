@@ -22,7 +22,7 @@ title: Prečom som sa nezúčastnil výboru pred Valným zhromaždením
    * nepredkladanie výboru žiadnych svojich výstupov, ktoré mali byť prezentované na min. valnom zhromaždení
    * svojvôľa, nedodržiavanie vecí, ktoré sám vložil do zmluvy a nechápanie ich súvislosti, žiadna zodpovednosť k ich vykonávaniu, alebo náprave, riešenie: nedržiavanie pravidiel, ktoré sám vložil do zmluvy, aj keď odporujú matematike a logike.
    * hrubé nepochopenie základnych právnych princípov, vloženie do zmluvy veci odporujúcich zdravému rozumu, bez poznania princípov
-   * opakované hlasovanie a jednanie vo výbore a na zhromaždení v priamom rozpore so všobecným záujmom spoločenstva, resp. jednanie proti jednote spoločenstva
+   * opakované hlasovanie a jednanie vo výbore a na zhromaždení v priamom rozpore so všobecným záujmom spoločenstva, resp. jednanie proti jednote spoločenstva (nezáujem o zveľaďovania a kutiváciu poznania podielnikov, nezájem o zdieľanie poznania a informácií pre všetkých podielnikov)
    * bagatelizícia nedodržiavania pravidiel, ich ohýbanie a zneuživanie pre vlastné mocenské ambície
    * nekomunikácia
 
