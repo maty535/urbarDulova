@@ -19,6 +19,8 @@ __24.11.2026 Krajský súd právoplatne rozhodol a vydal rozhodnutie__, ktorým 
 
 Išlo o sumu **12 000 €**{: style="color: red;" } / podiel pani Molčanovej => 0.69 % zo spoločnej nehnuteľnosti = **1,345 € / m2**{: style="color: red;" }
 
+* Tieto uznesenia boli pripravené pre valné zhromaždenie v roku 2025 v Kokošovciach, pán Koropšák však svojimi manipuláciami neumožnil tieto body prerokovať a de-facto spor vyriesiť pre tento podiel pani Molčanovej definitívne. Nestalo sa tak.
+
 ![Návrh uznesení]({{ '/docs/navrh-uznesenie-vz-2025.png' | relative_url }})
 
 Citácia z rozhodnutia 1.stupňového súdu: strana 6, odstavec 22:
