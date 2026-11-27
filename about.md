@@ -1,47 +1,43 @@
 ---
-layout: page
-title: O nás
 description: Základné právne a registračné informácie o spoločenstve
+kataster_lv_uri_prefix_gulvas: https://kataster.skgeodesy.sk/Portal45/api/Bo/GeneratePrfPublic?cadastralUnitCode=813591&outputType=html&prfNumber=
+kataster_lv_uri_prefix_zehna: https://kataster.skgeodesy.sk/Portal45/api/Bo/GeneratePrfPublic?cadastralUnitCode=874159&outputType=html&prfNumber=
+kataster_map_uri_prefix: https://zbgis.skgeodesy.sk/mapka/sk/kataster/detail/kataster/list-vlastnictva/
+layout: page
 permalink: /about/
-kataster_lv_uri_prefix_gulvas: "https://kataster.skgeodesy.sk/Portal45/api/Bo/GeneratePrfPublic?cadastralUnitCode=813591&outputType=html&prfNumber="
-kataster_lv_uri_prefix_zehna: "https://kataster.skgeodesy.sk/Portal45/api/Bo/GeneratePrfPublic?cadastralUnitCode=874159&outputType=html&prfNumber="
-kataster_map_uri_prefix: "https://zbgis.skgeodesy.sk/mapka/sk/kataster/detail/kataster/list-vlastnictva/"
-
+title: O nás
 ---
 
 {% alert tip %}
-Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a zveľadovať ju tak, aby bolo zachované životné prostredie a ráz krajiny v súlade s vhodnými životnými podmienkami nielen vlastníkov spoločných nehnuteľností, ale aj všetkých obyvateľov a žijúcich druhov v tomto prostredí. 
+Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a zveľadovať ju tak, aby bolo zachované životné prostredie a ráz krajiny v súlade s vhodnými životnými podmienkami nielen vlastníkov spoločných nehnuteľností, ale aj všetkých obyvateľov a žijúcich druhov v tomto prostredí.
+<br><br>
+Základným princípom urbariátov je <strong style="color: red;">znižovanie počtu podielov (podielnikov) (zjednocovanie spoločenstva</strong>, t.z. skup podielov pre všetkých zostávajúcich za peniaze spoločenstva), a zároveň, že každý, aj ten najmenší podielnik može <b>nepripustiť</b> skup na <b>3-tiu osobu</b> (kúpiť podiel do svojho osobného vlastníctva), t.z. aj keby vačšina, alebo aj všetci odhlasovali, že to má skúpiť právnicka osoba, ktorá aktuálne podiel v spoločenstve nevlastní, t.z. je treťou osobou v prípade predkupného práva.
 {% endalert %}
 
-- Spoločenstvo urbariát Dulova Ves pozemkové spoločenstvo pôsobí na základe zákona: [97/2013 Z. z. z 26. marca 2013 o pozemkových spoločenstvách](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/97/) 
-
-
+- Spoločenstvo urbariát Dulova Ves pozemkové spoločenstvo pôsobí na základe zákona: [97/2013 Z. z. z 26. marca 2013 o pozemkových spoločenstvách](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/97/)
 - Spoločná nehnuteľnosť odpovedá pojmu: [jedno pozemkovoknižné teleso](https://cuzk.gov.cz/CUZK/media/knihy/Novotny%20F%20Nauka%20o%20rakouskem%20katastru/05.htm) (historicky označované aj ako [knihovné teleso](https://www.ondrejhalama.sk/pozemkova-kniha-casti/)) pochádza zo starého rakúsko-uhorského pozemkovoknižného práva a predstavuje samostatný celok nehnuteľností, ktorý patrí rovnakému vlastníkovi (alebo spoluvlastníkom) a podlieha rovnakému právnemu osudu.
-
-- [Zoznam pozemkov nehnuteľností pozemkového spoločenstva podľa § 18 odsek 2 zákona 97/2013 ]({{ '/docs/2026-10-17-ZoznamNehnutelnosti.pdf' | relative_url }})  
-
+- [Zoznam pozemkov nehnuteľností pozemkového spoločenstva podľa § 18 odsek 2 zákona 97/2013 ]({{ '/docs/2026-10-17-ZoznamNehnutelnosti.pdf' | relative_url }})
 
 * ![Spoločná nehnuteľnosť]({{ '/assets/img/PrehladPozemkov.png' | relative_url }})
 
-# Registrácia spoločenstva v registri pozemkových spoločenstiev 
+# Registrácia spoločenstva v registri pozemkových spoločenstiev
 
 | ID | hodnota |
 | :---------- | :-------------------------------------------------------- |
-| **Názov** | Spoločenstvo urbariát Dulova Ves pozemkové spoločenstvo |
-| **Sídlo** | Obchodná 25/15, 082 52 Dulova Ves |
-| **IČO** | 42379831 |
-| **Dátum zápisu** | 10.03.2014 |
-| **Vložka číslo** | R-0054/PO |
-| **Stav PS** | Zaregistrovaná |
-| **Funkčné obdobie výboru** | 5 rokov |
-| **Funkčné obdobie dozornej rady** | 5 rokov |
-| **Vykonáva podnikateľskú činnosť?** | nie |
-| **Spoločenstvo vlastníkov spoločne obhospod. nehnuteľnosti** | nie |
-| **Poznámka** | funkčné obdobie aktuálneho výboru a dozornej rady plynie od 26.5.2024 a konči najneskôr 25.5.2029 |
-| **Mapa urbáru**| [prieskum na Google Earth](https://earth.google.com/earth/d/1csBx09yv7gkXudxKOTJlmR5xm45wuJYr?usp=sharing) |
-| **Finančné ukazovatele**| [finstat](https://finstat.sk/42379831) |
-| **Výpis z registra** | [vystavený 6.2.2025](https://drive.google.com/file/d/1RvoOKkZblP1uG0iDfpvdPLnCHjI4BJEv/view?usp=drive_link)|
-
+| __Názov__ | Spoločenstvo urbariát Dulova Ves pozemkové spoločenstvo |
+| __Sídlo__ | Obchodná 25/15, 082 52 Dulova Ves |
+| __IČO__ | 42379831 |
+| __Dátum zápisu__ | 10.03.2014 |
+| __Vložka číslo__ | R-0054/PO |
+| __Stav PS__ | Zaregistrovaná |
+| __Funkčné obdobie výboru__ | 5 rokov |
+| __Funkčné obdobie dozornej rady__ | 5 rokov |
+| __Vykonáva podnikateľskú činnosť?__ | nie |
+| __Spoločenstvo vlastníkov spoločne obhospod. nehnuteľnosti__ | nie |
+| __Poznámka__ | funkčné obdobie aktuálneho výboru a dozornej rady plynie od 26.5.2024 a konči najneskôr 25.5.2029 |
+| __Mapa urbáru__| [prieskum na Google Earth](https://earth.google.com/earth/d/1csBx09yv7gkXudxKOTJlmR5xm45wuJYr?usp=sharing) |
+| __Finančné ukazovatele__| [finstat](https://finstat.sk/42379831) |
+| __Výpis z registra__ | [vystavený 6.2.2025](https://drive.google.com/file/d/1RvoOKkZblP1uG0iDfpvdPLnCHjI4BJEv/view?usp=drive_link)|
 
 # Registrácia v Informačnom systéme lesného hospodárstva (ISLHP)
 
@@ -52,8 +48,8 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 | **Lesný hospodár** | Najsárek Rudolf |
 | **Kód OLH** | 301882 |
 | **Lesný celok** | SL247 - LESY NA LHC SOLIVAR A KOKOŠOVCE |
-| **Kód platnosti LHP (KPL)** | SL247 | 
-| **Dielce** | 4329, 4330, 6315, 7313, 7315 | 
+| **Kód platnosti LHP (KPL)** | SL247 |
+| **Dielce** | 4329, 4330, 6315, 7313, 7315 |
 | --- | --- |
 | **Listnaté dreviny** | **DL**, **Dub letný**, *Quercus robur* |
 | ^^ | **DZ**, **Dub zimný**, *Quercus petraea* |
@@ -69,24 +65,30 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 | ^^ | **SC**, **Smrekovec opadavý**, *Larix decidua* |
 | ^^ | **LM**, **Smrek obyčajný**, *Picea abies* |
 
-
 ## Katastrálne informácie
 
 - Spoločenstvo má zriadenú jednu spoločnú nehnuteľnosť s celkovou výmerou: **1 286 889 m2**{: style="color: red;" }, ktorá je substrátom (súhrnom) všetkých parciel uvedených na týchto LV, t.z. pri dedení (delení, resp. prevodoch) ideálných podielov nesmie vzniknúť podiel s nižšou výmerou ako [2000 m2 práve z tejto celkovej výmery spoločnej nehnuteľnosti, nie jej jednotlivých (parciálnych) parciel](https://www.slov-lex.sk/sudne-rozhodnutia/judikaty/774da6a5-9443-4615-86c3-504618587aed):
 - Spoločná nehnuteľnosť nie je deliteľná na parcely, a ak sa prevadza podiel z nej, musí sa prevadzať pre všetky jej jednotlivé parcely.
 - [Judikát ústavného súdu týkajúci sa spoločnej nehnuteľnosti a nakladania s ňnou](https://www.slov-lex.sk/sudne-rozhodnutia/judikaty/774da6a5-9443-4615-86c3-504618587aed)
-- <img src="https://github.com/user-attachments/assets/c6e13a1c-09f0-4499-8677-018cdff9c264" />
-- <img width="883" height="285" alt="image" src="https://github.com/user-attachments/assets/c7cd0190-829e-43a3-bff2-8e1a3f052901" />
-- [Judikát najvyššieho súdu týkajúci sa prevodov podielov na spoločnej nehnuteľnosti](https://otvorenesudy.sk/decrees/3905360?)
-- <img width="1215" height="208" alt="image" src="https://github.com/user-attachments/assets/3c7b8e6a-f2d4-465e-a405-11eafb720ba0" />
+- 
 
+   <img src="https://github.com/user-attachments/assets/c6e13a1c-09f0-4499-8677-018cdff9c264" />
+
+- 
+
+   <img width="883" height="285" alt="image" src="https://github.com/user-attachments/assets/c7cd0190-829e-43a3-bff2-8e1a3f052901" />
+
+- [Judikát najvyššieho súdu týkajúci sa prevodov podielov na spoločnej nehnuteľnosti](https://otvorenesudy.sk/decrees/3905360?)
+- 
+
+   <img width="1215" height="208" alt="image" src="https://github.com/user-attachments/assets/3c7b8e6a-f2d4-465e-a405-11eafb720ba0" />
 
 ### Majetková podstata
 
 <a href="https://zbgis.skgeodesy.sk/mapka/c/JDuJe" 
-   target="_blank" 
-   class="btn btn-primary">
-  <i class="fa-solid fa-map-location-dot me-2"></i> Zobraziť na mape
+target="_blank" 
+class="btn btn-primary">
+<i class="fa-solid fa-map-location-dot me-2"></i> Zobraziť na mape
 </a>
 
 | : K.ú. :    |   : LV :  |: Typ pozemkov      :| : Výmera [ha] : |
@@ -104,12 +106,16 @@ Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a
 <iframe src="https://zbgis.skgeodesy.sk/mapka/e/N2iiB?pos=48.941948,21.305136,14&bm=orto" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>)
 
 # Mapa urbárskych pozemkov
+
 ![image](/assets/img/2024-12-25-MapaUrbaru-small.png)
+
 - [stiahnuť mapu ako pdf](/assets/2024-12-25-UrbarskePozemky.pdf)
 
 # História
+
 - [stručné historické míľniky](/historia/)
 
 # Zakladajúca zmluva
+
 - [zmluva + dodatky](/docs/)
 - stanovy nemáme, uvítame ak aj vy prispejete svojimi návrhami a podnetmi na vytvorenie tychto stanov (na základe Vašich osobných skúsenosti zo života vrámci tohto, alebo aj iných spoločenstiev).
