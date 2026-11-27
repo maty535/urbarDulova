@@ -11,7 +11,7 @@ title: O nás
 {% alert tip %}
 Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a zveľadovať ju tak, aby bolo zachované životné prostredie a ráz krajiny v súlade s vhodnými životnými podmienkami nielen vlastníkov spoločných nehnuteľností, ale aj všetkých obyvateľov a žijúcich druhov v tomto prostredí.
 <br><br>
-Základným princípom urbariátov je <strong style="color: red;">znižovanie počtu podielov (podielnikov) (zjednocovanie spoločenstva</strong>, t.z. skup podielov pre všetkých zostávajúcich za peniaze spoločenstva), a zároveň, že každý, aj ten najmenší podielnik može <b>nepripustiť</b> skup na <b>3-tiu osobu</b> (kúpiť podiel do svojho osobného vlastníctva), t.z. aj keby vačšina, alebo aj všetci odhlasovali, že to má skúpiť právnicka osoba, ktorá aktuálne podiel v spoločenstve nevlastní, t.z. je treťou osobou v prípade predkupného práva.
+Základným princípom urbariátov je <strong style="color: red;">znižovanie počtu podielov (podielnikov) (zjednocovanie spoločenstva</strong>, t.z. skup podielov pre všetkých zostávajúcich za peniaze spoločenstva), a zároveň, že každý, aj ten najmenší podielnik može <b>nepripustiť</b> skup na <b>3-tiu osobu</b> (kúpiť podiel do svojho osobného vlastníctva), t.z. aj keby vačšina, alebo aj všetci ostatní odhlasovali, že to má skúpiť právnicka osoba, ktorá aktuálne podiel v spoločenstve nevlastní, t.z. je treťou osobou v prípade predkupného práva, aj ten jeden najmenší podielnik tomu vie zabrániť tak, že takýto podiel odkúpi do svojho osobného vlastníctva.
 {% endalert %}
 
 - Spoločenstvo urbariát Dulova Ves pozemkové spoločenstvo pôsobí na základe zákona: [97/2013 Z. z. z 26. marca 2013 o pozemkových spoločenstvách](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/97/)
