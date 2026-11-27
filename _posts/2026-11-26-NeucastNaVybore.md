@@ -18,7 +18,7 @@ title: Prečo som sa nezúčastnil výboru pred Valným zhromaždením
    * nepochopenie základných princípov kontroly a výkonu právomoci
    * nedodržiavanie termínov a presadzovanie iba svojho riešenia, sabotovanie iných riešení, bez zdôvodnenia rozporov
    * nezodpovednosť, a obštrukcie štatutárnych orgánov kvoli mocenským ambíciám, vyhýbanie sa zodpovednosti
-   * nedodávanie výstupov, za ktoré ma tento člen zodpovednosť (nulové výstupy: resp. iba ústne vyjadrenia)
+   * nedodávanie výstupov, za ktoré ma tento člen zodpovednosť (nulové výstupy, resp. iba nejaké ústne vyjadrenia bez akéhokoľvek odborného zdôvodnenia, všetky protiargumenty odmieta bez akéhokoľvek uváženia a zohľadnenia vplyvu, t.z. nezohľadnenie rizík svojich návrhov)
    * nepredkladanie výboru žiadnych svojich výstupov, ktoré mali byť prezentované na min. valnom zhromaždení
    * svojvôľa, nedodržiavanie vecí, ktoré sám vložil do zmluvy a nechápanie ich súvislosti, žiadna zodpovednosť k ich vykonávaniu, alebo náprave, riešenie: nedodržiavanie pravidiel, ktoré sám vložil do zmluvy, aj keď odporujú matematike a logike.
    * hlboké nepochopenie základnych právnych princípov, vloženie do zmluvy veci odporujúcich zdravému rozumu, bez poznania princípov
