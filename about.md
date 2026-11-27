@@ -11,7 +11,7 @@ title: O nás
 {% alert tip %}
 Cieľom spoločenstva je racionálne hospodáriť na spoločnej nehnuteľnosti a zveľadovať ju tak, aby bolo zachované životné prostredie a ráz krajiny v súlade s vhodnými životnými podmienkami nielen vlastníkov spoločných nehnuteľností, ale aj všetkých obyvateľov a žijúcich druhov v tomto prostredí.
 <br><br>
-Jedným zo základných princípov urbariátov (duch zákona o pozemkových spoločenstvách) je <strong style="color: red;">znižovanie počtu podielov (podielnikov) (zjednocovanie spoločenstva</strong>, t.z. skup podielov pre všetkých zostávajúcich za peniaze spoločenstva), a zároveň, že každý, aj ten najmenší podielnik može <b>nepripustiť</b> skup na <b>3-tiu osobu</b> (kúpiť podiel do svojho osobného vlastníctva).
+Jedným zo základných princípov urbariátov (duch zákona o pozemkových spoločenstvách) je <strong style="color: red;">znižovanie počtu podielov (podielnikov) (zjednocovanie spoločenstva</strong>, t.z. skup podielov pre všetkých za peniaze všetkých členov ), a zároveň, že každý, aj ten najmenší podielnik može <b>nepripustiť</b> skup na <b>3-tiu osobu</b> (kúpiť podiel do svojho osobného vlastníctva).
 <br><br>
 T.z. aj keby vačšina, alebo aj všetci ostatní odhlasovali, že podiel má skúpiť právnicka osoba (t.z. samotné pozemkové spoločenstvo), ktorá aktuálne podiel v spoločenstve nevlastní, t.z. je treťou osobou v prípade predkupného práva, aj ten jeden najmenší podielnik tomu vie zabrániť tak, že takýto podiel odkúpi do svojho osobného vlastníctva.
 {% endalert %}
