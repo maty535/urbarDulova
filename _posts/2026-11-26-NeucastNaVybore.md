@@ -29,8 +29,3 @@ title: Prečo som sa nezúčastnil výboru pred Valným zhromaždením
 
 3. Zvolávateľ nedoplnil mnou požadované nedoriešené veci z min. zasadnutia výboru do programu rokovania
 4. Zvolávateľ de-facto sám poprel, že je zvolaváteľom a nebol schopný dodať členovi výboru ani informácie, resp. o výstupoch z tohto zasadnutia (t.z. zápisnice) do konania VZ, aj napriek opakovaným eskaláciam. T.z. iba toto demonštruje totálnu manipuláciu, nepocitvosť a nečestnosť organizátorov valného zhromaždenia.
-
-<iframe src="{{ '/docs/2026-11-16-OdovodnenieNeucasti.pdf' | relative_url }}#navpanes=0" width="100%" height="600px" style="border: none;">
-</iframe>
-
-<a href="{{ '/docs/2026-11-16-OdovodnenieNeucasti.pdf' | relative_url }}#navpanes=0">Stiahnuť dokument (PDF)</a>.
